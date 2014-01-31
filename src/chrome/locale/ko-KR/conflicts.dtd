@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "지역 버전">
+<!ENTITY conflict.name "이름">
+<!ENTITY conflict.location "주소">
+<!ENTITY conflict.keyword "키워드">
+<!ENTITY conflict.description "설명">
+<!ENTITY conflict.sidebar "현재 북마크를 사이드 바에서 읽기">
+<!ENTITY conflict.retainlocal "지역 버전을 유지">
+<!ENTITY conflict.serverversion "서버 버전">
+<!ENTITY conflict.retainserver "서버 버전을 유지">
+<!ENTITY bookmarkconflict.title "Xmarks: 북마크 충돌">
+<!ENTITY bookmarkconflict.desc1 "어떤 버전의 북마크를 유지할 지 알 수 없습니다.">
+<!ENTITY bookmarkconflict.desc2 "유지할 버전을 선택해 주세요.">
+<!ENTITY folderconflict.title "Xmarks: 폴더 충돌">
+<!ENTITY folderconflict.desc1 "어떤 버전의 폴더를 유지할 지 알 수 없습니다.">
+<!ENTITY folderconflict.desc2 "유지할 버전을 선택해 주세요.">
+<!ENTITY parentconflict.title "Xmarks: 부모 충돌">
+<!ENTITY parentconflict.desc1 "이 항목이 어떤 폴더에 속해 있는지 알 수 없습니다.">
+<!ENTITY parentconflict.desc2 "이 항목을 포함할 폴더를 선택해주세요.">
+<!ENTITY parentconflict.item "항목">

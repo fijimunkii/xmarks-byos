@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Helyi verzió">
+<!ENTITY conflict.name "Név">
+<!ENTITY conflict.location "Hely">
+<!ENTITY conflict.keyword "Kulcsszó">
+<!ENTITY conflict.description "Leírás">
+<!ENTITY conflict.sidebar "A könyvjelző betöltése az oldalsávra">
+<!ENTITY conflict.retainlocal "Helyi verzió megtartása">
+<!ENTITY conflict.serverversion "Szerver verzió">
+<!ENTITY conflict.retainserver "Szerver verzió megtartása">
+<!ENTITY bookmarkconflict.title "Xmarks: Könyvjelző ütközés">
+<!ENTITY bookmarkconflict.desc1 "Az Xmarks nem tudja eldönteni, melyik verzió maradjon meg ezekből a könyvjelzőkből.">
+<!ENTITY bookmarkconflict.desc2 "Kérjük válassza ki a megtartandó verziót.">
+<!ENTITY folderconflict.title "Xmarks: Mappa ütközés">
+<!ENTITY folderconflict.desc1 "Az Xmarks nem tudja eldönteni, melyik verzió maradjon meg ezekből a mappákból.">
+<!ENTITY folderconflict.desc2 "Kérjük válassza ki a megtartandó verziót.">
+<!ENTITY parentconflict.title "Xmarks: Szülő ütközés">
+<!ENTITY parentconflict.desc1 "Az Xmarks nem tudja eldönteni, melyikbe valóz ez az elem a két mappa közül.">
+<!ENTITY parentconflict.desc2 "Kérjük válassza ki melyik mappa tartalmazza ezt az elemet.">
+<!ENTITY parentconflict.item "Elem">

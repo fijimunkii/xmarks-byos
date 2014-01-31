@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks Ayarları">
+<!ENTITY dialog.label.username "Kullanıcı:">
+<!ENTITY dialog.label.password "Şifre:">
+<!ENTITY dialog.label.rememberPassword "Oturumlar arasında bu şifreyi hatırla">
+<!ENTITY dialog.label.rememberPIN "Bu PIN&apos;i oturumlar arası hatırla">
+<!ENTITY dialog.label.forgotPassword "Kullanıcı adımı veya şifremi unuttum">
+<!ENTITY dialog.label.synchronization "Eşleme Ayarları">
+<!ENTITY dialog.label.ontimer "Otomatik Eşlemeyi Etkinleştir">
+<!ENTITY dialog.label.synconshutdown "Kapatırken Eşle">
+<!ENTITY dialog.label.synconstartup "Başlangıçta Eşle">
+<!ENTITY dialog.label.askfirst "Önce Sor">
+<!ENTITY dialog.label.lastsync "Son Eşleme:">
+<!ENTITY dialog.label.runWizard "Kurulum Sihirbazını Çalıştır">
+<!ENTITY dialog.label.syncNow "Şimdi Eşleme Yap">
+<!ENTITY progress.title "Xmarks: Durum">
+<!ENTITY progress.label.status "Durum:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Uyarı">
+<!ENTITY clobber.desc2 "Xmarks mevcut yerimleri setinizin son yapılan eşlemeden anlamlı derece daha küçük olduğunu tespit etti.">
+<!ENTITY clobber.desc3 "Firefox Tarayıcısında ender görülen fakat önemli bir hata bazen sizin yerimlerinizin daha küçük olan tarayıcının varsayılan yerimleri ile değiştirilmesine yol açabilir. Eğer bu durum olursa, bu durum çözülene kadar Xmarks yerimlerinizi eşlemesini yapmayacaktır.">
+<!ENTITY clobber.prompt "Şimdi yerimlerinizi eşlemek istediğinize emin misiniz?">
+<!ENTITY clobber.moreinfo "Bana daha fazlasını söyle...">
+<!ENTITY clobber.accept "Evet, lütfen eşleştir">
+<!ENTITY clobber.lastset "SON işlenen öğe sayısı:">
+<!ENTITY clobber.currset "ŞİMDİ işlenen öğe sayısı:">
+<!ENTITY manager.syncNow "Şimdi Eşle">
+<!ENTITY menu.myFoxmarks "Benim Xmarks&apos;ım">
+<!ENTITY menu.settings "Xmarks Ayarları...">
+<!ENTITY menu.similarsites "Size Bilgisini Göster...">
+<!ENTITY menu.status "Durum...">
+<!ENTITY menu.showstatus "Durum simgesini göster">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "E">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "A">
+<!ENTITY menu.accesskey.similarsites "B">
+<!ENTITY menu.accesskey.status "D">
+<!ENTITY menu.accesskey.icon "S">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Genel">
+<!ENTITY label.status "Durum">
+<!ENTITY label.current.status "Şimdiki Durum">
+<!ENTITY label.sync "Eşle">
+<!ENTITY label.sync.caption "Eşleme Türü">
+<!ENTITY label.account "Hesap">
+<!ENTITY label.synchronization "Eşleme Seçenekleri">
+<!ENTITY label.advanced "Gelişmiş">
+<!ENTITY label.security "Bağlantı Güvenliği">
+<!ENTITY label.encrypt "Şifreleme:">
+<!ENTITY label.noencrypt "Şifresiz">
+<!ENTITY label.passwordonly "Yalnızca Şifre">
+<!ENTITY label.encryptall "Tümünü Şifrele">
+<!ENTITY label.server "Sunucu">
+<!ENTITY label.ownserver "Kendi Sunucunuzu Kullanarak">
+<!ENTITY label.useownserver "Kendi sunucunu kullan">
+<!ENTITY label.url "Yerimleri URL:">
+<!ENTITY label.passwordurl "Şifre URL:">
+<!ENTITY label.manualoverwrite "Elle Üzerine Yaz">
+<!ENTITY label.upload "Yükle">
+<!ENTITY label.download "İndir">
+<!ENTITY label.forceoverwriteserver "Sunucudaki yerimlerinin üzerine yazmaya zorla">
+<!ENTITY label.forceoverwritelocal "Yerel yerimlerinin üzerine yazmaya zorla">
+<!ENTITY label.logging "Kayıt">
+<!ENTITY label.enablelogging "Kayıt tutmaya olanak tanı">
+<!ENTITY label.showlogfile "Kayıt Dosyasını Göster">
+<!ENTITY label.profiles "Profiles">
+<!ENTITY label.profilechoice "Profile:">
+<!ENTITY label.sync.bookmarks "Yerimleri">
+<!ENTITY label.sync.passwords "Şifreler">
+<!ENTITY label.sync.resetpin "PIN Sıfırla">
+<!ENTITY label.sync.deletepasswords "Sunucudaki Şifreleri Sil">
+<!ENTITY label.sync.onlyff3 "* Yalnızca Firefox 3 ve üzeri.">
+<!ENTITY label.sync.morecomingsoon "Yakında mümkün olabilecek diğer veri tiplerini öğren.">
+<!ENTITY desc.profile "Hassas yerimlerinin ait oldukları yerde bulunması için profili eşlemeyi kullanın. Eşleme profillerini my.xmarks.com&apos;da yaratıp yönetebilirsiniz. Daha sonra burda bu bilgisayarda Xmarks&apos;ın neleri eşleyeceği kontrol edebileceğiniz bir profil seçebilirsiniz.">
+<!ENTITY desc.sync "Xmarks hem yer imlerini hem de şifreleri eşleyebilir ve yedekler.">
+<!ENTITY desc.ownserver "Xmarks verilerinizin FTP veya WebDAV sunucusu gibi kendi sunucunuzun üzerine kaydedilmesini destekler.">
+<!ENTITY label.ownserver.moreinfo "Daha fazlasını öğren.">
+<!ENTITY label.manageprofiles "Eşleme profili yarat ve yönet">
+<!ENTITY profile.defaultname "&lt;none&gt;">
+<!ENTITY label.profile.change "Değiştir">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Eşleme Profilini Değiştir">
+<!ENTITY profile.dialog.desc "Profilinizin gizliliğini korumak istiyorsanız, Xmarks hesabınızın şifresini girmelisiniz.">
+<!ENTITY dialog.title.invalidpin "Xmarks: Geçersiz PIn">
+<!ENTITY dialog.invalidpin.desc "Mevcut PIN kodunuz geçersiz görülüyor. Bu durum genellikle PIN kodunuzu farklı bir bilgisayarda değiştirdiğinizde görülür ve burada da güncellenmesi gerekir. Aşağıdakilerden birini yapmayı seçebilirsiniz:">
+<!ENTITY dialog.invalidpin.newpin "PIN girin:">
+<!ENTITY dialog.invalidpin.disable "Şifre Eşlemesini İptal et ve şimdiki şifreni koru">
+<!ENTITY dialog.title.resetpin "Xmarks: PIN Sıfırla">
+<!ENTITY dialog.resetpin.pin "Yeni PIN gir">
+<!ENTITY dialog.resetpin.passwordstrength "Şifre Güçlüğü:">
+<!ENTITY dialog.resetpin.pinconfirm "Yeni PIN Onayla">
+<!ENTITY dialog.resetpin.desc2 "PIN kodunuzu daha güçlü yapmakk için küçük ve büyük harf karışımı, sayılar, noktalama işaretleri ve tekrar edilmeyen karakterler kullanmayı deneyebilirsiniz. PIN kodunuzu güçlü yaptığınızda şifreniz de güvenli olacaktır.">
+<!ENTITY dialog.resetpin.desc "PIN kodunuzu sıfırlamak istediğinize emin misiniz? Bu işlem sunucularımızdaki şifreleriniz silmezimi gerektiriyor. Bu ve diğer bilgisayarlardaki şifreleriniz bundan etkilenmeyecektir.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: Kayıtlı Şifre Çelişkili">
+<!ENTITY dialog.passwordconflict.desc "Xmarks hangi şifrenin tutulması gerektiğini söyleyemiyor.">
+<!ENTITY dialog.passwordconflict.desc2 "Lütfen tutmak istediğiniz sürümü işaretleyin:">
+<!ENTITY dialog.passwordconflict.local "Yerel Sürüm">
+<!ENTITY dialog.passwordconflict.server "Sunucu Sürümü">
+<!ENTITY dialog.passwordconflict.site "Site:">
+<!ENTITY dialog.passwordconflict.username "Kullanıcı:">
+<!ENTITY dialog.passwordconflict.password "Şifre:">
+<!ENTITY dialog.passwordconflict.showpasswords "Şifreleri Göster">
+<!ENTITY dialog.passwordconflict.keeplocal "Yerel Sürümü Tut">
+<!ENTITY dialog.passwordconflict.keepserver "Sunucu Sürümünü Tut">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Buluş">
+<!ENTITY label.tagsuggest "Önerilen Etiketler">
+<!ENTITY label.enabletagsuggestions "Etiket Önerilerine Olanak Tanı">
+<!ENTITY desc.tagsuggest "Bir yerimi eklediğinizde, Xmarks başkalarının aynı yerimi için kullandığı etiketlerden size uygun olanları önerebilir.">
+<!ENTITY ownserver.title "Kendi Sunucunu Kur">
+<!ENTITY ownserver.desc "Xmarks ile kendi sunucunuzu kullanmak için, lütfen yerimleri ve şifreler için iki ayrı URL veriniz.">
+<!ENTITY similarsite.popular "Yerimleri">
+<!ENTITY similarsite.noreviews "Görüş Yok">
+<!ENTITY similarsite.writereview "Bir Görüş Yaz">
+<!ENTITY similarsite.relatedsite "En İyi 5 Benzer Site">
+<!ENTITY similarsite.getsiteinfo "SİTE BİLGİSİ AL">
+<!ENTITY similarsite.getsiteinfo.normalcase "Site Bilgisi Al">
+<!ENTITY desc.discover "Yerimleri-destekli Web Keşfi">
+<!ENTITY label.searchboost "Akıllı Aramayı Etkinleştir">
+<!ENTITY desc.searchboost "Xmarks Google&apos;da üst sıralarda yer alan siteleri keşfetmenize yardımcı olacak.">
+<!ENTITY label.siteboost "Site Bilgisini Etkinleştir">
+<!ENTITY desc.siteboost "Xmarks adres çubuğunda yer alan Xmarks simgesine tıkladığınızda size site bilgisini ve benzer siteleri gösterir.">
+<!ENTITY label.tagboost "Önerilen Etiketleri Etkinleştir">
+<!ENTITY desc.tagboost "Xmarks siz bir yerimi eklediğinizde kendiliğinden etiketler önerecektir.">
+<!ENTITY label.serp.top3 "En Üstteki 3 Sonuç">
+<!ENTITY label.serp.all "Tüm Sonuçlar">
+<!ENTITY label.newuser.title "Xmarks kuruldu.">
+<!ENTITY label.newuser.title2 "Almost Done!">
+<!ENTITY label.newuser.msg "Xmarks yerimleri yedekleme ve eşleme ayarları için buraya tıklayınız.">
+<!ENTITY label.newuser.msg2 "Click here to finishing installing Xmarks.">
+<!ENTITY label.syncdisabled "Yerimleriniz yedeklenmedi ve eşleştirilmedi. Otomatik yedekleme ve eşlemeye olanak tanımak için ayar sihirbazını çalıştırınız.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

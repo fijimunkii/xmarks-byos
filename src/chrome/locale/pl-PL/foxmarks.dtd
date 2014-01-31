@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Ustawienia Xmarks">
+<!ENTITY dialog.label.username "Nazwa użytkownika:">
+<!ENTITY dialog.label.password "Hasło:">
+<!ENTITY dialog.label.rememberPassword "Zapamiętaj to hasło między sesjami.">
+<!ENTITY dialog.label.rememberPIN "Zapamiętaj PIN pomiędzy sesjami.">
+<!ENTITY dialog.label.forgotPassword "Nie pamiętam mojej nazwy użytkownika lub hasła">
+<!ENTITY dialog.label.synchronization "Ustawienia synchronizacji">
+<!ENTITY dialog.label.ontimer "Włącz automatyczną synchronizację">
+<!ENTITY dialog.label.synconshutdown "Synchronizuj przed zamknięciem">
+<!ENTITY dialog.label.synconstartup "Synchronizuj przy starcie">
+<!ENTITY dialog.label.askfirst "Najpierw pytaj">
+<!ENTITY dialog.label.lastsync "Ostatnia synchronizacja:">
+<!ENTITY dialog.label.runWizard "Uruchom kreatora instalacji">
+<!ENTITY dialog.label.syncNow "Zsynchronizuj teraz">
+<!ENTITY progress.title "Xmarks: Stan">
+<!ENTITY progress.label.status "Stan:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Ostrzeżenie">
+<!ENTITY clobber.desc2 "Xmarks wykrył, że twój aktualny zestaw zakładek jest mniejszy, niż ustalono podczas ostatniej synchronizacji.">
+<!ENTITY clobber.desc3 "Rzadki, lecz poważny błąd w przeglądarce Firefox może powodować, że twoja lista zakładek zostanie tymczasowo zastąpiona małym zestawem zakładek domyślnych. Jeśli to się wydarzy, jest ważne, aby Xmarks nie synchronizował zakładek, aż sprawa zostanie rozwiązana.">
+<!ENTITY clobber.prompt "Czy jesteś pewien, że chcesz teraz zsynchronizować swoje zakładki?">
+<!ENTITY clobber.moreinfo "Więcej informacji...">
+<!ENTITY clobber.accept "Tak, wykonaj synchronizację">
+<!ENTITY clobber.lastset "Liczba elementów synchronizowanych POPRZEDNIM razem:">
+<!ENTITY clobber.currset "Liczba elementów synchronizowanych TYM razem:">
+<!ENTITY manager.syncNow "Zsynchronizuj teraz">
+<!ENTITY menu.myFoxmarks "My Xmarks">
+<!ENTITY menu.settings "Ustawienia...">
+<!ENTITY menu.similarsites "Show Site Info...">
+<!ENTITY menu.status "Stan...">
+<!ENTITY menu.showstatus "Pokaż ikonę stanu">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "U">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Ogólne">
+<!ENTITY label.status "Stan">
+<!ENTITY label.current.status "Aktualny stan">
+<!ENTITY label.sync "Operacje">
+<!ENTITY label.sync.caption "Zsynchronizuj i zachowaj">
+<!ENTITY label.account "Konto">
+<!ENTITY label.synchronization "Synchronizacja">
+<!ENTITY label.advanced "Zaawansowane">
+<!ENTITY label.security "Bezpieczeństwo">
+<!ENTITY label.encrypt "Szyfrowanie:">
+<!ENTITY label.noencrypt "Bez szyfrowania">
+<!ENTITY label.passwordonly "Tylko hasło">
+<!ENTITY label.encryptall "Szyfruj wszystko">
+<!ENTITY label.server "Serwer">
+<!ENTITY label.ownserver "Using Your Own Server">
+<!ENTITY label.useownserver "Używaj własnego serwera">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "Adres hasła:">
+<!ENTITY label.manualoverwrite "Ręczne zastąpienie">
+<!ENTITY label.upload "Wyślij">
+<!ENTITY label.download "Pobierz">
+<!ENTITY label.forceoverwriteserver "Wymuś nadpisanie zakładek na serwerze">
+<!ENTITY label.forceoverwritelocal "Wymuś nadpisanie lokalnych zakładek">
+<!ENTITY label.logging "Logowanie">
+<!ENTITY label.enablelogging "Włącz logowanie">
+<!ENTITY label.showlogfile "Pokaż plik logu">
+<!ENTITY label.profiles "Profile">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Zakładki">
+<!ENTITY label.sync.passwords "Hasła">
+<!ENTITY label.sync.resetpin "Zmień PIN">
+<!ENTITY label.sync.deletepasswords "Usuń hasła z serwera">
+<!ENTITY label.sync.onlyff3 "* Firefox 3 or above only.">
+<!ENTITY label.sync.morecomingsoon "Learn about what other data types will be available soon.">
+<!ENTITY desc.profile "Użyj profili synchronizacji, aby nie synchronizować zakładek, które nie powinny zostać zsynchronizowane. Utwórz i zarządzaj profilami synchronizacji na my.xmarks.com, a następnie wybierz profil tutaj, aby zadecydować które zakładki Xmarks ma pobierać na ten komputer i zeń wysyłać.">
+<!ENTITY desc.sync "Xmarks can synchronize and backup both bookmarks and passwords.">
+<!ENTITY desc.ownserver "Xmarks supports storing your data on your own server such as an FTP or WebDAV server.">
+<!ENTITY label.ownserver.moreinfo "Learn More.">
+<!ENTITY label.manageprofiles "Utwórz i zarządzaj profilami synchronizacji">
+<!ENTITY profile.defaultname "&lt;żaden&gt;">
+<!ENTITY label.profile.change "Zmień">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Wybierz profil synchronizacji">
+<!ENTITY profile.dialog.desc "W celu ochrony prywatności Twoich profili, musisz podać hasło do konta Xmarks, aby przejść dalej.">
+<!ENTITY dialog.title.invalidpin "Xmarks: Invalid PIN">
+<!ENTITY dialog.invalidpin.desc "Your current PIN appears to be invalid.  Most likely, you&apos;ve changed your PIN on a different computer and it needs to be updated here.  You can choose to do one of the following:">
+<!ENTITY dialog.invalidpin.newpin "Enter your PIN:">
+<!ENTITY dialog.invalidpin.disable "Disable Password Sync and keep your current passwords">
+<!ENTITY dialog.title.resetpin "Xmarks: Reset PIN">
+<!ENTITY dialog.resetpin.pin "Enter new PIN">
+<!ENTITY dialog.resetpin.passwordstrength "Siła PIN-u:">
+<!ENTITY dialog.resetpin.pinconfirm "Confirm new PIN">
+<!ENTITY dialog.resetpin.desc2 "Twój PIN może być dowolną kombinacją liter, cyfr i symboli.">
+<!ENTITY dialog.resetpin.desc "Are you sure you want to reset your PIN? This will require us to delete all your passwords currently stored on our server.  Passwords on this computer and on your other computers will not be effected.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: Stored Password Conflict">
+<!ENTITY dialog.passwordconflict.desc "Xmarks can&apos;t tell which of these versions of the password should be retained.">
+<!ENTITY dialog.passwordconflict.desc2 "Please pick the version to keep:">
+<!ENTITY dialog.passwordconflict.local "Local Version">
+<!ENTITY dialog.passwordconflict.server "Server Version">
+<!ENTITY dialog.passwordconflict.site "Site:">
+<!ENTITY dialog.passwordconflict.username "Username:">
+<!ENTITY dialog.passwordconflict.password "Password:">
+<!ENTITY dialog.passwordconflict.showpasswords "Show Passwords">
+<!ENTITY dialog.passwordconflict.keeplocal "Keep Local Version">
+<!ENTITY dialog.passwordconflict.keepserver "Keep Server Version">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Odkrywanie">
+<!ENTITY label.tagsuggest "Sugerowane tagi">
+<!ENTITY label.enabletagsuggestions "Włącz funkcję sugerowania tagów">
+<!ENTITY desc.tagsuggest "Xmarks może zaproponować tagi dla dodawanych zakładek na podstawie tych, które inni użytkownicy dodali dla tej samej zakładki.">
+<!ENTITY ownserver.title "Ustaw własny serwer">
+<!ENTITY ownserver.desc "Aby używać własnego serwera z Xmarks proszę wprowadzić dwa różne adresy URL dla przechowalni zakładek i haseł.">
+<!ENTITY similarsite.popular "Bookmarks">
+<!ENTITY similarsite.noreviews "No Reviews">
+<!ENTITY similarsite.writereview "Write a Review">
+<!ENTITY similarsite.relatedsite "Top 5 Similar Sites">
+<!ENTITY similarsite.getsiteinfo "GET SITE INFO">
+<!ENTITY similarsite.getsiteinfo.normalcase "Get Site Info">
+<!ENTITY desc.discover "Bookmark-powered Web Discovery">
+<!ENTITY label.searchboost "Enable Smarter Search">
+<!ENTITY desc.searchboost "Xmarks will help you discover top sites right on Google.">
+<!ENTITY label.siteboost "Enable Site Info">
+<!ENTITY desc.siteboost "Xmarks will show you site information and similar sites when you click on the Xmarks info icon in your location bar.">
+<!ENTITY label.tagboost "Enable Suggested Tags">
+<!ENTITY desc.tagboost "Xmarks will automatically suggest tags when you add a bookmark.">
+<!ENTITY label.serp.top3 "Top 3 Results">
+<!ENTITY label.serp.all "All Results">
+<!ENTITY label.newuser.title "">
+<!ENTITY label.newuser.title2 "Almost Done!">
+<!ENTITY label.newuser.msg "">
+<!ENTITY label.newuser.msg2 "Click here to finishing installing Xmarks.">
+<!ENTITY label.syncdisabled "Your bookmarks are not being backed up and synchronized. To enable automatic backup and sync, please run the setup wizard.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

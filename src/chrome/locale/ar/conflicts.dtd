@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "النسخة المحلية">
+<!ENTITY conflict.name "الاسم">
+<!ENTITY conflict.location "الموقع">
+<!ENTITY conflict.keyword "الكلمة الرئيسية">
+<!ENTITY conflict.description "الوصف">
+<!ENTITY conflict.sidebar "تحمل هذا العنوان في الشريط الجانبي">
+<!ENTITY conflict.retainlocal "الاحتفاظ بالنسخة المحلية">
+<!ENTITY conflict.serverversion "نسخة الخادم">
+<!ENTITY conflict.retainserver "الاحتفاظ بنسخة الخادم">
+<!ENTITY bookmarkconflict.title "Xmarks: تعارض في العناوين">
+<!ENTITY bookmarkconflict.desc1 "لا يستطيع Xmarks">
+<!ENTITY bookmarkconflict.desc2 "فضلاً اختر النسخة المراد الاحتفاظ بها.">
+<!ENTITY folderconflict.title "Xmarks: تعارض في المجلدات">
+<!ENTITY folderconflict.desc1 "لا يستطيع Xmarks تحديد أي نسخة من هذه النسخ يجب الاحتفاظ بها لهذا المجلد.">
+<!ENTITY folderconflict.desc2 "فضلاً اختر النسخة المراد الاحتفاظ بها.">
+<!ENTITY parentconflict.title "Xmarks: تعارض في المصدر">
+<!ENTITY parentconflict.desc1 "لا يستطيع Xmarks معرفة إلى أي من هذين المجلدين ينتمي هذا العنصر.">
+<!ENTITY parentconflict.desc2 "فضلاً اختر المجلد الذي ينبغي أن يتضمن هذا العنصر.">
+<!ENTITY parentconflict.item "العنصر">

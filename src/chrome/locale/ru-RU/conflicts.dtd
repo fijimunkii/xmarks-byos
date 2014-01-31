@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Локальная версия">
+<!ENTITY conflict.name "Имя">
+<!ENTITY conflict.location "Адрес">
+<!ENTITY conflict.keyword "Краткое имя">
+<!ENTITY conflict.description "Описание">
+<!ENTITY conflict.sidebar "Загрузить закладки в боковую панель">
+<!ENTITY conflict.retainlocal "Сохранить локальную версию">
+<!ENTITY conflict.serverversion "Серверная версия">
+<!ENTITY conflict.retainserver "Сохранить серверную версию">
+<!ENTITY bookmarkconflict.title "Xmarks: конфликт закладок">
+<!ENTITY bookmarkconflict.desc1 "Xmarks не может определить какая из этих закладок должна быть сохранена.">
+<!ENTITY bookmarkconflict.desc2 "Пожалуйста, выберите вариант для сохранения.">
+<!ENTITY folderconflict.title "Xmarks: Конфликт папок">
+<!ENTITY folderconflict.desc1 "Xmarks не может определить какая из этих папок должна быть сохранена.">
+<!ENTITY folderconflict.desc2 "Пожалуйста, выберите вариант для сохранения.">
+<!ENTITY parentconflict.title "Xmarks: родительский конфликт">
+<!ENTITY parentconflict.desc1 "Xmarks не может определить, какой из двух папок принадлежит этот пункт.">
+<!ENTITY parentconflict.desc2 "Пожалуйста выберите папку, которая должна содержать этот пункт.">
+<!ENTITY parentconflict.item "Пункт">

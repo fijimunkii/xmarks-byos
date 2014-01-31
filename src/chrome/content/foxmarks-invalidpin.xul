@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2008 Foxmarks Inc.
+ 
+ foxmarks-invalidpin.xul: implements the dialog that appears when
+ foxmarks detects that the pin is invalid.
+ 
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-invalidpin" title="&dialog.title.invalidpin;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    buttons="accept"
+    defaultButton="accept"
+    ondialogaccept="return onInvalidPINOK();"
+    moveToAlertPosition="true">
+
+    <script src="foxmarks-settings.js" />
+    <script src="foxmarks-invalidpin.js" />
+    <script src="foxmarks-log.js" />
+
+    <label value="&dialog.title.invalidpin;"
+            style="margin-bottom: .5em; 
+            font-weight: bold; 
+            text-transform: uppercase;
+            padding-left: .5em;"
+    />
+    <vbox style="width: 30em; padding: 1em 1em 1.5em 1em;">
+        <description> 
+            &dialog.invalidpin.desc;
+        </description>
+        <radiogroup id="invalidpinradio">
+            <hbox>
+                <radio label="&dialog.invalidpin.newpin;" value="newpin"
+                    oncommand="onNewPinRadio();" selected="true" 
+                    tabindex="2"
+                flex="1" />
+                <textbox type="password" id="newpin" tabindex="0"/>
+            </hbox>
+            <radio label="&dialog.invalidpin.disable;" value="disable" flex="1" tabindex="1"/>
+        </radiogroup>
+        <hbox>
+        </hbox>
+    </vbox>
+</dialog>

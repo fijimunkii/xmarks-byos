@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks indstillinger">
+<!ENTITY dialog.label.username "Brugernavn:">
+<!ENTITY dialog.label.password "Adgangskode:">
+<!ENTITY dialog.label.rememberPassword "Husk denne adgangskode.">
+<!ENTITY dialog.label.rememberPIN "Husk denne PIN-kode.">
+<!ENTITY dialog.label.forgotPassword "Jeg har glemt mit brugernavn eller adgangskode">
+<!ENTITY dialog.label.synchronization "Synkroniserings-indstillinger">
+<!ENTITY dialog.label.ontimer "Aktiver automatisk synkronisering">
+<!ENTITY dialog.label.synconshutdown "Synkroniser når der afsluttes">
+<!ENTITY dialog.label.synconstartup "Synkroniser når der startes op">
+<!ENTITY dialog.label.askfirst "Spørg først">
+<!ENTITY dialog.label.lastsync "Seneste synkronisering:">
+<!ENTITY dialog.label.runWizard "Kør installeringsguide">
+<!ENTITY dialog.label.syncNow "Synkroniser nu">
+<!ENTITY progress.title "Xmarks: Status">
+<!ENTITY progress.label.status "Status:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Advarsel">
+<!ENTITY clobber.desc2 "Xmarks har opdaget, at dit nuværende bogmærkesæt er betydeligt mindre, end det sidst synkroniserede sæt.">
+<!ENTITY clobber.desc3 "En sjælden men alvorlig fejl i Firefox kan nogle gange bevirke, at din bogmærkeliste midlertidigt bliver erstattet med et lille sæt standard bogmærker. Skulle dette ske, er det vigtigt, at Xmarks ikke synkroniserer dine bogmærker før problemet er løst.">
+<!ENTITY clobber.prompt "Er du sikker på du vil synkronisere dine bogmærker nu?">
+<!ENTITY clobber.moreinfo "Fortæl mig mere...">
+<!ENTITY clobber.accept "Ja, synkroniser">
+<!ENTITY clobber.lastset "Antal emner SIDSTE gang:">
+<!ENTITY clobber.currset "Antal emner DENNE gang:">
+<!ENTITY manager.syncNow "Synkroniser nu">
+<!ENTITY menu.myFoxmarks "My Xmarks">
+<!ENTITY menu.settings "Xmarks indstillinger...">
+<!ENTITY menu.similarsites "Vis webstedsinfo...">
+<!ENTITY menu.status "Status...">
+<!ENTITY menu.showstatus "Vis ikon på statuslinje">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "X">
+<!ENTITY menu.accesskey.similarsites "w">
+<!ENTITY menu.accesskey.status "t">
+<!ENTITY menu.accesskey.icon "V">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Generelt">
+<!ENTITY label.status "Status">
+<!ENTITY label.current.status "Nuværende status">
+<!ENTITY label.sync "Synkroniser">
+<!ENTITY label.sync.caption "Synkroniseringstyper">
+<!ENTITY label.account "Konto">
+<!ENTITY label.synchronization "Synkroniserings-indstillinger">
+<!ENTITY label.advanced "Avanceret">
+<!ENTITY label.security "Forbindelses-sikkerhed">
+<!ENTITY label.encrypt "Kryptering:">
+<!ENTITY label.noencrypt "Ingen kryptering">
+<!ENTITY label.passwordonly "Kun login">
+<!ENTITY label.encryptall "Krypter alt">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Anvend din egen server">
+<!ENTITY label.useownserver "Anvend egen server">
+<!ENTITY label.url "Bogmærke URL:">
+<!ENTITY label.passwordurl "Adgangskode URL:">
+<!ENTITY label.manualoverwrite "Overskriv manuelt">
+<!ENTITY label.upload "Upload">
+<!ENTITY label.download "Hent">
+<!ENTITY label.forceoverwriteserver "Overskriv bogmærker på serveren">
+<!ENTITY label.forceoverwritelocal "Overskriv bogmærker på computeren">
+<!ENTITY label.logging "Log">
+<!ENTITY label.enablelogging "Aktiver log">
+<!ENTITY label.showlogfile "Vis logfil">
+<!ENTITY label.profiles "Profiler">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Bogmærker">
+<!ENTITY label.sync.passwords "Adgangskoder">
+<!ENTITY label.sync.resetpin "Nulstil PIN-kode">
+<!ENTITY label.sync.deletepasswords "Slet adgangskoder fra server">
+<!ENTITY label.sync.onlyff3 "* Kun for Firefox 3 eller højere.">
+<!ENTITY label.sync.morecomingsoon "Lær mere om hvilke andre datatyper, der snart vil blive tilgængelige.">
+<!ENTITY desc.profile "Brug synkroniserings-profiler til, at opbevare følsomme bogmærker hvor de hører hjemme. Opret og håndter profiler hos My.xmarks.com. Vælg en profil her og styr så, hvad Xmarks synkroniserer til og fra denne computer.">
+<!ENTITY desc.sync "Xmarks kan synkronisere og tage backup af både bogmærker og adgangskoder.">
+<!ENTITY desc.ownserver "Xmarks understøtter opbevaring af dine data på din egen server, som fex. en FTP- eller WebDAV-server.">
+<!ENTITY label.ownserver.moreinfo "Lær mere.">
+<!ENTITY label.manageprofiles "Opret og håndter synkroniserings-profiler">
+<!ENTITY profile.defaultname "&lt;ingen&gt;">
+<!ENTITY label.profile.change "Ændr">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Ændr synkroniserings-profil">
+<!ENTITY profile.dialog.desc "For at bevare dine profiler private, skal du indtaste adgangskoden for din Xmarks konto, inden du kan fortsætte.">
+<!ENTITY dialog.title.invalidpin "Sikker synkronisering af adgangskoder: Ugyldig PIN-kode">
+<!ENTITY dialog.invalidpin.desc "Din nuværende PIN-kode ser ud til at være ugyldig. Du har sandsynligvis ændret din PIN-kode på en anden computer, og den behøver, at blive opdateret her. Du kan gøre ét af følgende:">
+<!ENTITY dialog.invalidpin.newpin "Indtast din PIN-kode:">
+<!ENTITY dialog.invalidpin.disable "Deaktiver adgangskode-synkronisering og bevar dine nuværende adgangskoder">
+<!ENTITY dialog.title.resetpin "Sikker synkronisering af adgangskoder: Nulstil PIN-kode">
+<!ENTITY dialog.resetpin.pin "Indtast ny PIN-kode">
+<!ENTITY dialog.resetpin.passwordstrength "PIN-kodens styrke:">
+<!ENTITY dialog.resetpin.pinconfirm "Bekræft ny PIN-kode">
+<!ENTITY dialog.resetpin.desc2 "Din PIN-kode kan være en kombination af bogstaver, tal og symboler.">
+<!ENTITY dialog.resetpin.desc "Er du sikker på du ønsker, at nulstille din PIN-kode? Dette vil kræve, at vi sletter alle dine adgangskoder, der er opbevaret på vores server. Adgangskoder på denne og dine andre computere bliver ikke berørt.">
+<!ENTITY dialog.title.passwordconflict "Sikker synkronisering af adgangskoder: Opbevaret adgangskode konflikt">
+<!ENTITY dialog.passwordconflict.desc "Xmarks kan ikke afgøre, hvilke af disse versioner af adgangskoderne der skal bevares.">
+<!ENTITY dialog.passwordconflict.desc2 "Vælg venligst versionen der skal bevares:">
+<!ENTITY dialog.passwordconflict.local "Lokal version">
+<!ENTITY dialog.passwordconflict.server "Server version">
+<!ENTITY dialog.passwordconflict.site "Websted:">
+<!ENTITY dialog.passwordconflict.username "Brugernavn:">
+<!ENTITY dialog.passwordconflict.password "Adgangskode:">
+<!ENTITY dialog.passwordconflict.showpasswords "Vis adgangskoder">
+<!ENTITY dialog.passwordconflict.keeplocal "Bevar lokal version">
+<!ENTITY dialog.passwordconflict.keepserver "Bevar server version">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Opdagelse">
+<!ENTITY label.tagsuggest "Foreslåede mærkater">
+<!ENTITY label.enabletagsuggestions "Aktiver foreslåede mærkater">
+<!ENTITY desc.tagsuggest "Når du tilføjer et bogmærke, kan Xmarks foreslå passende mærkater, baseret på mærkater andre brugere har oprettet, til de samme bogmærker.">
+<!ENTITY ownserver.title "Opsætning af egen server">
+<!ENTITY ownserver.desc "For at bruge egen server med Xmarks, skal du angive to forskellige URLs, et til dine bogmærker og et til dine adgangskoder.">
+<!ENTITY similarsite.popular "Bogmærker">
+<!ENTITY similarsite.noreviews "Ingen anmeldelser">
+<!ENTITY similarsite.writereview "Skriv en anmeldelse">
+<!ENTITY similarsite.relatedsite "Top 5 lignende websteder">
+<!ENTITY similarsite.getsiteinfo "Hent webstedsinfo">
+<!ENTITY similarsite.getsiteinfo.normalcase "Hent webstedsinfo">
+<!ENTITY desc.discover "Bogmærkedrevet webopdagelse">
+<!ENTITY label.searchboost "Aktiver smartere søgning">
+<!ENTITY desc.searchboost "Xmarks vil hjælpe dig med, at opdage topwebsteder direkte på Google.">
+<!ENTITY label.siteboost "Aktiver webstedsinfo">
+<!ENTITY desc.siteboost "Xmarks vil vise dig webstedsinformation og lignende websteder, når du klikker på Xmarks infoikonet i adresselinjen.">
+<!ENTITY label.tagboost "Aktiver foreslåede mærkater">
+<!ENTITY desc.tagboost "Xmarks vil automatisk foreslå mærkater, når du tilføjer et bogmærke.">
+<!ENTITY label.serp.top3 "Top 3 resultater">
+<!ENTITY label.serp.all "Alle resultater">
+<!ENTITY label.newuser.title "Xmarks er installeret.">
+<!ENTITY label.newuser.title2 "Næsten færdig!">
+<!ENTITY label.newuser.msg "Klik her for at opsætte Xmarks bogmærke-backup og synkronisering.">
+<!ENTITY label.newuser.msg2 "Klik her for at afslutte installationen af Xmarks.">
+<!ENTITY label.syncdisabled "Der synkroniseres eller tages ikke backup af dine bogmærker. For at aktivere automatisk backup og synkronisering, kør installeringsguiden.">
+<!ENTITY byos.title "Velkommen til Xmarks, BYOS-udgave">
+<!ENTITY byos.accept "Gå til indstillinger">
+<!ENTITY byos.cancel "Luk">
+<!ENTITY byos.description "Xmarks BYOS-udgave er designet til brug med din egen server. For at starte synkronisering, skal du åbne vinduet Xmarks Indstillinger og konfigurere kommunikationen med din egen server. Ønsker du at gøre det nu?">
+<!ENTITY byos.xmarksrunning "Konflikt: Både Xmarks og Xmarks BYOS-udgave er installeret!">
+<!ENTITY byos.xmarksrunning.desc "Du har både Xmarks Bookmark Synchronizer og Xmarks BYOS-udgave kørende på samme tid, hvilket kan give problemer. Afinstaller en af dem før du fortsætter.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer er standardinstallationen anvendt af millioner af brugere verden over. Hvis du er i tvivl om, hvilke af de to du skal vælge, bør du vælge at beholde denne installeret.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS er til brug med din egen server. Vælg kun at lade den være installeret, hvis du er en avanceret bruger, som har sin egen WebDav-server på internettet.">
+<!ENTITY byos.uninstallxmarks "Afinstaller Xmarks">
+<!ENTITY byos.uninstallbyos "Afinstaller Xmarks BYOS-udgave">

@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Version locale">
+<!ENTITY conflict.name "Nom">
+<!ENTITY conflict.location "Emplacement">
+<!ENTITY conflict.keyword "Mot-clé">
+<!ENTITY conflict.description "Description">
+<!ENTITY conflict.sidebar "Charger ce marque-page dans le panneau latéral">
+<!ENTITY conflict.retainlocal "Retenir la version locale">
+<!ENTITY conflict.serverversion "Version du serveur">
+<!ENTITY conflict.retainserver "Retenir la version du serveur">
+<!ENTITY bookmarkconflict.title "Xmarks : conflit de marque-pages">
+<!ENTITY bookmarkconflict.desc1 "Xmarks ne sait pas quelle version de ce marque-page elle doit retenir.">
+<!ENTITY bookmarkconflict.desc2 "Veuillez sélectionner la version à retenir.">
+<!ENTITY folderconflict.title "Xmarks : conflit de dossier">
+<!ENTITY folderconflict.desc1 "Xmarks ne sait pas quelle version de ce dossier elle doit retenir.">
+<!ENTITY folderconflict.desc2 "Veuillez sélectionner la version à retenir">
+<!ENTITY parentconflict.title "Xmarks : conflit de parentalité">
+<!ENTITY parentconflict.desc1 "Xmarks ne sait pas à quel dossier cet élément appartient.">
+<!ENTITY parentconflict.desc2 "Veuillez sélectionner le dossier devant contenir cet élément.">
+<!ENTITY parentconflict.item "Élément">

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2008 Foxmarks Inc.
+
+foxmarks-pwprefeoverlay.xul: implements Foxmarks overlay into the 
+prefs/password dialog..
+
+-->
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<overlay id="foxmarksPasswordPrefOverlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="foxmarks-pwprefoverlay.js" />
+                         
+</overlay>
+

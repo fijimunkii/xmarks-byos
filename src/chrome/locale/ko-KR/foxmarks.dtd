@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks 환경 설정">
+<!ENTITY dialog.label.username "사용자 이름:">
+<!ENTITY dialog.label.password "암호:">
+<!ENTITY dialog.label.rememberPassword "암호를 기억합니다.">
+<!ENTITY dialog.label.rememberPIN "세션 간에 이 PIN을 기억합니다.">
+<!ENTITY dialog.label.forgotPassword "사용자 이름이나 암호를 잊어버렸음">
+<!ENTITY dialog.label.synchronization "동기화 설정">
+<!ENTITY dialog.label.ontimer "자동 동기화 기능 사용하기">
+<!ENTITY dialog.label.synconshutdown "종료시 동기화하기">
+<!ENTITY dialog.label.synconstartup "시작시 동기화하기">
+<!ENTITY dialog.label.askfirst "먼저 물어봄">
+<!ENTITY dialog.label.lastsync "마지막 동기화:">
+<!ENTITY dialog.label.runWizard "설정 마법사를 시작함">
+<!ENTITY dialog.label.syncNow "지금 바로 동기화">
+<!ENTITY progress.title "Xmarks: 상태">
+<!ENTITY progress.label.status "상태:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "경고">
+<!ENTITY clobber.desc2 "현재의 북마크 목록이 이전에 동기화했던 북마크 목록보다 현저히 작습니다.">
+<!ENTITY clobber.desc3 "Firefox 브라우저의 드물지만 심각한 버그로 인하여 때때로 북마크 목록이 일시적으로 기본 북마크 목록으로 바뀔 수도 있습니다. 만약 이런 현상이 발생하면 문제가 해결될 때까지 북마크를 동기화하지 않는게 중요합니다.">
+<!ENTITY clobber.prompt "지금 바로 북마크를 동기화하시겠습니까?">
+<!ENTITY clobber.moreinfo "자세히...">
+<!ENTITY clobber.accept "예, 동기화합니다.">
+<!ENTITY clobber.lastset "마지막 항목 수:">
+<!ENTITY clobber.currset "현재 항목 수:">
+<!ENTITY manager.syncNow "지금 바로 동기화">
+<!ENTITY menu.myFoxmarks "My Xmarks">
+<!ENTITY menu.settings "Xmarks 설정...">
+<!ENTITY menu.similarsites "사이트 정보 보기...">
+<!ENTITY menu.status "상태...">
+<!ENTITY menu.showstatus "상태 아이콘 표시">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "기본">
+<!ENTITY label.status "상태">
+<!ENTITY label.current.status "현재 상태">
+<!ENTITY label.sync "동기화">
+<!ENTITY label.sync.caption "동기화 및 백업">
+<!ENTITY label.account "계정">
+<!ENTITY label.synchronization "동기화">
+<!ENTITY label.advanced "고급">
+<!ENTITY label.security "보안">
+<!ENTITY label.encrypt "암호화:">
+<!ENTITY label.noencrypt "암호화하지 않음">
+<!ENTITY label.passwordonly "로그인만">
+<!ENTITY label.encryptall "전부 암호화함">
+<!ENTITY label.server "서버">
+<!ENTITY label.ownserver "개인 서버 사용">
+<!ENTITY label.useownserver "개인 서버를 사용함">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "암호 URL:">
+<!ENTITY label.manualoverwrite "수동으로 덮어 쓰기">
+<!ENTITY label.upload "업로드">
+<!ENTITY label.download "다운로드">
+<!ENTITY label.forceoverwriteserver "서버의 북마크를 강제로 덮어 씀">
+<!ENTITY label.forceoverwritelocal "지역 북마크를 강제로 덮어 씀">
+<!ENTITY label.logging "로그">
+<!ENTITY label.enablelogging "로그를 남김">
+<!ENTITY label.showlogfile "로그 파일 보기">
+<!ENTITY label.profiles "프로필">
+<!ENTITY label.profilechoice "프로필:">
+<!ENTITY label.sync.bookmarks "북마크">
+<!ENTITY label.sync.passwords "암호">
+<!ENTITY label.sync.resetpin "PIN 초기화">
+<!ENTITY label.sync.deletepasswords "서버에서 암호를 삭제">
+<!ENTITY label.sync.onlyff3 "* Firefox 3 이상에서만 가능함.">
+<!ENTITY label.sync.morecomingsoon "곧 이용 가능한 다른 데이터 형태에 대해 자세히 알아봄.">
+<!ENTITY desc.profile "민감한 북마크들을 관리하기 위해 동기화 프로필을 사용하세요. my.xmarks.com에서 동기화 프로필을 생성하고 관리할 수 있습니다. 그리고 여기에서 이 컴퓨터에 동기화하기 원하는 프로필을 선택하세요.">
+<!ENTITY desc.sync "북마크와 암호를 동기화하고 백업할 수 있습니다.">
+<!ENTITY desc.ownserver "FTP나 WebDAV 서버 같은 개인 서버에 데이터를 저장할 수 있습니다.">
+<!ENTITY label.ownserver.moreinfo "자세히 알아보기.">
+<!ENTITY label.manageprofiles "동기화 프로필 생성 및 관리">
+<!ENTITY profile.defaultname "&lt;없음&gt;">
+<!ENTITY label.profile.change "변경">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "동기화 프로필 변경">
+<!ENTITY profile.dialog.desc "개인정보 침해를 막기 위해, 계속하시려면 Xmarks 계정 암호를 입력하셔야 합니다.">
+<!ENTITY dialog.title.invalidpin "Xmarks: 잘못된 PIN">
+<!ENTITY dialog.invalidpin.desc "PIN이 잘못된 것 같습니다. 아마도, 다른 컴퓨터에서 PIN을 변경했기 때문에 여기서 업데이트할 필요가 있는 것 같습니다. 다음 중 하나를 선택하세요:">
+<!ENTITY dialog.invalidpin.newpin "PIN 입력:">
+<!ENTITY dialog.invalidpin.disable "암호 동기화를 안하고 현재 암호를 유지함">
+<!ENTITY dialog.title.resetpin "Xmarks: PIN 초기화">
+<!ENTITY dialog.resetpin.pin "새로운 PIN 입력">
+<!ENTITY dialog.resetpin.passwordstrength "암호 강도:">
+<!ENTITY dialog.resetpin.pinconfirm "새로운 PIN 확인">
+<!ENTITY dialog.resetpin.desc2 "알파벳 대/소문자와 숫자, 구두점을 섞고, 같은 글자를 반복하지 않음으로써 PIN의 암호 강도를 높일 수 있습니다. PIN의 암호 강도가 높을 수록, 더 안전한 암호가 됩니다.">
+<!ENTITY dialog.resetpin.desc "정말로 PIN을 초기화하시겠습니까? 현재 서버에 저장된 모든 암호를 삭제합니다. 이 컴퓨터의 암호와 다른 컴퓨터들의 암호는 영향을 받지 않습니다.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: 저장된 암호 충돌">
+<!ENTITY dialog.passwordconflict.desc "어떤 버전의 암호를 저장해야 할지 결정할 수 없습니다.">
+<!ENTITY dialog.passwordconflict.desc2 "저장할 버전을 선택해 주세요:">
+<!ENTITY dialog.passwordconflict.local "지역 버전">
+<!ENTITY dialog.passwordconflict.server "서버 버전">
+<!ENTITY dialog.passwordconflict.site "사이트:">
+<!ENTITY dialog.passwordconflict.username "사용자 이름:">
+<!ENTITY dialog.passwordconflict.password "암호:">
+<!ENTITY dialog.passwordconflict.showpasswords "암호 보기">
+<!ENTITY dialog.passwordconflict.keeplocal "지역 버전 유지">
+<!ENTITY dialog.passwordconflict.keepserver "서버 버전 유지">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "발견">
+<!ENTITY label.tagsuggest "제안된 태그들">
+<!ENTITY label.enabletagsuggestions "태그 제안">
+<!ENTITY desc.tagsuggest "북마크를 추가할 때, 다른 사용자들이 같은 북마크에 적용한 태그들을 바탕으로 적합한 태그를 제안합니다.">
+<!ENTITY ownserver.title "개인 서버 설정">
+<!ENTITY ownserver.desc "개인 서버를 사용하려면, 북마크와 암호 저장을 위한 두 개의 다른 URL를 입력하세요.">
+<!ENTITY similarsite.popular "북마크">
+<!ENTITY similarsite.noreviews "리뷰 없음">
+<!ENTITY similarsite.writereview "리뷰 작성">
+<!ENTITY similarsite.relatedsite "비슷한 사이트 상위 5">
+<!ENTITY similarsite.getsiteinfo "사이트 정보 얻기">
+<!ENTITY similarsite.getsiteinfo.normalcase "사이트 정보 얻기">
+<!ENTITY desc.discover "Bookmark-powered Web Discovery">
+<!ENTITY label.searchboost "똑똑한 검색 기능 사용">
+<!ENTITY desc.searchboost "Google 상위 사이트들을 찾아줍니다.">
+<!ENTITY label.siteboost "사이트 정보 기능 사용">
+<!ENTITY desc.siteboost "주소 표시줄의 Xmarks 정보 아이콘을 클릭하면 사이트 정보와 비슷한 사이트들을 보여줍니다.">
+<!ENTITY label.tagboost "제안된 태그 기능 사용">
+<!ENTITY desc.tagboost "북마크를 추가할 때 자동으로 태그를 제안합니다.">
+<!ENTITY label.serp.top3 "결과 상위 3">
+<!ENTITY label.serp.all "모든 결과">
+<!ENTITY label.newuser.title "Xmarks가 설지되었습니다.">
+<!ENTITY label.newuser.title2 "거의 완료됨!">
+<!ENTITY label.newuser.msg "Xmarks 북마크 백업 및 동기화 설정을 하시려면 여기를 클릭하세요.">
+<!ENTITY label.newuser.msg2 "여기를 클릭하면 Xmarks 설치를 완료됩니다.">
+<!ENTITY label.syncdisabled "북마크가 백업 및 동기화되지 않았습니다. 자동으로 백업 및 동기화를 하시려면, 설정 마법사를 실행하세요.">
+<!ENTITY byos.title "환영합니다. Xmarks BYOS입니다.">
+<!ENTITY byos.accept "환경 설정으로 이동">
+<!ENTITY byos.cancel "닫기">
+<!ENTITY byos.description "Xmarks BYOS는 개인 서버를 위해 만들어졌습니다. 동기화하려면, Xmarks 환경 설정 대화상자에서 개인 서버와의 통신을 위한 설정이 필요합니다. 지금 하시겠습니까?">
+<!ENTITY byos.xmarksrunning "충돌: Xmarks와 Xmarks BYOS가 둘 다 설치되었습니다!">
+<!ENTITY byos.xmarksrunning.desc "Xmarks와 Xmarks BYOS가 동시에 동작하게 되면 문제가 발생할 수 있습니다. 계속 하시려면 둘 중 하나를 제거해 주세요.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks가 전세계 수 백만 사용자들이 사용하는 일반적인 프로그램입니다. 둘 중 어떤 것을 선택해야 할 지 모르겠다면, Xmarks를 계속 사용하시기 바랍니다.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS는 개인 서버와 함께 사용됩니다. 인터넷 상에 개인 WebDav 서버를 운영하고 있는 고급 사용자일 경우만 설치해 사용하시기 바랍니다.">
+<!ENTITY byos.uninstallxmarks "Xmarks 삭제">
+<!ENTITY byos.uninstallbyos "Xmarks BYOS 삭제">

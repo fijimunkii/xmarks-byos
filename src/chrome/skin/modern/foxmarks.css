@@ -1,0 +1,163 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+treechildren::-moz-tree-twisty(foxmarks) {
+  list-style-image: none;
+  width: 0px !important;
+  height: 0px !important;
+  margin: 0px 0px;
+}
+
+treechildren::-moz-tree-twisty(foxmarks, open) {
+  list-style-image: none;
+  width: 0px !important;
+  height: 0px !important;
+  margin: 0px 0px;
+}
+
+treechildren::-moz-tree-separator(foxmarks) {
+  border-top: 1px solid ThreeDShadow;
+  border-bottom: 1px solid ThreeDHighlight;
+}
+
+#foxmarks-placesmenu {
+    list-style-image: url(chrome://xmarksbyos/skin/images/foxmarks_bug.png);
+}
+
+#bookmark-window toolbarbutton#foxmarks-bm-sync {
+    list-style-image: url(chrome://xmarksbyos/skin/images/foxmarks-default.png);
+}
+
+#bookmark-window toolbarbutton#foxmarks-bm-sync:hover {
+    list-style-image: url(chrome://xmarksbyos/skin/images/foxmarks-hover.png);
+}
+
+#bookmark-window toolbarbutton#foxmarks-bm-sync:hover:active {
+    list-style-image: url(chrome://xmarksbyos/skin/images/foxmarks-active.png);
+} 
+
+
+/* Preferences Styles */
+#foxmarks-settings .manual-overwrite-button {
+        min-width: 110px;
+}
+
+#foxmarks-settings .mainpane-button {
+        min-width: 120px;
+}
+
+#foxmarks-settings .manage-profile-button {
+        min-width: 150px;
+}
+#foxmarks-settings #onlyFF3 {
+    margin-top: 8px;
+}
+
+
+/* Overriding styles from
+        http://lxr.mozilla.org/mozilla1.8.0/source/browser/themes/pinstripe/browser/preferences/preferences.css
+*/
+#foxmarks-settings .paneSelector {
+        /* ours */
+        background: url("chrome://xmarksbyos/skin/images/pane-selector-bg.png") repeat 0px #2C4676;
+        background-color: #2C4676;
+        padding: 0;
+
+        /* theirs */
+        /*list-style-image: url("chrome://browser/skin/preferences/Options.png");*/
+        /*padding: 0 5px;*/
+        /*border-bottom: 1px solid #a3a3a3;*/
+        /*background: url("chrome://global/skin/toolbar/toolbar-pinstripe-overlay.png") repeat;*/
+        margin: 0;
+}
+.macosx .paneSelector {
+        /* ours */
+        background: url("chrome://xmarksbyos/skin/images/pane-selector-macosx-bg.png") repeat 0px !important;
+        border-bottom: 1px solid #A3A3A3;
+}
+
+#foxmarks-settings .paneSelector radio {
+        /* ours */
+        color: white !important;
+        padding: 3px 0 1px 0;
+        min-width: 80px;
+
+        /* theirs */
+        /*border-right: 1px solid transparent;*/
+        /*border-left: 1px solid transparent;*/
+        /*padding: 3px 0 3px 0;*/
+        margin: 0;
+        -moz-appearance: none !important;
+}
+
+#foxmarks-settings.macosx .paneSelector radio {
+    /* ours */
+        color: black !important;
+}
+
+/*
+#foxmarks-settings #foxmarks-syncpane{
+  background: url("chrome://xmarksbyos/skin/images/security-icon-bg.png") no-repeat 324px bottom;
+}
+#foxmarks-settings.macosx  #foxmarks-syncpane{
+  background: url("chrome://xmarksbyos/skin/images/security-icon-bg.png") no-repeat 392px  212px;
+}
+*/
+
+#foxmarks-settings .paneSelector radio[pane]:hover {
+        /* ours */
+        background: url("chrome://xmarksbyos/skin/images/pane-selector-bg-hover.png") repeat 0px #2F4979;
+        min-width: 80px;
+}
+.macosx .paneSelector radio[pane]:hover {
+        /* ours */
+        background: url("chrome://xmarksbyos/skin/images/pane-selector-macosx-bg.png") repeat 0px #DDD !important;
+}
+
+#foxmarks-settings radio[pane][selected="true"],
+#foxmarks-settings radio[pane][selected="true"]:hover {
+        /* ours */
+        background: url("chrome://xmarksbyos/skin/images/pane-selector-bg-selected.png") repeat 0px;
+        color: black !important;
+        min-width: 80px;
+
+        /* theirs */
+        /*background-color: #DDDDDD;*/
+        /*background-image: none;*/
+        /*border-right: 1px solid #b9b9b9;*/
+        /*border-left: 1px solid #b9b9b9;*/
+        /*color: ButtonText !important;*/
+}
+#foxmarks-settings.macosx radio[pane][selected="true"],
+#foxmarks-settings.macosx radio[pane][selected="true"]:hover {
+    /* ours */
+        background: url("chrome://xmarksbyos/skin/images/pane-selector-macosx-bg-sel.png") repeat 0px !important;
+        border: 1px solid #B9B9B9;
+        border-width: 0 1px;
+}
+
+.ps_bkgnd {
+     width: 200px;
+     height: 4px;
+     background-color: #999;
+     margin-left: 6px;
+}
+
+#passwordmeter {
+    height: 4px;
+    width: 0px;
+    background-color: green;
+}
+
+#passwordStrength {
+    font-weight: bold;
+}
+
+.secureSync {
+    background: url("chrome://xmarksbyos/skin/images/security-icon-bg.png") top right no-repeat;
+    margin-top: -46px;
+    padding-top: 46px;
+}
+
+.secureDialog {
+    background: url("chrome://xmarksbyos/skin/images/security-icon-bg.png") top right no-repeat;
+}

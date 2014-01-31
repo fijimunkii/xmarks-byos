@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2005-2008 Foxmarks Inc.
+
+foxmarks-setup.xul: implements the Foxmarks Setup Wizard.
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://xmarksbyos/skin/foxmarks.css" type="text/css" ?>
+
+<!DOCTYPE dialog [
+    <!ENTITY % first SYSTEM "chrome://xmarksbyos/locale/setup.dtd">
+    %first;
+    <!ENTITY % second SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+    %second;
+    <!ENTITY % third SYSTEM "chrome://global/locale/dialogOverlay.dtd">
+    %third;
+]>
+
+<wizard id="foxmarks-setup" title="&wizard.title;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    windowtype="foxmarks:setup"
+    onwizardcancel="return OnWizardCancel();"
+    onwizardfinish="return SetupOnWizardFinish();"
+    onload="OnWizardLoad();"
+    minwidth="600"
+    style="min-height: &wizard.height;em" >
+
+    <script src="foxmarks-setup.js" />
+    <script src="foxmarks-settings.js" />
+    <script src="foxmarks-log.js" />
+    <script src="shared/passwordmeter.js" />
+    <script src="foxmarks-uitools.js" />
+
+    <wizardpage pageid="transition" onpageshow="OnTransitionPageShow()"
+        next="execute" >
+        <hbox align="center">
+            <image src="chrome://xmarksbyos/skin/images/Throbber-small.gif" 
+                id="spinner" hidden="true" height="16" width="16" />
+            <label id="statusLabel" />
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="errorPage" next="transition" 
+        label="&wizard.title.firstsync;" >
+        <hbox>
+            <label value="&progress.label.status;" />
+            <label id="errormsg" value="" />
+            <spacer flex="1" />
+            <button label="&helpButton.label;" 
+                oncommand="FoxmarksSetupHelp()" />
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="syncPasswords" label="&wizard.title.syncpasswords;"
+        onpageshow="SyncPasswordsLoad(); OnPageShow('syncPasswords')" 
+        onpageadvanced="SyncPasswordAdvance()"
+        next="execute" class="secureSync">
+        <image id="syncPasswordsPing" />
+        <description>
+            <html:p>&wizard.syncpassworddesc;</html:p>
+            <html:ul>
+                <html:li>&wizard.syncpassworddesc2;</html:li>
+                <html:li>&wizard.syncpassworddesc3;</html:li>
+            </html:ul>
+            <vbox>
+                <button label="&wizard.learnmore;" oncommand="FoxmarksMoreSecurityInfo();" />
+            </vbox>
+            <html:p>&wizard.syncpassworddesc4;</html:p>
+        </description>
+        <radiogroup id="syncpasswordradio">
+            <radio label="&wizard.yes;" value="1" 
+                 flex="1" />
+            <radio label="&wizard.no;" value="0" selected="true"
+                 flex="1" />
+        </radiogroup>
+    </wizardpage>
+
+    <wizardpage pageid="passwordTransition" onpageshow="OnPasswordTransitionPageShow()"
+        next="execute"  class="secureSync">
+        <hbox align="center">
+            <image src="chrome://xmarksbyos/skin/images/Throbber-small.gif" 
+                id="pin_spinner" hidden="true" height="16" width="16" />
+            <label id="pin_statusLabel" />
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="pinOld" label="&wizard.title.pinold;"
+        onpageshow="OldPinLoad(); OnPageShow('pinOld')" 
+        onpagerewound="return GotoSyncPasswords();"
+        onpageadvanced="return OldPinAdvance();"
+        next="pinVerify"  class="secureSync">
+        <image id="pinOldPing" />
+        <description>
+            <html:p>&wizard.desc.oldpin;</html:p>
+        </description>
+        <hbox align="center">
+            <label value="&wizard.label.pin;" width="40" />
+            <textbox type="password" id="oldpin" width="100"/>
+        </hbox>
+        <hbox align="center">
+            <label  width="40"/>
+            <checkbox id="rememberPinOld" label="&dialog.label.rememberPIN;" checked="true"/>
+        </hbox>
+        <hbox align="center">
+            <button label="&wizard.forgotpin;" oncommand="ForgotPIN()" />
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="resetPIN" label="&wizard.title.resetpin;"
+        onpageshow="ResetPINLoad(); OnPageShow('resetPIN')" 
+        onpagerewound="return ResetPINRewind();"
+        onpageadvanced="return ResetPINAdvance();"
+        next="doresetPIN"  class="secureSync">
+        <image id="resetPINPing" />
+        <description>
+            <html:p>&wizard.resetpindesc;</html:p>
+        </description>
+        <radiogroup id="resetpinradio">
+            <radio label="&wizard.resetpinoption1;" value="1"  
+                flex="1" />
+            <radio label="&wizard.resetpinoption2;" id="resetpinno" value="0" selected="true" flex="1" />
+        </radiogroup>
+    </wizardpage>
+
+    <wizardpage pageid="forgotPIN" label="&wizard.title.forgotpin;"
+        onpageshow="OnPageShow('forgotPIN')" 
+        onpagerewound="return ForgotPINRewind()"
+        onpageadvanced="return ForgotPINAdvance()"
+        next="resetPIN"  class="secureSync">
+        <image id="forgotPINPing" />
+        <description>
+            <html:p>&wizard.forgotpindesc;</html:p>
+            <html:p>&wizard.forgotpindesc2;</html:p>
+        </description>
+        <radiogroup id="forgotpinradio">
+            <radio label="&wizard.forgotpinoption1;" value="later" selected="true" 
+                flex="1" />
+            <radio label="&wizard.forgotpinoption2;" value="reset" flex="1" />
+        </radiogroup>
+        <label class="text-link" href="http://wiki.xmarks.com/wiki/Foxmarks:_Forgetting_Your_PIN">
+            <html:span style="text-decoration:underline">&wizard.learnhow;
+            </html:span>
+        </label>
+    </wizardpage>
+
+    <wizardpage pageid="pinVerify" onpageshow="VerifyPIN()"
+        next="pinVerified"  class="secureSync">
+        <hbox align="center">
+            <image src="chrome://xmarksbyos/skin/images/Throbber-small.gif" 
+                id="vpin_spinner" hidden="true" height="16" width="16" />
+            <label id="vpin_statusLabel" />
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="pinVerified" label="&wizard.title.pinverified;"
+        onpageshow="RelinkPinVerified(); OnPageShow('pinVerified')" 
+        onpagerewound="return GotoSyncPasswords();"
+        onpageadvanced="return PinVerifiedAdvance();"
+        next="execute"  class="secureSync">
+        <image id="pinVerifiedPing" />
+        <description>
+            <html:p>&wizard.pinverifieddesc;</html:p>
+            <html:p>&wizard.pinverifieddesc2;</html:p>
+        </description>
+    </wizardpage>
+    <wizardpage pageid="pinNew" label="&wizard.title.pinnew;"
+        onpageshow="NewOrResetPassword(); OnPageShow('pinNew')" 
+        onpagerewound="return NewPINRewind();"
+        onpageadvanced="return NewPasswordAdvance();"
+        next="newpinVerified"  class="secureSync">
+        <image id="pinNewPing" />
+        <description>
+            <html:p>&wizard.desc.pinnew;</html:p>
+            <html:p>&wizard.desc.pinnew2;</html:p>
+        </description>
+        <hbox align="center">
+            <label value="&wizard.label.pin;" width="80"/>
+            <textbox type="password" id="newpin" width="100"
+                oninput="XmarksBYOS.handlePasswordMeter('newpin');"/>
+            <vbox align="left">
+                <hbox>
+                    <label value="&dialog.resetpin.passwordstrength;" />
+                    <label value=""
+                        id="passwordStrength" />
+                </hbox>
+                <box class="ps_bkgnd" align="left">
+                    <box id="passwordmeter" />
+                </box>
+             </vbox>
+        </hbox>
+        <hbox align="center">
+            <label value="&wizard.label.confirmpin;" width="80"/>
+            <textbox type="password" id="newpin2" width="100"/>
+        </hbox>
+        <hbox align="center">
+            <label  width="80"/>
+            <checkbox id="rememberPin" label="&dialog.label.rememberPIN;" checked="true"/>
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="newpinVerified" label="&wizard.title.pincreated;"
+        onpageshow="RelinkPinVerified(); OnPageShow('newpinVerified')" 
+        onpagerewound="return GotoSyncPasswords();"
+        onpageadvanced="return NewPinVerifiedAdvance();"
+        next="execute"  class="secureSync">
+        <image id="newpinVerifiedPing" />
+        <description>
+            <html:p>&wizard.newpinverifieddesc;</html:p>
+            <html:p>&wizard.newpinverifieddesc2;</html:p>
+        </description>
+    </wizardpage>
+
+    <wizardpage pageid="resetpinVerified" label="&wizard.title.resetpinverified;"
+        onpageshow="RelinkPinVerified(); OnPageShow('resetpinVerified')" 
+        onpageadvanced="return NewPinVerifiedAdvance();"
+        onpagerewound="return GotoSyncPasswords();"
+        next="execute"  class="secureSync">
+        <image id="resetpinVerifiedPing" />
+        <description>
+            <html:p>&wizard.resetpinverifieddesc;</html:p>
+        </description>
+    </wizardpage>
+    <wizardpage pageid="selectProfile" label="&wizard.title.selectprofile;"
+        onpageshow="OnPageShow('selectProfile')" 
+        onpageadvanced="SetProfileValue(); return true;"
+        next="execute" >
+        <image id="selectProfilePing" />
+        <description>&wizard.profile.desc; </description>
+        <hbox align="center">
+            <label value="&wizard.label.profilechoice;" />
+            <menulist id="profileMenuList" >
+                <menupopup id="profileMenuPopup" >
+                    <menuitem label="&wizard.profile.defaultname;" value="0" />
+                    <menuitem label="1" value="1" hidden="true"/>
+                    <menuitem label="2" value="2" hidden="true"/>
+                    <menuitem label="3" value="3" hidden="true"/>
+                    <menuitem label="4" value="4" hidden="true"/>
+                    <menuitem label="5" value="5" hidden="true"/>
+                    <menuitem label="6" value="6" hidden="true"/>
+                    <menuitem label="7" value="7" hidden="true"/>
+                    <menuitem label="8" value="8" hidden="true"/>
+                    <menuitem label="9" value="9" hidden="true"/>
+                </menupopup>
+            </menulist>
+        </hbox>
+    </wizardpage>
+
+    <wizardpage pageid="selectSyncOption" label="&wizard.title.firstsync;" 
+        onpageadvanced="return SetupOptionNext()" 
+        onpageshow="OnPageShow('selectSyncOption')"
+        next="mergeOption" >
+        <image id="selectSyncOptionPing" />
+        <description>
+            <html:p>&wizard.desc9;</html:p>
+            <html:p>&wizard.desc10;</html:p>
+        </description>
+        <radiogroup id="localOrRemote">
+            <radio label="&wizard.merge;" value="merge" selected="true" 
+                flex="1" />
+            <radio label="&wizard.keepremote;" value="remote" flex="1" />
+            <radio label="&wizard.keeplocal;" value="local" flex="1" />
+        </radiogroup>
+
+        <spacer flex="3" />
+        <label class="text-link" href="http://my.xmarks.com/">
+            <html:span style="text-decoration:underline">&wizard.seeserver;
+            </html:span>
+        </label>
+    </wizardpage>
+
+    <wizardpage pageid="mergeOption" label="&wizard.title.firstsync;" 
+        onpageshow="OnPageShow('mergeOption')"
+        next="execute" >
+        <image id="mergeOptionPing" />
+        <description>
+            <html:p>&wizard.desc11;</html:p>
+            <html:p>&wizard.desc12;</html:p></description>
+        <spacer flex="1" />
+        <radiogroup id="mergeStart">
+            <radio label="&wizard.startremote;" value="remote" flex="1" 
+                selected="true" />
+            <radio label="&wizard.startlocal;" value="local" flex="1" />
+        </radiogroup>
+        <description><html:p>&wizard.desc13;</html:p></description>
+        <spacer flex="3" />    
+        <label class="text-link" href="http://my.xmarks.com/">
+            <html:span style="text-decoration:underline">&wizard.seeserver;
+            </html:span>
+        </label>
+    </wizardpage>
+
+    <wizardpage label="&wizard.title.ready;" pageid="execute" 
+        onpageshow="OnPageShow('execute'); SetupShowExecutePage()"
+        onpageadvanced="return SetupPerformSync()" 
+        next="success">
+        <image id="executePing" />
+        <description style="margin-top: 1em;" id="readydesc"
+            value="&wizard.desc14;" />
+        <description id="operation" />
+        <description id="profileMsg" />
+        <html:p />
+        <description id="warning" style="font-weight: bold;" />
+    </wizardpage>
+
+    <wizardpage label="&wizard.title.success;" pageid="success" 
+            onpageshow="OnPageShow('success'); 
+            document.documentElement.canRewind=false;" >
+        <image id="successPing" />
+        <description>
+            <html:p>&wizard.desc15;</html:p>
+            <html:p>&wizard.desc16;</html:p>
+        </description>
+    </wizardpage>
+</wizard>

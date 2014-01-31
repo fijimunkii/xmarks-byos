@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "34">
+<!ENTITY wizard.title "Xmarks - Einrichtungsassistent">
+<!ENTITY wizard.title.verified "Zugang verifiziert">
+<!ENTITY wizard.desc8 "Herzlichen Glückwunsch! Xmarks konnte Ihren Zugang erfolgreich verifizieren. Im Anschluss daran wird die erste Synchronisation auf diesem Rechner vorbereitet.">
+<!ENTITY wizard.title.firstsync "Erste Synchronisation">
+<!ENTITY wizard.desc9 "Xmarks hat Daten für dieses Benutzerkonto auf dem Server gefunden.">
+<!ENTITY wizard.desc10 "Wie soll Xmarks die erste Synchronisation durchführen?">
+<!ENTITY wizard.keepremote "Daten auf dem Server beibehalten; Daten auf diesem Rechner löschen.">
+<!ENTITY wizard.keeplocal "Daten auf dem Server löschen; Daten auf diesem Rechner beibehalten.">
+<!ENTITY wizard.merge "Daten auf dem Server mit denen auf diesem Rechner zusammenführen.">
+<!ENTITY wizard.seeserver "Ihre vorhandenen Lesezeichen auf dem Server ansehen.">
+<!ENTITY wizard.desc11 "Bei diesem ersten Zusammenführen beginnt Xmarks mit einem Lesezeichen-Satz und fügt dann die Lesezeichen und Ordner eines anderen Satzes hinzu. Falls Sie ausgewählt haben Passwörter zu synchronisieren, wird dies genauso geschehen.">
+<!ENTITY wizard.desc12 "Mit welcher Seite soll Xmarks beginnen?">
+<!ENTITY wizard.startlocal "Mit den Daten auf diesem Rechner beginnen.">
+<!ENTITY wizard.startremote "Mit den Daten auf dem Server beginnen.">
+<!ENTITY wizard.desc13 "(In jedem Fall bleiben alle Lesezeichen und Passwörter erhalten. Das Endergebnis wird jedoch eher des Ausgangs-Satzes ähneln.)">
+<!ENTITY wizard.title.ready "Bereit für die Synchronisation">
+<!ENTITY wizard.desc14 "Xmarks ist bereit, die erste Synchronisation durchzuführen.">
+<!ENTITY wizard.title.success "Synchronisation erfolgreich abgeschlossen!">
+<!ENTITY wizard.desc15 "Herzlichen Glückwunsch! Ihre Lesezeichen wurden erfolgreich synchronisiert. Ab jetzt wird Xmarks die Lesezeichen auf diesem Rechner automatisch synchronisieren.">
+<!ENTITY wizard.desc16 "Synchronisations-Einstellungen können über den &quot;Xmarks&quot;-Eintrag im Menü &quot;Extras&quot; angepasst werden.">
+<!ENTITY wizard.title.selectprofile "Profil auswählen">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;keines&gt;">
+<!ENTITY wizard.profile.desc "Sie haben Profile für Ihre Xmarks Lesezeichen eingerichtet. Damit können Sie überwachen, welche Lesezeichen auf welche Computer übertragen werden. Sie können nun ein Profil aus der Liste für diesen Computer auswählen oder die Standardeinstellung belassen, um alle Lesezeichen mit diesem Computer zu Synchronisieren.">
+<!ENTITY wizard.title.syncpasswords "Optional: Sichere Passwort-Synchronisation">
+<!ENTITY wizard.syncpassworddesc "Xmarks kann auch Passwörter sicher synchronisieren. Wenn Sie Benutzername und Passwort einer Website speichern, kann Xmarks diese Anmelde-Informationen automatisch mit Ihren anderen Rechnern synchronisieren. Ihre Passwörter werden mit einer PIN verschlüsselt, die nur Sie kennen.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks kann Ihre Passwörter nicht ansehen.">
+<!ENTITY wizard.syncpassworddesc3 "Sie können diese Funktion jeder Zeit im Xmarks-Einstellungs-Dialog ein- oder ausschalten.">
+<!ENTITY wizard.syncpassworddesc4 "Möchten Sie die sichere Passwort-Synchronisation jetzt aktivieren?">
+<!ENTITY wizard.syncpasswordcheck "Ja, Passwörter sicher synchronisieren">
+<!ENTITY wizard.yes "Ja">
+<!ENTITY wizard.no "Nein">
+<!ENTITY wizard.title.pinold "Sichere Passwort-Synchronisation: PIN eingeben">
+<!ENTITY wizard.desc.oldpin "Bitte eine PIN festlegen welche zur Einrichtung der Passwort-Synchronisation genutzt werden soll">
+<!ENTITY wizard.whatisthis "Was ist das?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "PIN bestätigen:">
+<!ENTITY wizard.forgotpin "Ich habe meine PIN vergessen">
+<!ENTITY wizard.title.pinnew "Sichere Passwort-Synchronisation: PIN erstellen">
+<!ENTITY wizard.desc.pinnew "Xmarks sichert Ihre Passwörter durch eine Verschlüsselung mit einer privaten PIN Ihrer Wahl. Da die PIN nicht wiederhergestellt werden kann, dürfen Sie sie auf keinen Fall vergessen.">
+<!ENTITY wizard.desc.pinnew2 "Ihre PIN kann aus jeder Kombination aus Buchstaben, Zahlen und Sonderzeichen bestehen.">
+<!ENTITY wizard.learnmore "Mehr erfahren.">
+<!ENTITY wizard.title.pincreated "Sichere Passwort-Synchronisation: PIN wurde erstellt">
+<!ENTITY wizard.newpinverifieddesc "Ihre PIN wurde erfolgreich erstellt und wird für die Verschlüsselung Ihrer Passwörter verwendet.">
+<!ENTITY wizard.newpinverifieddesc2 "Nicht vergessen: Nur Sie kennen diese PIN und Xmarks kann sie für Sie auch nicht wiederherstellen.">
+<!ENTITY wizard.title.pinverified "Sichere Passwort-Synchronisation: PIN wurde überprüft">
+<!ENTITY wizard.pinverifieddesc "Ihre PIN wurde erfolgreich geprüft. Ihre gespeicherten Passwörter werden jetzt mit diesem Rechner synchronisiert.">
+<!ENTITY wizard.pinverifieddesc2 "Sie können diese Einstellungen jederzeit in dem Xmarks Einstellungen Dialog ändern.">
+<!ENTITY wizard.title.forgotpin "Vergessene PIN">
+<!ENTITY wizard.learnhow "Wie Sie Ihre PIN von einem Ihrer anderen Computer wiederherstellen können.">
+<!ENTITY wizard.forgotpindesc "Unglücklicherweise kann Xmarks Ihre PIN nicht wiederherstellen. Dennoch ist es möglich die PIN von einem anderen Computer wiederherzustellen, auf dem die PIN eingerichtet ist und funktioniert.">
+<!ENTITY wizard.forgotpindesc2 "Sie haben die Wahl:">
+<!ENTITY wizard.forgotpinoption1 "PIN später eingeben. Passwörter auf diesem Rechner nicht synchronisieren.">
+<!ENTITY wizard.forgotpinoption2 "Ihre PIN zurücksetzen">
+<!ENTITY wizard.title.resetpin "PIN zurücksetzen">
+<!ENTITY wizard.resetpindesc "Wollen Sie wirklich Ihre PIN zurücksetzen? Dies erfordert eine erneute PIN Eingabe auf allen anderen Computern.">
+<!ENTITY wizard.resetpinoption1 "Ja. PIN jetzt zurücksetzen.">
+<!ENTITY wizard.resetpinoption2 "Nein. Passwörter nicht mit diesem Rechner synchronisieren.">
+<!ENTITY wizard.title.resetpinverified "Sichere Passwort-Synchronisation: Neue PIN wurde erstellt">
+<!ENTITY wizard.resetpinverifieddesc "Ihre PIN wurde geändert. Sie müssen nun Ihre neue PIN auf den anderen Computern bei der nächsten Synchronisation eingeben.">
+<!ENTITY wizard.securityinfo.label.1 "Wie funktioniert die sichere Passwort Synchronisation?">
+<!ENTITY wizard.securityinfo.desc.1 "Auf der Basis von Verschlüsselung stellt Xmarks sicher, dass Ihre Passwörter sicher über das Internet zu den anderen Computern synchronisiert werden.">
+<!ENTITY wizard.securityinfo.desc.2 "Wenn Sie die sichere Passwort Synchronisation auswählen, fragt Sie Xmarks nach einer geheimen PIN. Diese PIN wird zur Verschlüsselung der Passwörter verwendet - noch bevor Sie Ihren Computer verlassen!">
+<!ENTITY wizard.securityinfo.desc.3 "Verschlüsselung Ihrer Passwörter bedeutet das Zerteilen der Passwörter in kleine Teile, die nur mit der richtigen PIN wieder zusammengesetzt werden können. Da nur Sie die PIN kennen, können auch nur Sie (nicht einmal Xmarks) die verschlüsselten Daten zurück in eine Sinnvolle Liste mit Passwörter übersetzen.">
+<!ENTITY wizard.securityinfo.label.2 "Wie sicher ist die Verschlüsselung?">
+<!ENTITY wizard.securityinfo.desc.4 "Um sicherzustellen das Ihre Passwörter mit der maximal möglichen Sicherheit verschlüsselt werden, verwendet Xmarks den aktuellen AES 256-Bit Verschlüsselungsalgorithmus. AES ist ein Standard der US-Regierung und wird von der National Security Administration (NSA) zur Verschlüsselung von vertraulichen Informationen verwendet.">
+<!ENTITY wizard.securityinfo.label.3 "Was kann ich für die maximal mögliche Sicherheit tun?">
+<!ENTITY wizard.securityinfo.desc.5 "Selbst bei einer militärischen Verschlüsselung spielt die Stärke der geheimen PIN eine wichtige Rolle. Xmarks empfiehlt, dass Sie eine PIN wählen, die nur sehr schwer zu erraten ist und eine Vielzahl an unterschiedlichen Buchstaben, Zahlen und Sonderzeichen (wie @, $ und *) enthält">
+<!ENTITY wizard.securityinfo.label.4 "Ich möchte mehr wissen">
+<!ENTITY wizard.securityinfo.desc.6 "Bitte besuchen Sie xmarks.com, um mehr zu erfahren. Sie können auch jetzt auswählen, dass Ihre Passwörter nicht synchronisiert werden, aber später können Sie in den Xmarks-Einstellungen diese Option aktivieren.">

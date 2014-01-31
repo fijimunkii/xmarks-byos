@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks průvodce nastavením">
+<!ENTITY wizard.title.verified "Účet ověřen">
+<!ENTITY wizard.desc8 "Gratulujeme! Aplikace Xmarks úspěšně ověřila Váš účet. Bude následovat první synchronizace na tomto počítači.">
+<!ENTITY wizard.title.firstsync "Počáteční synchronizace">
+<!ENTITY wizard.desc9 "Aplikace Xmarks našla na serveru pro tento účet sadu záložek.">
+<!ENTITY wizard.desc10 "Jak si přejete, aby aplikace Xmarks provedla počáteční synchronizaci?">
+<!ENTITY wizard.keepremote "Ponechej záložky na serveru; přepiš záložky na tomto počítači.">
+<!ENTITY wizard.keeplocal "Ponechej záložky na tomto počítači; přepiš záložky na serveru.">
+<!ENTITY wizard.merge "Spoj záložky na serveru se záložkami na tomto počítači.">
+<!ENTITY wizard.seeserver "Zobrazit Vaše existující záložky na serveru.">
+<!ENTITY wizard.desc11 "Počáteční sloučení záložek proběhne tak, že aplikace Xmarks vezme Vámi zvolenou startovací sadu záložek a doplní ji záložkami a složkami z druhé sady záložek.">
+<!ENTITY wizard.desc12 "Jakou sadu má aplikace Xmarks použít jako startovací?">
+<!ENTITY wizard.startlocal "Začni se záložkami na tomto počítači.">
+<!ENTITY wizard.startremote "Začni záložkami na serveru.">
+<!ENTITY wizard.desc13 "(Všechny záložky budou v obou případech zachovány. Výsledná sada bude ale více podobná startovací sadě.)">
+<!ENTITY wizard.title.ready "Připraven k synchronizaci">
+<!ENTITY wizard.desc14 "Aplikace Xmarks je připravena provést počáteční synchronizaci.">
+<!ENTITY wizard.title.success "Úspěch!">
+<!ENTITY wizard.desc15 "Gratulujeme! Úspěšně jste synchronizovali Vaše záložky. Od této chvíle bude aplikace Xmarks udržovat záložky na tomto počítači synchronizované.">
+<!ENTITY wizard.desc16 "Pro úpravu nastavení synchronizace najeďte do menu aplikace Xmarks z nabídky Nástroje.">
+<!ENTITY wizard.title.selectprofile "Zvolte profil">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;žádný&gt;">
+<!ENTITY wizard.profile.desc "Máte vytvořeny profily pro kontrolu synchronizace záložek na Vašich počítačích. Můžete vybrat profil pro tento počítač ze seznamu níže, nebo ponechat základní nastavení pro synchronizaci všech záložek na tomto počítači.">
+<!ENTITY wizard.title.syncpasswords "Synchronizace hesla (volitelné)">
+<!ENTITY wizard.syncpassworddesc "Aplikace Xmarks může také bezpečně synchronizovat Vaše hesla. Pokud si na stránce uložíte uživtelské jméno a heslo, aplikace Xmarks může automaticky synchronizovat tyto přihlašovací údaje z Vašimi dalšími počítači. Hesla budou přitom zašifrována pomocí PIN, který znáte pouze Vy.">
+<!ENTITY wizard.syncpassworddesc2 "Aplikace Xmarks neuvidí Vaše hesla.">
+<!ENTITY wizard.syncpassworddesc3 "Tuto funkci můžete kdykoli vypnout nebo zapnout z dialogu Nastavení aplikace Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Chcete nyní aktivovat bezpečnou synchronizaci hesel?">
+<!ENTITY wizard.syncpasswordcheck "Ano, bezpečně synchronizuj má hesla.">
+<!ENTITY wizard.yes "Ano">
+<!ENTITY wizard.no "Ne">
+<!ENTITY wizard.title.pinold "Vložte PIN">
+<!ENTITY wizard.desc.oldpin "Vložte, prosím, PIN, který jste použili při nastavení synchronizace hesel.">
+<!ENTITY wizard.whatisthis "Co je to?">
+<!ENTITY wizard.label.pin "Vaše PIN:">
+<!ENTITY wizard.label.confirmpin "Potvrďte PIN:">
+<!ENTITY wizard.forgotpin "Zapomněl jsem své PIN">
+<!ENTITY wizard.title.pinnew "Vytvořit PIN">
+<!ENTITY wizard.desc.pinnew "Aplikace Xmarks zabezpečuje Vaše hesla jejich kódováním s pomocí osobního PIN dle Vašeho výběru. Je důležité, abyste si toto PIN zapamatovali, protože Vám jej nebudeme schopni obnovit.">
+<!ENTITY wizard.desc.pinnew2 "Váš PIN může být jakákoli kombinace písmen, číslic a symblů.">
+<!ENTITY wizard.learnmore "Dozvědět se více.">
+<!ENTITY wizard.title.pincreated "PIN vytvořeno">
+<!ENTITY wizard.newpinverifieddesc "Vaše PIN bylo úspěšně vytvořeno. Tento PIN použijeme pro zabezpečení Vašich hesel před jejich synchronizací abyste k nim měli přístup pouze Vy.">
+<!ENTITY wizard.newpinverifieddesc2 "PIN nesmíte zapomenout. Z důvodu Vaší bezpečnosti aplikace Xmarks Váš PIN nezná a nemůže Vám pomoci s jeho obnovou.">
+<!ENTITY wizard.title.pinverified "PIN ověřen">
+<!ENTITY wizard.pinverifieddesc "Váš PIN byl úspěšně ověřen.">
+<!ENTITY wizard.pinverifieddesc2 "Tato nastavení můžete kdykoli změnit v dialogu Nastavení aplikace Xmarks.">
+<!ENTITY wizard.title.forgotpin "Zapomenutý PIN">
+<!ENTITY wizard.learnhow "Dozvědět se jak zachránit Váš PIN na jiném počítači.">
+<!ENTITY wizard.forgotpindesc "Bohužel nemůžeme zachránit Váš PIN. Mohlo by však být možné obnovit Váš PIN z Vašeho jiného počítače.">
+<!ENTITY wizard.forgotpindesc2 "Vyberte z následujících možností:">
+<!ENTITY wizard.forgotpinoption1 "Zadat PIN později. Nesynchronizovat hesla na tomto počítači.">
+<!ENTITY wizard.forgotpinoption2 "Resetovat Váš PIN.">
+<!ENTITY wizard.title.resetpin "Resetovat PIN">
+<!ENTITY wizard.resetpindesc "Jste si jisti, že chcete resetovat Váš PIN? PIN budete muset zadat i na Vašich dalších počítačích.">
+<!ENTITY wizard.resetpinoption1 "Ano. Resetovat můj PIN.">
+<!ENTITY wizard.resetpinoption2 "Ne. Nesynchronizuj hesla na tomto počítači.">
+<!ENTITY wizard.title.resetpinverified "Vytvořen nový PIN">
+<!ENTITY wizard.resetpinverifieddesc "Váš PIN byl vytvořen. Tento PIN bude potřeba zadat i na Vašich dalšch počítačích až je budete synchonizovat.">
+<!ENTITY wizard.securityinfo.label.1 "Jak funguje bezpečná synchronizace hesel?">
+<!ENTITY wizard.securityinfo.desc.1 "Pomocí šifrování aplikace Xmarks zajistí, aby Vaše hesla putovala přes internet bezpečně do Vašich dalších počítačů.">
+<!ENTITY wizard.securityinfo.desc.2 "Pokud se rozhodnete bezpečně synchronizovat Vaše hesla, aplikace Xmarks Vás požádá o zadání tajného PIN. Tento PIN bude použit k zašifrování Vašich hesel před tím než opustí Váš počítač.">
+<!ENTITY wizard.securityinfo.desc.3 "Zašifrování Vašich hesel znamená, že budou zakódovány do bitů. Ty mohou být zpětně dešifrovány pouze pokud znáte správné PIN. Jelikož pouze Vy znáte tento PIN, pouze Vy (ani aplikace Xmarks) jste schopni převést tato zašifrovaná data zpět do smysluplného tvaru Vašich hesel.">
+<!ENTITY wizard.securityinfo.label.2 "Jak silné je kódování?">
+<!ENTITY wizard.securityinfo.desc.4 "Aby aplikace Xmarks zajistila maximální možnou ochranu šifrování Vašich hesel, používá aktuální verzi AES-256 šifrovacího algoritmu. AES je standardem vlády Spojených států amerických a je doporučován NSA (National Security Adminstration) pro šifrování tajných informací.">
+<!ENTITY wizard.securityinfo.label.3 "Co mohu udělat pro to, abych dostal maximální možnou bezpečnost?">
+<!ENTITY wizard.securityinfo.desc.5 "Dokonce i s šifrováním, které používáme, a které je na velmi vysoké úrovni, je velmi důležitou komponentou šifrovacího systému síla Vašeho tajného PIN. Aplikace Xmarks Vám doporučuje zvolit PIN, které je těžké uhodnout a obsahuje různá písmena, čísla a symboly (jako např. @, $ a *)">
+<!ENTITY wizard.securityinfo.label.4 "Chci se dozvědět více">
+<!ENTITY wizard.securityinfo.desc.6 "Pro další informace navštivte, prosím, stránky xmarks.com. Nyní si můžete zvolit, aby se Vaše hesla nesynchronizovala. V budoucnu pak tuto službu můžete aktivovat v dialogu Nastavení aplikace Xmarks.">

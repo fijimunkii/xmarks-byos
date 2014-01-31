@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Lokale Version">
+<!ENTITY conflict.name "Name">
+<!ENTITY conflict.location "Ort">
+<!ENTITY conflict.keyword "Schlüsselwort">
+<!ENTITY conflict.description "Beschreibung">
+<!ENTITY conflict.sidebar "Dieses Lesezeichen in der Sidebar laden">
+<!ENTITY conflict.retainlocal "Lokale Version beibehalten">
+<!ENTITY conflict.serverversion "Server-Version">
+<!ENTITY conflict.retainserver "Server-Version beibehalten">
+<!ENTITY bookmarkconflict.title "Xmarks: Lesezeichen-Konflikt">
+<!ENTITY bookmarkconflict.desc1 "Xmarks kann nicht feststellen, welche Version dieses Lesezeichens beibehalten werden soll.">
+<!ENTITY bookmarkconflict.desc2 "Bitte die Version auswählen, die beibehalten werden soll.">
+<!ENTITY folderconflict.title "Xmarks: Ordner-Konflikt">
+<!ENTITY folderconflict.desc1 "Xmarks konnte sich nicht festlegen, welche Version dieses Ordners beibehalten werden soll.">
+<!ENTITY folderconflict.desc2 "Bitte die Version auswählen die beibehalten werden soll.">
+<!ENTITY parentconflict.title "Xmarks: Konflikt beim übergeordneten Ordner">
+<!ENTITY parentconflict.desc1 "Xmarks konnte nicht feststellen, zu welchem der beiden Ordner dieses Element gehört.">
+<!ENTITY parentconflict.desc2 "Bitte den Ordner auswählen, der dieses Element enthalten soll.">
+<!ENTITY parentconflict.item "Element">

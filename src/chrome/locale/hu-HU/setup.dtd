@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks telepítő varázsló">
+<!ENTITY wizard.title.verified "Fiók ellenőrizve">
+<!ENTITY wizard.desc8 "Gratulálunk! Az Xmarks sikeresen ellenőrizte a fiókját, most pedig megtörténik az első szinkronizáció ezen a gépen.">
+<!ENTITY wizard.title.firstsync "Kezdeti szinkronizálás">
+<!ENTITY wizard.desc9 "Az Xmarks talált adatot ehhez a fiókhoz a szerveren.">
+<!ENTITY wizard.desc10 "Hogyan csinálja az Xmarks a kezdeti szinkronizálást?">
+<!ENTITY wizard.keepremote "A szerver adatok megtartása, helyi gép adatainak eldobása.">
+<!ENTITY wizard.keeplocal "A szerver adatok elvetése, helyi gép adatainak megtartása.">
+<!ENTITY wizard.merge "A szerver és a számítógép adatainak összefésülése.">
+<!ENTITY wizard.seeserver "A szerveren található könyvjelzők megtekintése.">
+<!ENTITY wizard.desc11 "A kezdeti fésülés során az Xmarks az egyik adag könyvjelzőkkel kezd, majd kiegészíti a másikból származó könyvjelzőkkel és mappákkal. Ugyanez történik a jelszavakkal, ha azokat is szinkronizáljuk.">
+<!ENTITY wizard.desc12 "Melyik adaggal kezdje az Xmarks?">
+<!ENTITY wizard.startlocal "Kezdés a számítógépen található adatokkal.">
+<!ENTITY wizard.startremote "Kezdés a szerveren található adatokkal.">
+<!ENTITY wizard.desc13 "(Mindkét esetben minden könyvjelző és jelszó megtartásra kerül. A végleges eredmény körülbelül úgy fog kinézni, mint a kezdő állapot.)">
+<!ENTITY wizard.title.ready "Szinkronizálásra kész">
+<!ENTITY wizard.desc14 "Az Xmarks szinkronizálni fogja a könyvjelzőket.">
+<!ENTITY wizard.title.success "Sikeres!">
+<!ENTITY wizard.desc15 "Gratulálunk! Sikeresen szinkronizálta a könyvjelzőit. Mostantól az Xmarks automatikusan szinkronizálva tartja a könyvjelzőit ezen a gépen.">
+<!ENTITY wizard.desc16 "A szinkronizálási beállítások módosításához válassza az Xmarks menüjét a Firefox Eszközök menüjéből.">
+<!ENTITY wizard.title.selectprofile "Profil kiválasztása">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;nincs&gt;">
+<!ENTITY wizard.profile.desc "Úgy tűnik, hogy létrehozott profilokat azért, hogy vezérelni tudja, mely könyvjelzőket szinkronizálja az Xmarks. Kiválasztható ez a profil, vagy alapértelmezés esetén minden könyvjelző szinkronizálásra kerül.">
+<!ENTITY wizard.title.syncpasswords "Opcionális: Jelszavak szinkronizálása">
+<!ENTITY wizard.syncpassworddesc "Az Xmarks képes a jelszavak biztonságos szinkronizálására is. Ha">
+<!ENTITY wizard.syncpassworddesc2 "Az Xmarks nem tudja megnézni jelszavait.">
+<!ENTITY wizard.syncpassworddesc3 "Ki és be tudja kapcsolni ezt a szolgáltatást bármikor az Xmarks Beállítások menüpontja alatt.">
+<!ENTITY wizard.syncpassworddesc4 "Szeretné bekapcsolni a jelszó szinkronizálást?">
+<!ENTITY wizard.syncpasswordcheck "Igen, szinkronizálja a jelszavaimat">
+<!ENTITY wizard.yes "Igen">
+<!ENTITY wizard.no "Nem">
+<!ENTITY wizard.title.pinold "Jelszó szinkronizálás: PIN szükséges">
+<!ENTITY wizard.desc.oldpin "A jelszavak szinkronizáláshoz ezen meg kell adnia a PIN kódot.">
+<!ENTITY wizard.whatisthis "Mi ez?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "PIN mégegyszer:">
+<!ENTITY wizard.forgotpin "Elfelejtettem a PIN-t">
+<!ENTITY wizard.title.pinnew "Jelszó szinkronizálás: PIN létrehozása">
+<!ENTITY wizard.desc.pinnew "Az Xmarks biztonságosan szinkronizálja jelszavait titkosítva azzal a PIN kóddal, amit megad. Fontos, hogy megjegyezze ezt a PIN kódot, mert nem tudjuk megadni Önnek újra.">
+<!ENTITY wizard.desc.pinnew2 "A PIN kód számok, betük és jelek kombinációja lehet.">
+<!ENTITY wizard.learnmore "További információ">
+<!ENTITY wizard.title.pincreated "Jelszó szinkronizálás: PIN létrehozva">
+<!ENTITY wizard.newpinverifieddesc "A PIN kódja sikeresen létrehozásra került és most már használható a jelszavak titkosítására.">
+<!ENTITY wizard.newpinverifieddesc2 "Ne felejtse el, hiszen csak Ön tudja, hiszen a Xmarks nem tudja visszaállítani.">
+<!ENTITY wizard.title.pinverified "Jelszó szinkronizálás: PIN ellenőrizve">
+<!ENTITY wizard.pinverifieddesc "A PIN kódja sikeresen ellenőrzésre került. A mentett jelszavai most már szinkronizálásra kerülnek ezen a gépen.">
+<!ENTITY wizard.pinverifieddesc2 "Ezeket a beállításokat bármikor megváltoztathatja a Xmarks Beállítások menüpontjában.">
+<!ENTITY wizard.title.forgotpin "Elfelejtett PIN">
+<!ENTITY wizard.learnhow "Tanulja meg hogyan állíthatja vissza PIN kódját egy másik számítógépen.">
+<!ENTITY wizard.forgotpindesc "Sajnos nem lehetséges visszaállítani a PIN kódot. Azonban lehetséges, hogy újat hozzon létre egy másik számítógépén.">
+<!ENTITY wizard.forgotpindesc2 "Lehetséges választások:">
+<!ENTITY wizard.forgotpinoption1 "A PIN kód megadása később. Jelszavak ezen a gépen nem kerülnek szinkronizálásra.">
+<!ENTITY wizard.forgotpinoption2 "PIN törlés.">
+<!ENTITY wizard.title.resetpin "PIN törlés">
+<!ENTITY wizard.resetpindesc "Biztos, hogy szeretné alaphelyzetbe állítani PIN kódját? Ezután a többi számítógépén is meg kell adnia majd.">
+<!ENTITY wizard.resetpinoption1 "Igen, törölje a PIN-t.">
+<!ENTITY wizard.resetpinoption2 "Nem, ne szinkronizáljon jelszavakat ezen a gépen.">
+<!ENTITY wizard.title.resetpinverified "Jelszó szinkronizálás: PIN létrehozva">
+<!ENTITY wizard.resetpinverifieddesc "A PIN kód megváltoztatásra került. Ezt a PIN kódot kell megadnia a többi számítógépén amikor legközelebb">
+<!ENTITY wizard.securityinfo.label.1 "Hogyan működik a jelszó szinkronizálás?">
+<!ENTITY wizard.securityinfo.desc.1 "A titkosítás az alapja annak, ahogy az Xmarks biztosítja, hogy a jelszavak biztonságosan utazzanak az Interneten, más számítógépekre.">
+<!ENTITY wizard.securityinfo.desc.2 "Ha kiválasztja a biztonságos jelszó szinkronizálást, az Xmarks egy PIN kódot fog kérni. Ez a PIN kód kerül felhasználásra a jelszavak titkosításához, mielőtt azok elhagynák a számítógépet.">
+<!ENTITY wizard.securityinfo.desc.3 "A jelszavak titkosítása azt jelenti, hogy összekeverésre kerül a tartalom, úgy, hogy csak a PIN birtokában lehet azt helyre hozni. Mivel csak Ön rendelkezik a PIN kóddal csak Ön (még az Xmarks sem) képes arra, hogy a titkosított adatot használható jelszólistává alakítsa.">
+<!ENTITY wizard.securityinfo.label.2 "Mennyire erős a titkosítás?">
+<!ENTITY wizard.securityinfo.desc.4 "Hogy a legmagasabb biztonságban lehessenek a jelszavak az Xmarks az AES 256 bites titkosító algoritmus aktuális verzióját használja. Az AES az USA kormányzati szabványa, és erősen ajánlott az NSA (Nemzeti Biztonsági Hivatal) által, mint titkosító algoritmus.">
+<!ENTITY wizard.securityinfo.label.3 "Mit tehetek a lehető legmagasabb biztonság érdekében?">
+<!ENTITY wizard.securityinfo.desc.5 "A katonai erősségű titkosítási algoritmus használata miatt a legfontosabb komponens, az az, hogy milyen PIN kódot választ. Az Xmarks azt ajánlja, hogy nehezen kitalálható, vegyesen betűket, számokat és jeleket (@°$, *) tartalmazó PIN kódot válasszon.">
+<!ENTITY wizard.securityinfo.label.4 "Szeretnék többet tudni">
+<!ENTITY wizard.securityinfo.desc.6 "Kérem látogassa meg az xmarks.com oldalt, ha többet szeretne tudni. Most nem tudja beállítani a szinkronizálást, de később könnyen bekapcsolható az Xmarks Beállítások menüpontjában.">

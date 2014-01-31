@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks Kurulum Sihirbazı">
+<!ENTITY wizard.title.verified "Hesap Doğrulandı">
+<!ENTITY wizard.desc8 "Tebrikler! Xmarks hesabınızı başarılı olarak doğruladı. Şimdi bu bilgisayardaki ilk eşleme için hazırlanacağız.">
+<!ENTITY wizard.title.firstsync "İlk yapılan eşleme">
+<!ENTITY wizard.desc9 "Xmarks bu hesap için sunucuda bir adet yerimleri seti buldu.">
+<!ENTITY wizard.desc10 "Xmarks&apos;ın ilk eşlemesini nasıl gerçekleştirmesini istersiniz?">
+<!ENTITY wizard.keepremote "Sunucudaki yerimlerini tut; bu bilgisayardakileri gözardı et.">
+<!ENTITY wizard.keeplocal "Bu bilgisayardaki yerimlerini tut; sunucudakini gözardı et.">
+<!ENTITY wizard.merge "Sunucudaki yerimleri ile bu bilgisayardakileri birleştir.">
+<!ENTITY wizard.seeserver "Sunucudaki yerimlerini görmek için buraya tıkla.">
+<!ENTITY wizard.desc11 "Yerimlerini birleştirirken, Xmarks bir takım ile başlar ve eksik olan yerimlerini diğer takımdan ekler.">
+<!ENTITY wizard.desc12 "Xmarks asıl takım olarak hangi seti kullanmalı?">
+<!ENTITY wizard.startlocal "Bu bilgisayardaki yerimleri ile başla.">
+<!ENTITY wizard.startremote "Sunucudaki yerimleri ile başla.">
+<!ENTITY wizard.desc13 "Her iki halde de tüm yerimleri tutulmuş olacaktır. Sonuçta oluşan durum başlangıç setine benzer olacaktır.">
+<!ENTITY wizard.title.ready "Eşleme için hazır">
+<!ENTITY wizard.desc14 "Xmarks ilk eşlemeyi gerçekleştirmek için hazır.">
+<!ENTITY wizard.title.success "Başarılı!">
+<!ENTITY wizard.desc15 "Tebrikler! Yerimleriniz başarılı olarak eşlediniz. Şimdiden sonra Xmarks bu bilgisayardaki yerimlerini otomatik olarak eşlenmiş tutacaktır.">
+<!ENTITY wizard.desc16 "Eşleme ayarlarınızı düzenlemek için Firefox Araçlar menüsündeki Xmarks menüsünü kullanabilirsiniz.">
+<!ENTITY wizard.title.selectprofile "Profil Seçin">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;none&gt;">
+<!ENTITY wizard.profile.desc "Görüyoruz ki Xmarks&apos;ın bilgisayarlarınızdaki hangi yerimlerini eşleneceğini kontrol etmek için profil yarattınız. Bu bilgisayar için aşağıdaki listeden bir profil seçebilirsiniz, veya varsayınlan ayarları kullanarak bu bilgisayardaki tüm yerimlerinin eşlenmesini  sağlayabilirsiniz.">
+<!ENTITY wizard.title.syncpasswords "Seçimlik: Güvenli Şifre Eşleme">
+<!ENTITY wizard.syncpassworddesc "Xmarks ayrıca şifrelerinizi de güvenli olarak eşleyebilir. Bir web sitesine girerken kullanıcı ve şifrenizi kaydettiyseniz, Xmarks otomatik olarak bu giriş bilgisini diğer bilgisayarlarınız ile de eşleyebilir. Şifreniz kullanacağınız bir PIN ile gizlenecektir.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks&apos;ın şifrelerinizi görebilme imkanı yoktur.">
+<!ENTITY wizard.syncpassworddesc3 "Bu özelliği Xmarks Ayarlar menüsünden istediğiniz zaman açıp kapayabilirsiniz.">
+<!ENTITY wizard.syncpassworddesc4 "Güvenli şifre eşlemeyi şimdi seçilir kılmak istiyormusunuz?">
+<!ENTITY wizard.syncpasswordcheck "Evet, şifrelerimi güvenli olarak eşle">
+<!ENTITY wizard.yes "Evet">
+<!ENTITY wizard.no "Hayır">
+<!ENTITY wizard.title.pinold "Güvenli Şifre Eşlemesi: PIN İsteniyor">
+<!ENTITY wizard.desc.oldpin "Bu bilgisayarda salı olan şifrelerinizi eşlemek için lütfen PIN giriniz.">
+<!ENTITY wizard.whatisthis "Bu nedir?">
+<!ENTITY wizard.label.pin "PIN Girin:">
+<!ENTITY wizard.label.confirmpin "PIN Onayla:">
+<!ENTITY wizard.forgotpin "PIN Unuttum">
+<!ENTITY wizard.title.pinnew "PIN Yarat">
+<!ENTITY wizard.desc.pinnew "Xmarks şifrelerinizi sizin seçmiş olduğunuz özel bir PIN ile şifreleyerek güven altına alır. Bu PIN&apos;i unutmamanız önemlidir, çünkü foxmarks güvenliğiniz için bu bilgiyi saklamaz.">
+<!ENTITY wizard.desc.pinnew2 "PIN&apos;inizi harf, sayı ve sembollerin bir karışımı olabilir.">
+<!ENTITY wizard.learnmore "Daha fazlasını öğren">
+<!ENTITY wizard.title.pincreated "PIN Yaratıldı">
+<!ENTITY wizard.newpinverifieddesc "PIN&apos;iniz başarılı olarak yaratıldı ve şifrelerinizi gizlemek için kullanılacak.">
+<!ENTITY wizard.newpinverifieddesc2 "Unutmayınız, PIN&apos;inizi yalnızca siz bilebilirsiniz ve Xmarks bunu size geri bildiremez.">
+<!ENTITY wizard.title.pinverified "Güvenli Şifre Eşleme: PIN Onaylandı">
+<!ENTITY wizard.pinverifieddesc "PIN&apos;inizi başarılı olarak onaylandı. Bu bilgisayardaki şifreleriniz şimdi eşleştirilecek.">
+<!ENTITY wizard.pinverifieddesc2 "Bu ayarları Xmarks Ayarlar menüsünden istediğiniz zaman değiştirebilirsiniz.">
+<!ENTITY wizard.title.forgotpin "Unutulan PIN">
+<!ENTITY wizard.learnhow "PIN&apos;inizi başka bir bilgisayardan nasıl elde edebileceğinizi öğrenin.">
+<!ENTITY wizard.forgotpindesc "Ne yazık ki PIN&apos;inizi kurtaramayız, bununla birlikte PIN&apos;inizi kullandığınız başka bir bilgisayarınızdan kurtarma olasılığınız bulunmaktadır.">
+<!ENTITY wizard.forgotpindesc2 "Ayrıca seçebilirsiniz:">
+<!ENTITY wizard.forgotpinoption1 "PIN&apos;inizi daha sonra girin. Bu bilgisayardaki şifreleri eşleme.">
+<!ENTITY wizard.forgotpinoption2 "PIN Sıfırlama">
+<!ENTITY wizard.title.resetpin "PIN&apos;i Sıfırla">
+<!ENTITY wizard.resetpindesc "PIN&apos;inizi sıfırlamak istediğinize emin misiniz? Bu işlem PIN&apos;inizi diğer bir bilgisayarlarınızda da girmenizi gerektirecektir.">
+<!ENTITY wizard.resetpinoption1 "Evet, PIN&apos;imi Sıfırla">
+<!ENTITY wizard.resetpinoption2 "Hayır. Bu bilgisayardaki şifrelerimi eşleştirme">
+<!ENTITY wizard.title.resetpinverified "Güvenli Şifre Eşleştirme: PIN Yaratıldı">
+<!ENTITY wizard.resetpinverifieddesc "PIN&apos;iniz değiştirildi. Diğer bilgisayarlarınızda yapacağınız bir sonraki eşleştirme işleminde bu PIN&apos;i girmeniz gerekecektir.">
+<!ENTITY wizard.securityinfo.label.1 "Güvenli Şifre Eşleme Nasıl Çalışıyor?">
+<!ENTITY wizard.securityinfo.desc.1 "Xmarks&apos;ın şifrelerinizin internette bilgisayarlar arasında güvenli olarak gidip geldiğinden şifreleme ile emin olur.">
+<!ENTITY wizard.securityinfo.desc.2 "Şifrelerinizin güvenli eşlenmesini seçtiğinizde, Xmarks size gizli bir PIN seçmenizi söyleyecektir. Bu PIN şifrelerinizin bilgisayarınızı terk etmeden önce tekrar şifrelenmesini sağlayacaktır.">
+<!ENTITY wizard.securityinfo.desc.3 "Şifrelerin şifrelenmesi onların doğru anahtar girilmediği sürece karmaşık karakterler olarak görünmesi demektir. Yalnızca sizin sahip olduğunuz PIN (Xmarks dahi değil) bu şifrelenmiş veriyi tekrar anlamlı şifreler haline çevirebilir.">
+<!ENTITY wizard.securityinfo.label.2 "Şifreleme Ne Kadar Güçlüdür?">
+<!ENTITY wizard.securityinfo.desc.4 "Şifrelerinizin mümkün olan en güvenli şekilde şifrelendiğinden emin olmanız için, Xmarks AES 256-bit şifreleme algoritması kullanır. AES Birleşik Devletler hükümeti standardıdır ve Ulusal Güvenlik Ajansı (NSA) tarafından gizli bilgilerin şifrelenmesi için önerilir.">
+<!ENTITY wizard.securityinfo.label.3 "Mümkün Olan En Büyük Güvenliği Elde Etmek İnçin Ne Yapabilimir?">
+<!ENTITY wizard.securityinfo.desc.5 "Kullandığımız askeri seviye bir şifreleme olsa da, esas önemli nokta seçmiş olduğunuz gizli PIN&apos;in güçlü olmasıdır. Xmarks size tahmin edilmesi güç olan ve çeşiti harfler, sayılar ve sembollerden (ör. @, $, *) oluşan bir PIN seçmenizi önerir.">
+<!ENTITY wizard.securityinfo.label.4 "Daha Fazlasını Bilmek İstiyorum">
+<!ENTITY wizard.securityinfo.desc.6 "Lütfen xmarks.com&apos;u ziyaret ediniz. Şimdi şifrelerinizin eşlenmemesini seçebilirsiniz, fakat bu özelliği daha sonra Foxmark ayarlar menüsünden açabilirsiniz.">

@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "35">
+<!ENTITY wizard.title "Assistant de paramétrage de Xmarks">
+<!ENTITY wizard.title.verified "Compte retrouvé !">
+<!ENTITY wizard.desc8 "Félicitations ! Xmarks a retrouvé votre compte. Nous allons à présent préparer la première synchronisation à partir de cet ordinateur.">
+<!ENTITY wizard.title.firstsync "Première synchronisation">
+<!ENTITY wizard.desc9 "Xmarks a détecté des données concernant ce compte sur le serveur.">
+<!ENTITY wizard.desc10 "De quelle manière cette première synchronisation doit-elle se dérouler ?">
+<!ENTITY wizard.keepremote "Conserver les données du serveur ; supprimer celles de l&apos;ordinateur.">
+<!ENTITY wizard.keeplocal "Conserver les données de l&apos;ordinateur ; supprimer celles du serveur.">
+<!ENTITY wizard.merge "Combiner les données du serveur et celles de l&apos;ordinateur.">
+<!ENTITY wizard.seeserver "Afficher les marque-pages situés sur le serveur.">
+<!ENTITY wizard.desc11 "Lors de cette première combinaison, Xmarks commence par un des jeux de marques-pages et le complète avec les marque-pages et dossiers de l&apos;autre jeu. Si vous décidez de synchroniser également vos mots de passe, la même opération sera réalisée.">
+<!ENTITY wizard.desc12 "Quel est le jeu que Xmarks doit utiliser pour démarrer ?">
+<!ENTITY wizard.startlocal "Commencer par les données sur cet ordinateur.">
+<!ENTITY wizard.startremote "Commencer par les données sur le serveur.">
+<!ENTITY wizard.desc13 "(De toute façon, tous les marque-pages et mots de passe seront retenus. Cependant, le résultat final sera très proche du jeu par lequel vous avez commencé.)">
+<!ENTITY wizard.title.ready "Prêt pour la synchronisation">
+<!ENTITY wizard.desc14 "Xmarks est prête à procéder à la synchronisation.">
+<!ENTITY wizard.title.success "Réussie !">
+<!ENTITY wizard.desc15 "Félicitations ! Vous avez synchronisé vos marque-pages avec succès. À partir de maintenant, les marque-pages de cet ordinateur seront automatiquement synchronisés par Xmarks.">
+<!ENTITY wizard.desc16 "Pour régler les paramètres de synchronisation, cliquez sur l&apos;entrée « Xmarks » du menu « Outils » de Firefox.">
+<!ENTITY wizard.title.selectprofile "Choisir un profil">
+<!ENTITY wizard.label.profilechoice "Profil :">
+<!ENTITY wizard.profile.defaultname "&lt;aucun&gt;">
+<!ENTITY wizard.profile.desc "Nous constatons que vous avez créé plusieurs profils qui vous permettront de choisir les marque-pages devant être synchronisés par Xmarks sur votre ordinateur. Vous pouvez choisir un profil dans la liste ci-dessous pour cet ordinateur ou laisser les paramètres par défaut afin de synchroniser tous vos marque-pages.">
+<!ENTITY wizard.title.syncpasswords "Facultatif : synchronisation sécurisée des mots de passe">
+<!ENTITY wizard.syncpassworddesc "Xmarks peut également synchroniser les mots de passe de manière sécurisée. Lorsque vous enregistrez un nom d&apos;utilisateur et un mot de passe pour un site, Xmarks peut automatiquement synchroniser avec vos autres ordinateurs ces identifiants. Vos mots de passe seront chiffrés en utilisant un PIN que vous serez le(la) seul(e) à connaître.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks ne pourra pas voir vos mots de passe">
+<!ENTITY wizard.syncpassworddesc3 "Vous pouvez à tout moment activer ou désactiver cette fonctionnalité dans la boîte de dialogue des paramètres de Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Souhaitez-vous activer la synchronisation sécurisée des mots de passe maintenant ?">
+<!ENTITY wizard.syncpasswordcheck "Oui, synchroniser mes mots de passe de manière sécurisée">
+<!ENTITY wizard.yes "Oui">
+<!ENTITY wizard.no "Non">
+<!ENTITY wizard.title.pinold "Synchronisation sécurisée de mots de passe : PIN nécessaire">
+<!ENTITY wizard.desc.oldpin "Pour synchroniser les mots de passe enregistrés avec cet ordinateur, veuillez indiquer votre PIN.">
+<!ENTITY wizard.whatisthis "Qu&apos;est-ce que c&apos;est ?">
+<!ENTITY wizard.label.pin "PIN :">
+<!ENTITY wizard.label.confirmpin "Confirmer le PIN :">
+<!ENTITY wizard.forgotpin "J&apos;ai oublié mon PIN">
+<!ENTITY wizard.title.pinnew "Synchronisation sécurisée de mots de passe : créer le PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks protège vos mots de passe en les chiffrant à l&apos;aide du PIN personnel que vous avez choisi. Il est important que vous reteniez ce PIN car nous ne serons pas en mesure de vous aider à le retrouver.">
+<!ENTITY wizard.desc.pinnew2 "Votre PIN peut être composé de n&apos;importe quels lettres, nombres et symboles.">
+<!ENTITY wizard.learnmore "En apprendre davantage.">
+<!ENTITY wizard.title.pincreated "Synchronisation sécurisée de mots de passe : PIN créé">
+<!ENTITY wizard.newpinverifieddesc "Votre PIN a été créé avec succès et sera utilisé pour chiffrer vos mots de passe.">
+<!ENTITY wizard.newpinverifieddesc2 "N&apos;oubliez pas ce PIN, vous êtes le(la) seul(e) à le connaître, Xmarks ne peut vous aider à le retrouver.">
+<!ENTITY wizard.title.pinverified "Synchronisation sécurisée de mots de passe : PIN vérifié">
+<!ENTITY wizard.pinverifieddesc "Votre PIN a été vérifié avec succès. Vos mots de passe enregistrés vont être synchronisés avec cet ordinateur.">
+<!ENTITY wizard.pinverifieddesc2 "Vous pouvez modifier ces paramètres à tout moment dans la boîte de dialogue des paramètres de Xmarks.">
+<!ENTITY wizard.title.forgotpin "PIN oublié">
+<!ENTITY wizard.learnhow "Comment retrouver votre PIN sur un de vos autres ordinateurs ?">
+<!ENTITY wizard.forgotpindesc "Malheureusement, nous ne pouvons pas retrouver votre PIN. Cependant, il est possible de retrouver ce PIN sur un de vos autres ordinateurs.">
+<!ENTITY wizard.forgotpindesc2 "Vous pouvez choisir de :">
+<!ENTITY wizard.forgotpinoption1 "Indiquer votre PIN plus tard. Ne pas synchroniser vos mots de passe sur cet ordinateur.">
+<!ENTITY wizard.forgotpinoption2 "Réinitialiser votre PIN.">
+<!ENTITY wizard.title.resetpin "Réinitialiser le PIN">
+<!ENTITY wizard.resetpindesc "Souhaitez-vous vraiment réinitialiser votre PIN ? Vous devrez également indiquer votre nouveau PIN sur vos autres ordinateurs.">
+<!ENTITY wizard.resetpinoption1 "Oui. Réinitialiser mon PIN.">
+<!ENTITY wizard.resetpinoption2 "Non. Ne pas synchroniser mes mots de passe sur cet ordinateur.">
+<!ENTITY wizard.title.resetpinverified "Synchronisation sécurisée de mots de passe : PIN créé">
+<!ENTITY wizard.resetpinverifieddesc "Votre PIN a été changé. Vous devrez indiquer ce PIN sur vos autres ordinateurs à la prochaine synchronisation.">
+<!ENTITY wizard.securityinfo.label.1 "Comment fonctionne la synchronisation sécurisée ?">
+<!ENTITY wizard.securityinfo.desc.1 "Le chiffrement est à la base du fonctionnement de Xmarks qui s&apos;assure ainsi que vos mots de passe traversent en toute sécurité le réseau Internet jusqu&apos;à vos autres ordinateurs.">
+<!ENTITY wizard.securityinfo.desc.2 "Si vous choisissez de procéder à une synchronisation sécurisée de vos mots de passe, Xmarks vous demandera de définir un PIN secret. Il sera utilisé pour chiffrer vos mots de passe avant qu&apos;ils ne quittent votre ordinateur.">
+<!ENTITY wizard.securityinfo.desc.3 "Le chiffrement de vos mots de passe consiste en une fragmentation en éléments de base qui ne pourra être déchiffrée que si vous connaissez le bon PIN. Comme vous êtes le(la) seul(e) à connaître votre PIN, il n&apos;y a que vous (même Xmarks ne peut le faire) qui puissiez convertir les données chiffrées en une liste de mots de passe compréhensible.">
+<!ENTITY wizard.securityinfo.label.2 "Quelle est le niveau de sûreté du chiffrement ?">
+<!ENTITY wizard.securityinfo.desc.4 "Pour s&apos;assurer que vos mots de passe sont chiffrés avec un maximum de sécurité, Xmarks utilise la version courante de l&apos;algorithme de chiffrement AES 256-bit. AES est l&apos;algorithme utilisé couramment par le gouvernement des États-Unis et recommandé par la NSA (National Security Administration) pour chiffrer des informations à accès restreint.">
+<!ENTITY wizard.securityinfo.label.3 "Que puis-je faire pour définir une sécurité maximale ?">
+<!ENTITY wizard.securityinfo.desc.5 "Même si nous utilisons un chiffrement atteignant un niveau de sécurité militaire, le niveau de sûreté du PIN que vous choisissez reste très important. Xmarks recommande d&apos;utiliser un PIN difficile à deviner et contenant une variété de lettres, de chiffres et de symboles (comme @, $ et *) différents.">
+<!ENTITY wizard.securityinfo.label.4 "Je veux en apprendre davantage">
+<!ENTITY wizard.securityinfo.desc.6 "Veuillez vous rendre à xmarks.com pour davantage d&apos;informations. Vous pouvez choisir de ne pas synchroniser vos mots de passe tout de suite et décider plus tard d&apos;activer cette fonctionnalité à partir de la boîte de dialogues des paramètres de Xmarks.">

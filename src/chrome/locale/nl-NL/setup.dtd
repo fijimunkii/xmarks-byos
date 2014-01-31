@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "34">
+<!ENTITY wizard.title "Xmarks Installatie Wizard">
+<!ENTITY wizard.title.verified "Account gecontroleerd.">
+<!ENTITY wizard.desc8 "Gefeliciteerd! Xmarks heeft met succes je account gecontroleerd. Nu zullen we de eerste synchronisatie op deze computer gaan voorbereiden.">
+<!ENTITY wizard.title.firstsync "Eerste synchronisatie">
+<!ENTITY wizard.desc9 "Xmarks heeft bepaald dat er al voor dit account al een set bladwijzers bestaat op de server.">
+<!ENTITY wizard.desc10 "Hoe wil je dat Xmarks de eerste synchronisatie uitvoert?">
+<!ENTITY wizard.keepremote "Behoud bladwijzers van de server, overschrijf bladwijzers van deze computer.">
+<!ENTITY wizard.keeplocal "Behoud bladwijzers van deze computer, overschrijf bladwijzers op de server.">
+<!ENTITY wizard.merge "Combineer bladwijzers op de server met die op deze computer.">
+<!ENTITY wizard.seeserver "Klik hier om de bladwijzers op de server te bekijken.">
+<!ENTITY wizard.desc11 "Tijdens het samenvoegen van bladwijzers begint Xmarks met de ene set en voegt de ontbrekende bladwijzers uit de andere set in.">
+<!ENTITY wizard.desc12 "Welke set moet Xmarks als start-set gebruiken?">
+<!ENTITY wizard.startlocal "Begin met de bladwijzers van deze computer.">
+<!ENTITY wizard.startremote "Begin met de bladwijzers op de server.">
+<!ENTITY wizard.desc13 "Op beide manieren zullen alle bladwijzers worden behouden. Het uiteindelijke resultaat zal echter lijken op dat van de start-set.">
+<!ENTITY wizard.title.ready "Klaar om te synchroniseren">
+<!ENTITY wizard.desc14 "Xmarks is klaar om de synchronisatie uit te voeren.">
+<!ENTITY wizard.title.success "Gelukt!">
+<!ENTITY wizard.desc15 "Gefeliciteerd! Je hebt met succes je bladwijzers gesynchroniseerd. Van nu af aan zal Xmarks de bladwijzers op deze computer automatisch gesynchroniseerd houden.">
+<!ENTITY wizard.desc16 "Je kan een handmatige synchronisatie starten met ctrl-shift-s (cmd-shift-s op een  Macintosh). Aanpassen van synchronisatie-instellingen doe je in de Xmarks-instellingen op het Bladwijzers-menu.">
+<!ENTITY wizard.title.selectprofile "Selecteer profiel">
+<!ENTITY wizard.label.profilechoice "Profiel:">
+<!ENTITY wizard.profile.defaultname "&lt;geen&gt;">
+<!ENTITY wizard.profile.desc "We zien dat je profielen hebt gemaakt om te bepalen welke bladwijzers Xmarks synchroniseert naar je computers. Je kan een profiel selecteren uit onderstaande lijst, of de standaardinstelling behouden om alle bladwijzers met deze computer te synchroniseren.">
+<!ENTITY wizard.title.syncpasswords "Password Synchronization (Optional)">
+<!ENTITY wizard.syncpassworddesc "Would you like to sync your saved passwords between computers?">
+<!ENTITY wizard.syncpassworddesc2 "If so, Xmarks will ask you to create a private PIN to secure your passwords. This PIN will be used to encrypt your passwords before they leave your computer. Nobody except you, not even Xmarks, will be able to view your passwords.">
+<!ENTITY wizard.syncpassworddesc3 "Je kan deze functie altijd in- of uitschakelen in de Xmarks Instellingen.">
+<!ENTITY wizard.syncpassworddesc4 "Wil je veilige wachtwoordsynchronisatie nu inschakelen?">
+<!ENTITY wizard.syncpasswordcheck "Ja, synchroniseer mijn wachtwoorden veilig">
+<!ENTITY wizard.yes "Yes">
+<!ENTITY wizard.no "No">
+<!ENTITY wizard.title.pinold "Enter PIN">
+<!ENTITY wizard.desc.oldpin "Please enter the PIN you used when you setup password synchronization.">
+<!ENTITY wizard.whatisthis "What is this?">
+<!ENTITY wizard.label.pin "Enter PIN:">
+<!ENTITY wizard.label.confirmpin "Confirm PIN:">
+<!ENTITY wizard.forgotpin "I Forgot My PIN">
+<!ENTITY wizard.title.pinnew "Create PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks secures your passwords by encrypting them with a private PIN of your choosing. It&apos;s important that you remember this PIN because we cannot help you recover it.">
+<!ENTITY wizard.desc.pinnew2 "Je PIN kan elke combinatie van letters, cijfers en symbolen zijn.">
+<!ENTITY wizard.learnmore "Learn More.">
+<!ENTITY wizard.title.pincreated "PIN Created">
+<!ENTITY wizard.newpinverifieddesc "Your PIN was successfully created.  We will use this PIN to secure your passwords before we sync them so that only you can ever access them.">
+<!ENTITY wizard.newpinverifieddesc2 "Do not lose this PIN.  For your security, Xmarks has no knowledge of this PIN and cannot help you retrieve it.">
+<!ENTITY wizard.title.pinverified "PIN Verified">
+<!ENTITY wizard.pinverifieddesc "Your PIN was successfully verified.">
+<!ENTITY wizard.pinverifieddesc2 "Je kan deze instellingen altijd wijzigen in de Xmarks Instellingen.">
+<!ENTITY wizard.title.forgotpin "Forgotten PIN">
+<!ENTITY wizard.learnhow "Learn how to retrieve your PIN on your other computer.">
+<!ENTITY wizard.forgotpindesc "Unfortunately we cannot recover your PIN. It may, however, be possible to recover your PIN from another one of your computers.">
+<!ENTITY wizard.forgotpindesc2 "You may choose to:">
+<!ENTITY wizard.forgotpinoption1 "Enter your PIN later. Don&apos;t sync passwords on this computer.">
+<!ENTITY wizard.forgotpinoption2 "Reset your PIN.">
+<!ENTITY wizard.title.resetpin "Reset PIN">
+<!ENTITY wizard.resetpindesc "Are you sure you want to reset your PIN? This will require you to enter your PIN into your other computers as well.">
+<!ENTITY wizard.resetpinoption1 "Yes. Reset my PIN.">
+<!ENTITY wizard.resetpinoption2 "No. Don&apos;t sync passwords on this computer.">
+<!ENTITY wizard.title.resetpinverified "New PIN Created">
+<!ENTITY wizard.resetpinverifieddesc "Your PIN has been changed. You will be required to enter this PIN on your other computers the next time you synchronize them.">
+<!ENTITY wizard.securityinfo.label.1 "Hoe werkt veilige wachtwoordsynchronisatie?">
+<!ENTITY wizard.securityinfo.desc.1 "Encryptie is de kern van de hoe Xmarks ervoor zorgt dat je wachtwoorden veilig naar je andere computers gaan.">
+<!ENTITY wizard.securityinfo.desc.2 "Als je ervoor kiest om je wachtwoorden veilig te synchhroniseren zal Xmarks je vragen om een geheime PIN te kiezen. Deze PIN zal worden gebruikt om je wachtwoorden te versleutelen voordat ze je computer verlaten.">
+<!ENTITY wizard.securityinfo.desc.3 "Versleutelen van je wachtwoorden betekent dat ze worden omgezet in tekens die alleen ontcijferd kunnen worden als je de juiste PIN weet. Aangezien je die alleen zelf hebt (zelfs Xmarks heeft die niet) kan alleen jij de versleutelde data terugleiden tot een lijst met wachtwoorden.">
+<!ENTITY wizard.securityinfo.label.2 "Hoe sterk is de encryptie?">
+<!ENTITY wizard.securityinfo.desc.4 "Om ervoor te zorgen dat je wachtwoorden met de maximaal haalbare veiligheid worden versleuteld, gebruikt Xmarks AES 256-bit encryptie. AES is een door de USA goedgekeurde standaard en wordt aangeraden voor het versleutelen van geheime informatie.">
+<!ENTITY wizard.securityinfo.label.3 "Wat kan ik doen om de maximum haalbare veiligheid te bereiken?">
+<!ENTITY wizard.securityinfo.desc.5 "Zelfs met de zware versleuteling die we gebruiken is de sterkte van de geheime PIN een erg belangrijk onderdeel. Xmarks adviseert je om een moeilijk te raden PIN te kiezen, die gebruik maakt van een aantal verschillende letters, cijfers en symbolen (zoals @, $ en *).">
+<!ENTITY wizard.securityinfo.label.4 "Ik wil meer weten">
+<!ENTITY wizard.securityinfo.desc.6 "Bezoek xmarks.com om meer te weten te komen. Je kan ervoor kiezen om je wachtwoorden nu niet te synchroniseren, maar je kan dit later eenvoudig aanzetten in de Xmarks Instellingen.">

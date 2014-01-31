@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Versione locale">
+<!ENTITY conflict.name "Nome">
+<!ENTITY conflict.location "Indirizzo">
+<!ENTITY conflict.keyword "Parola chiave">
+<!ENTITY conflict.description "Descrizione">
+<!ENTITY conflict.sidebar "Carica questo segnalibro nella barra laterale">
+<!ENTITY conflict.retainlocal "Conserva la versione locale">
+<!ENTITY conflict.serverversion "Versione remota">
+<!ENTITY conflict.retainserver "Conserva la versione remota">
+<!ENTITY bookmarkconflict.title "Conflitto di segnalibri in Xmarks">
+<!ENTITY bookmarkconflict.desc1 "Xmarks non riesce a stabilire quale versione di questo segnalibro conservare">
+<!ENTITY bookmarkconflict.desc2 "Selezionare la versione da conservare">
+<!ENTITY folderconflict.title "Conflitto di cartelle in Xmarks">
+<!ENTITY folderconflict.desc1 "Xmarks non riesce a stabilire quale versione di questa cartella conservare">
+<!ENTITY folderconflict.desc2 "Selezionare la versione da conservare">
+<!ENTITY parentconflict.title "Conflitto di cartelle principali in Xmarks">
+<!ENTITY parentconflict.desc1 "Xmarks non riesce a stabilire a quale delle due cartelle appartiene questo elemento">
+<!ENTITY parentconflict.desc2 "Selezionare la cartella che dovrebbe contenere l&apos;elemento">
+<!ENTITY parentconflict.item "Elemento">

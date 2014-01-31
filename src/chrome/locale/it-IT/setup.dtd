@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "34">
+<!ENTITY wizard.title "Configurazione guidata di Xmarks">
+<!ENTITY wizard.title.verified "Account verificato">
+<!ENTITY wizard.desc8 "Congratulazioni! Xmarks ha verificato con successo l&apos;account e può procedere alla prima sincronizzazione con il computer in uso">
+<!ENTITY wizard.title.firstsync "Prima sincronizzazione">
+<!ENTITY wizard.desc9 "Xmarks ha rilevato che dati di questo account sono già presenti sul server">
+<!ENTITY wizard.desc10 "Selezionare come far effettuare la prima sincronizzazione a Xmarks">
+<!ENTITY wizard.keepremote "Conserva i dati presenti sul server ed elimina quelli sul computer in uso">
+<!ENTITY wizard.keeplocal "Conserva i dati sul computer in uso ed elimina quelli presenti sul server">
+<!ENTITY wizard.merge "Incorpora i dati presenti sul server con quelli sul computer in uso">
+<!ENTITY wizard.seeserver "Fare clic qui per vedere i segnalibri presenti sul server">
+<!ENTITY wizard.desc11 "Quando si incorporano i dati, Xmarks inizia da un gruppo di segnalibri/password ed aggiunge quelli mancanti dall&apos;altro gruppo">
+<!ENTITY wizard.desc12 "Selezionare con quale gruppo di dati far effettuare l&apos;incorporazione a Xmarks">
+<!ENTITY wizard.startlocal "Incorpora prima i dati di questo computer">
+<!ENTITY wizard.startremote "Incorpora prima i dati presenti sul server">
+<!ENTITY wizard.desc13 " In entrambi i casi i segnalibri e le password verranno salvati tutti. Il risultato finale sarà comunque simile a quello del gruppo iniziale">
+<!ENTITY wizard.title.ready "Estensione pronta per la sincronizzazione">
+<!ENTITY wizard.desc14 "Xmarks è pronta per avviare la sincronizzazione">
+<!ENTITY wizard.title.success "Sincronizzazione avvenuta con successo!">
+<!ENTITY wizard.desc15 "Congratulazioni! I dati (segnalibri e/o password) sono stati sincronizzati con successo. Da questo momento la sincronizzazione avverrà in maniera automatica">
+<!ENTITY wizard.desc16 "Sarà possibile iniziare la sincronizzazione manualmente premendo Ctrl+Maiusc+S (Cmd+Maiusc+S su sistemi Macintosh). Se necessario, si potranno modificare i parametri di sincronizzazione accedendo alla finestra delle impostazioni di Xmarks dal menu &apos;Segnalibri&apos;">
+<!ENTITY wizard.title.selectprofile "Selezione del profilo">
+<!ENTITY wizard.label.profilechoice "Profilo: ">
+<!ENTITY wizard.profile.defaultname "&lt;nessuno&gt;">
+<!ENTITY wizard.profile.desc "Sono stati creati profili per controllare quali segnalibri sincronizzare con Xmarks per i propri computer. È possibile selezionarne uno dalla lista qui sotto per questo computer, oppure utilizzare l&apos;impostazione predefinita per sincronizzare tutti i propri segnalibri con questo computer">
+<!ENTITY wizard.title.syncpasswords "Sincronizzazione sicura delle password (opzionale)">
+<!ENTITY wizard.syncpassworddesc "Xmarks può sincronizzare le password in modo sicuro. Quando vengono salvati il nome utente e la password di un sito web, l&apos;estensione può sincronizzarli automaticamente con gli altri computer cifrandoli con un codice PIN a scelta">
+<!ENTITY wizard.syncpassworddesc2 "Solo ed esclusivamente l&apos;utente è a conoscenza di tale codice ed è in grado di visualizzare le password">
+<!ENTITY wizard.syncpassworddesc3 "È possibile attivare/disattivare questa funzione in ogni momento accedendo alla finestra delle impostazioni di Xmarks">
+<!ENTITY wizard.syncpassworddesc4 "Attivare la sincronizzazione sicura delle password ora?">
+<!ENTITY wizard.syncpasswordcheck "Sì, sincronizza le password in modo sicuro">
+<!ENTITY wizard.yes "Sì">
+<!ENTITY wizard.no "No">
+<!ENTITY wizard.title.pinold "Inserimento del codice PIN">
+<!ENTITY wizard.desc.oldpin "Inserire il codice PIN creato per la sincronizzazione della password">
+<!ENTITY wizard.whatisthis "Ulteriori informazioni">
+<!ENTITY wizard.label.pin "Codice PIN:">
+<!ENTITY wizard.label.confirmpin "Reinserire il codice PIN:">
+<!ENTITY wizard.forgotpin "Fare clic qui se non si ricorda il codice PIN">
+<!ENTITY wizard.title.pinnew "Creazione del codice PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks protegge le proprie password cifrandole con un codice PIN a scelta. È bene memorizzare tale codice poiché è impossibile per chiunque recuperarlo">
+<!ENTITY wizard.desc.pinnew2 "Il codice PIN può essere composto da qualsiasi combinazione di lettere, numeri e simboli">
+<!ENTITY wizard.learnmore "Ulteriori informazioni…">
+<!ENTITY wizard.title.pincreated "Codice PIN creato">
+<!ENTITY wizard.newpinverifieddesc "Il codice PIN è stato creato e verrà utilizzato per cifrare le proprie password">
+<!ENTITY wizard.newpinverifieddesc2 "Per ragioni di sicurezza solo ed esclusivamente l&apos;utente è a conoscenza di tale codice (e neppure il team di Xmarks è in grado di recuperarlo), quindi è bene memorizzarlo">
+<!ENTITY wizard.title.pinverified "Codice PIN verificato">
+<!ENTITY wizard.pinverifieddesc "Il codice PIN è stato verificato con successo. Le password salvate verranno ora sincronizzate con questo computer">
+<!ENTITY wizard.pinverifieddesc2 "È possibile modificare queste impostazioni in ogni momento accedendo alla finestra delle impostazioni di Xmarks">
+<!ENTITY wizard.title.forgotpin "Codice PIN dimenticato">
+<!ENTITY wizard.learnhow "Informazioni su come recuperare il proprio codice PIN da un altro computer">
+<!ENTITY wizard.forgotpindesc "Purtroppo per il team di Xmarks è impossibile recuperare il codice PIN, ma è comunque possibile recuperarlo utilizzando un altro computer">
+<!ENTITY wizard.forgotpindesc2 "Selezionare una delle seguenti opzioni:">
+<!ENTITY wizard.forgotpinoption1 "inserisci il codice PIN più tardi e non sincronizzare le password su questo computer">
+<!ENTITY wizard.forgotpinoption2 "azzera il codice PIN">
+<!ENTITY wizard.title.resetpin "Azzeramento del codice PIN">
+<!ENTITY wizard.resetpindesc "Azzerare il proprio codice PIN? Ciò richiederà l&apos;inserimento del proprio PIN anche negli altri computer">
+<!ENTITY wizard.resetpinoption1 "Sì, azzera il codice PIN">
+<!ENTITY wizard.resetpinoption2 "No, non sincronizzare le password su questo computer">
+<!ENTITY wizard.title.resetpinverified "Creazione del codice PIN">
+<!ENTITY wizard.resetpinverifieddesc "Il proprio codice PIN è stato modificato. È necessario inserire questo PIN negli altri computer all&apos;avvio della prossima sincronizzazione">
+<!ENTITY wizard.securityinfo.label.1 "Sincronizzazione sicura delle password">
+<!ENTITY wizard.securityinfo.desc.1 "La sicurezza delle password durante il trasferimento via internet verso gli altri computer viene garantita dalla loro cifratura">
+<!ENTITY wizard.securityinfo.desc.2 "Quando si sceglie di effettuare la sincronizzazione sicura delle password viene richiesta la scelta di un codice PIN segreto, che verrà utilizzato per cifrare tali password prima del loro invio tramite internet">
+<!ENTITY wizard.securityinfo.desc.3 "Ciò significa che le password verranno suddivise in parti che potranno essere decifrate solamente se si conosce il codice PIN corretto. Poiché solo ed esclusivamente l&apos;utente che l&apos;ha creato è a conoscenza di tale codice, nessun altro (neppure il team di Xmarks) potrà ottenere la lista delle password">
+<!ENTITY wizard.securityinfo.label.2 "Qualità della cifratura">
+<!ENTITY wizard.securityinfo.desc.4 "Per garantire che le proprie password siano cifrate con la massima sicurezza, Xmarks utilizza l&apos;algoritmo di cifratura AES 256-bit, considerato lo standard del governo degli Stati Uniti e consigliato dalla National Security Administration (NSA) per la cifratura di informazioni riservate">
+<!ENTITY wizard.securityinfo.label.3 "Ottenimento della massima sicurezza possibile">
+<!ENTITY wizard.securityinfo.desc.5 "Nonostante venga utilizzato un tipo di cifratura di livello militare è molto importante scegliere un codice PIN non breve e di qualità, che sia quindi difficile da indovinare e contenente diversi caratteri non ripetuti quali lettere, numeri e simboli (ad esempio: @, $, *)">
+<!ENTITY wizard.securityinfo.label.4 "Ulteriori informazioni">
+<!ENTITY wizard.securityinfo.desc.6 "Per ulteriori informazioni visitare xmarks.com. È possibile scegliere di non sincronizzare le password ora e attivare questa funzione più tardi accedendo alla finestra delle impostazioni di Xmarks">

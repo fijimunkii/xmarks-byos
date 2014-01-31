@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Trình thuật sĩ Thiết lập Xmarks">
+<!ENTITY wizard.title.verified "Tài khoản Đã xác minh">
+<!ENTITY wizard.desc8 "Chúc mừng! Xmarks đã xác minh tài khoản của bạn thành công. Tiếp theo, chúng tôi sẽ chuẩn bị cho lần đồng bộ hóa đầu tiên trên máy tính này.">
+<!ENTITY wizard.title.firstsync "Đồng bộ hóa Đầu tiên">
+<!ENTITY wizard.desc9 "Xmarks không tìm thấy dữ liệu cho tài khoản này trên máy chủ.">
+<!ENTITY wizard.desc10 "Bạn muốn Xmarks thực hiện lần đồng bộ hóa đầu tiên như thế nào?">
+<!ENTITY wizard.keepremote "Giữ lại dữ liệu trên máy chủ; loại bỏ dữ liệu trên máy tính này.">
+<!ENTITY wizard.keeplocal "Loại bỏ dữ liệu trên máy chủ; giữ lại dữ liệu trên máy tính này.">
+<!ENTITY wizard.merge "Trộn dữ liệu trên máy chủ với dữ liệu trên máy tính này.">
+<!ENTITY wizard.seeserver "Xem các trang đánh dấu sẵn có của bạn trên máy chủ.">
+<!ENTITY wizard.desc11 "Trong lần trộn đầu tiên, Xmarks sẽ bắt đầu với một bộ trang đánh dấu, rồi bổ sung vào nó các trang đánh dấu và thư mục từ các bộ khác. Nếu bạn chọn đồng bộ mật khẩu, thao tác tương tự cũng được thực hiện.">
+<!ENTITY wizard.desc12 "Xmarks nên dùng bộ nào để làm bộ bắt đầu?">
+<!ENTITY wizard.startlocal "Bắt đầu với dữ liệu trên máy tính này.">
+<!ENTITY wizard.startremote "Bắt đầu với dữ liệu trên máy chủ.">
+<!ENTITY wizard.desc13 "(Trong cả hai trường hợp, tất cả các trang đánh dấu và mật khẩu vẫn sẽ được dùng. Tuy nhiên, kết quả cuối cùng sẽ trông giống với bộ bắt đầu nhất.)">
+<!ENTITY wizard.title.ready "Sẵn sàng để Đồng bộ hóa">
+<!ENTITY wizard.desc14 "Xmarks sẽ đồng bộ hóa các trang đánh dấu của bạn.">
+<!ENTITY wizard.title.success "Thành công!">
+<!ENTITY wizard.desc15 "Chúc mừng! Bạn đã đồng bộ hóa thành công các trang đánh dấu của mình. Kể từ bây giờ, Xmarks sẽ tự động giữ cho các trang đánh dấu trên máy tính này được đồng bộ.">
+<!ENTITY wizard.desc16 "Để điều chỉnh thiết lập đồng bộ hóa, hãy truy xuất trình đơn Xmarks trên trình đơn Công cụ của Firefox.">
+<!ENTITY wizard.title.selectprofile "Chọn hồ sơ">
+<!ENTITY wizard.label.profilechoice "Hồ sơ:">
+<!ENTITY wizard.profile.defaultname "&lt;không&gt;">
+<!ENTITY wizard.profile.desc "Chúng tôi nhận thấy rằng bạn đã tạo các hồ sơ để điều khiển việc Xmarks đồng bộ trang đánh dấu từ máy bạn. Bạn có thể chọn một hồ sơ từ danh sách bên dưới cho máy này, hoặc để nguyên thiết lập mặc định để đồng bộ tất cả các trang đánh dấu của bạn với máy tính này.">
+<!ENTITY wizard.title.syncpasswords "Phụ: Đồng bộ Mật khẩu An toàn">
+<!ENTITY wizard.syncpassworddesc "Xmarks cũng có thể đồng bộ mật khẩu một cách an toàn. Khi bạn lưu tên đăng nhập và mật khẩu của một trang web, Xmarks có thể tự động đồng bộ thông tin đăng nhập này với các máy tính khác của bạn. Mật khẩu sẽ được mã hóa bằng một PIN mà chỉ có mình bạn biết.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks sẽ không thể xem mật khẩu của bạn">
+<!ENTITY wizard.syncpassworddesc3 "Bạn có thể bật hoặc tắt tính năng này bất kì lúc nào trong hộp thoại Thiết lập Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Bạn có muốn bật đồng bộ mật khẩu an toàn ngay bây giờ không?">
+<!ENTITY wizard.syncpasswordcheck "Có, hãy đồng bộ mật khẩu của tôi một cách an toàn">
+<!ENTITY wizard.yes "Có">
+<!ENTITY wizard.no "Không">
+<!ENTITY wizard.title.pinold "Đồng bộ Mật khẩu An toàn: Cần PIN">
+<!ENTITY wizard.desc.oldpin "Để đồng bộ mật khẩu đã lưu với máy tính này, vui lòng nhập mã PIN của bạn.">
+<!ENTITY wizard.whatisthis "Đây là gì?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "Xác nhận PIN:">
+<!ENTITY wizard.forgotpin "Tôi Đã Quên PIN Của Mình">
+<!ENTITY wizard.title.pinnew "Đồng bộ Mật khẩu An toàn: Tạo PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks giữ an toàn mật khẩu của bạn bằng cách mã hóa chúng với một mã PIN cá nhân mà bạn chọn. Điều quan trọng là bạn phải ghi nhớ mã PIN này, vì chúng tôi không thể khôi phục nó cho bạn được.">
+<!ENTITY wizard.desc.pinnew2 "PIN của bạn có thể là tổ hợp của chữ cái, số và kí hiệu.">
+<!ENTITY wizard.learnmore "Tìm hiểu Thêm.">
+<!ENTITY wizard.title.pincreated "Đồng bộ Mật khẩu An toàn: PIN được tạo">
+<!ENTITY wizard.newpinverifieddesc "PIN của bạn đã được tạo thành công và sẽ được dùng để mã hóa mật khẩu của bạn.">
+<!ENTITY wizard.newpinverifieddesc2 "Đừng quên rằng, chỉ mình bạn biết PIN này và Xmarks không thể giúp bạn khôi phục nó được.">
+<!ENTITY wizard.title.pinverified "Đồng bộ Mật khẩu An toàn: PIN được xác minh">
+<!ENTITY wizard.pinverifieddesc "PIN của bạn đã được xác minh thành công. Mật khẩu đã lưu của bạn bây giờ sẽ đồng bộ với máy tính này.">
+<!ENTITY wizard.pinverifieddesc2 "Bạn có thể thay đổi các thiết lập này bất kì lúc nào thông qua hộp thoại Thiết lập Xmarks.">
+<!ENTITY wizard.title.forgotpin "PIN bị quên">
+<!ENTITY wizard.learnhow "Tìm cách khôi phục PIN trên máy tính khác của bạn.">
+<!ENTITY wizard.forgotpindesc "Không may là, chúng tôi không thể khôi phục PIN của bạn. Tuy nhiên, có thể vẫn khôi phục được PIN từ một trong các máy tính khác của bạn.">
+<!ENTITY wizard.forgotpindesc2 "Bạn có thể chọn:">
+<!ENTITY wizard.forgotpinoption1 "Nhập mã PIN sau. Không đồng bộ mật khẩu trên máy tính này.">
+<!ENTITY wizard.forgotpinoption2 "Thiết lập lại mã PIN của bạn.">
+<!ENTITY wizard.title.resetpin "Thiết lập lại PIN">
+<!ENTITY wizard.resetpindesc "Bạn có chắc là mình muốn thiết lập lại mã PIN không? Việc này cũng sẽ yêu cầu bạn nhập mã PIN trên các máy tính khác của bạn.">
+<!ENTITY wizard.resetpinoption1 "Có. Thiết lập lại PIN của tôi.">
+<!ENTITY wizard.resetpinoption2 "Không. Không đồng bộ mật khẩu trên máy tính này.">
+<!ENTITY wizard.title.resetpinverified "Đồng bộ Mật khẩu An toàn: Pin được tạo">
+<!ENTITY wizard.resetpinverifieddesc "PIN của bạn đã được thay đổi. Bạn sẽ được yêu cầu nhập mã PIN này trên các máy tính khác của mình khi đồng bộ hóa chúng vào lần tới.">
+<!ENTITY wizard.securityinfo.label.1 "Đồng bộ Mật khẩu An toàn Hoạt động Như thế nào?">
+<!ENTITY wizard.securityinfo.desc.1 "Thuật toán mã hóa nằm trong nhân của Xmarks đảm bảo rằng mật khẩu của bạn sẽ di chuyển một cách an toàn trên Internet để tới các máy tính khác của bạn.">
+<!ENTITY wizard.securityinfo.desc.2 "Khi bạn chọn đồng bộ mật khẩu an toàn, Xmarks sẽ yêu cầu bạn chọn một mã PIN bí mật. PIN này sẽ được dùng để mã hóa mật khẩu trước khi chúng rời khỏi máy tính của bạn.">
+<!ENTITY wizard.securityinfo.desc.3 "Mã hóa mật khẩu có nghĩa là chúng sẽ được xáo trộn thành các bit, vốn chỉ có thể được giải mã nếu bạn biết đúng PIN. Vì chỉ mình bạn có PIN, nên cũng chỉ mình bạn (không phải Xmarks) mới có thể chuyển đổi dữ liệu đã mã hóa này trở lại thành một danh sách mật khẩu có nghĩa.">
+<!ENTITY wizard.securityinfo.label.2 "Thuật toán Mã hóa có Độ mạnh Cỡ nào?">
+<!ENTITY wizard.securityinfo.desc.4 "Để đảm bảo mật khẩu của bạn được mã hóa với độ bảo mật tối đa, Xmarks dùng thuật toán mã hóa AES 256-bit tiên tiến nhất hiện nay. AES là một chuẩn của chính phủ Hoa Kỳ và được khuyên dùng bởi Cơ quan An ninh Quốc gia (NSA) trong việc mã hóa thông tin tối mật.">
+<!ENTITY wizard.securityinfo.label.3 "Tôi có thể Làm gì để Có được Độ bảo mật Tối đa?">
+<!ENTITY wizard.securityinfo.desc.5 "Cho dù chúng tôi đã dùng thuật toán mã hóa theo chuẩn quân đội, vẫn còn một thành phần rất quan trọng là độ mạnh của mã PIN bí mật mà bạn chọn. Xmarks khuyên bạn nên chọn một mã PIN thật khó đoán và chứa các kí tự, chữ số và kí hiệu khác nhau (ví dụ như @, $ và ^)">
+<!ENTITY wizard.securityinfo.label.4 "Tôi muốn Biết thêm">
+<!ENTITY wizard.securityinfo.desc.6 "Vui lòng vào xmarks.com để tìm hiểu thêm. Bạn có thể chọn không đồng bộ mật khẩu ngay bây giờ, nhưng vẫn có thể dễ dàng bật lại tính năng này trong hộp thoại thiết lập Xmarks.">

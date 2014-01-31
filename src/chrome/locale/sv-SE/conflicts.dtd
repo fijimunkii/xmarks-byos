@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Lokal version">
+<!ENTITY conflict.name "Namn">
+<!ENTITY conflict.location "Plats">
+<!ENTITY conflict.keyword "Nyckelord">
+<!ENTITY conflict.description "Beskrivning">
+<!ENTITY conflict.sidebar "Ladda bokmärket i sidofältet">
+<!ENTITY conflict.retainlocal "Behåll lokal version">
+<!ENTITY conflict.serverversion "Serverns version">
+<!ENTITY conflict.retainserver "Behåll serverns version">
+<!ENTITY bookmarkconflict.title "Xmarks: Bokmärkeskonflikt">
+<!ENTITY bookmarkconflict.desc1 "Xmarks kan inte avgöra vilken version av bokmärket som ska behållas.">
+<!ENTITY bookmarkconflict.desc2 "Välj den version du vill behålla.">
+<!ENTITY folderconflict.title "Xmarks: Katalogkonflikt">
+<!ENTITY folderconflict.desc1 "Xmarks kan inte avgöra vilken version av katalogen som skall behållas.">
+<!ENTITY folderconflict.desc2 "Välj den version du vill behålla.">
+<!ENTITY parentconflict.title "Xmarks: Ägarkonflikt">
+<!ENTITY parentconflict.desc1 "Xmarks kan inte avgöra vilken version av katalogen som skall behållas.">
+<!ENTITY parentconflict.desc2 "Välj den version du vill behålla.">
+<!ENTITY parentconflict.item "Objekt">

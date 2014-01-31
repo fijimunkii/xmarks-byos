@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2007 Foxmarks Inc.
+ 
+ foxmarks-clobber.xul: implements the dialog that appears when
+ foxmarks detects that the users bookmarks have been clobbered.
+ 
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-clobber" title="&dialog.title;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    windowtype="foxmarks:progress"
+    buttons="accept,cancel,extra1"
+    defaultButton="cancel"
+    buttonlabelaccept="&clobber.accept;"
+    buttonlabelextra1="&clobber.moreinfo;"
+    onload="return onClobberLoad();"
+    ondialogaccept="return onClobberOK();"
+    ondialogcancel="return onClobberCancel();"
+    ondialogextra1="return onClobberHelp('&clobber.helpurl;')"
+    moveToAlertPosition="true">
+
+    <script src="foxmarks-clobber.js" />
+    <script src="foxmarks-log.js" />
+
+    <vbox style="width: 26em; padding: 1em 2.4em 1.5em 1em;">
+        <description 
+            style="margin-bottom: 1em; 
+            font-weight: bold; 
+            text-transform: uppercase;">
+        &clobber.desc1;
+        </description>
+        <description style="margin-bottom: 1em">&clobber.desc2;</description>
+        <description style="margin-bottom: 1em">&clobber.desc3;</description>
+        <vbox style="padding-bottom: 6px">
+            <hbox>
+                <label value="&clobber.lastset;" />
+                <label id="lastset" style="text-align: right;"/>
+            </hbox>
+            <hbox>
+                <label value="&clobber.currset;" />
+                <label id="currset" style="text-align: right;"/>
+            </hbox>
+        </vbox>
+        <description style="margin-bottom: 1em; font-weight: bold;">&clobber.prompt;</description>
+    </vbox>
+</dialog>

@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Místní verze">
+<!ENTITY conflict.name "Jméno">
+<!ENTITY conflict.location "Lokace">
+<!ENTITY conflict.keyword "Klíčové slovo">
+<!ENTITY conflict.description "Popis">
+<!ENTITY conflict.sidebar "Nahraj tuto záložku v boční liště">
+<!ENTITY conflict.retainlocal "Zachovej místní verzi">
+<!ENTITY conflict.serverversion "Verze na serveru">
+<!ENTITY conflict.retainserver "Zachovej verzi na serveru">
+<!ENTITY bookmarkconflict.title "Xmarks: Konflikt záložky">
+<!ENTITY bookmarkconflict.desc1 "Aplikace Xmarks nedokáže říct, která z verzí této záložky by měla být zachována.">
+<!ENTITY bookmarkconflict.desc2 "Zvolte, prosím, verzi, která by měla být zachována.">
+<!ENTITY folderconflict.title "Xmarks: Konflikt složky">
+<!ENTITY folderconflict.desc1 "Aplikace Xmarks nedokáže říct, která z verzí této složky by měla být zachována.">
+<!ENTITY folderconflict.desc2 "Zvolte, prosím, verzi, která by měla být zachována.">
+<!ENTITY parentconflict.title "Xmarks: Konflikt původu">
+<!ENTITY parentconflict.desc1 "Aplikace Xmarks nedokáže říct, do které složky tato položka patří.">
+<!ENTITY parentconflict.desc2 "Zvolte, prosím, složku, která by měla obsahovat tuto položku.">
+<!ENTITY parentconflict.item "Položka">

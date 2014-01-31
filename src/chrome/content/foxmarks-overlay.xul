@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2008 Foxmarks Inc.
+ 
+ foxmarks-overlay.xul: implements Foxmarks overlay into Firefox.
+ 
+-->
+
+<?xul-overlay href="chrome://xmarksbyos/content/foxmarks-statusbar.xul" ?>
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<overlay id="foxmarksBookmarksOverlay"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+      
+    <script src="foxmarks-overlay.js" />
+    <script src="foxmarks-settings.js" />
+    <script src="foxmarks-uitools.js" />
+
+    <menupopup id="menu_ToolsPopup">
+        <menu id="xmarksbyos-menuitem" label="Xmarks BYOS Edition" class="menu-iconic"
+            image="chrome://xmarksbyos/skin/images/foxmarks_bug.png" 
+            accesskey="&menu.accesskey.foxmarks;" 
+            insertafter="devToolsSeparator">
+            <menupopup id="foxmarks-menupopup" onpopupshowing="return XmarksBYOS.FoxmarksOnPopupShowing()">
+
+<!--
+                <menuitem label="Test "
+                     oncommand="TestSync()" 
+                    />
+-->
+                <menuitem label="&dialog.label.syncNow;   "
+                    accesskey="&menu.accesskey.syncnow;" oncommand="XmarksBYOS.FoxmarksSynch()" 
+                    key="SyncNow" />
+                <menuitem label="&menu.settings;   "
+                    accesskey="&menu.accesskey.settings;" 
+                    oncommand="XmarksBYOS.OpenFoxmarksSettingsDialog()" 
+                    key="OpenFoxmarksDialog" />
+                <menuseparator />
+                <menuitem label="&menu.showstatus;" 
+                    id="foxmarks-showstatusicon" 
+                    accesskey="&menu.accesskey.icon;"
+                    type="checkbox" oncommand="XmarksBYOS.FoxmarksToggleIcon()" />
+            </menupopup>
+        </menu>
+    </menupopup>
+    
+    <keyset id="mainKeyset">
+        <key id="SyncNow" modifiers="accel,shift" key="s" 
+            oncommand="XmarksBYOS.FoxmarksSynch();" />
+        <key id="OpenFoxmarksDialog" modifiers="accel,shift" key="o" 
+            oncommand="XmarksBYOS.OpenFoxmarksSettingsDialog();" /> 
+    </keyset>   
+
+    <statusbar id="status-bar">
+        <statusbarpanel id="xmarksbyos-statusbarpanel" /> 
+    </statusbar>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton 
+           id="foxmarks-toolbar-syncnow" 
+            class="toolbarbutton-1"
+            label="&dialog.label.syncNow;" 
+            image="chrome://xmarksbyos/skin/images/foxmarks_sync_toolbutton.png" 
+            oncommand="XmarksBYOS.FoxmarksSynch();"
+        />
+        <toolbarbutton 
+           id="foxmarks-toolbar-settings" 
+            class="toolbarbutton-1"
+            label="&dialog.label.syncNow;" 
+            image="chrome://xmarksbyos/skin/images/foxmarks_settings_toolbutton.png" 
+            oncommand="XmarksBYOS.OpenFoxmarksSettingsDialog();"
+        />
+    </toolbarpalette>
+
+</overlay>

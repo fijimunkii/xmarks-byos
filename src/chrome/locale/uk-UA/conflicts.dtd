@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Локальна версія">
+<!ENTITY conflict.name "Ім&apos;я">
+<!ENTITY conflict.location "Адреса">
+<!ENTITY conflict.keyword "Ключове слово">
+<!ENTITY conflict.description "Опис">
+<!ENTITY conflict.sidebar "Завантажити закладки у бічну панель">
+<!ENTITY conflict.retainlocal "Зберегти локальну версію">
+<!ENTITY conflict.serverversion "Версія із сервера">
+<!ENTITY conflict.retainserver "Зберегти версію із сервера">
+<!ENTITY bookmarkconflict.title "Xmarks: конфлікт закладок">
+<!ENTITY bookmarkconflict.desc1 "Xmarks не може визначити, яка з цих закладок повинна бути збережена.">
+<!ENTITY bookmarkconflict.desc2 "Будь ласка, виберіть варіант для збереження.">
+<!ENTITY folderconflict.title "Xmarks: Конфлікт тек">
+<!ENTITY folderconflict.desc1 "Xmarks не може визначити, яка з цих тек повинна бути збережена.">
+<!ENTITY folderconflict.desc2 "Будь ласка, виберіть варіант для збереження.">
+<!ENTITY parentconflict.title "Xmarks: &quot;батьківський&quot; конфлікт">
+<!ENTITY parentconflict.desc1 "Xmarks не може визначити, якій з двох тек належить цей пункт.">
+<!ENTITY parentconflict.desc2 "Будь ласка, виберіть теку, яка повинна містити цей пункт.">
+<!ENTITY parentconflict.item "Пункт">

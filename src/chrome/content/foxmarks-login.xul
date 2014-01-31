@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2008 Foxmarks Inc.
+
+foxmarks-login.xul: implements UI for Account Manager interactions.
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css" ?>
+<?xml-stylesheet href="chrome://global/skin/foxmarks.css" type="text/css" ?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        id="foxmarks-login-window" 
+        windowtype="foxmarks:login" 
+        height="450" width="640" title="Xmarks" 
+        onclose="return FoxmarksOnWizardCancel();"
+        onload="FoxmarksLoginOnLoad()" >
+
+    <script src="chrome://xmarksbyos/content/foxmarks-login.js" />
+    <script src="chrome://xmarksbyos/content/foxmarks-settings.js" />
+    <script src="chrome://xmarksbyos/content/foxmarks-uitools.js" />
+
+    <iframe id="foxmarks-iframe" height="430" />
+</window>

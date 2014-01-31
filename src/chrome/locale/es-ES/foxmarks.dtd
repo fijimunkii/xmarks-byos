@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks - Opciones">
+<!ENTITY dialog.label.username "Nombre de Usuario:">
+<!ENTITY dialog.label.password "Contraseña:">
+<!ENTITY dialog.label.rememberPassword "Recordar contraseña entre sesiones.">
+<!ENTITY dialog.label.rememberPIN "Recordar el código PIN entre sesiones.">
+<!ENTITY dialog.label.forgotPassword "He olvidado mi usuario y contraseña">
+<!ENTITY dialog.label.synchronization "Opciones de sincronización">
+<!ENTITY dialog.label.ontimer "Activar la sincronización automática">
+<!ENTITY dialog.label.synconshutdown "Sincronizar al apagar">
+<!ENTITY dialog.label.synconstartup "Sincronizar al iniciar">
+<!ENTITY dialog.label.askfirst "Preguntar primero">
+<!ENTITY dialog.label.lastsync "Última sincronización:">
+<!ENTITY dialog.label.runWizard "Ejecutar el asistente de configuración">
+<!ENTITY dialog.label.syncNow "Sincronizar ahora">
+<!ENTITY progress.title "Xmarks: Estado">
+<!ENTITY progress.label.status "Estado:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Atención">
+<!ENTITY clobber.desc2 "Xmarks ha detectado que sus marcadores actuales son significativamente más pequeños que los últimos sincronizados.">
+<!ENTITY clobber.desc3 "Un error grave pero poco habitual en el navegador Firefox puede a veces causar que sus marcadores sean temporalmente reemplazados por un conjunto más pequeño de marcadores por defecto. Si esto ocurriese, es importante que Xmarks no sincronice sus marcadores hasta que la situación sea resuelta.">
+<!ENTITY clobber.prompt "¿Está seguro que desea sincronizar sus marcadores ahora?">
+<!ENTITY clobber.moreinfo "Mas información...">
+<!ENTITY clobber.accept "Sí, sincronizar">
+<!ENTITY clobber.lastset "Número de elementos la última vez:">
+<!ENTITY clobber.currset "Número de elementos esta vez:">
+<!ENTITY manager.syncNow "Sincronizando">
+<!ENTITY menu.myFoxmarks "Mi Xmarks">
+<!ENTITY menu.settings "Opciones de Xmarks...">
+<!ENTITY menu.similarsites "Mostrar información del sitio...">
+<!ENTITY menu.status "Estado...">
+<!ENTITY menu.showstatus "Mostrar icono de estado">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "O">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "General">
+<!ENTITY label.status "Estado">
+<!ENTITY label.current.status "Estado actual">
+<!ENTITY label.sync "Sincronizar">
+<!ENTITY label.sync.caption "Tipos de sincronización">
+<!ENTITY label.account "Cuenta de usuario">
+<!ENTITY label.synchronization "Sincronización">
+<!ENTITY label.advanced "Avanzado">
+<!ENTITY label.security "Seguridad de la conexión">
+<!ENTITY label.encrypt "Cifrado:">
+<!ENTITY label.noencrypt "Sin cifrado">
+<!ENTITY label.passwordonly "Sólo la contraseña">
+<!ENTITY label.encryptall "Cifrar todo">
+<!ENTITY label.server "Servidor">
+<!ENTITY label.ownserver "Usando su propio servidor">
+<!ENTITY label.useownserver "Usar un servidor propio">
+<!ENTITY label.url "Dirección de los marcadores:">
+<!ENTITY label.passwordurl "Dirección de las contraseñas:">
+<!ENTITY label.manualoverwrite "Sobreescritura manual">
+<!ENTITY label.upload "Enviar">
+<!ENTITY label.download "Descargar">
+<!ENTITY label.forceoverwriteserver "Forzar sobreescritura en el servidor de marcadores">
+<!ENTITY label.forceoverwritelocal "Forzar sobreescritura en los marcadores locales">
+<!ENTITY label.logging "Accediendo">
+<!ENTITY label.enablelogging "Activar registro">
+<!ENTITY label.showlogfile "Mostrar el archivo de registro">
+<!ENTITY label.profiles "Perfiles">
+<!ENTITY label.profilechoice "Perfil:">
+<!ENTITY label.sync.bookmarks "Bookmarks">
+<!ENTITY label.sync.passwords "Contraseñas">
+<!ENTITY label.sync.resetpin "Reiniciar código PIN">
+<!ENTITY label.sync.deletepasswords "Borrar las contraseñas del servidor">
+<!ENTITY label.sync.onlyff3 "* Sólo en Firefox 3 y superiores">
+<!ENTITY label.sync.morecomingsoon "Lea más sobre otros tipos de datos que estarán disponibles pronto.">
+<!ENTITY desc.profile "Utilice sincronizar perfiles para mantener marcadores de contenido sensible. Cree y administre perfiles de sincronización en my.xmarks.com. Despues seleccione un perfil para controlar qué sincroniza Xmarks desde y hacia su equipo.">
+<!ENTITY desc.sync "Xmarks puede sincronizar y hacer copias de seguridad de sus marcadores y contraseñas.">
+<!ENTITY desc.ownserver "Xmarks le permite guardar los datos en su propio servidor como un FTP o un servidor WebDAV.">
+<!ENTITY label.ownserver.moreinfo "Leer más">
+<!ENTITY label.manageprofiles "Crear y administrar perfiles de sincronización">
+<!ENTITY profile.defaultname "&lt;ninguno&gt;">
+<!ENTITY label.profile.change "Cambiar">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Cambiar el perfil de sincronización">
+<!ENTITY profile.dialog.desc "Para proteger la privacidad de sus perfiles, debe introducir su cuenta Xmarks y contraseña para continuar.">
+<!ENTITY dialog.title.invalidpin "Sincronización segura de contraseñas: Código PIN incorrecto">
+<!ENTITY dialog.invalidpin.desc "Su código PIN no es correcto. Es posible que haya cambiado su código PIN en otro equipo y necesite actualizarlo. Puede elegir una de las siguientes opciones:">
+<!ENTITY dialog.invalidpin.newpin "Introduzca su código PIN:">
+<!ENTITY dialog.invalidpin.disable "Deshabilitar la sincronización de contraseñas">
+<!ENTITY dialog.title.resetpin "Sincronización segura de contraseñas: Reiniciar el código PIN">
+<!ENTITY dialog.resetpin.pin "Introduzca el nuevo código PIN">
+<!ENTITY dialog.resetpin.passwordstrength "Calidad del código PIN:">
+<!ENTITY dialog.resetpin.pinconfirm "Confirme el nuevo código PIN">
+<!ENTITY dialog.resetpin.desc2 "Su código PIN puede tener cualquier combinación de letras, números y símbolos.">
+<!ENTITY dialog.resetpin.desc "¿Confirma que quiere reiniciar su código PIN? Esto eliminará todas las contraseñas que tiene almacenadas en nuestro servidor. Las contraseñas de este y otros equipos no se verás afectadas.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: Conflicto de contraseñas guardadas">
+<!ENTITY dialog.passwordconflict.desc "Xmarks no sabe cuál de las versiones de las contraseñas debe conservar.">
+<!ENTITY dialog.passwordconflict.desc2 "Seleccione la versión a mantener:">
+<!ENTITY dialog.passwordconflict.local "Versión local">
+<!ENTITY dialog.passwordconflict.server "Versión del servidor">
+<!ENTITY dialog.passwordconflict.site "Sitio:">
+<!ENTITY dialog.passwordconflict.username "Nombre de usuario:">
+<!ENTITY dialog.passwordconflict.password "Contraseña:">
+<!ENTITY dialog.passwordconflict.showpasswords "Mostrar las contraseñas">
+<!ENTITY dialog.passwordconflict.keeplocal "Mantener la versión local">
+<!ENTITY dialog.passwordconflict.keepserver "Mantener la versión del servidor">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Descubrir">
+<!ENTITY label.tagsuggest "Etiquetas sugeridas">
+<!ENTITY label.enabletagsuggestions "Habilitar la sugerencia de etiquetas">
+<!ENTITY desc.tagsuggest "Cuando añade un marcador, Xmarks puede sugerirle etiquetas, en base a etiquetas usadas por otros usuarios en el mismo marcador.">
+<!ENTITY ownserver.title "Configurar el servidor propio">
+<!ENTITY ownserver.desc "Para usar su propio servidor con Xmarks, introduzca dos direcciones diferentes para guardar los marcadores y las contraseñas.">
+<!ENTITY similarsite.popular "Marcadores">
+<!ENTITY similarsite.noreviews "Sin revisiones">
+<!ENTITY similarsite.writereview "Escriba una revisión">
+<!ENTITY similarsite.relatedsite "5 sitios más similares">
+<!ENTITY similarsite.getsiteinfo "Obtener información del sitio">
+<!ENTITY similarsite.getsiteinfo.normalcase "Obtener información del sitio">
+<!ENTITY desc.discover "Bookmark-powered Web Discovery">
+<!ENTITY label.searchboost "Habilitar la búsqueda inteligente">
+<!ENTITY desc.searchboost "Xmarks le ayuda a descubrir los primeros sitios en Google.">
+<!ENTITY label.siteboost "Habilitar información del sitio">
+<!ENTITY desc.siteboost "Xmarks le mostrará información del sitio y sitios similares">
+<!ENTITY label.tagboost "Habilitar la sugerencia de etiquetas">
+<!ENTITY desc.tagboost "Xmarks le sugerirá etiquetas automáticamente cuando añada un marcador.">
+<!ENTITY label.serp.top3 "Primeros 3 resultados">
+<!ENTITY label.serp.all "Todos los resultados">
+<!ENTITY label.newuser.title "Xmarks está instalado.">
+<!ENTITY label.newuser.title2 "¡Hecho!">
+<!ENTITY label.newuser.msg "Pulse aquí para configurar la copia y sincronización de marcadores de Xmarks.">
+<!ENTITY label.newuser.msg2 "Pulse aquí para terminar la instalación de Xmarks.">
+<!ENTITY label.syncdisabled "Sus marcadores no se están copiando y sincronizando. Para habilitar el proceso automático, use el asistente de configuración.">
+<!ENTITY byos.title "Bievenido a Xmakrs, edición BYOS">
+<!ENTITY byos.accept "Ir a las opciones">
+<!ENTITY byos.cancel "Cerrar">
+<!ENTITY byos.description "XMarks BYOS edición está diseñado para usuarios que tienen su propio servidor. Para iniciar la sincronización, necesita ir a las opciones de Xmarks para configurar la comunicación con su propio servidor. ¿Quiere hacerlo ahora?">
+<!ENTITY byos.xmarksrunning "Conflicto: Tiene instaladas tanto Xmarks como Xmarks BYOS edición!">
+<!ENTITY byos.xmarksrunning.desc "Tiene tanto Xmark Bookmark Synchronizer como Xmarks BYOS edición a la vez, lo que puede dar problemas. Por favor, desinstale uno de ellos para continuar.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmark Bookmark Synchronizer es la instalación estándar usada por millones de personas en todo el mundo. Si no está seguro sobre cuál de los dos elegir, puede optar por mantenerlo instalado.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS se usa si tiene su propio servidor. Selecciónelo sólo si es un usuario avanzado que tiene un servidor con WebDav habilitado.">
+<!ENTITY byos.uninstallxmarks "Desinstalar Xmarks">
+<!ENTITY byos.uninstallbyos "Desinstalar Xmarks BYOS edición">

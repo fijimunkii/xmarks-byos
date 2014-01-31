@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Lokal version">
+<!ENTITY conflict.name "Navn">
+<!ENTITY conflict.location "Placering">
+<!ENTITY conflict.keyword "Nøgleord">
+<!ENTITY conflict.description "Beskrivelse">
+<!ENTITY conflict.sidebar "Indlæs dette bogmærke i sidebjælken">
+<!ENTITY conflict.retainlocal "Behold lokal version">
+<!ENTITY conflict.serverversion "Server version">
+<!ENTITY conflict.retainserver "Behold server version">
+<!ENTITY bookmarkconflict.title "Xmarks: Bogmærke konflikt">
+<!ENTITY bookmarkconflict.desc1 "Xmarks kan ikke se, hvilken version af disse bogmærker der skal beholdes.">
+<!ENTITY bookmarkconflict.desc2 "Vælg venligst hvilken version der skal beholdes.">
+<!ENTITY folderconflict.title "Xmarks: Mappe konflikt">
+<!ENTITY folderconflict.desc1 "Xmarks kan ikke se, hvilken version af disse mapper der skal beholdes.">
+<!ENTITY folderconflict.desc2 "Vælg venligst hvilken version der skal beholdes.">
+<!ENTITY parentconflict.title "Xmarks: Overordnet konflikt">
+<!ENTITY parentconflict.desc1 "Xmarks kan ikke se, hvilken af disse to mappe dette element tilhører.">
+<!ENTITY parentconflict.desc2 "Vælg venligst hvilken mappe dette element skal placeres i.">
+<!ENTITY parentconflict.item "Element">

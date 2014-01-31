@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2006-2008 Foxmarks Inc.
+
+ foxmarks-manageroverlay.xul: implements Foxmarks overlay into the 
+ Bookmarks Manager.
+
+-->
+
+<?xul-overlay href="chrome://xmarksbyos/content/foxmarks-statusbar.xul" ?>
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+<?xml-stylesheet href="chrome://xmarksbyos/skin/foxmarks.css" type="text/css"?>
+
+<overlay id="foxmarksManagerOverlay"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script src="foxmarks-uitools.js" />
+    <script src="foxmarks-settings.js" />
+
+    <toolbox id="bookmarks-toolbox" >
+        <toolbar id="command-toolbar">
+            <toolbarseparator />
+            <toolbarbutton id="foxmarks-bm-sync" align="center"
+                    label="&manager.syncNow;" oncommand="XmarksBYOS.FoxmarksSynch()" />
+        </toolbar>
+    </toolbox>  
+    <statusbar id="statusbar">
+        <statusbarpanel id="foxmarks-statusbarpanel" />
+    </statusbar>
+    
+</overlay>

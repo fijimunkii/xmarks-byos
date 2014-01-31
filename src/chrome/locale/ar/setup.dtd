@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "معالج إعداد Xmarks">
+<!ENTITY wizard.title.verified "تم التحقق من الحساب">
+<!ENTITY wizard.desc8 "Congratulations! Xmarks successfully verified your account. Next, we&apos;ll prepare for the first synchronization on this computer.">
+<!ENTITY wizard.title.firstsync "التزامن الاولي">
+<!ENTITY wizard.desc9 "Xmarks has found data for this account on the server.">
+<!ENTITY wizard.desc10 "How do you want Xmarks to perform initial synchronization?">
+<!ENTITY wizard.keepremote "Keep data on the server; discard data on this computer.">
+<!ENTITY wizard.keeplocal "Discard data on the server; keep data on this computer.">
+<!ENTITY wizard.merge "Merge data on the server with data on this computer.">
+<!ENTITY wizard.seeserver "View your existing bookmarks on the server.">
+<!ENTITY wizard.desc11 "During this initial merge, Xmarks will start with one set of bookmarks and then supplement it with bookmarks and folders from the other set.  If you chose to sync passwords, the same will apply to them.">
+<!ENTITY wizard.desc12 "Which set should Xmarks use as the starting set?">
+<!ENTITY wizard.startlocal "Start with data on this computer.">
+<!ENTITY wizard.startremote "Start with data on the server.">
+<!ENTITY wizard.desc13 "(In either case, all bookmarks and passwords will be retained. The final result, however, will look most similar to the starting set.)">
+<!ENTITY wizard.title.ready "جاهز للمزامنة">
+<!ENTITY wizard.desc14 "Xmarks will synchronize your bookmarks.">
+<!ENTITY wizard.title.success "تم بنجاح!">
+<!ENTITY wizard.desc15 "Congratulations! You have successfully synchronized your bookmarks. From now on, Xmarks will automatically keep the bookmarks on this computer synchronized.">
+<!ENTITY wizard.desc16 "To adjust synchronization settings, access the Xmarks menu from the Firefox Tools menu.">
+<!ENTITY wizard.title.selectprofile "اختر تشكيل جانبي">
+<!ENTITY wizard.label.profilechoice "التشكيل الجانبي:">
+<!ENTITY wizard.profile.defaultname "&lt;لا شيء&gt;">
+<!ENTITY wizard.profile.desc "We see that you have created profiles to control which bookmarks Xmarks syncs to your computers. You can select a profile from the list below for this computer, or leave the default setting to sync all of your bookmarks with this computer.">
+<!ENTITY wizard.title.syncpasswords "Optional: Secure Password Sync">
+<!ENTITY wizard.syncpassworddesc "Xmarks can also securely sync passwords. When you save a website username and password, Xmarks can automatically sync this login information with your other computers. Your passwords will be encrypted using a PIN that only you will know.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks will not be able to view your passwords">
+<!ENTITY wizard.syncpassworddesc3 "You can turn this feature on or off at any time from the Xmarks Settings dialog.">
+<!ENTITY wizard.syncpassworddesc4 "Would you like to enable secure password sync now?">
+<!ENTITY wizard.syncpasswordcheck "نعم, قم بمزامنة كلمات المرور بشكل آمن">
+<!ENTITY wizard.yes "نعم">
+<!ENTITY wizard.no "لا">
+<!ENTITY wizard.title.pinold "مزامنة كلمة المرور بشكل آمن: يتطلب رمز مرور">
+<!ENTITY wizard.desc.oldpin "لمزامنة كلمات المرور المحفوظة بهذا الكمبيوتر, فضلاً أدخل رمز المرور">
+<!ENTITY wizard.whatisthis "ما هذا؟">
+<!ENTITY wizard.label.pin "رمز المرور:">
+<!ENTITY wizard.label.confirmpin "تأكيد رمز المرور">
+<!ENTITY wizard.forgotpin "نسيت رمز المرور">
+<!ENTITY wizard.title.pinnew "مزامنة كلمة المرور بشكل آمن: إنشاء رمز مرور">
+<!ENTITY wizard.desc.pinnew "Xmarks secures your passwords by encrypting them with a private PIN of your choosing. It&apos;s important that you remember this PIN because we cannot retrieve it for you.">
+<!ENTITY wizard.desc.pinnew2 "رمز المرور قد يتكون من أي مجموعة من الحروف, الأرقام والرموز.">
+<!ENTITY wizard.learnmore "تعلم المزيد.">
+<!ENTITY wizard.title.pincreated "مزامنة كلمة المرور بشكل آمن: تم إنشاء رمز المرور">
+<!ENTITY wizard.newpinverifieddesc "تم إنشاء رمز المرور بنجاح وسيتم استخدامه لتشفير كلمات المرور الخاضة بك.">
+<!ENTITY wizard.newpinverifieddesc2 "لا تنسى ، فقط أنت من يعلم رمز المرور هذا ولا يستطيع Xmarks مساعدتك لاسترداده.">
+<!ENTITY wizard.title.pinverified "مزامنة كلمة المرور بشكل آمن: تم التحقق من رمز المرور">
+<!ENTITY wizard.pinverifieddesc "تم التحقق من رمز المرور بنجاح. سيتم مزامنة كلمات المرور المحفوظة مع هذا الكمبيوتر.">
+<!ENTITY wizard.pinverifieddesc2 "تستطيع تغيير هذه الإعدادات في أي وقت من خلال إعدادات Xmarks.">
+<!ENTITY wizard.title.forgotpin "نسيت رمز المرور">
+<!ENTITY wizard.learnhow "Learn how to retrieve your PIN on your other computer.">
+<!ENTITY wizard.forgotpindesc "Unfortunately we cannot recover your PIN. It may, however, be possible to recover your PIN from another one of your computers.">
+<!ENTITY wizard.forgotpindesc2 "You may choose to:">
+<!ENTITY wizard.forgotpinoption1 "Enter your PIN later. Don&apos;t sync passwords on this computer.">
+<!ENTITY wizard.forgotpinoption2 "Reset your PIN.">
+<!ENTITY wizard.title.resetpin "Reset PIN">
+<!ENTITY wizard.resetpindesc "Are you sure you want to reset your PIN? This will require you to enter your PIN into your other computers as well.">
+<!ENTITY wizard.resetpinoption1 "Yes. Reset my PIN.">
+<!ENTITY wizard.resetpinoption2 "No. Don&apos;t sync passwords on this computer.">
+<!ENTITY wizard.title.resetpinverified "Secure Password Sync: PIN Created">
+<!ENTITY wizard.resetpinverifieddesc "Your PIN has been changed. You will be required to enter this PIN on your other computers the next time you synchronize them.">
+<!ENTITY wizard.securityinfo.label.1 "How Does Secure Password Sync Work?">
+<!ENTITY wizard.securityinfo.desc.1 "Encryption is at the core of how Xmarks ensures that your passwords travel securely across the Internet to your other computers.">
+<!ENTITY wizard.securityinfo.desc.2 "When you opt to securely sync your passwords, Xmarks will ask you to choose a secret PIN. This PIN will be used to encrypt your passwords before they leave your computer.">
+<!ENTITY wizard.securityinfo.desc.3 "Encrypting your passwords means that they will be scrambled into bits that can only be deciphered if you know the correct PIN. Since only you have the PIN, only you (not even Xmarks) will be able to convert this encrypted data back into a meaningful list of passwords.">
+<!ENTITY wizard.securityinfo.label.2 "How Strong is the Encryption?">
+<!ENTITY wizard.securityinfo.desc.4 "To ensure that your passwords are encrypted with the maximum possible security, Xmarks uses the current state of the art AES 256-bit encryption algorithm. AES is a United States government standard and is recommended by National Security Administration (NSA) for encrypting classified information.">
+<!ENTITY wizard.securityinfo.label.3 "What Can I do to Get the Maximum Possible Security?">
+<!ENTITY wizard.securityinfo.desc.5 "Even with the kind of military grade encryption that we&apos;re using, a very important component is the strength of the secret PIN that you choose. Xmarks recommends that you choose a PIN that is difficult to guess and contains a variety of different letters, numbers, and symbols (such as @, $ and *)">
+<!ENTITY wizard.securityinfo.label.4 "I Want to Know More">
+<!ENTITY wizard.securityinfo.desc.6 "Please visit xmarks.com to learn more. You can choose not to sync your passwords right now, but can easily turn this feature on later from the Xmarks settings dialog.">

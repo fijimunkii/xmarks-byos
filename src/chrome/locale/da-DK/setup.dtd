@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "34">
+<!ENTITY wizard.title "Installeringsguide">
+<!ENTITY wizard.title.verified "Kontoen er bekræftet">
+<!ENTITY wizard.desc8 "Tillykke! Xmarks har bekræftet din konto. Det næste du skal gør er, at lave din første synkronisering på denne computer.">
+<!ENTITY wizard.title.firstsync "Første synkronisering">
+<!ENTITY wizard.desc9 "Xmarks har fundet data til denne konto på serveren.">
+<!ENTITY wizard.desc10 "Hvordan ønsker du Xmarks skal lave den første synkronisering?">
+<!ENTITY wizard.keepremote "Behold data på serveren; overskriv data du har på computeren.">
+<!ENTITY wizard.keeplocal "Overskriv data på serveren; behold data du har på computeren.">
+<!ENTITY wizard.merge "Sammenlæg data på denne computer med data på serveren.">
+<!ENTITY wizard.seeserver "Se de bogmærker du har på serveren.">
+<!ENTITY wizard.desc11 "Under denne første sammenlægning, vil Xmarks starte med det ene sæt bogmærker og derefter supplere med bogmærker og mapper fra det andet sæt. Hvis du vælger, at synkronisere adgangskoder vil det samme ske med dem.">
+<!ENTITY wizard.desc12 "Hvilket sæt skal Xmarks bruge som det første sæt?">
+<!ENTITY wizard.startlocal "Start med data på denne computer.">
+<!ENTITY wizard.startremote "Start med data på serveren.">
+<!ENTITY wizard.desc13 "(I begge tilfælde, vil alle bogmærker og adgangskoder blive bibeholdt. Resultatet vil imidlertid mest ligne det første sæt.)">
+<!ENTITY wizard.title.ready "Klar til at synkronisere">
+<!ENTITY wizard.desc14 "Xmarks vil synkronisere dine bogmærker.">
+<!ENTITY wizard.title.success "Færdig!">
+<!ENTITY wizard.desc15 "Tillykke! Du har nu synkroniseret dine bogmærker. Fremover vil Xmarks automatisk holde dine bogmærker synkroniseret på denne computer.">
+<!ENTITY wizard.desc16 "For at ændre indstillingerne for synkronisering, vælg Xmarks i menuen Funktioner.">
+<!ENTITY wizard.title.selectprofile "Vælg profil">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;ingen&gt;">
+<!ENTITY wizard.profile.desc "Vi ser du har oprettet profiler til, at styre hvilke bogmærker Xmarks synkroniserer mellem dine computere. For denne computer kan du vælge en profil fra listen nedenunder, eller bevare standardindstillingerne for at synkronisere alle dine bogmærker med denne computer.Du kan vælge en profil, til denne computer, fra listen nedenunder eller bruge standard indstillingerne til synkronisering af alle dine bogmærker med denne computer.">
+<!ENTITY wizard.title.syncpasswords "Valgfrit: Sikker synkronisering af adgangskoder">
+<!ENTITY wizard.syncpassworddesc "Xmarks kan også synkronisere dine adgangskoder sikkert. Når du gemmer adgangskode og brugernavn til et websted, kan Xmarks automatisk synkronisere denne login-information med dine andre computere.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks vil ikke være i stand til, at se dine adgangskoder.">
+<!ENTITY wizard.syncpassworddesc3 "I vinduet Xmarks indstillinger kan slå denne funktion til og fra når du vil.">
+<!ENTITY wizard.syncpassworddesc4 "Vil du aktivere sikker synkronisering af adgangskoder nu?">
+<!ENTITY wizard.syncpasswordcheck "Ja, synkroniser sikkert mine adgangskoder">
+<!ENTITY wizard.yes "Ja">
+<!ENTITY wizard.no "Nej">
+<!ENTITY wizard.title.pinold "Sikker synkronisering af adgangskoder: PIN-kode kræves">
+<!ENTITY wizard.desc.oldpin "For at synkronisere dine gemte adgangskoder med denne computer, indtast din PIN-kode.">
+<!ENTITY wizard.whatisthis "Hvad er dette?">
+<!ENTITY wizard.label.pin "PIN-kode:">
+<!ENTITY wizard.label.confirmpin "Bekræft PIN-kode:">
+<!ENTITY wizard.forgotpin "Jeg har glemt min PIN-kode">
+<!ENTITY wizard.title.pinnew "Sikker synkronisering af adgangskode: Opret PIN-kode">
+<!ENTITY wizard.desc.pinnew "Xmarks sikre dine adgangskoder ved, at kryptere dem med en privat PIN-kode, valgt af dig. Det er vigtigt, at du husker denne PIN-kode, for vi kan ikke hjælpe dig med, at genskabe den.">
+<!ENTITY wizard.desc.pinnew2 "Din PIN-kode kan bestå af en kombination af bogstaver, tal og symboler.">
+<!ENTITY wizard.learnmore "Lær mere">
+<!ENTITY wizard.title.pincreated "Sikker synkronisering af adgangskode: PIN-kode oprettet">
+<!ENTITY wizard.newpinverifieddesc "Din PIN-kode blev oprettet og vil blive brugt til, at kryptere dine adgangskoder.">
+<!ENTITY wizard.newpinverifieddesc2 "Glem ikke, kun du kender denne PIN-kode og Xmarks kan ikke hjælpe dig med at genskabe den.">
+<!ENTITY wizard.title.pinverified "Sikker synkronisering af adgangskode: PIN-kode bekræftet">
+<!ENTITY wizard.pinverifieddesc "Din PIN-kode blev bekræftet. Dine gemte adgangskoder vil nu blive synkroniseret med denne computer.">
+<!ENTITY wizard.pinverifieddesc2 "I vinduet Xmarks indstillinger kan du ændre disse indstillinger når du vil.">
+<!ENTITY wizard.title.forgotpin "Glemt PIN-kode">
+<!ENTITY wizard.learnhow "Lær hvordan du henter din PIN-kode på din anden computer.">
+<!ENTITY wizard.forgotpindesc "Vi kan desværre ikke gendanne din PIN-kode. Det kan imidlertid være det er muligt, at gendanne din PIN-kode fra en af dine andre computere.">
+<!ENTITY wizard.forgotpindesc2 "Du kan vælge at:">
+<!ENTITY wizard.forgotpinoption1 "Indtaste din PIN-kode senere. Synkroniser ikke adgangskoder på denne computer.">
+<!ENTITY wizard.forgotpinoption2 "Nulstille din PIN-kode.">
+<!ENTITY wizard.title.resetpin "Nulstil PIN-kode">
+<!ENTITY wizard.resetpindesc "Er du sikker på du ønsker at nulstille din PIN-kode? Dette vil kræve, at du også indtaster din PIN-kode på dine andre computere.">
+<!ENTITY wizard.resetpinoption1 "Ja. Nulstil min PIN-kode.">
+<!ENTITY wizard.resetpinoption2 "Nej. Synkroniser ikke adgangskoder på denne computer.">
+<!ENTITY wizard.title.resetpinverified "Sikker synkronisering af adgangskode: Ny PIN-kode oprettet">
+<!ENTITY wizard.resetpinverifieddesc "Din PIN-kode er blevet ændret. Du vil blive bedt om, at indtaste denne PIN-kode på dine andre computere, næste gang du synkroniserer dem.">
+<!ENTITY wizard.securityinfo.label.1 "Hvordan virker sikker synkronisering af adgangskode?">
+<!ENTITY wizard.securityinfo.desc.1 "Xmarks anvender kryptering for at sikre, at dine adgangskoder transporteres sikkert gennem internettet til dine andre computere.">
+<!ENTITY wizard.securityinfo.desc.2 "Når du vælger at synkronisere dine adgangskoder sikkert, beder Xmarks dig om at vælge en sikker PIN-kode. Denne PIN-kode vil blive brugt til, at kryptere dine adgangskoder før de forlader din computer.">
+<!ENTITY wizard.securityinfo.desc.3 "Kryptering af dine adgangskoder betyder, at de bliver forvrænget. De kan kun afkodes hvis du kender den rigtige PIN-kode. Da det kun er dig der har PIN-koden (end ikke Xmarks har den) er det kun dig, der vil være i stand til, at konvertere de krypterede data til meningsfyldte adgangskoder.">
+<!ENTITY wizard.securityinfo.label.2 "Hvor stærk er krypteringen?">
+<!ENTITY wizard.securityinfo.desc.4 "For at sikre, at dine adgangskoder bliver krypteret med størst mulig sikkerhed, anvender Xmarks den seneste AES 256-bit krypteringsalgoritme. AES er en US regerings-standard og den anbefales af National Security Administration (NSA) til kryptering af fortrolig information.">
+<!ENTITY wizard.securityinfo.label.3 "Hvad kan jeg gøre for at få den størst mulige sikkerhed?">
+<!ENTITY wizard.securityinfo.desc.5 "Selv med den kryptering som vi anvender, er en vigtig komponent styrken af den hemmelige PIN-kode du vælger. Xmarks anbefaler at du vælger en PIN-kode, som er svær at gætte og som indeholder en blanding af bogstaver, tal og symboler (som @, $ og *).">
+<!ENTITY wizard.securityinfo.label.4 "Jeg ønsker at vide mere">
+<!ENTITY wizard.securityinfo.desc.6 "Se venligst xmarks.com for at lære mere. Du kan vælge ikke at synkronisere dine adgangskoder med det samme, men kan starte denne funktion senere fra Xmarks indstillinger.">

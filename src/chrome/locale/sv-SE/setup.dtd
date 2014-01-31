@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks installationsguide">
+<!ENTITY wizard.title.verified "Kontot verifierat">
+<!ENTITY wizard.desc8 "Gratulerar! Xmarks har verifierat ditt konto. Härnäst ska vi förbereda för den första synkroniseringen på denna dator.">
+<!ENTITY wizard.title.firstsync "Första synkronisering">
+<!ENTITY wizard.desc9 "Xmarks har hittat en uppsättning bokmärken för detta konto på servern.">
+<!ENTITY wizard.desc10 "Hur vill du att Xmarks ska utföra den första synkronisering?">
+<!ENTITY wizard.keepremote "Använd data från servern, ta bort lokala data.">
+<!ENTITY wizard.keeplocal "Ta bort data på servern, använd data från datorn.">
+<!ENTITY wizard.merge "Slå ihop data från servern med lokala data.">
+<!ENTITY wizard.seeserver "Visa existerande bokmärken på servern.">
+<!ENTITY wizard.desc11 "Vid denna första sammanslagning kommer Xmarks att börja med den ena uppsättningen och sedan komplettera med kataloger och bokmärken från den andra uppsättningen.">
+<!ENTITY wizard.desc12 "Vilken uppsättning skall Xmarks börja med?">
+<!ENTITY wizard.startlocal "Starta med bokmärken på denna dator.">
+<!ENTITY wizard.startremote "Starta med bokmärken på servern.">
+<!ENTITY wizard.desc13 "(I båda fallen kommer alla bokmärken att behållas. Den slutliga versionen kommer dock att mest likna den uppsättning du börjar med.)">
+<!ENTITY wizard.title.ready "Redo att synkronisera">
+<!ENTITY wizard.desc14 "Xmarks är redo att utföra första synkroniseringen.">
+<!ENTITY wizard.title.success "Klar!">
+<!ENTITY wizard.desc15 "Gratulerar! Du har synkroniserat dina bokmärken utan fel. Från och med nu kommer Xmarks att automatiskt synkronisera bokmärken på denna dator.">
+<!ENTITY wizard.desc16 "För att ändra dina inställningar, använd Xmarks menyn under Firefox Verktygsmeny.">
+<!ENTITY wizard.title.selectprofile "Välj profil">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;ingen&gt;">
+<!ENTITY wizard.profile.desc "Vi ser att du skapat profiler för att kontrollera vilka bokmärken Xmarks synkroniserar på dina datorer. Du kan välja en profil för denna dator i listan nedan eller använda standardinställningen för att synkronisera alla bokmärken på denna dator.">
+<!ENTITY wizard.title.syncpasswords "Synkronisera sparade lösenord (valfritt):">
+<!ENTITY wizard.syncpassworddesc "Vill du synkronisera sparade lösenord mellan datorer?">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks kommer att be dig skapa en privat PIN-kod för att säkra dina lösenord. PIN-koden används för att kryptera lösenorden innan de lämnar datorn. Ingen annan än du - inte ens Xmarks - kan läsa dina lösenord.">
+<!ENTITY wizard.syncpassworddesc3 "Du kan (in)aktivera denna egenskap när som helst från Xmarks inställningsfönster.">
+<!ENTITY wizard.syncpassworddesc4 "Vill du aktivera säker lösenordssynkronisering nu?">
+<!ENTITY wizard.syncpasswordcheck "Ja, synka mina lösenord säkert.">
+<!ENTITY wizard.yes "Ja">
+<!ENTITY wizard.no "Nej">
+<!ENTITY wizard.title.pinold "Ange PIN-kod">
+<!ENTITY wizard.desc.oldpin "Ange PIN-koden du använde när du konfigurerade synkronisering av lösenord.">
+<!ENTITY wizard.whatisthis "Vad är detta?">
+<!ENTITY wizard.label.pin "Ange PIN-kod:">
+<!ENTITY wizard.label.confirmpin "Bekräfta PIN-kod:">
+<!ENTITY wizard.forgotpin "Jag har glömt min PIN-kod">
+<!ENTITY wizard.title.pinnew "Skapa PIN-kod">
+<!ENTITY wizard.desc.pinnew "Xmarks säkrar dina lösenord genom att kryptera dem med din privata PIN-kod. Det är viktigt att du kommer ihåg koden eftersom vi inte kan hjälpa dig att återfå den.">
+<!ENTITY wizard.desc.pinnew2 "Din PIN kan bestå av en kombination av bokstäver, siffror och symboler.">
+<!ENTITY wizard.learnmore "Läs mer...">
+<!ENTITY wizard.title.pincreated "PIN-kod har skapats">
+<!ENTITY wizard.newpinverifieddesc "Din PIN-kod skapades utan fel. Vi använder PIN-koden för att säkra dina lösenord innan synkronisering så att ingen annan kan läsa dem.">
+<!ENTITY wizard.newpinverifieddesc2 "Tappa inte bort din PIN-kod. Xmarks har ingen kännedom om den och kan inte hjälpa dig återfå den om den går förlorad.">
+<!ENTITY wizard.title.pinverified "PIN-kod verifierad">
+<!ENTITY wizard.pinverifieddesc "Din PIN-kod verifierades.">
+<!ENTITY wizard.pinverifieddesc2 "Du kan (in)aktivera dessa egenskaper när som helst från Xmarks inställningsfönster.">
+<!ENTITY wizard.title.forgotpin "Glömt PIN-kod">
+<!ENTITY wizard.learnhow "Läs om hur du hämtar din PIN-kod på dina andra datorer.">
+<!ENTITY wizard.forgotpindesc "Tyvärr kan vi inte återställa din PIN-kod. Det kan dock vara möjligt att återställa den från någon av dina andra datorer.">
+<!ENTITY wizard.forgotpindesc2 "Du kan välja att:">
+<!ENTITY wizard.forgotpinoption1 "Ange din PIN-kod senare. Synkronisera inte lösenord på denna dator.">
+<!ENTITY wizard.forgotpinoption2 "Återställ din PIN-kod.">
+<!ENTITY wizard.title.resetpin "Återställ PIN-kod.">
+<!ENTITY wizard.resetpindesc "Är du säker på att du vill återställa din PIN-kod? Du måste då ange den nya PIN-koden på dina andra datorer också.">
+<!ENTITY wizard.resetpinoption1 "Ja, återställ min PIN-kod.">
+<!ENTITY wizard.resetpinoption2 "Nej, synkronisera inte lösenord på denna datorn.">
+<!ENTITY wizard.title.resetpinverified "Ny PIN-kod skapad">
+<!ENTITY wizard.resetpinverifieddesc "Din PIN-kod har ändrats. Du måste ange den nya PIN-koden på dina andra datorer nästa gång du synkroniserar dem.">
+<!ENTITY wizard.securityinfo.label.1 "Hur fungerar säker lösenordsynkronisering?">
+<!ENTITY wizard.securityinfo.desc.1 "Xmarks använder kryptering för att skicka dina lösenord säkert över Internet mellan dina datorer.">
+<!ENTITY wizard.securityinfo.desc.2 "När du väljer att låta Xmarks synkronisera dina lösenord får du ange en hemlig PIN kod. PIN koden används för att kryptera dina lösenord innan de lämnar din dator.">
+<!ENTITY wizard.securityinfo.desc.3 "Genom att kryptera dina lösenord med din PIN kod kan ingen som inte känner till PIN koden dekryptera dem. Så länge bara du har koden (inte ens Xmarks har den), så kan bara du dekryptera dina lösenord.">
+<!ENTITY wizard.securityinfo.label.2 "Hur säker är krypteringen?">
+<!ENTITY wizard.securityinfo.desc.4 "För att försäkra oss om att dina lösenord krypteras så säkert som möjligt, använder Xmarks kryppteringsalgoritmen AES 256-bitars. AES används som standard av amerikanska staten och rekommenderas av NSA (National Security Administration) för att kryptera hemlig information.">
+<!ENTITY wizard.securityinfo.label.3 "Vad kan jag göra för att få maximal krypteringsstyrka?">
+<!ENTITY wizard.securityinfo.desc.5 "Även om krypteringsmetoden som används är av militär klass är det fortfarande viktigt att du väljer en PIN kod som är svår att gissa. Xmarks rekommenderar att du väljer en PIN kod som innehåller stora och små bokstäver, siffror och symboler (som @, $ och *)">
+<!ENTITY wizard.securityinfo.label.4 "Jag vill veta mer">
+<!ENTITY wizard.securityinfo.desc.6 "Besök xmarks.com för att lära dig mer. Om du inte vill aktivera synkronisering av lösenord nu, kan du lätt ändra detta vid ett senare tillfälle i Xmarks inställningsdialog.">

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- $Revision: 14740 $ -->
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+        xmlns:NC="http://home.netscape.com/NC-rdf#"
+        xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                em:id="byos@xmarks.com"
+                em:name="Xmarks BYOS Edition"
+                em:type="2"
+                em:version="1.0.0"
+                em:creator="Todd Agulnick"
+                em:description="Bookmark Sync and Web Discovery (BYOS Edition)"
+                em:homepageURL="http://www.xmarks.com/"
+                em:optionsURL="chrome://xmarksbyos/content/foxmarks-dialog.xul"
+                em:iconURL="chrome://xmarksbyos/skin/images/foxmarks.ico"
+                em:contributor="Mitchell Kapor" >
+                <em:targetApplication RDF:resource="rdf:#$cvwsF2"/>
+                <!-- Flock -->
+                <em:targetApplication>
+                    <Description>
+                        <em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
+                        <em:minVersion>0.7</em:minVersion>
+                        <em:maxVersion>1.0</em:maxVersion>
+                    </Description>
+                </em:targetApplication>
+        </RDF:Description>
+        <RDF:Description RDF:about="rdf:#$cvwsF2"
+                em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                em:minVersion="3.0"
+                em:maxVersion="3.5.*" />
+</RDF:RDF>

@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks inställningar">
+<!ENTITY dialog.label.username "Användarnamn:">
+<!ENTITY dialog.label.password "Lösenord:">
+<!ENTITY dialog.label.rememberPassword "Spara lösenord.">
+<!ENTITY dialog.label.rememberPIN "Kom ihåg PIN koden mellan sessioner.">
+<!ENTITY dialog.label.forgotPassword "Jag har glömt mitt användarnamn eller lösenord">
+<!ENTITY dialog.label.synchronization "Inställningar för synkronisering">
+<!ENTITY dialog.label.ontimer "Aktivera automatisk synkronisering">
+<!ENTITY dialog.label.synconshutdown "Synkronisera vid avslut">
+<!ENTITY dialog.label.synconstartup "Synkronisera vid start">
+<!ENTITY dialog.label.askfirst "Fråga först">
+<!ENTITY dialog.label.lastsync "Senaste synkronisering:">
+<!ENTITY dialog.label.runWizard "Starta guiden">
+<!ENTITY dialog.label.syncNow "Synkronisera nu">
+<!ENTITY progress.title "Xmarks: Status">
+<!ENTITY progress.label.status "Status:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Varning">
+<!ENTITY clobber.desc2 "Xmarks har upptäckt att din nuvarande uppsättning med bokmärken är mycket mindre än vid den senaste synkroniseringen.">
+<!ENTITY clobber.desc3 "Ett sällsynt men allvarligt problem i Firefox webbläsare kan ibland göra att dina bokmärken ersätts med en liten standarduppsättning. Om detta händer är det viktigt att inte låta Xmarks synkronisera dina bokmärken förrän problemet åtgärdats.">
+<!ENTITY clobber.prompt "Är du säker på att du vill synkronisera nu?">
+<!ENTITY clobber.moreinfo "Berätta mer...">
+<!ENTITY clobber.accept "Ja, synkronisera">
+<!ENTITY clobber.lastset "Antal objekt senaste gången:">
+<!ENTITY clobber.currset "Antal objekt denna gång:">
+<!ENTITY manager.syncNow "Synkronisera nu">
+<!ENTITY menu.myFoxmarks "Mina Xmarks">
+<!ENTITY menu.settings "Inställningar...">
+<!ENTITY menu.similarsites "Visa platsinformation...">
+<!ENTITY menu.status "Status...">
+<!ENTITY menu.showstatus "Visa statusikon">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "N">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "U">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Allmänt">
+<!ENTITY label.status "Status">
+<!ENTITY label.current.status "Aktuell status">
+<!ENTITY label.sync "Typer">
+<!ENTITY label.sync.caption "Synkronisera och spara">
+<!ENTITY label.account "Konto">
+<!ENTITY label.synchronization "Synkronisering">
+<!ENTITY label.advanced "Avancerat">
+<!ENTITY label.security "Säkerhet">
+<!ENTITY label.encrypt "Kryptering">
+<!ENTITY label.noencrypt "Ingen kryptering">
+<!ENTITY label.passwordonly "Endast lösenord">
+<!ENTITY label.encryptall "Kryptera allt">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Använd din egen server">
+<!ENTITY label.useownserver "Använd egen server">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "URL lösenord:">
+<!ENTITY label.manualoverwrite "Skriv över manuellt">
+<!ENTITY label.upload "Ladda upp">
+<!ENTITY label.download "Ladda ner">
+<!ENTITY label.forceoverwriteserver "Skriv över på servern">
+<!ENTITY label.forceoverwritelocal "Skriv över lokalt">
+<!ENTITY label.logging "Loggning">
+<!ENTITY label.enablelogging "Aktivera loggning">
+<!ENTITY label.showlogfile "Visa loggfil">
+<!ENTITY label.profiles "Profiler">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Bokmärken">
+<!ENTITY label.sync.passwords "Lösenord">
+<!ENTITY label.sync.resetpin "Återställ PIN-kod">
+<!ENTITY label.sync.deletepasswords "Ta bort lösenord från servern">
+<!ENTITY label.sync.onlyff3 "* Endast för Firefox 3 och senare">
+<!ENTITY label.sync.morecomingsoon "Läs mer om vilka ytterligare datatyper som kommer att finnas tillgängliga snart.">
+<!ENTITY desc.profile "Använd profiler för att välja vilka bokmärken du vill synkronisera. Skapa och hantera profiler på my.xmarks.com. Välj sedan en profil här för att endast synkronisera de bokmärken som ingår.">
+<!ENTITY desc.sync "Xmarks kan synkronisera och ta backup på både bokmärken och lösenord.">
+<!ENTITY desc.ownserver "Du kan också använda Xmarks för att spara dina data på en egen server som t ex en FTP eller WebDAV server.">
+<!ENTITY label.ownserver.moreinfo "Läs mer.">
+<!ENTITY label.manageprofiles "Skapa och hantera synkroniseringsprofiler">
+<!ENTITY profile.defaultname "&lt;ingen&gt;">
+<!ENTITY label.profile.change "Ändra">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Ändra synkprofil">
+<!ENTITY profile.dialog.desc "För att skydda dina profiler, måste du ange ditt lösenord för att fortsätta.">
+<!ENTITY dialog.title.invalidpin "Xmarks: ogiltig PIN-kod">
+<!ENTITY dialog.invalidpin.desc "Din nuvarande PIN-kod verkar vara ogiltig. Troligtvis har du ändrat din PIN-kod från en annan dator och den behöver därför uppdateras. Du kan välja att göra något av följande:">
+<!ENTITY dialog.invalidpin.newpin "Ange din PIN-kod:">
+<!ENTITY dialog.invalidpin.disable "Inaktivera synkronisering av lösenord och behåll nuvarande lösenord">
+<!ENTITY dialog.title.resetpin "Xmarks: återställ PIN-kod">
+<!ENTITY dialog.resetpin.pin "Ange ny PIN-kod">
+<!ENTITY dialog.resetpin.passwordstrength "Lösenordsstyrka:">
+<!ENTITY dialog.resetpin.pinconfirm "Bekräfta ny PIN-kod">
+<!ENTITY dialog.resetpin.desc2 "Skapa en säkrare PIN-kod genom att använda en blandning av stora och små bokstäver, siffror och punktuationstecken. Undvik också att upprepa tecken. Ju säkrare din PIN-kod är, desto bättre skyddade är dina lösenord.">
+<!ENTITY dialog.resetpin.desc "Är du säker på att du vill återställa din PIN-kod? Detta innebär att vi måste radera alla dina sparade lösenord på vår server. Lösenorden på dina datorer påverkas inte.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: konflikt i sparade lösenord">
+<!ENTITY dialog.passwordconflict.desc "Xmarks kan inte avgöra vilken version av lösenordet som ska behållas.">
+<!ENTITY dialog.passwordconflict.desc2 "Välj version som ska behållas:">
+<!ENTITY dialog.passwordconflict.local "Lokal version">
+<!ENTITY dialog.passwordconflict.server "Serverns version">
+<!ENTITY dialog.passwordconflict.site "Plats:">
+<!ENTITY dialog.passwordconflict.username "Användarnamn:">
+<!ENTITY dialog.passwordconflict.password "Lösenord:">
+<!ENTITY dialog.passwordconflict.showpasswords "Visa lösenord">
+<!ENTITY dialog.passwordconflict.keeplocal "Behåll lokal version">
+<!ENTITY dialog.passwordconflict.keepserver "Behåll serverns version">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Upptäck">
+<!ENTITY label.tagsuggest "Smarta taggar">
+<!ENTITY label.enabletagsuggestions "Aktivera smarta taggar">
+<!ENTITY desc.tagsuggest "När du lägger till ett bokmärke kan Xmarks förslå lämpliga taggar baserat på taggar som andra användare skapat för samma bokmärke.">
+<!ENTITY ownserver.title "Konfigurera egen server">
+<!ENTITY ownserver.desc "För att använda din egen server med Xmarks, ange två olika URL:er för bokmärkes- och lösenordsplatserna.">
+<!ENTITY similarsite.popular "Bokmärken">
+<!ENTITY similarsite.noreviews "Inga recensioner">
+<!ENTITY similarsite.writereview "Skriv en recension">
+<!ENTITY similarsite.relatedsite "Topp 5 liknande platser">
+<!ENTITY similarsite.getsiteinfo "HÄMTA PLATSINFORMATION">
+<!ENTITY similarsite.getsiteinfo.normalcase "Hämta platsinformation">
+<!ENTITY desc.discover "Bokmärkesdriven webbsökning">
+<!ENTITY label.searchboost "Aktivera smartare sökning">
+<!ENTITY desc.searchboost "Xmarks hjälper dig hitta ämnen direkt på Google.">
+<!ENTITY label.siteboost "Aktivera platsinformation">
+<!ENTITY desc.siteboost "Xmarks visar platsinformation och liknande platser när du klickar på Xmarksikonen i addressfältet.">
+<!ENTITY label.tagboost "Aktivera taggförslag">
+<!ENTITY desc.tagboost "Xmarks förslår autmatiskt taggar när du lägger till ett bokmärke.">
+<!ENTITY label.serp.top3 "Topp 3 resultat">
+<!ENTITY label.serp.all "Alla resultat">
+<!ENTITY label.newuser.title "Xmarks har installerats.">
+<!ENTITY label.newuser.title2 "Nästan klar!">
+<!ENTITY label.newuser.msg "Klicka här för att konfigurera Xmarks backup och synkronisering av bokmärken.">
+<!ENTITY label.newuser.msg2 "Klicka här för att slutföra installationen av Xmarks.">
+<!ENTITY label.syncdisabled "Backup och synkronisering av dina bokmärken görs inte. För att aktivera tjänsten, kör installationsguiden.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

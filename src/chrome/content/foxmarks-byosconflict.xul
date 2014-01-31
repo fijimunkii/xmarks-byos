@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2005-2009 Xmarks Inc.
+
+foxmarks-byosconflict.xul: dialog that appears if xmarks is running
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css" ?>
+<?xml-stylesheet href="chrome://xmarksbyos/skin/foxmarks.css" type="text/css" ?>
+
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-byosconflict"
+    title="&byos.xmarksrunning;"
+    windowtype="foxmarks:byos" 
+    height="420" width="640" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    buttons="cancel,extra1,extra2"
+    buttonlabelextra1="&byos.uninstallxmarks;"
+    buttonlabelextra2="&byos.uninstallbyos;"
+    ondialogextra1="return UninstallXmarks();"
+    ondialogextra2="return UninstallBYOS();"
+     >
+     <hbox>
+         <image flex="0" src="chrome://xmarksbyos/skin/images/byos_logo.png"
+             style="margin-bottom: 12px;"/>
+        <spacer flex="1" />
+     </hbox>
+     <label value="&byos.xmarksrunning;" style="font-weight: bold; font-size: 18px; margin-bottom: 16px;"/>
+     <description style="font-size: 14px; font-weight: normal;margin-bottom: 12px; margin-left: 8px;">
+         &byos.xmarksrunning.desc;
+     </description>
+     <description style="font-size: 14px; font-weight: normal;margin-bottom: 12px; margin-left: 8px;">
+         &byos.xmarksrunning.desc2;
+     </description>
+     <description style="font-size: 14px; font-weight: normal;margin-left: 8px;">
+         &byos.xmarksrunning.desc3;
+     </description>
+    <script src="foxmarks-byosconflict.js" />
+</dialog>

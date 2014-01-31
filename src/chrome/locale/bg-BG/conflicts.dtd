@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Локална Версия">
+<!ENTITY conflict.name "Име">
+<!ENTITY conflict.location "Локация">
+<!ENTITY conflict.keyword "Дума">
+<!ENTITY conflict.description "Описание">
+<!ENTITY conflict.sidebar "Load this bookmark in the sidebar">
+<!ENTITY conflict.retainlocal "Retain Local Version">
+<!ENTITY conflict.serverversion "Server Version">
+<!ENTITY conflict.retainserver "Retain Server Version">
+<!ENTITY bookmarkconflict.title "Xmarks: Bookmark Conflict">
+<!ENTITY bookmarkconflict.desc1 "Xmarks can&apos;t tell which of these versions of this bookmark should be retained.">
+<!ENTITY bookmarkconflict.desc2 "Please select the version that should be retained.">
+<!ENTITY folderconflict.title "Xmarks: Греща папка">
+<!ENTITY folderconflict.desc1 "Xmarks can&apos;t tell which of these versions of this folder should be retained.">
+<!ENTITY folderconflict.desc2 "Please select the version that should be retained.">
+<!ENTITY parentconflict.title "Xmarks:Защита за деца">
+<!ENTITY parentconflict.desc1 "Xmarks can&apos;t tell which of these two folders this item belongs in.">
+<!ENTITY parentconflict.desc2 "Моля изберете пепка която съдържа този предмет.">
+<!ENTITY parentconflict.item "Предмет">

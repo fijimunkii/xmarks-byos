@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks Bladwijzer Synchronisatie">
+<!ENTITY dialog.label.username "Gebruikersnaam:">
+<!ENTITY dialog.label.password "Wachtwoord:">
+<!ENTITY dialog.label.rememberPassword "Onthoud dit wachtwoord.">
+<!ENTITY dialog.label.rememberPIN "Onthoud deze PIN tussen sessies.">
+<!ENTITY dialog.label.forgotPassword "Ik ben gebruikersnaam of wachtwoord vergeten">
+<!ENTITY dialog.label.synchronization "Synchronisatie-instellingen">
+<!ENTITY dialog.label.ontimer "Activeer automatische synchronisatie">
+<!ENTITY dialog.label.synconshutdown "Synchroniseer bij afsluiten">
+<!ENTITY dialog.label.synconstartup "Synchroniseer bij opstarten">
+<!ENTITY dialog.label.askfirst "Eerst vragen">
+<!ENTITY dialog.label.lastsync "Laatste synchronisatie:">
+<!ENTITY dialog.label.runWizard "Installatiewizard uitvoeren">
+<!ENTITY dialog.label.syncNow "Nu synchroniseren">
+<!ENTITY progress.title "Xmarks: Status">
+<!ENTITY progress.label.status "Status:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Waarschuwing">
+<!ENTITY clobber.desc2 "Xmarks heeft gemerkt dat je huidige set bladwijzers een stuk kleiner is dan de laatst gesynchroniseerde set.">
+<!ENTITY clobber.desc3 "Een zeldzame maar ernstige bug in de Firefox browser kan er soms toe leiden dat je bladwijzer-lijst tijdelijk vervangen wordt door een kleine set standaard bladwijzers. Als dit gebeurt, dan is het belangrijk dat Xmarks deze bladwijzers niet synchroniseert tot het probleem is opgelost.">
+<!ENTITY clobber.prompt "Weet je zeker dat je je bladwijzers nu wil synchroniseren?">
+<!ENTITY clobber.moreinfo "Vertel me meer...">
+<!ENTITY clobber.accept "Ja, synchroniseer">
+<!ENTITY clobber.lastset "Aantal items VORIGE keer:">
+<!ENTITY clobber.currset "Aantal items DEZE keer:">
+<!ENTITY manager.syncNow "Sychroniseer Nu">
+<!ENTITY menu.myFoxmarks "Mijn Xmarks">
+<!ENTITY menu.settings "Instellingen...">
+<!ENTITY menu.similarsites "Toon Site Info...">
+<!ENTITY menu.status "Status...">
+<!ENTITY menu.showstatus "Toon status icoon">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Algemeen">
+<!ENTITY label.status "Status">
+<!ENTITY label.current.status "Huidige Status">
+<!ENTITY label.sync "Types">
+<!ENTITY label.sync.caption "Synchronize and Backup">
+<!ENTITY label.account "Account">
+<!ENTITY label.synchronization "Synchronisatie">
+<!ENTITY label.advanced "Geavanceerd">
+<!ENTITY label.security "Veiligheid">
+<!ENTITY label.encrypt "Encryptie:">
+<!ENTITY label.noencrypt "Geen encryptie">
+<!ENTITY label.passwordonly "Alleen wachtwoord">
+<!ENTITY label.encryptall "Alles versleutelen">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Using Your Own Server">
+<!ENTITY label.useownserver "Gebruik eigen server">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "Wachtwoord URL:">
+<!ENTITY label.manualoverwrite "Handmatig overschrijven">
+<!ENTITY label.upload "Upload">
+<!ENTITY label.download "Download">
+<!ENTITY label.forceoverwriteserver "Forceer overschrijven van bladwijzers op server">
+<!ENTITY label.forceoverwritelocal "Forceer overschrijven van lokale bladwijzers">
+<!ENTITY label.logging "Log">
+<!ENTITY label.enablelogging "Log aanzetten">
+<!ENTITY label.showlogfile "Logbestand tonen">
+<!ENTITY label.profiles "Profielen">
+<!ENTITY label.profilechoice "Profiel:">
+<!ENTITY label.sync.bookmarks "Bookmarks">
+<!ENTITY label.sync.passwords "Passwords">
+<!ENTITY label.sync.resetpin "Reset PIN">
+<!ENTITY label.sync.deletepasswords "Verwijder wachtwoorden van server">
+<!ENTITY label.sync.onlyff3 "* Firefox 3 or above only.">
+<!ENTITY label.sync.morecomingsoon "Learn about what other data types will be available soon.">
+<!ENTITY desc.profile "Gebruik sync-profielen om gevoelige bladwijzers te houden waar ze thuishoren. Maak en beheer sync-profielen op my.foxmark.com. Kies daarna hier een profiel om te bepalen wat Xmarks synchroniseert van en naar deze computer.">
+<!ENTITY desc.sync "Xmarks can synchronize and backup both bookmarks and passwords.">
+<!ENTITY desc.ownserver "Xmarks supports storing your data on your own server such as an FTP or WebDAV server.">
+<!ENTITY label.ownserver.moreinfo "Learn More.">
+<!ENTITY label.manageprofiles "Maak en beheer synchronisatieprofielen">
+<!ENTITY profile.defaultname "&lt;geen&gt;">
+<!ENTITY label.profile.change "Wijzig">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Wijzig synchronisatieprofiel">
+<!ENTITY profile.dialog.desc "Geef het wachtwoord van je Xmarks account om de privacy van je profielen te waarborgen.">
+<!ENTITY dialog.title.invalidpin "Xmarks: Invalid PIN">
+<!ENTITY dialog.invalidpin.desc "Your current PIN appears to be invalid.  Most likely, you&apos;ve changed your PIN on a different computer and it needs to be updated here.  You can choose to do one of the following:">
+<!ENTITY dialog.invalidpin.newpin "Enter your PIN:">
+<!ENTITY dialog.invalidpin.disable "Disable Password Sync and keep your current passwords">
+<!ENTITY dialog.title.resetpin "Xmarks: Reset PIN">
+<!ENTITY dialog.resetpin.pin "Enter new PIN">
+<!ENTITY dialog.resetpin.passwordstrength "Wachtwoordsterkte:">
+<!ENTITY dialog.resetpin.pinconfirm "Confirm new PIN">
+<!ENTITY dialog.resetpin.desc2 "Maak je PIN sterker door een mix van hoofd- en kleine letters, nummers en leestekens te gebruiken en door geen tekens te herhalen. Hoe sterker je PIN, hoe veiliger je wachtwoorden zullen zijn.">
+<!ENTITY dialog.resetpin.desc "Are you sure you want to reset your PIN? This will require us to delete all your passwords currently stored on our server.  Passwords on this computer and on your other computers will not be effected.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: Stored Password Conflict">
+<!ENTITY dialog.passwordconflict.desc "Xmarks can&apos;t tell which of these versions of the password should be retained.">
+<!ENTITY dialog.passwordconflict.desc2 "Please pick the version to keep:">
+<!ENTITY dialog.passwordconflict.local "Local Version">
+<!ENTITY dialog.passwordconflict.server "Server Version">
+<!ENTITY dialog.passwordconflict.site "Site:">
+<!ENTITY dialog.passwordconflict.username "Username:">
+<!ENTITY dialog.passwordconflict.password "Password:">
+<!ENTITY dialog.passwordconflict.showpasswords "Show Passwords">
+<!ENTITY dialog.passwordconflict.keeplocal "Keep Local Version">
+<!ENTITY dialog.passwordconflict.keepserver "Keep Server Version">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Ontdekken">
+<!ENTITY label.tagsuggest "Gesuggereerde labels">
+<!ENTITY label.enabletagsuggestions "Gesuggereerde labels activeren">
+<!ENTITY desc.tagsuggest "Als je een bladwijzer toevoegt kan Xmarks een suggestie doen voor je labels, gebaseerd op labels die andere gebruikers aan dezelfde bladwijzer hebben gegeven.">
+<!ENTITY ownserver.title "Eigen server instellen">
+<!ENTITY ownserver.desc "Om je eigen server met Xmarks te gebruiken moet je twee verschillende URLs opgeven voor je bladwijzer- en wachtwoordopslag.">
+<!ENTITY similarsite.popular "Bladwijzers">
+<!ENTITY similarsite.noreviews "Geen recensies">
+<!ENTITY similarsite.writereview "Schrijf een recensie">
+<!ENTITY similarsite.relatedsite "Top 5 vergelijkbare sites">
+<!ENTITY similarsite.getsiteinfo "TOON SITE INFO">
+<!ENTITY similarsite.getsiteinfo.normalcase "Toon site info">
+<!ENTITY desc.discover "Bladwijzer-gestuurde webdiscovery">
+<!ENTITY label.searchboost "Slimmer zoeken inschakelen">
+<!ENTITY desc.searchboost "Xmarks zal je bij Google de topsites laten zien.">
+<!ENTITY label.siteboost "Site-info inschakelen">
+<!ENTITY desc.siteboost "Xmarks zal je de site-informatie en vergelijkbare sites tonen als je op het Xmarks info-icoontje in je locatiebalk klikt.">
+<!ENTITY label.tagboost "Gesuggereerde tags inschakelen">
+<!ENTITY desc.tagboost "Xmarks zal automatisch tags suggereren als je een bladwijzer toevoegt.">
+<!ENTITY label.serp.top3 "Top 3 Resultaten">
+<!ENTITY label.serp.all "Alle Resultaten">
+<!ENTITY label.newuser.title "Xmarks is geïnstalleerd.">
+<!ENTITY label.newuser.title2 "Bijna klaar!">
+<!ENTITY label.newuser.msg "Klik hier om Xmarks Bladwijzerbackup en Sync in te stellen.">
+<!ENTITY label.newuser.msg2 "Klik hier om de installatie van Xmarks te voltooien.">
+<!ENTITY label.syncdisabled "Je bladwijzers worden niet gebackupt en gesynchroniseerd. Start de configuratiewizard om automatische backup en sync in te schakelen.">
+<!ENTITY byos.title "Welkom bij Xmarks, BYOS Editie">
+<!ENTITY byos.accept "Ga naar Instellingen">
+<!ENTITY byos.cancel "Sluiten">
+<!ENTITY byos.description "Xmarks BYOS Editie is ontwikkeld om met je eigen server te gebruiken. Om het synchroniseren te starten ga je naar de Xmarks Instellingen om de communicatie met je eigen server op te zetten. Wil je dat nu doen?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks en Xmarks BYOS Editie zijn allebei geinstalleerd!">
+<!ENTITY byos.xmarksrunning.desc "Je hebt zowel Xmarks als Xmarks BYOS Editie draaien, wat problemen kan geven. Deinstalleer een van de twee om door te gaan.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks is de standaard-installatie die miljoenen mensen op de wereld gebruiken. Als je niet zeker weet welke van de twee je moet nemen, zou je deze moeten behouden.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is voor gebruik met je eigen server. Houd deze alleen geïnstalleerd als je een geavanceerde gebruiker bent die zijn eigen WebDAV-server op Internet draait.">
+<!ENTITY byos.uninstallxmarks "Deinstalleer Xmarks">
+<!ENTITY byos.uninstallbyos "Deinstalleer Xmarks BYOS Editie">

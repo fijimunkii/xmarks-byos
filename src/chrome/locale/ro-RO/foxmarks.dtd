@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Configurare Xmarks">
+<!ENTITY dialog.label.username "Nume utilizator:">
+<!ENTITY dialog.label.password "Parolă:">
+<!ENTITY dialog.label.rememberPassword "Memorează această parolă pentru sesiunea următoare">
+<!ENTITY dialog.label.rememberPIN "Memorează acest PIN pentru sesiunea următoare">
+<!ENTITY dialog.label.forgotPassword "Mi-am uitat numele utilizator sau parola">
+<!ENTITY dialog.label.synchronization "Parametri de sincronizare">
+<!ENTITY dialog.label.ontimer "Activează sincronizarea automată">
+<!ENTITY dialog.label.synconshutdown "Sincronizează la închidere">
+<!ENTITY dialog.label.synconstartup "Sincronizează la pornire">
+<!ENTITY dialog.label.askfirst "Întreabă mai întâi">
+<!ENTITY dialog.label.lastsync "Ultima sincronizare:">
+<!ENTITY dialog.label.runWizard "Lansează asistentul de configurare">
+<!ENTITY dialog.label.syncNow "Sincronizează acum">
+<!ENTITY progress.title "Xmarks: Stare sincronizare">
+<!ENTITY progress.label.status "Stare:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Avertisment">
+<!ENTITY clobber.desc2 "Xmarks a descoperit că lista Dvs. de semne de carte este semnificativ mai mică decât cea de la ultima sincronizare.">
+<!ENTITY clobber.desc3 "O rară, dar gravă problemă în Firefox poate provoca uneori ca lista Dvs. de semne de carte să fie înlocuită temporar cu o mică listă implicită. În acest caz, este important ca Xmarks să nu sincronizeye semnele de carte până când situaţia va fi rezolvată.">
+<!ENTITY clobber.prompt "Sigur doriţi să sincronizaţi semnele Dvs. de carte acum?">
+<!ENTITY clobber.moreinfo "Arată-mi mai mult...">
+<!ENTITY clobber.accept "Da, sincronizează">
+<!ENTITY clobber.lastset "Numărul de elemente de ULTIMA dată:">
+<!ENTITY clobber.currset "Numărul de elemente de ACUM:">
+<!ENTITY manager.syncNow "Sincronizează acum">
+<!ENTITY menu.myFoxmarks "Xmarks pentru mine">
+<!ENTITY menu.settings "Configurează Xmarks...">
+<!ENTITY menu.similarsites "Afişează informaţii despre sait...">
+<!ENTITY menu.status "Stare...">
+<!ENTITY menu.showstatus "Afişează pictograma pe bara de stare">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "X">
+<!ENTITY menu.accesskey.settings "C">
+<!ENTITY menu.accesskey.similarsites "A">
+<!ENTITY menu.accesskey.status "t">
+<!ENTITY menu.accesskey.icon "P">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "General">
+<!ENTITY label.status "Stare">
+<!ENTITY label.current.status "Stare curentă">
+<!ENTITY label.sync "Sincronizare">
+<!ENTITY label.sync.caption "Tipuri de sincronizare">
+<!ENTITY label.account "Cont">
+<!ENTITY label.synchronization "Opţiuni pentru sincronizare">
+<!ENTITY label.advanced "Complex">
+<!ENTITY label.security "Securitate">
+<!ENTITY label.encrypt "Criptare:">
+<!ENTITY label.noencrypt "Fără criptare">
+<!ENTITY label.passwordonly "Numai pentru autentificare">
+<!ENTITY label.encryptall "Totală">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Utilizare server personal">
+<!ENTITY label.useownserver "Foloseşte serverul personal">
+<!ENTITY label.url "Adresă pentru semne de carte:">
+<!ENTITY label.passwordurl "Adresă pentru parole:               ">
+<!ENTITY label.manualoverwrite "Înlocuire manuală">
+<!ENTITY label.upload "Încarcă">
+<!ENTITY label.download "Descarcă">
+<!ENTITY label.forceoverwriteserver "Forţează înlocuirea datelor de pe server">
+<!ENTITY label.forceoverwritelocal "Forţează înlocuirea datelor locale">
+<!ENTITY label.logging "Jurnal de activităţi">
+<!ENTITY label.enablelogging "Activează jurnalul de activităţi">
+<!ENTITY label.showlogfile "Afişează jurnalul">
+<!ENTITY label.profiles "Profiluri">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Semne de carte">
+<!ENTITY label.sync.passwords "Parole">
+<!ENTITY label.sync.resetpin "Iniţializează PIN-ul">
+<!ENTITY label.sync.deletepasswords "Şterge parolele de pe server">
+<!ENTITY label.sync.onlyff3 "* Numai pentru Firefox 3 sau superior.">
+<!ENTITY label.sync.morecomingsoon "Aflaţi ce alte tipuri de date vor fi disponibile în curând.">
+<!ENTITY desc.profile "Utilizaţi profilurile de sincronizare pentru menţine corect apartenenţa semnelor de carte. Creaţi şi gestionaţi aceste profiluri la my.xmarks.com. Apoi alegeţi un profil pentru a specifica care semne de carte vor fi sincronizate cu acest calculator.">
+<!ENTITY desc.sync "Xmarks poate sincroniza şi arhiva atât semnele de carte cât şi parolele.">
+<!ENTITY desc.ownserver "Xmarks suportă stocarea datelor pe propriul Dvs. server, cum ar fi un server FTP sau WebDAV.">
+<!ENTITY label.ownserver.moreinfo "Aflaţi mai mult...">
+<!ENTITY label.manageprofiles "Crează şi gestionează profilurile de sincronizare">
+<!ENTITY profile.defaultname "&lt;nici unul&gt;">
+<!ENTITY label.profile.change "Modifică">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Modificare profil de sincronizare">
+<!ENTITY profile.dialog.desc "Pentru a proteja caracterul confidenţial al profilurilor, trebuie să furnizaţi parola contului Dvs. Xmarks înainte de a continua.">
+<!ENTITY dialog.title.invalidpin "Sinconizare securizată a parolelor: PIN incorect">
+<!ENTITY dialog.invalidpin.desc "PIN-ul Dvs. curent pare a fi incorect. Cel mai probabil, aţi modificat PIN-ul pe un alt calculator şi este necesar să îl actualizaţi şi pe acesta. Puteţi alege una din urmatoarele opţiuni:">
+<!ENTITY dialog.invalidpin.newpin "Furnizaţi PIN-ul:">
+<!ENTITY dialog.invalidpin.disable "Dezactivaţi sincronizarea parolelor şi păstraţi parolele curente">
+<!ENTITY dialog.title.resetpin "Sinconizare securizată a parolelor: Iniţializare PIN">
+<!ENTITY dialog.resetpin.pin "Furnizaţi noul PIN">
+<!ENTITY dialog.resetpin.passwordstrength "Puterea PIN-ului:">
+<!ENTITY dialog.resetpin.pinconfirm "Confirmare PIN">
+<!ENTITY dialog.resetpin.desc2 "PIN-ul poate fi orice combinaţie de litere, cifre şi simboluri.">
+<!ENTITY dialog.resetpin.desc "Sigur doriţi să iniţializaţi PIN-ul? Aceasta ne va solicita să ştergem toate parolele stocate în prezent pe serverul nostru. Parolele de pe acest calculator şi de pe celelalte calculatoare ale dumneavoastră nu vor fi afectate.">
+<!ENTITY dialog.title.passwordconflict "Sinconizare securizată a parolelor: Conflict între palorele stocate">
+<!ENTITY dialog.passwordconflict.desc "Xmarks nu poate decide care dintre versiunile parolelor ar trebui reţinută.">
+<!ENTITY dialog.passwordconflict.desc2 "Selectaţi versiunea care ar trebui reţinută.">
+<!ENTITY dialog.passwordconflict.local "Versiune locală">
+<!ENTITY dialog.passwordconflict.server "Versiune de pe serve">
+<!ENTITY dialog.passwordconflict.site "Sait:">
+<!ENTITY dialog.passwordconflict.username "Nume utilizator:">
+<!ENTITY dialog.passwordconflict.password "Parolă:">
+<!ENTITY dialog.passwordconflict.showpasswords "Afişează parolele">
+<!ENTITY dialog.passwordconflict.keeplocal "Reţine versiunea locală">
+<!ENTITY dialog.passwordconflict.keepserver "Reţine versiunea de pe server">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Descoperire">
+<!ENTITY label.tagsuggest "Etichete sugerate">
+<!ENTITY label.enabletagsuggestions "Activează sugerarea etichetelor">
+<!ENTITY desc.tagsuggest "Când adăugaţi un semn de carte, Xmarks vă poate sugera etichete adecvate, bazate pe etichetele pe care alţi utilizatori le-au creat pentru acelaşi semn de carte.">
+<!ENTITY ownserver.title "Configurare server personal">
+<!ENTITY ownserver.desc "Pentru a utiliza, cu Xmarks, propriul Dvs. server, vă rugăm să furnizaţi două adrese diferite pentru a fi folosite pentru stocarea semenelor de carte şi a parolelor.">
+<!ENTITY similarsite.popular "Semne de carte">
+<!ENTITY similarsite.noreviews "Nicio recenzie">
+<!ENTITY similarsite.writereview "Scrie o recenzie">
+<!ENTITY similarsite.relatedsite "Primele 5 saituri similare">
+<!ENTITY similarsite.getsiteinfo "INFORMAŢII SAIT">
+<!ENTITY similarsite.getsiteinfo.normalcase "Afişează informaţii despre sait">
+<!ENTITY desc.discover "Descoperire web bazată pe semne de carte">
+<!ENTITY label.searchboost "Activează căutarea inteligentă">
+<!ENTITY desc.searchboost "Xmarks vă va ajuta să descoperiţi cele mai asemănătoare saituri direct în Google.">
+<!ENTITY label.siteboost "Activează informaţiile despre sait">
+<!ENTITY desc.siteboost "Xmarks vă va arăta informaţiile despre sait şi saiturile similare, atunci când faceţi clic pe pictograma Xmarks din bara de adrese.">
+<!ENTITY label.tagboost "Activează sugerarea etichetelor">
+<!ENTITY desc.tagboost "Xmarks vă va sugera automat etichete când adăugaţi un semn de carte.">
+<!ENTITY label.serp.top3 "Primele 3 rezultate">
+<!ENTITY label.serp.all "Toate rezultatele">
+<!ENTITY label.newuser.title "Xmarks este instalat.">
+<!ENTITY label.newuser.title2 "Aproape gata!">
+<!ENTITY label.newuser.msg "Apăsaţi aici pentru a configura modul de arhivare şi sincronizare a semnelor de carte.">
+<!ENTITY label.newuser.msg2 "Apăsaţi aici pentru a finaliza instalarea Xmarks.">
+<!ENTITY label.syncdisabled "Semenele Dvs. de carte nu sunt arhivate şi sincronizate. Pentru a activa arhivarea şi sincronizarea automată, lansaţi asistentul de configurare.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

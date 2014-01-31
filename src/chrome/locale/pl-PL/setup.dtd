@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks - asystent konfiguracji">
+<!ENTITY wizard.title.verified "Konto zostało zweryfikowane">
+<!ENTITY wizard.desc8 "Gratulacje! Xmarks pomyślnie zweryfikował Twoje konto. Teraz przygotujemy ten komputer do pierwszej synchronizacji.">
+<!ENTITY wizard.title.firstsync "Wstępna synchronizacja">
+<!ENTITY wizard.desc9 "Xmarks odnalazł na serwerze dane wysłane na to konto.">
+<!ENTITY wizard.desc10 "W jaki sposób Xmarks ma przeprowadzić wstępną synchronizację?">
+<!ENTITY wizard.keepremote "Zachowaj dane znajdujące się na serwerze; odrzuć dane znajdujące się na tym komputerze.">
+<!ENTITY wizard.keeplocal "Odrzuć dane znajdujące się na serwerze; zachowaj dane znajdujące się na tym komputerze.">
+<!ENTITY wizard.merge "Scal dane na serwerze z danymi z tego komputera.">
+<!ENTITY wizard.seeserver "Wyświetl zakładki znajdujące się na serwerze.">
+<!ENTITY wizard.desc11 "Operację scalania Xmarks rozpocznie operację z jednym zestawem zakładek i folderów, a następnie uzupełni go drugim. To samo stanie się z hasłami, jeżeli zdecydujesz się na ich synchronizację.">
+<!ENTITY wizard.desc12 "Którego zestawu Xmarks powinien użyć jako zestawu początkowego?">
+<!ENTITY wizard.startlocal "Rozpocznij z danymi z tego komputera.">
+<!ENTITY wizard.startremote "Rozpocznij z danymi z serwera.">
+<!ENTITY wizard.desc13 "(W obu wypadkach wszystkie zakładki i hasła zostaną zachowane, jednak efekt końcowy będzie bardziej podobny do zestawu początkowego.)">
+<!ENTITY wizard.title.ready "Gotowy do przeprowadzenia synchronizacji">
+<!ENTITY wizard.desc14 "Xmarks jest gotowy do przeprowadzenia wstępnej synchronizacji.">
+<!ENTITY wizard.title.success "Sukces!">
+<!ENTITY wizard.desc15 "Gratulacje! Twoje zakładki zostały pomyślnie zsynchronizowane. Od teraz Xmarks będzie automatycznie synchronizował zakładki znajdujące się na tym komputerze.">
+<!ENTITY wizard.desc16 "Aby zmienić ustawienia synchronizacji przejdź do menu Xmarks znajdującego się w menu &quot;Narzędzia&quot; Firefoksa.">
+<!ENTITY wizard.title.selectprofile "Wybierz profil">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;żaden&gt;">
+<!ENTITY wizard.profile.desc "Zauważyliśmy, że na Twoim koncie zostały utworzone profile kontrolujące które zakładki mają być synchronizowane na poszczególnych komputerach. Możesz wybrać profil z poniższej listy albo pozostawić domyślne ustawienie, aby synchronizować na tym komputerze wszystkie zakładki.">
+<!ENTITY wizard.title.syncpasswords "Opcjonalne: Bezpieczna synchronizacja haseł">
+<!ENTITY wizard.syncpassworddesc "Xmarks może również bezpiecznie synchronizować hasła. Kiedy zachowasz nazwę użytkownika i hasło używane na stronie internetowej Xmarks może automatycznie zsynchronizować te informacje z Twoimi pozostałymi komputerami. Twoje hasła zostaną zaszyfrowane z użyciem PIN-u, który znać będziesz tylko Ty.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks nie będzie mógł wyświetlać Twoich haseł">
+<!ENTITY wizard.syncpassworddesc3 "Możesz włączyć lub wyłączyć tę funkcję w dowolnym momencie w oknie ustawień Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Czy chcesz włączyć bezpieczną synchronizację haseł w tej chwili?">
+<!ENTITY wizard.syncpasswordcheck "Tak, przeprowadzaj bezpieczną synchronizację moich haseł">
+<!ENTITY wizard.yes "Tak">
+<!ENTITY wizard.no "Nie">
+<!ENTITY wizard.title.pinold "Bezpieczna synchronizacja haseł: Wymagany jest PIN">
+<!ENTITY wizard.desc.oldpin "Aby synchronizować zapisane hasła z tym komputerem wprowadź swój PIN.">
+<!ENTITY wizard.whatisthis "Co to jest?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "Potwierdź PIN:">
+<!ENTITY wizard.forgotpin "Nie pamiętam mojego PIN-u">
+<!ENTITY wizard.title.pinnew "Bezpieczna synchronizacja haseł: Utwórz PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks zabezpiecza Twoje hasła przez szyfrowanie ich wybranym przez Ciebie PIN-em. Ważne jest zapamiętanie tego PIN-u, ponieważ nie możemy go dla Ciebie odzyskać.">
+<!ENTITY wizard.desc.pinnew2 "Twój PIN może być dowolną kombinacją liter, cyfr i symboli.">
+<!ENTITY wizard.learnmore "Dowiedz się więcej.">
+<!ENTITY wizard.title.pincreated "Bezpieczna synchronizacja haseł: PIN został utworzony">
+<!ENTITY wizard.newpinverifieddesc "Twój PIN został pomyślnie utworzony i będzie używany do szyfrowania Twoich haseł.">
+<!ENTITY wizard.newpinverifieddesc2 "Nie zapominaj, że tylko Ty znasz ten PIN i Xmarks nie może pomóc Ci go odzyskać.">
+<!ENTITY wizard.title.pinverified "Bezpieczna synchronizacja haseł: PIN został zweryfikowany">
+<!ENTITY wizard.pinverifieddesc "Twój PIN został pomyślnie zweryfikowany. Zapisane hasła będą teraz synchronizowane z tym komputerem.">
+<!ENTITY wizard.pinverifieddesc2 "Możesz zmienić te ustawienia w dowolnej chwili w oknie ustawień Xmarks.">
+<!ENTITY wizard.title.forgotpin "Nie pamiętam PIN-u">
+<!ENTITY wizard.learnhow "Dowiedz się jak odzyskać swój PIN korzystając ze swojego innego komputera.">
+<!ENTITY wizard.forgotpindesc "Niestety nie możemy odzyskać Twojego PIN-u, jednakże może on zostać odzyskany przy użyciu innego z Twoich komputerów.">
+<!ENTITY wizard.forgotpindesc2 "Możesz:">
+<!ENTITY wizard.forgotpinoption1 "Wprowadzić swój PIN później i nie synchronizować w tej chwili haseł z tym komputerem.">
+<!ENTITY wizard.forgotpinoption2 "Utworzyć nowy PIN.">
+<!ENTITY wizard.title.resetpin "Tworzenie nowego PIN-u">
+<!ENTITY wizard.resetpindesc "Czy na pewno chcesz utworzyć nowy PIN? Będzie to wymagało wprowadzenia go na Twoich pozostałych komputerach.">
+<!ENTITY wizard.resetpinoption1 "Tak, utwórz nowy PIN.">
+<!ENTITY wizard.resetpinoption2 "Nie, nie synchronizuj haseł z tym komputerem.">
+<!ENTITY wizard.title.resetpinverified "Bezpieczna synchronizacja haseł: PIN został utworzony">
+<!ENTITY wizard.resetpinverifieddesc "Twój PIN został zmieniony. Musisz wprowadzić go na swoich pozostałych komputerach, kiedy będzie na nich przeprowadzana nastepna synchronizacja.">
+<!ENTITY wizard.securityinfo.label.1 "Jak działa bezpieczna synchronizacja haseł?">
+<!ENTITY wizard.securityinfo.desc.1 "Xmarks polega na szyfrowaniu aby mieć pewność, że Twoje hasła są bezpiecznie przesyłane przez Internet do Twoich pozostałych komputerów.">
+<!ENTITY wizard.securityinfo.desc.2 "Kiedy zdecydujesz się na bezpieczną synchronizację haseł Xmarks poprosi Cię o ustawienie tajnego PIN-u. Ten PIN będzie używany do szyfrowania Twoich haseł zanim opuszczą one Twój komputer.">
+<!ENTITY wizard.securityinfo.desc.3 "Szyfrowanie haseł oznacza, że zostaną one wymieszane w szeregi bitów które mogą zostać odszyfrowane wyłącznie z użyciem właściwego PIN-u. Ponieważ tylko Ty znasz swój PIN jedynie Ty (my nie będziemy mogli tego zrobić) będziesz w stanie przekonwertować te zaszyfrowane dane z powrotem na listę haseł.">
+<!ENTITY wizard.securityinfo.label.2 "Jak silne jest to szyfrowanie przez Xmarks?">
+<!ENTITY wizard.securityinfo.desc.4 "Aby upewnić sie, że Twoje hasła są zaszyfrowane z użyciem nawyższego możliwego bezpieczeństwa Xmarks korzysta z jednej z najnowocześniejszych algorytmów szyfrujących - 256-bitowego AES. AES jest standardem używanym przez rząd Stanów Zjednoczonych i jest zalecany przez Agencję Bezpieczeństwa Narodowego (NSA) do szyfrowania poufnych informacji.">
+<!ENTITY wizard.securityinfo.label.3 "Co mogę zrobić, aby uzyskać maksymalne możliwe bezpieczeństwo?">
+<!ENTITY wizard.securityinfo.desc.5 "Mimo tego, że korzystamy z iście wojskowego szyfrowania istotną sprawą jest siła PIN-u, który wybierzesz. Xmarks zaleca wybranie PIN-u, który jest trudny do odgadnięcia i składa się z rozmaitych liter, cyfr i symboli (takich jak @, $ i *).">
+<!ENTITY wizard.securityinfo.label.4 "Chcę wiedzieć więcej">
+<!ENTITY wizard.securityinfo.desc.6 "Proszę odwiedzić xmarks.com, aby dowiedzieć się więcej. Możesz nie synchronizować swoich haseł w tej chwili, ale funkcja ta może zostać łatwo włączona w oknie ustawień Xmarks.">

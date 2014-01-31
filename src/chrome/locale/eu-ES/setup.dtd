@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks konfigurazio morroia">
+<!ENTITY wizard.title.verified "Kontua egiaztatua">
+<!ENTITY wizard.desc8 "Zorionak! Xmarks-ek zure kontua behar bezala egiaztatu du. Orain ordenagailu honen lehenengo sinkronizazioa prestatuko da.">
+<!ENTITY wizard.title.firstsync "Hasierako sinkronizazioa">
+<!ENTITY wizard.desc9 "Xmarks-ek kontu honentzat laster-marka bilduma bat aurkitu du.">
+<!ENTITY wizard.desc10 "Nola nahi duzu hasierako sinkronizazioa">
+<!ENTITY wizard.keepremote "Mantendu zerbitzariko laster-markak; baztertu ordenagailu honetakoak.">
+<!ENTITY wizard.keeplocal "Baztertu zerbitzariko laster-markak; mantendu ordenagailu honetakoak.">
+<!ENTITY wizard.merge "Bateratu zerbitzariko laster-markak ordenagailu honetakoekin.">
+<!ENTITY wizard.seeserver "Ikusi zerbitzariko zure laster-markak.">
+<!ENTITY wizard.desc11 "Hasierako bateratzean Xmarks laster-marka bildumetako batekin hasi eta horko laster-markak eta karpetak beste bilduman batuko ditu.">
+<!ENTITY wizard.desc12 "Zein bilduma erabili behar du Xmarks-ek hasirako bilduma bezala?">
+<!ENTITY wizard.startlocal "Hasi ordenagailu honetako bildumarekin.">
+<!ENTITY wizard.startremote "Hasi zerbitzariko bildumarekin.">
+<!ENTITY wizard.desc13 "(Bi kasuetan laster-marka guztiak mantenduko dira. Amaierako emaitza, hala ere, hasierako bildumaren antza izango du.)">
+<!ENTITY wizard.title.ready "Prest sinkronizatzeko">
+<!ENTITY wizard.desc14 "Xmarks prest dago hasierako sinkronizazioa egiteko.">
+<!ENTITY wizard.title.success "Lortua!">
+<!ENTITY wizard.desc15 "Zorionak. Zure laster-markak behar bezala sinkronizatu dituzu. Hemendik aurrera, Xmarks-ek automatikoki mantenduko ditu ordenagailu honetako laster-markak sinkronizaturik.">
+<!ENTITY wizard.desc16 "Sinkronizazio ezarpenak doitzeko, Firefox tresnak menuko Xmarks menua ireki.">
+<!ENTITY wizard.title.selectprofile "Hautatu profila">
+<!ENTITY wizard.label.profilechoice "Profila:">
+<!ENTITY wizard.profile.defaultname "&lt;batez&gt;">
+<!ENTITY wizard.profile.desc "Ikusi dugunez profilak sortu dituzu Xmarks-ek zein laster-marka sinkronizatzen dituen kontrolatzeko. Ordenagailu honentzako profila  beheko zerrendan hautatu dezakezu, edo utzi lehenetsitako ezarpena zure laster-marka guztiak sinkronizatu daitezen.">
+<!ENTITY wizard.title.syncpasswords "Pasahitz sinkronizazioa (aukerakoa)">
+<!ENTITY wizard.syncpassworddesc "Gordetako pasahitzak ordenagailuen artean sinkronizatu nahi al dituzu?">
+<!ENTITY wizard.syncpassworddesc2 "Hala bada Xmarks-ek zure pasahitzak segurtatzeko PIN pribatu bat sortzea eskatuko dizu. PIN hau zure pasahitzak ordenagailutik irten baino lehen enkriptatzeko erabiliko da. Zu ez zaren inork, ezta foxmarks -ek ere ez da zure pasahitzak ikusteko gai izango.">
+<!ENTITY wizard.syncpassworddesc3 "Edozein momentutane zaugarri hau gaitu edo ezgaitu dezakezu Xmarks ezarpenetatik.">
+<!ENTITY wizard.syncpassworddesc4 "Pasahitz sinkronizazio segurua orain gaitu nahi al duzu?">
+<!ENTITY wizard.syncpasswordcheck "Bai, nire pasahitzak segurtasunez sinkronizatu">
+<!ENTITY wizard.yes "Bai">
+<!ENTITY wizard.no "Ez">
+<!ENTITY wizard.title.pinold "Idatzi PINa">
+<!ENTITY wizard.desc.oldpin "Mesedez idatzi pasahitz sinkronizazioa konfiguratzean erabili zenuen PINa.">
+<!ENTITY wizard.whatisthis "Hau zer da?">
+<!ENTITY wizard.label.pin "Idatzi PINa:">
+<!ENTITY wizard.label.confirmpin "Berretsi PINa:">
+<!ENTITY wizard.forgotpin "Nire PINa ahaztu dut.">
+<!ENTITY wizard.title.pinnew "Sortu PINa">
+<!ENTITY wizard.desc.pinnew "Xmarks-ek zure aukerako PIN pribatu baten bitartez enkriptatzen ditu zure pasahitzak. Garrantzitsua da PIN hau ez ahaztea guk ezin zaitugu berreskuratzen lagundu eta.">
+<!ENTITY wizard.desc.pinnew2 "Zure PINa hizki, zenbaki eta ikurren nahasmen bat izan daiteke.">
+<!ENTITY wizard.learnmore "Irakurri gehiago">
+<!ENTITY wizard.title.pincreated "PINa sortua">
+<!ENTITY wizard.newpinverifieddesc "Zure PINa behar bezala sortu da. PIN hau sinkronizatu aurretik zure pasahitzak zuk bakarrik ikusi ahal izateko  babesteko erabiliko da.">
+<!ENTITY wizard.newpinverifieddesc2 "Ez galdu PIN hau. Zure segurtasunagatik Xmarks-ek ez du PIN hau ezagutzen eta ezingo zaitu berreskuratzen lagundu.">
+<!ENTITY wizard.title.pinverified "PINa egiaztatua">
+<!ENTITY wizard.pinverifieddesc "Zure PINa behar bezala egiaztatu da.">
+<!ENTITY wizard.pinverifieddesc2 "Ezarpen hauek edozein momentutan Xmarks ezarpenen bidez aldatu ditzakezu.">
+<!ENTITY wizard.title.forgotpin "Ahaztutako PINa">
+<!ENTITY wizard.learnhow "Irakurri zure PINa zure beste ordenagailuetan nola eskuratu.">
+<!ENTITY wizard.forgotpindesc "Zoritxarrez ezin dugu zure PINa berreskuratu. Posible da hala ere zure PIN-a beste ordenagailu batetatik berreskuratzea.">
+<!ENTITY wizard.forgotpindesc2 "Hauetako bat hautatu dezakezu:">
+<!ENTITY wizard.forgotpinoption1 "Idatzi zure PINa beranduago. Ez sinkronizatu ordenagailu honetako pasahitzak">
+<!ENTITY wizard.forgotpinoption2 "Berrezarri zure PINa">
+<!ENTITY wizard.title.resetpin "Berrezarri PINa">
+<!ENTITY wizard.resetpindesc "Ziur zaude zure PINa berrezarri nahi duzula? Honek zure beste ordenagailuetan PINa ezartzea ere eskatuko du.">
+<!ENTITY wizard.resetpinoption1 "Bai. Berrezarri zure PINa.">
+<!ENTITY wizard.resetpinoption2 "Ez. Ez sinkronizatu ordenagailu honetako pasahitzak">
+<!ENTITY wizard.title.resetpinverified "PIN berria sortua">
+<!ENTITY wizard.resetpinverifieddesc "Zure PINa aldatu egin da. Zure beste ordenagailuetan sinkronizatzen duzun hurrengo aldian PIN hau sartzea eskatuko zaizu.">
+<!ENTITY wizard.securityinfo.label.1 "Nola funtzionatzen du pasahitz sinkronizazio seguruak?">
+<!ENTITY wizard.securityinfo.desc.1 "Enkriptazioa da Xmarks-ek zure pasahitzak internet bidez beste ordenagailuetara modu seguru batetan joateko modua.">
+<!ENTITY wizard.securityinfo.desc.2 "Zure pasahitza segurtasun sinkronizatzea hautatzean, Xmarks-ek zure PIN sekretua eskatuko dizu. PIN hori erabiliko da zure pasahitzak zure ordenagailutik irten aurretik enkriptatzeko.">
+<!ENTITY wizard.securityinfo.desc.3 "Pasahitzak enkriptatzean PIN zuzena ezagutuaz bakarrik deszifratu daitezkeen modu batetan nahasiko dira. PIN-a zuk bakarrik duzunez, zu bakarrik (ez Xmarks-ek ere) izango zara gai enkriptatutako datuak irakurtzeko modura berriz bihurtzeko.">
+<!ENTITY wizard.securityinfo.label.2 "Zein indartsua da enkriptazioa?">
+<!ENTITY wizard.securityinfo.desc.4 "Zure pasahitza segurtasun handienaz enkriptatzen dela ziurtatzeko, Xmarks-ek AES 256-bit enkriptazio algoritmoa erabiltzen du. AES Estatu batuetako gobernuaren estandar bat da eta Segurtasun Administrazio NAzioanalak (NSA) informazio pribatua enkriptatzeko gomendatzen du,">
+<!ENTITY wizard.securityinfo.label.3 "Nola erabili dezaket ahal den segurtasun maila altuena?">
+<!ENTITY wizard.securityinfo.desc.5 "Nahiz erabiltzen dugun enkriptazio militarra izan hautatzen duzun PIN sekretua da enkriptazioaren indarraren osagai garrantzitsuetako bat. Xmarks asmatzen erraza ez den eta hizki, zenbaki eta ikurren (@, € bezlaakoak) nahasmen bat den den PIN bat sortzea gomendatzen du,">
+<!ENTITY wizard.securityinfo.label.4 "Gehiago jakin nahi dut">
+<!ENTITY wizard.securityinfo.desc.6 "Joan Xmarks.com-era gehiago jakiteko. Zure pasahitzak ez sinkronizatzea hautatu dezakezu, beranduago hala nahi izanez gero Xmarks hobespen menuan erraz gaitu dezakezu.">

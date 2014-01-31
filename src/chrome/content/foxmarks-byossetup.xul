@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2005-2009 Xmarks Inc.
+
+foxmarks-byossetup.xul: mini setup for byos users
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css" ?>
+<?xml-stylesheet href="chrome://xmarksbyos/skin/foxmarks.css" type="text/css" ?>
+
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-byossetup"
+    title="&byos.title;"
+    windowtype="foxmarks:byos" 
+    height="350" width="440" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    buttons="accept,cancel"
+    buttonlabelaccept="&byos.accept;"
+    buttonlabelcancel="&byos.cancel;"
+    ondialogaccept="return OnOK();"
+     >
+     <hbox>
+         <image flex="0" src="chrome://xmarksbyos/skin/images/byos_logo.png"
+             style="margin-bottom: 12px;"/>
+        <spacer flex="1" />
+     </hbox>
+     <label value="&byos.title;" style="font-weight: bold; font-size: 18px; margin-bottom: 16px;"/>
+     <description style="font-size: 14px; font-weight: normal;margin-left: 8px;">
+         &byos.description;
+     </description>
+    <script src="foxmarks-byossetup.js" />
+</dialog>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2007 Foxmarks Inc.
+
+ foxmarks-bookmarkconflict.xul: implements Bookmark Conflict dialog.
+
+-->
+
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/conflicts.dtd">
+
+<dialog id="foxmarks-bookmarkconflict" title="&bookmarkconflict.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        windowtype="foxmarks:bookmarkconflict"
+        buttons="cancel"
+        ondialogcancel="return ConflictCancel();"
+        onload="OnBookmarkConflictLoad();"
+        persist="screenX screenY">
+
+    <script src="foxmarks-conflicts.js" />
+        
+    <description>&bookmarkconflict.desc1;</description>
+    <description>&bookmarkconflict.desc2;</description>
+    
+
+    <hbox>
+        <vbox>
+            <groupbox>
+                <caption label="&conflict.localversion;" />
+                <grid>
+                    <columns>
+                        <column />
+                        <column />
+                    </columns>
+                    
+                    <rows>
+                        <row>
+                            <label value="&conflict.name;" />
+                            <textbox readonly="true" id="localname" />
+                        </row>
+                        <row>
+                            <label value="&conflict.location;" />
+                            <textbox readonly="true" id="localurl" />
+                        </row>
+                        <row>
+                            <label value="&conflict.keyword;" />
+                            <textbox readonly="true" id="localkeyword" />
+                        </row>
+                        <row>
+                            <label value="&conflict.description;" />
+                            <textbox multiline="true" readonly="true" 
+                                id="localdesc" />
+                        </row>
+                        <row>
+                            <checkbox disabled="true" id="localwebpanel" />
+                            <label value="&conflict.sidebar;" />
+                        </row>
+                    </rows>
+                </grid>
+            </groupbox>
+            <button label="&conflict.retainlocal;" 
+                oncommand="ConflictSelectLocal();" />
+        </vbox>
+        
+        <vbox>
+            <groupbox>
+                <caption label="&conflict.serverversion;" />
+                <grid>
+                    <columns>
+                        <column />
+                        <column />
+                    </columns>
+                    
+                    <rows>
+                        <row>
+                            <label value="&conflict.name;" />
+                            <textbox readonly="true" id="servername" />
+                        </row>
+                        <row>
+                            <label value="&conflict.location;" />
+                            <textbox readonly="true" id="serverurl" />
+                        </row>
+                        <row>
+                            <label value="&conflict.keyword;" />
+                            <textbox readonly="true" id="serverkeyword" />
+                        </row>
+                        <row>
+                            <label value="&conflict.description;" />
+                            <textbox multiline="true" readonly="true" 
+                                id="serverdesc" />
+                        </row>
+                        <row>
+                            <checkbox disabled="true" id="serverwebpanel" />
+                            <label value="&conflict.sidebar;" />
+                        </row>
+                    </rows>
+                </grid>
+            </groupbox>
+            <button label="&conflict.retainserver;" 
+                oncommand="ConflictSelectServer();" />
+        </vbox>
+    </hbox>
+</dialog>

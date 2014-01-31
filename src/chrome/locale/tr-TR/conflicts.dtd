@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Yerel Sürüm">
+<!ENTITY conflict.name "İsim">
+<!ENTITY conflict.location "Yer">
+<!ENTITY conflict.keyword "Anahtar kelime">
+<!ENTITY conflict.description "Tanımlama">
+<!ENTITY conflict.sidebar "Bu yer imini kenar çubuğa yükle">
+<!ENTITY conflict.retainlocal "Yerel Sürümü Tut">
+<!ENTITY conflict.serverversion "Sunucu Sürümü">
+<!ENTITY conflict.retainserver "Sunucu Sürümünü Tut">
+<!ENTITY bookmarkconflict.title "Xmarks: Yerimi Çelişkisi">
+<!ENTITY bookmarkconflict.desc1 "Xmarks bu yerimlerinden hangi sürümün tutulması gerektiğine karar veremiyor.">
+<!ENTITY bookmarkconflict.desc2 "Lütfen tutulması gerekli sürümü seçiniz.">
+<!ENTITY folderconflict.title "Xmarks: Dizin Çelişkisi">
+<!ENTITY folderconflict.desc1 "Xmarks bu dizinin hangi sürümünün tutulması gerektiğine karar veremiyor.">
+<!ENTITY folderconflict.desc2 "Lütfen tutulması gerekli sürümü seçiniz.">
+<!ENTITY parentconflict.title "Xmarks: Üst Çelişki">
+<!ENTITY parentconflict.desc1 "Xmarks bu öğenin bu dizinlerden hangisine ait olduğunu söyleyemiyor.">
+<!ENTITY parentconflict.desc2 "Lütfen bu öğeyi içermesi gereken dizini seçiniz.">
+<!ENTITY parentconflict.item "Öğe">

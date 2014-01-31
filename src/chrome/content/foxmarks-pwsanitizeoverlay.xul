@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2008 Foxmarks Inc.
+
+foxmarks-pwsanitizeoverlay.xul: implements Foxmarks overlay into the 
+clear data now dialog..
+
+-->
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<overlay id="foxmarksPasswordSanitizeOverlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="foxmarks-pwsanitizeoverlay.js" />
+                         
+</overlay>
+

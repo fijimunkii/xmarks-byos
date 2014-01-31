@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks セットアップ ウィザード">
+<!ENTITY wizard.title.verified "アカウント確認">
+<!ENTITY wizard.desc8 "おめでとうございます！ Xmarks はアカウントを確認しました。 次にこのコンピュータで最初の同期の用意をします。">
+<!ENTITY wizard.title.firstsync "最初に時間の同期">
+<!ENTITY wizard.desc9 "このアカウントが既にサーバにありました。 Xmarks はそのアカウントのブックマークを検出しました。">
+<!ENTITY wizard.desc10 "Xmarks にどのように初回同期を実行させますか？">
+<!ENTITY wizard.keepremote "サーバ上のブックマークを保持してください ： コンピュータ内のブックマークを捨ててください">
+<!ENTITY wizard.keeplocal "コンピュータ内のブックマークを保持してください ： サーバ上のブックマークを捨ててください">
+<!ENTITY wizard.merge "サーバ上のブックマークをコンピュータ内のブックマークに連動してください">
+<!ENTITY wizard.seeserver "クリックしてサーバ上のブックマークをチェックしてください">
+<!ENTITY wizard.desc11 "ブックマークをマージするとき Xmarks は片方のセットから欠けているブックマークを加えてひとつのセットにします">
+<!ENTITY wizard.desc12 "Xmarks はどのセットを使用するべきですか？">
+<!ENTITY wizard.startlocal "このコンピュータ内のブックマークから始める">
+<!ENTITY wizard.startremote "サーバ上のブックマークから始める">
+<!ENTITY wizard.desc13 "すべてのブックマークが保持されるでしょう。最終的な結果は始めのセットと同様に見えるでしょう。">
+<!ENTITY wizard.title.ready "連動準備">
+<!ENTITY wizard.desc14 "Xmarks は同期の準備ができています">
+<!ENTITY wizard.title.success "成功しました！">
+<!ENTITY wizard.desc15 "おめでとうございます！ ブックマークを連動させました。 これから先 Xmarks は自動的にこのコンピュータ上のブックマークを連動させ続けるでしょう。">
+<!ENTITY wizard.desc16 "ctrl + shift + s (Mac では cmd + shift + s) を押すことによって手動で同期を開始することができます。 同期設定を調整する必要がある場合は Bookmarks メニューで Xmarks 設定にアクセスしてください。">
+<!ENTITY wizard.title.selectprofile "プロファイル選択">
+<!ENTITY wizard.label.profilechoice "プロファイル:">
+<!ENTITY wizard.profile.defaultname "&lt;なし&gt;">
+<!ENTITY wizard.profile.desc "Xmarks があなたのコンピュータと同期するブックマークをコントロールするためのプロファイルを作成したました。あなたはこのコンピュータのためのプロファイルを下のリストから選ぶことができます。もしくは、このコンピュータにブックマークを同期するためにデフォルト設定のままにすることもできます。">
+<!ENTITY wizard.title.syncpasswords "パスワード同期 (オプション)">
+<!ENTITY wizard.syncpassworddesc "コンピュータ間で保存したパスワードを同期させますか？">
+<!ENTITY wizard.syncpassworddesc2 "もしそうなら、Xmarks はあなたのパスワードを安全にするために、プライベート PIN の作成をお願いします。この PIN はパスワードをあなたのコンピュータに保存する前に暗号化するために使われます。あなた以外のだれにも、Xmarksさえも、あなたのパスワードを見ることはできません。">
+<!ENTITY wizard.syncpassworddesc3 "あなたはこの機能を Xmarks 設定のダイアログからいつでもオンまたはオフにすることができます。">
+<!ENTITY wizard.syncpassworddesc4 "安全なパスワード同期を今すぐ有効にしますか？">
+<!ENTITY wizard.syncpasswordcheck "はい、パスワードを安全に同期してください。">
+<!ENTITY wizard.yes "はい">
+<!ENTITY wizard.no "いいえ">
+<!ENTITY wizard.title.pinold "PIN 入力">
+<!ENTITY wizard.desc.oldpin "パスワード同期を設定した際に使用した PIN を入力してください。">
+<!ENTITY wizard.whatisthis "これは何？">
+<!ENTITY wizard.label.pin "PIN 入力:">
+<!ENTITY wizard.label.confirmpin "PIN 確認:">
+<!ENTITY wizard.forgotpin "PIN を忘れました">
+<!ENTITY wizard.title.pinnew "PIN 作成">
+<!ENTITY wizard.desc.pinnew "Xmarks はパスワードを、あなたが選択した プライベート PIN で暗号化し、安全に保ちます。私たちはそれを復元することができないので、この PIN を覚えておくことは重要です。">
+<!ENTITY wizard.desc.pinnew2 "PIN はどんな文字、数字、記号の組み合わせでも結構です。">
+<!ENTITY wizard.learnmore "もっと知りたい">
+<!ENTITY wizard.title.pincreated "PIN が作成されました">
+<!ENTITY wizard.newpinverifieddesc "あなたの PIN は無事作成されました。 私たちは、あなただけがアクセスできるように、ブックマークを同期する前に、あなたのパスワードの安全に保つためにこの PIN を利用します。">
+<!ENTITY wizard.newpinverifieddesc2 "この PIN を紛失しないでください。 セキュリティのため、Xmarks はこの PIN について何も知らないので、それを取得することができません。">
+<!ENTITY wizard.title.pinverified "PIN は確認されました">
+<!ENTITY wizard.pinverifieddesc "あなたの PIN は無事確認されました。">
+<!ENTITY wizard.pinverifieddesc2 "あなたはいつでも Xmarks 設定ダイアログを通してこれらの設定を変えることができます。">
+<!ENTITY wizard.title.forgotpin "忘れた PIN">
+<!ENTITY wizard.learnhow "あなたのほかのコンピュータから PIN を取得する方法">
+<!ENTITY wizard.forgotpindesc "申し訳ありませんが、私たちはあなたの PIN を取得できません。しかし、あなたのほかのコンピュータから PIN を復元できるかもしれません。">
+<!ENTITY wizard.forgotpindesc2 "あなたの選択:">
+<!ENTITY wizard.forgotpinoption1 "あとで PIN を入力します。 このコンピュータでは、パスワードを同期しません。">
+<!ENTITY wizard.forgotpinoption2 "PIN をリセット。">
+<!ENTITY wizard.title.resetpin "PIN リセット">
+<!ENTITY wizard.resetpindesc "PIN をリセットしてもよろしいですか？これにより、PIN をあなたのほかのコンピュータに同様に入力していただく必要があります。">
+<!ENTITY wizard.resetpinoption1 "はい。 PIN をリセットしてください。">
+<!ENTITY wizard.resetpinoption2 "いいえ。 このコンピュータでパスワードを同期しないでください。">
+<!ENTITY wizard.title.resetpinverified "新しい PIN が作成されました">
+<!ENTITY wizard.resetpinverifieddesc "PIN が変更されました。　他のコンピュータで次回同期するときに、この PINを入力することを要求されるかもしれません。">
+<!ENTITY wizard.securityinfo.label.1 "どのようにパスワード同期が安全に動作しますか？">
+<!ENTITY wizard.securityinfo.desc.1 "暗号化は、 Xmarks があなたのパスワードをインターネットを通して、あなたのほかのコンピュータに安全に運ぶ方法の中心となっています。">
+<!ENTITY wizard.securityinfo.desc.2 "パスワードを安全に同期する際、 Foxmark は秘密の PIN をお聞きします。この PIN は、コンピュータに保存される前にパスワードを暗号化するために使われます。">
+<!ENTITY wizard.securityinfo.desc.3 "パスワードを暗号化することは、正しい PIN を知っている場合のみ複合化できるスクランブルされたデータにすることです。あなただけがその PIN を持っているので、あなただけが暗号化されたデータを元の意味あるパスワードリストに戻すことができます。 (Xmarks さえもできません)">
+<!ENTITY wizard.securityinfo.label.2 "暗号化をどのように強化しますか？">
+<!ENTITY wizard.securityinfo.desc.4 "最大限可能な安全性でパスワードを暗号化するために、 Xmarks は AES 256ビット暗号化アルゴリズム技術の現在版を利用しています。AESはアメリカ政府標準で、アメリカ国家安全保障局 (NSA) によって分類された情報の暗号化方法として推奨されています。">
+<!ENTITY wizard.securityinfo.label.3 "いつ、最大限可能な安全性を得ることができますか？">
+<!ENTITY wizard.securityinfo.desc.5 "軍事レベル暗号化を利用しているといっても、とても大事なのはあなたが選んだ秘密の PIN の強度です。Xmarks は推測されにくく、異なったいろいろな文字、数字、記号(@, $ や * など)を含む PIN を選ぶことをおすすめします。">
+<!ENTITY wizard.securityinfo.label.4 "もっと知りたい">
+<!ENTITY wizard.securityinfo.desc.6 "もっとお知りになりたい場合、xmarks.com へお越しください。今すぐパスワード同期をしないようにすることができ、しかも簡単にあとでこの機能を Xmarks の設定画面から使えるようにすることができます。">

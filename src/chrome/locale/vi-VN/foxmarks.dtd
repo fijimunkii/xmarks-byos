@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Thiết lập Xmarks">
+<!ENTITY dialog.label.username "Tên đăng nhập:">
+<!ENTITY dialog.label.password "Mật khẩu:">
+<!ENTITY dialog.label.rememberPassword "Ghi nhớ mật khẩu này giữa các phiên.">
+<!ENTITY dialog.label.rememberPIN "Ghi nhớ mã PIN này giữa các phiên.">
+<!ENTITY dialog.label.forgotPassword "Tôi đã quên tên đăng nhập hoặc mật khẩu">
+<!ENTITY dialog.label.synchronization "Thiết lập Đồng bộ hóa">
+<!ENTITY dialog.label.ontimer "Bật Đồng bộ hóa Tự động">
+<!ENTITY dialog.label.synconshutdown "Đồng bộ khi Tắt trình duyệt">
+<!ENTITY dialog.label.synconstartup "Đồng bộ khi Khởi chạy trình duyệt">
+<!ENTITY dialog.label.askfirst "Hỏi trước">
+<!ENTITY dialog.label.lastsync "Lần đồng bộ Cuối:">
+<!ENTITY dialog.label.runWizard "Chạy trình thuật sĩ Cài đặt">
+<!ENTITY dialog.label.syncNow "Đồng bộ hóa Ngay">
+<!ENTITY progress.title "Xmarks: Trạng thái">
+<!ENTITY progress.label.status "Trạng thái:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Cảnh báo">
+<!ENTITY clobber.desc2 "Xmarks nhận thấy rằng bộ trang đánh dấu hiện tại của bạn nhỏ hơn rất nhiều so với bộ mới được đồng bộ gần đây.">
+<!ENTITY clobber.desc3 "Một lỗi hiếm nhưng nghiêm trọng trong Trình duyệt Firefox đôi khi có thể khiến danh sách trang đánh dấu của bạn tạm thời bị thay thế bằng một bộ trang đánh dấu mặc định nhỏ hơn. Nếu xảy ra lỗi này, điều quan trọng là không để Xmarks đồng bộ hóa các trang đánh dấu của bạn cho tới khi tình huống được giải quyết.">
+<!ENTITY clobber.prompt "Bạn có chắc là bạn muốn đồng bộ hóa các trang đánh dấu của mình bây giờ không?">
+<!ENTITY clobber.moreinfo "Giải thích thêm cho tôi...">
+<!ENTITY clobber.accept "Có, vui lòng hãy đồng bộ hóa">
+<!ENTITY clobber.lastset "Số mục lần TRƯỚC:">
+<!ENTITY clobber.currset "Số mục lần NÀY:">
+<!ENTITY manager.syncNow "Đồng bộ Ngay">
+<!ENTITY menu.myFoxmarks "Xmarks của Tôi">
+<!ENTITY menu.settings "Thiết lập Xmarks...">
+<!ENTITY menu.similarsites "Hiện thông tin Trang...">
+<!ENTITY menu.status "Trạng thái...">
+<!ENTITY menu.showstatus "Hiện biểu tượng Trạng thái">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "N">
+<!ENTITY menu.accesskey.myfoxmarks "a">
+<!ENTITY menu.accesskey.settings "T">
+<!ENTITY menu.accesskey.similarsites "g">
+<!ENTITY menu.accesskey.status "r">
+<!ENTITY menu.accesskey.icon "b">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Tổng quát">
+<!ENTITY label.status "Trạng thái">
+<!ENTITY label.current.status "Trạng thái Hiện tại">
+<!ENTITY label.sync "Đồng bộ">
+<!ENTITY label.sync.caption "Các kiểu Đồng bộ hóa">
+<!ENTITY label.account "Tài khoản">
+<!ENTITY label.synchronization "Tùy chọn Đồng bộ hóa">
+<!ENTITY label.advanced "Nâng cao">
+<!ENTITY label.security "Bảo mật Kết nối">
+<!ENTITY label.encrypt "Mã hóa:">
+<!ENTITY label.noencrypt "Không có Mã hóa">
+<!ENTITY label.passwordonly "Chỉ khi Đăng nhập">
+<!ENTITY label.encryptall "Mã hóa Tất cả">
+<!ENTITY label.server "Máy chủ">
+<!ENTITY label.ownserver "Dùng Máy chủ Riêng của Bạn">
+<!ENTITY label.useownserver "Dùng máy chủ riêng">
+<!ENTITY label.url "URL Trang đánh dấu:">
+<!ENTITY label.passwordurl "URL Mật khẩu:">
+<!ENTITY label.manualoverwrite "Ghi đè Thủ công">
+<!ENTITY label.upload "Tải lên">
+<!ENTITY label.download "Tải xuống">
+<!ENTITY label.forceoverwriteserver "Bắt buộc ghi đè dữ liệu máy chủ">
+<!ENTITY label.forceoverwritelocal "Bắt buộc ghi đè dữ liệu trong máy">
+<!ENTITY label.logging "Lưu kí">
+<!ENTITY label.enablelogging "Bật lưu kí">
+<!ENTITY label.showlogfile "Hiện tập tin Lưu kí">
+<!ENTITY label.profiles "Hồ sơ">
+<!ENTITY label.profilechoice "Hồ sơ:">
+<!ENTITY label.sync.bookmarks "Trang đánh dấu">
+<!ENTITY label.sync.passwords "Mật khẩu">
+<!ENTITY label.sync.resetpin "Thiết lập lại PIN">
+<!ENTITY label.sync.deletepasswords "Xóa Mật khẩu từ Máy chủ">
+<!ENTITY label.sync.onlyff3 "* Chỉ Firefox 3 hoặc trở lên.">
+<!ENTITY label.sync.morecomingsoon "Tìm hiểu về các kiểu dữ liệu sẽ được cho phép trong nay mai.">
+<!ENTITY desc.profile "Dùng hồ sơ đồng bộ để giữ lại các trang đánh dấu nhạy cảm ở đúng nơi của chúng. Tạo mới và quản lí hồ sơ đồng bộ tại my.xmarks.com. Rồi chọn hồ sơ tại đây để điều khiển những thứ Xmarks sẽ đồng bộ với máy tính này.">
+<!ENTITY desc.sync "Xmarks có thể đồng bộ hóa và sao lưu cả mật khẩu và trang đánh dấu.">
+<!ENTITY desc.ownserver "Xmarks hỗ trợ việc lưu trữ dữ liệu của bạn trên máy chủ riêng của bạn, ví dụ như máy chủ FTP hoặc WebDAV.">
+<!ENTITY label.ownserver.moreinfo "Tìm hiểu Thêm.">
+<!ENTITY label.manageprofiles "Tạo mới và quản lí hồ sơ đồng bộ">
+<!ENTITY profile.defaultname "&lt;không&gt;">
+<!ENTITY label.profile.change "Thay đổi">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Thay đổi Hồ sơ Đồng bộ">
+<!ENTITY profile.dialog.desc "Để bảo vệ sự riêng tư của các hồ sơ, bạn phải nhập mật khẩu tài khoản Xmarks để tiến hành.">
+<!ENTITY dialog.title.invalidpin "Đồng bộ Mật khẩu An toàn: PIN không hợp lệ">
+<!ENTITY dialog.invalidpin.desc "Mã PIN hiện tại của bạn có vẻ không hợp lệ. Dường như bạn đã thay đổi PIN trên một máy tính khác, nên nó cần được cập nhật tại đây. Bạn có thể chọn làm một trong các việc sau:">
+<!ENTITY dialog.invalidpin.newpin "Nhập PIN của bạn:">
+<!ENTITY dialog.invalidpin.disable "Tắt Đồng bộ Mật khẩu và giữ cho các mật khẩu được cập nhật">
+<!ENTITY dialog.title.resetpin "Đồng bộ Mật khẩu An toàn: Thiết lập lại PIN">
+<!ENTITY dialog.resetpin.pin "Nhập PIN mới">
+<!ENTITY dialog.resetpin.passwordstrength "Độ mạnh của PIN:">
+<!ENTITY dialog.resetpin.pinconfirm "Xác nhận PIN mới">
+<!ENTITY dialog.resetpin.desc2 "PIN của bạn có thể kết hợp chữ cái, chữ số và kí hiệu.">
+<!ENTITY dialog.resetpin.desc "Bạn có chắc là mình muốn thiết lập lại PIN? Việc này đòi hỏi xóa tất cả mật khẩu của bạn hiện đang được lưu trữ trên máy chủ của chúng tôi. Mật khẩu trên máy tính này và các máy tính khác của bạn sẽ không bị ảnh hưởng.">
+<!ENTITY dialog.title.passwordconflict "Đồng bộ Mật khẩu An toàn: Xung đột Mật khẩu Đã lưu trữ">
+<!ENTITY dialog.passwordconflict.desc "Xmarks không biết cái nào trong các phiên bản của mật khẩu nên được giữ lại.">
+<!ENTITY dialog.passwordconflict.desc2 "Vui lòng chọn phiên bản muốn giữ:">
+<!ENTITY dialog.passwordconflict.local "Phiên bản Trong máy">
+<!ENTITY dialog.passwordconflict.server "Phiên bản Máy chủ">
+<!ENTITY dialog.passwordconflict.site "Trang:">
+<!ENTITY dialog.passwordconflict.username "Tên đăng nhập:">
+<!ENTITY dialog.passwordconflict.password "Mật khẩu:">
+<!ENTITY dialog.passwordconflict.showpasswords "Hiện mật khẩu">
+<!ENTITY dialog.passwordconflict.keeplocal "Giữ phiên bản Trong máy">
+<!ENTITY dialog.passwordconflict.keepserver "Giữ phiên bản Máy chủ">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Khám phá">
+<!ENTITY label.tagsuggest "Tag đề xuất">
+<!ENTITY label.enabletagsuggestions "Bật Tag đề xuất">
+<!ENTITY desc.tagsuggest "Khi bạn thêm một trang đánh dấu, Xmarks có thể đề xuất các tag phù hợp cho bạn dựa trên các tag mà những người dùng khác đã tạo cho đánh dấu đó.">
+<!ENTITY ownserver.title "Thiết lập Máy chủ Riêng">
+<!ENTITY ownserver.desc "Để dùng máy chủ riêng với Xmarks, vui lòng cung cấp hai URL khác nhau để dùng cho việc lưu trữ trang đánh dấu và mật khẩu">
+<!ENTITY similarsite.popular "Đánh dấu">
+<!ENTITY similarsite.noreviews "Không đánh giá">
+<!ENTITY similarsite.writereview "Viết một Đánh giá">
+<!ENTITY similarsite.relatedsite "Top 5 Trang giống nhau">
+<!ENTITY similarsite.getsiteinfo "LẤY THÔNG TIN TRANG">
+<!ENTITY similarsite.getsiteinfo.normalcase "Lấy thông tin Trang">
+<!ENTITY desc.discover "Khám phá Web nhờ Trang đánh dấu">
+<!ENTITY label.searchboost "Bật Tìm kiếm Thông minh">
+<!ENTITY desc.searchboost "Xmarks sẽ giúp bạn khám phá các trang web đỉnh hiện nay trên Google.">
+<!ENTITY label.siteboost "Bật Thông tin Trang">
+<!ENTITY desc.siteboost "Xmarks sẽ hiện cho bạn thông tin trang và các trang tương tự khi bạn nhấn lên biểu tượng thông tin Xmarks ở thanh địa chỉ.">
+<!ENTITY label.tagboost "Bật Tag đề xuất">
+<!ENTITY desc.tagboost "Xmarks sẽ tự động đề xuất tag khi bạn thêm một trang đánh dấu">
+<!ENTITY label.serp.top3 "Top 3 Kết quả">
+<!ENTITY label.serp.all "Tất cả Kết quả">
+<!ENTITY label.newuser.title "Xmarks đã được cài.">
+<!ENTITY label.newuser.title2 "Gần Xong Rồi!">
+<!ENTITY label.newuser.msg "Nhấn vào đây để thiết lập sao lưu và đồng bộ trang đánh dấu.">
+<!ENTITY label.newuser.msg2 "Nhấn vào đây để hoàn tất việc cài đặt Xmarks.">
+<!ENTITY label.syncdisabled "Trang đánh dấu của bạn hiện không được sao lưu và đồng bộ hóa. Để bật sao lưu và đồng bộ tự động, vui lòng chạy trình thuật sĩ cài đặt.">
+<!ENTITY byos.title "Chào mừng đến Xmarks, Phiên bản BYOS">
+<!ENTITY byos.accept "Vào phần Thiết lập">
+<!ENTITY byos.cancel "Đóng">
+<!ENTITY byos.description "Phiên bản Xmarks BYOS được thiết kế để dùng với máy chủ của riêng bạn. Để bắt đầu đồng bộ, bạn sẽ cần vào hộp thoại Thiết lập Xmarks để cấu hình phương thức liên lạc với máy chủ của bạn. Bạn có muốn làm việc này ngay không?">
+<!ENTITY byos.xmarksrunning "Xung đột: Xmarks và Phiên bản Xmarks BYOS đều được cài!">
+<!ENTITY byos.xmarksrunning.desc "Bạn có cả Đồng bộ hóa Đánh dấu Xmarks và Phiên bản Xmarks BYOS đang chạy cùng lúc, có thể gây ra vấn đề. Vui lòng gỡ bỏ một trong hai trước khi bắt đầu.">
+<!ENTITY byos.xmarksrunning.desc2 "Đồng bộ hóa Đánh dấu Xmarks là bản cài chuẩn được dùng bởi hàng triệu người trên thế giới. Nếu bạn không chắc nên chọn phiên bản nào, bạn nên giữ lại cái này.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS được dùng với máy chủ của riêng bạn. Chỉ chọn giữ lại cái này nếu bạn là người dùng cấp cao biết quản lí máy chủ WebDav.">
+<!ENTITY byos.uninstallxmarks "Gỡ bỏ Xmarks">
+<!ENTITY byos.uninstallbyos "Gỡ bỏ Phiên bản Xmarks BYOS">

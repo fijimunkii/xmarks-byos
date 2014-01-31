@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks ezarpenak">
+<!ENTITY dialog.label.username "Erabiltzaile-izena:">
+<!ENTITY dialog.label.password "Pasahitza:">
+<!ENTITY dialog.label.rememberPassword "Gogoratu pasahitz hau saioen artean.">
+<!ENTITY dialog.label.rememberPIN "Gogoratu PIN hau saioen artean">
+<!ENTITY dialog.label.forgotPassword "Nire erabiltzailea edo pasahitza ahaztu dut">
+<!ENTITY dialog.label.synchronization "Sinkronizazio ezarpenak">
+<!ENTITY dialog.label.ontimer "Gaitu sinkronizazio automatikoa">
+<!ENTITY dialog.label.synconshutdown "Sinkronizatu itzaltzean">
+<!ENTITY dialog.label.synconstartup "Sinkronizatu abiaraztean">
+<!ENTITY dialog.label.askfirst "Galdetu lehenengo">
+<!ENTITY dialog.label.lastsync "Azken sinkronizazioa:">
+<!ENTITY dialog.label.runWizard "Abiarazi konfigurazio morroia">
+<!ENTITY dialog.label.syncNow "Sinkronizatu orain">
+<!ENTITY progress.title "Xmarks: Egoera">
+<!ENTITY progress.label.status "Egoera:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Oharra">
+<!ENTITY clobber.desc2 "Xmarks-ek  zure uneko laser-markak azken sinkronizazio bilduma baino askoz txikiagoa dela atzeman du.">
+<!ENTITY clobber.desc3 "Firefox nabigatzailearen programa-errore arraro baina garrantzitsu baten eraginez kasu batzuen zure laster-marka zerrenda lehenetsitako bilduma txiki bategatik ordeztea egin dezake. Hau gertatzen bada garrantzitsua da Xmarks-ek zure laster-markak sinkronizatzea egoera konpondu art.">
+<!ENTITY clobber.prompt "Ziur zaude zure laster-markak orain sinkronizatu nahi dituzula?">
+<!ENTITY clobber.moreinfo "Esadazu gehiago...">
+<!ENTITY clobber.accept "Bai, sinkronizatu mesedez">
+<!ENTITY clobber.lastset "AZKEN aldiko elementu kopurua:">
+<!ENTITY clobber.currset "Aldi HONETAKO elementu kopurua:">
+<!ENTITY manager.syncNow "Sinkronizatu orain">
+<!ENTITY menu.myFoxmarks "Nire Xmarks">
+<!ENTITY menu.settings "Ezarpenak...">
+<!ENTITY menu.similarsites "Ikusi gune argibideak...">
+<!ENTITY menu.status "Egoera...">
+<!ENTITY menu.showstatus "Ikusi egoera ikonoa">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "R">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Orokorra">
+<!ENTITY label.status "Egoera">
+<!ENTITY label.current.status "Uneko egoera">
+<!ENTITY label.sync "Sink">
+<!ENTITY label.sync.caption "Sinkronizazio eta babeskopia">
+<!ENTITY label.account "Kontua">
+<!ENTITY label.synchronization "Sinkronizazio">
+<!ENTITY label.advanced "Aurreratua">
+<!ENTITY label.security "Segurtasuna">
+<!ENTITY label.encrypt "Enkriptazioa:">
+<!ENTITY label.noencrypt "Ez enkriptaturik">
+<!ENTITY label.passwordonly "Pasahitza bakarrik">
+<!ENTITY label.encryptall "Dena enkriptatu">
+<!ENTITY label.server "Zerbitzaria">
+<!ENTITY label.ownserver "Zure zerbitzaria erabili">
+<!ENTITY label.useownserver "Erabili nire zerbitzaria">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "Pasahitz URLa:">
+<!ENTITY label.manualoverwrite "Eskuzko gainidaztea">
+<!ENTITY label.upload "Igo">
+<!ENTITY label.download "Deskargatu">
+<!ENTITY label.forceoverwriteserver "Behartu zerbitzari laser-marka gainidaztea">
+<!ENTITY label.forceoverwritelocal "Behartu laser-marka lokalean gainidaztea">
+<!ENTITY label.logging "Erregistroa">
+<!ENTITY label.enablelogging "Gaitu erregistra">
+<!ENTITY label.showlogfile "Ikusi erregistro fitxategia">
+<!ENTITY label.profiles "Profilak">
+<!ENTITY label.profilechoice "Profila">
+<!ENTITY label.sync.bookmarks "Laster-markak">
+<!ENTITY label.sync.passwords "Pasahitzak">
+<!ENTITY label.sync.resetpin "Berrezarri PINa">
+<!ENTITY label.sync.deletepasswords "Ezabatu pasahitzak zerbitzaritik">
+<!ENTITY label.sync.onlyff3 "* Firefox 3 edo berriagoa bakarrik">
+<!ENTITY label.sync.morecomingsoon "Irakurri aurki erabilgarri izango diren beste datu motei buruz.">
+<!ENTITY desc.profile "Sinkronizazio profilak erabili laster-markak bere jatorriaren arabera bereizirik mantentzeko. Sinkronizazio profilak my-xmarks.com-en sortu eta kudeatu daitezke. Gero hautatu profil bat hemen Xmarks-ek ordenagailu honetatik edo honetara sinkronizatzen duena kontrolatzeko.">
+<!ENTITY desc.sync "Xmarks bai laster-markak bai pasahitzak sinkronizatu eta babes-kopia ditzake.">
+<!ENTITY desc.ownserver "Xmarks zure datuak FTP edo WebDAV zerbitzari batetan gordetzeko aukera ematen du.">
+<!ENTITY label.ownserver.moreinfo "Irakurri gehiago.">
+<!ENTITY label.manageprofiles "Sortu eta kudeatu sinkronizazio profilak">
+<!ENTITY profile.defaultname "&lt;batez&gt;">
+<!ENTITY label.profile.change "Aldatu">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Aldatu sinkronizazio profila">
+<!ENTITY profile.dialog.desc "Zure profilen pribatasuna mantentzeko zure foxmarks kontu pasahitza idatzi behar duzu aurrera jarraitzeko.">
+<!ENTITY dialog.title.invalidpin "Xmarks: PIN baliogabea">
+<!ENTITY dialog.invalidpin.desc "Zure PIN-ak baliogabea dirudi. Ziurrenik zuk beste ordenagailu batetan PIN-a aldatu duzu eta hemen eguneratu egin behar duzu. Hauetako bat hautatu dezakezu:">
+<!ENTITY dialog.invalidpin.newpin "Idatzi zure PINa:">
+<!ENTITY dialog.invalidpin.disable "Ezgaitu pasahitz sinkronizazioa eta mantendu zure pasahitzak.">
+<!ENTITY dialog.title.resetpin "Xmarks: Berrezarri PINa">
+<!ENTITY dialog.resetpin.pin "Idatzi PIN berri bat">
+<!ENTITY dialog.resetpin.passwordstrength "Pasahitz gogortasuna:">
+<!ENTITY dialog.resetpin.pinconfirm "Berretsi PIN berria">
+<!ENTITY dialog.resetpin.desc2 "Zure PIN-a indartsuago egin dezakezu karkatere maiuskula eta minuskulak, zenbakiak, puntuazio ikurrak nahastuaz. Zure PIN-aren indarraren arabera zure pasahitzen segurtasuna egongo da.">
+<!ENTITY dialog.resetpin.desc "Ziur zaude zure PINa berrabiarazi nahi duzula? Honek zerbitzarian gordetako zure pasahitz guztiak ezabatzea behar du. Ordenagilu honetan eta besteetan gordetako pasahitzetan ez du eraginik izango.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: Gordetako pasahitzen elkarjotzea">
+<!ENTITY dialog.passwordconflict.desc "Xmarks-ek ezin du erabaki bertsio hauetako zein gorde behar den.">
+<!ENTITY dialog.passwordconflict.desc2 "Mesedez hautatu mantendu behar den bertsioa:">
+<!ENTITY dialog.passwordconflict.local "Bertsio lokala">
+<!ENTITY dialog.passwordconflict.server "Zerbitzariko bertsioa">
+<!ENTITY dialog.passwordconflict.site "Gunea:">
+<!ENTITY dialog.passwordconflict.username "Erabiltzaile-izena:">
+<!ENTITY dialog.passwordconflict.password "Pasahitza:">
+<!ENTITY dialog.passwordconflict.showpasswords "Ikusi pasahitzak">
+<!ENTITY dialog.passwordconflict.keeplocal "Mantendu bertsio lokala">
+<!ENTITY dialog.passwordconflict.keepserver "Mantendu zerbitzariko bertsioa">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Aurkitu">
+<!ENTITY label.tagsuggest "Gomendatutako etiketak">
+<!ENTITY label.enabletagsuggestions "Gaitu gomendatutako etiketak">
+<!ENTITY desc.tagsuggest "Laster-marka bat gehitzean Xmarks-ek etiketak gomendatu ditzake beste erabiltzaileek laster-marka berdinarentzat  erabili dituztenetan oinarrituta.">
+<!ENTITY ownserver.title "Konfiguratu zerbitzari pertsonala">
+<!ENTITY ownserver.desc "Zure zerbitzari pertsonala erabiltzeko, ezarri bi URL ezberdin pasahitz eta laster-marka biltegientzat.">
+<!ENTITY similarsite.popular "Laster-markak">
+<!ENTITY similarsite.noreviews "Berrikuspenik ez">
+<!ENTITY similarsite.writereview "Idatzi berrikuspen bat">
+<!ENTITY similarsite.relatedsite "5 antzeko gune nagusiak">
+<!ENTITY similarsite.getsiteinfo "ESKURATU GUNE ARGIBIDEAK">
+<!ENTITY similarsite.getsiteinfo.normalcase "Eskuratu gune argibideak">
+<!ENTITY desc.discover "Laster-marketan oinarritutako web aurkitzea">
+<!ENTITY label.searchboost "Gaitu bilaketa azkarra">
+<!ENTITY desc.searchboost "Xmarks-ek googlen gune garrantzitsuenak aurkitzen laguntzen zaitu.">
+<!ENTITY label.siteboost "Gaitu gune argibideak">
+<!ENTITY desc.siteboost "Kokapen barrako Xmarks argibide ikonoa sakatzean gunearen argibideak eta antzeko guneak ikusiko dituzu.">
+<!ENTITY label.tagboost "Gaitu gomendatutako etiketak">
+<!ENTITY desc.tagboost "Xmarks-ek laster-marka bat gordetzen duzunean automatikoki etiketak gomendatuko ditu.">
+<!ENTITY label.serp.top3 "3 emaitza nagusiak">
+<!ENTITY label.serp.all "Emaitza guztiak">
+<!ENTITY label.newuser.title "Xmarks instalaturik dago">
+<!ENTITY label.newuser.title2 "Ia amaiaturik!">
+<!ENTITY label.newuser.msg "Klikatu hemen Xmarks-en laster-marka babeskopia eta sinkronizazioa konfiguratzeko.">
+<!ENTITY label.newuser.msg2 "Klik egin hemen Xmarks instalatzeaz amaitzeko">
+<!ENTITY label.syncdisabled "Zure laster-markak ez dira kopiatu ez sinkronizatu. Babeskopia eta sinkronizazio automatikoa gaitzeko exekutatu konfigurazio morroia.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

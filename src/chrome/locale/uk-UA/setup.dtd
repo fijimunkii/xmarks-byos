@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Майстер налаштування Xmarks">
+<!ENTITY wizard.title.verified "Перевірка облікового запису">
+<!ENTITY wizard.desc8 "Вітаємо! Xmarks успішно перевірив ваш обліковий запис. Готуємось до першої синхронізації на цьому комп&apos;ютері.">
+<!ENTITY wizard.title.firstsync "Перша синхронізація">
+<!ENTITY wizard.desc9 "Xmarks виявив, що даний набір закладок цього облікового запису вже існує на сервері.">
+<!ENTITY wizard.desc10 "Як ви бажаєте, щоб Xmarks виконав початкову синхронізацію?">
+<!ENTITY wizard.keepremote "Зберегти закладки на сервері; відмовитись від тих, що на цьому комп&apos;ютері.">
+<!ENTITY wizard.keeplocal "Зберегти закладки на цьому комп&apos;ютері; відмовитись від тих, що на сервері.">
+<!ENTITY wizard.merge "Об&apos;єднати закладки на сервері з тими, що на цьому комп&apos;ютері.">
+<!ENTITY wizard.seeserver "Натисніть тут, щоб подивитись закладки на сервері.">
+<!ENTITY wizard.desc11 "При об&apos;єднанні закладок, Xmarks починає з одного набору закладок, а потім додає відсутні закладки з іншого набору.">
+<!ENTITY wizard.desc12 "Який набір закладок Xmarks має використати для початку?">
+<!ENTITY wizard.startlocal "Почати з закладок на цьому комп&apos;ютері.">
+<!ENTITY wizard.startremote "Почати з закладок на сервері.">
+<!ENTITY wizard.desc13 "За будь-якого варіанту всі закладки будуть збережені. Однак в результаті закладки будуть виглядати як ті, з яких було почато синхронізацію.">
+<!ENTITY wizard.title.ready "Готовий до синхронізації">
+<!ENTITY wizard.desc14 "Xmarks готовий до виконання синхронізації.">
+<!ENTITY wizard.title.success "Виконано!">
+<!ENTITY wizard.desc15 "Вітаємо! Ви успішно синхронізували закладки. З цього моменту Xmarks буде автоматично підтримувати синхронізацію закладок на цьому комп&apos;ютері.">
+<!ENTITY wizard.desc16 "Для налаштування синхронізації виберіть пункт Xmarks з меню Інструменти Firefox.">
+<!ENTITY wizard.title.selectprofile "Виберіть профіль">
+<!ENTITY wizard.label.profilechoice "Профіль:">
+<!ENTITY wizard.profile.defaultname "&lt;не вибрано&gt;">
+<!ENTITY wizard.profile.desc "Ми бачимо, що ви створили профілі для синхронізації закладок на ваших комп&apos;ютерах. Ви можете вибрати профіль зі списку нижче для цього комп&apos;ютера або залишити типові налаштування для синхронізації всіх ваших закладок з цим комп&apos;ютером.">
+<!ENTITY wizard.title.syncpasswords "Синхронізація паролів (додаткове)">
+<!ENTITY wizard.syncpassworddesc "Бажаєте синхронізувати збережені паролі між комп&apos;ютерами?">
+<!ENTITY wizard.syncpassworddesc2 "Якщо так, Xmarks попросить вас створити приватний PIN-код, щоб убезпечити ваші паролі. Цей PIN буде використано для шифрування паролів перед тим, як вони надсилатимуться на сервер. Ніхто, крім вас, навіть Xmarks, не зможе переглянути ваші паролі.">
+<!ENTITY wizard.syncpassworddesc3 "Ви можете увімкнути/вимкнути цю опцію будь-коли з меню налаштувань Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Бажаєте увімкнути безпечну синхронізацію паролів зараз?">
+<!ENTITY wizard.syncpasswordcheck "Так, синхронізуйте мої паролі у безпечний спосіб.">
+<!ENTITY wizard.yes "Так">
+<!ENTITY wizard.no "Ні">
+<!ENTITY wizard.title.pinold "Введіть PIN-код.">
+<!ENTITY wizard.desc.oldpin "Будь ласка, введіть PIN-код, який ви використали для синхронізації паролів.">
+<!ENTITY wizard.whatisthis "Що це таке?">
+<!ENTITY wizard.label.pin "Введіть PIN-код:">
+<!ENTITY wizard.label.confirmpin "Підтвердіть PIN-код:">
+<!ENTITY wizard.forgotpin "Я забув свій PIN-код.">
+<!ENTITY wizard.title.pinnew "Створити PIN-код">
+<!ENTITY wizard.desc.pinnew "Xmarks зберігає ваші паролі в безпеці, шифруючи їх за допомогою PIN-коду. Дуже важливо запам&apos;ятати цей код, оскільки ми не зможемо згодом допомогти його відновити.">
+<!ENTITY wizard.desc.pinnew2 "Ваш PIN -код може бути комбінацією літер, цифр та символів.">
+<!ENTITY wizard.learnmore "Дізнатись більше.">
+<!ENTITY wizard.title.pincreated "PIN-код створено.">
+<!ENTITY wizard.newpinverifieddesc "PIN-код успішно створено. Ми використаємо його, щоб зашифрувати ваші паролі перед тим, як здійснити синхронізацію.">
+<!ENTITY wizard.newpinverifieddesc2 "Не втрачайте свій PIN-код. Задля безпеки, Xmarks не знає його і не зможе жодним чином допомогти вам його відновити.">
+<!ENTITY wizard.title.pinverified "PIN перевірено.">
+<!ENTITY wizard.pinverifieddesc "Ваш PIN-код успішно перевірено.">
+<!ENTITY wizard.pinverifieddesc2 "Ви можете змінити ці налаштування будь-коли з меню налаштувань Xmarks.">
+<!ENTITY wizard.title.forgotpin "Забув PIN-код">
+<!ENTITY wizard.learnhow "Дізнатись, яким чином отримати PIN-код на іншому вашому комп&apos;ютері.">
+<!ENTITY wizard.forgotpindesc "На жаль, ми не можемо відновити ваш PIN-код. Однак, ймовірно, буде можливим відновити його з іншого вашого комп&apos;ютера.">
+<!ENTITY wizard.forgotpindesc2 "Ви можете вибрати:">
+<!ENTITY wizard.forgotpinoption1 "Ввести ваш PIN-код пізніше. Не синхронізувати паролі на цьому комп&apos;ютері.">
+<!ENTITY wizard.forgotpinoption2 "Скинути PIN-код.">
+<!ENTITY wizard.title.resetpin "Скинути PIN-код.">
+<!ENTITY wizard.resetpindesc "Ви впевнені, що бажаєте скинути ваш PIN-код? Це вимагатиме введення PIN-коду на інших ваших комп&apos;ютерах.">
+<!ENTITY wizard.resetpinoption1 "Так. скиньте мій PIN-код.">
+<!ENTITY wizard.resetpinoption2 "Ні. Не синхронізуйте паролі на цьому комп&apos;ютері.">
+<!ENTITY wizard.title.resetpinverified "Новий PIN-код створено.">
+<!ENTITY wizard.resetpinverifieddesc "Ваш PIN-код змінено. Тепер вам слід буде ввести цей PIN-код на інших комп&apos;ютерах під час наступної синхронізації.">
+<!ENTITY wizard.securityinfo.label.1 "Як працює безпечна синхронізація паролів?">
+<!ENTITY wizard.securityinfo.desc.1 "Шифрування покладено в основу того, як Xmarks гарантує безпечне передавання паролів через інтернет на інші комп&apos;ютери.">
+<!ENTITY wizard.securityinfo.desc.2 "Якщи ви оберете безпечне шифрування паролів, Xmarks запропонує вам вибрати секретний PIN-код. Цей PIN-код буде використано для шифрування паролів перед тим, як вони залишать комп&apos;ютер.">
+<!ENTITY wizard.securityinfo.desc.3 "Шифрування паролів означає те, що вони будуть розбиті на шматки, які можна зібрати до купи, тільки якщо ви знаєте правильний PIN-код. Відколи ви матимете PIN, лише ви (навіть не Xmarks) зможете конвертувати ці зашифровані дані назад у список паролів.">
+<!ENTITY wizard.securityinfo.label.2 "Наскільки надійним є шифрування?">
+<!ENTITY wizard.securityinfo.desc.4 "Щоб гарантувати максимальну безпеку шифрування паролів, Xmarks використовує останню версію 256-бітного алгоритму AES. AES - це урядовий стандарт Сполучених Штатів, рекомендований Національним управлінням з безпеки (NSA) для шифрування важливої інформації.">
+<!ENTITY wizard.securityinfo.label.3 "Як досягти максимально можливої безпеки?">
+<!ENTITY wizard.securityinfo.desc.5 "Навіть для шифрування військового рівня, яке ми застосовуємо, дуже важливим фактором є довжина PIN-коду. Xmarks радить вибирати такий код, який важко вгадати, тобто такий, що складається з різного роду літер, цифр та символів (наприклад @, $ та *)">
+<!ENTITY wizard.securityinfo.label.4 "Бажаю дізнатися більше">
+<!ENTITY wizard.securityinfo.desc.6 "Будь ласка, відвідайте xmarks.com, щоб дізнатися більше. Зараз ви можете скасувати синхронізацію паролів, однак легко зможете пізніше увімкнути цю можливість з діалогу налаштувань Xmarks.">

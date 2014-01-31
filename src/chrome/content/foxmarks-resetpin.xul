@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2008 Foxmarks Inc.
+ 
+ foxmarks-resetpin.xul: implements the dialog that appears when
+ foxmarks detects that the pin is invalid.
+ 
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xmarksbyos/skin/foxmarks.css" type="text/css" ?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-resetpin" title="&dialog.title.resetpin;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    buttons="accept,cancel"
+    defaultButton="accept"
+    ondialogaccept="return onResetPINOK();"
+    moveToAlertPosition="true">
+
+    <script src="foxmarks-settings.js" />
+    <script src="shared/passwordmeter.js" />
+    <script src="foxmarks-uitools.js" />
+    <script src="foxmarks-resetpin.js" />
+    <script src="foxmarks-log.js" />
+
+    <hbox>
+        <vbox>
+            <label value="&dialog.title.resetpin;"
+                    style="margin-bottom: .5em; 
+                    font-weight: bold; 
+                    text-transform: uppercase;
+                    padding-left: .5em;"
+            />
+            <vbox style="width: 40em; padding: 1em 1em 1.5em 1em;">
+                <description> 
+                    &dialog.resetpin.desc;
+                </description>
+                <description> 
+                    &dialog.resetpin.desc2;
+                </description>
+                <hbox align="center">
+                    <label value="&dialog.resetpin.pin;" width="90"/>
+                    <textbox type="password" id="newpin" width="100"
+                        oninput="XmarksBYOS.handlePasswordMeter('newpin');"/>
+                    <vbox align="left">
+                        <hbox>
+                            <label value="&dialog.resetpin.passwordstrength;" />
+                            <label value=""
+                                id="passwordStrength" />
+                        </hbox>
+                        <box class="ps_bkgnd" align="left">
+                            <box id="passwordmeter" />
+                        </box>
+                    </vbox>
+                        
+                </hbox>
+                <hbox align="center">
+                    <label value="&dialog.resetpin.pinconfirm;" width="90"/>
+                    <textbox type="password" id="newpin2" width="100"/>
+                </hbox>
+                <hbox align="center">
+                    <label width="90"/>
+                    <checkbox id="rememberPin" label="&dialog.label.rememberPIN;" checked="true"/>
+                </hbox>
+            </vbox>
+         </vbox>
+         <vbox>
+            <image src="chrome://xmarksbyos/skin/images/security-icon-bg.png" width="23" height="30" />
+            <spacer flex="1" />
+         </vbox>
+     </hbox>
+</dialog>

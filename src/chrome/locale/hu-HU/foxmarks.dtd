@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks beállítások">
+<!ENTITY dialog.label.username "Felhasználónév:">
+<!ENTITY dialog.label.password "Jelszó:">
+<!ENTITY dialog.label.rememberPassword "A jelszó megjegyzése két használat között.">
+<!ENTITY dialog.label.rememberPIN "A PIN megjegyzése két használat között.">
+<!ENTITY dialog.label.forgotPassword "Elfelejtettem felhasználónevem vagy jelszavam">
+<!ENTITY dialog.label.synchronization "Szinkronizálási beállítások">
+<!ENTITY dialog.label.ontimer "Automatikus szinkronizálás engedélyezése">
+<!ENTITY dialog.label.synconshutdown "Szinkronizálás kilépéskor">
+<!ENTITY dialog.label.synconstartup "Szinkronizálás induláskor">
+<!ENTITY dialog.label.askfirst "Kérdezze meg">
+<!ENTITY dialog.label.lastsync "Utoljára szinkronizálva:">
+<!ENTITY dialog.label.runWizard "Telepítési varázsló futtatása">
+<!ENTITY dialog.label.syncNow "Szinkronizálás most">
+<!ENTITY progress.title "Xmarks: Állapot">
+<!ENTITY progress.label.status "Állapot:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Figyelmeztetés">
+<!ENTITY clobber.desc2 "Az Xmarks azt észlelte, hogy az aktuális könyvjelző készlet jóval kisebb mint az előző szinkronizálásnál.">
+<!ENTITY clobber.desc3 "Ritka, de előforduló hiba, hogy a Firefox böngésző a könyvjelzőket kicseréli az alapértelmezett könyvjelzőkre. Ha ez előfordul, fontos, hogy az Xmarks ne szinkronizálja a könyvjelzőket, amíg a probléma meg nem oldódott.">
+<!ENTITY clobber.prompt "Biztosan szeretné most szinkronizálni a könyvjelzőket?">
+<!ENTITY clobber.moreinfo "Több információ">
+<!ENTITY clobber.accept "Igen, szinkronizálok.">
+<!ENTITY clobber.lastset "Elemek száma az UTOLSÓ alkalommal:">
+<!ENTITY clobber.currset "Elemek száma MOST:">
+<!ENTITY manager.syncNow "Szinkronizálás most">
+<!ENTITY menu.myFoxmarks "Saját Xmarks-ok">
+<!ENTITY menu.settings "Xmarks beállítások...">
+<!ENTITY menu.similarsites "Oldal információ megjelenítése...">
+<!ENTITY menu.status "Állapot...">
+<!ENTITY menu.showstatus "Állapot ikon megjelenítése">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "H">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Általános">
+<!ENTITY label.status "Állapot">
+<!ENTITY label.current.status "Aktuális állapot">
+<!ENTITY label.sync "Szinkronizálás">
+<!ENTITY label.sync.caption "Szinkronizálási típusok">
+<!ENTITY label.account "Fiók">
+<!ENTITY label.synchronization "Szinkronizálási beállítások">
+<!ENTITY label.advanced "Speciális">
+<!ENTITY label.security "Kapcsolat biztonság">
+<!ENTITY label.encrypt "Titkosítás:">
+<!ENTITY label.noencrypt "Nincs titkosítás">
+<!ENTITY label.passwordonly "Csak belépéskor">
+<!ENTITY label.encryptall "Minden titkosítva">
+<!ENTITY label.server "Szerver">
+<!ENTITY label.ownserver "Saját szerver használata">
+<!ENTITY label.useownserver "Saját szerver használata">
+<!ENTITY label.url "Könyvjelző URL:">
+<!ENTITY label.passwordurl "Jelszó URL:">
+<!ENTITY label.manualoverwrite "Kézi felülírás">
+<!ENTITY label.upload "Feltöltés">
+<!ENTITY label.download "Letöltés">
+<!ENTITY label.forceoverwriteserver "A szerver adatok felülírásának kényszerítése">
+<!ENTITY label.forceoverwritelocal "A helyi adatok felülírásának kényszerítése">
+<!ENTITY label.logging "Naplózás">
+<!ENTITY label.enablelogging "Naplózás engedélyezése">
+<!ENTITY label.showlogfile "Naplófájl megtekintése">
+<!ENTITY label.profiles "Profilok">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Könyvjelzők">
+<!ENTITY label.sync.passwords "Jelszavak">
+<!ENTITY label.sync.resetpin "PIN alaphelyzetbe állítás">
+<!ENTITY label.sync.deletepasswords "Jelszavak törlése a szerverről">
+<!ENTITY label.sync.onlyff3 "* csak Firefox 3 és újabb.">
+<!ENTITY label.sync.morecomingsoon "Tájékozódjon az egyéb nemsokára elérhető adattípusokról.">
+<!ENTITY desc.profile "Használja a szinkronizálási profilokat a könyvjelzőkhöz, ahol szükséges. Hozzon létre és kezeljen profilokat a my.xmarks.com oldalon. Azután válassza ki itt a profilt, hogy vezérelhesse, mit szinkronizáljon erről és erre a gépre.">
+<!ENTITY desc.sync "Az Xmarks szinkronizálni tudja mind a könyvjelzőket, mind a jelszavakat.">
+<!ENTITY desc.ownserver "Az Xmarks támogatja, hogy saját szerveren, például FTP vagy WebDAV szerveren tárolja adatát.">
+<!ENTITY label.ownserver.moreinfo "Több információ.">
+<!ENTITY label.manageprofiles "Szinkronizálási profilok létrehozása és kezelése">
+<!ENTITY profile.defaultname "&lt;semmi&gt;">
+<!ENTITY label.profile.change "Változtat">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Szinkronizálási profil változtatása">
+<!ENTITY profile.dialog.desc "A profilok bizalmasságának megvédéséhez meg kell adnia a Xmarks fiók jelszavát.">
+<!ENTITY dialog.title.invalidpin "Jelszó szinkronizálás: Érvénytelen PIN kód">
+<!ENTITY dialog.invalidpin.desc "A PIN kód érvénytelen. Lehetséges, hogy egy másik számítógépen megváltoztatta a PIN kódot, és szükséges, hogy itt is frissítse azt. A következő lehetőségek közül választhat:">
+<!ENTITY dialog.invalidpin.newpin "PIN kód megadása">
+<!ENTITY dialog.invalidpin.disable "A jelszó szinkronizálás kikapcsolása, és az aktuális jelszavak megtartása">
+<!ENTITY dialog.title.resetpin "Jelszó szinkronizálás: PIN alaphelyzetbe állítása">
+<!ENTITY dialog.resetpin.pin "Adjon meg új PIN kódot">
+<!ENTITY dialog.resetpin.passwordstrength "PIN erősség:">
+<!ENTITY dialog.resetpin.pinconfirm "Új PIN megerősítése">
+<!ENTITY dialog.resetpin.desc2 "A PIN kód betűk, számok és jelek kombinációja lehet.">
+<!ENTITY dialog.resetpin.desc "Biztos hogy alaphelyzetbe akarja állítani a PIN kódot? Ez az összes szerveren tárolt jelszó törléséhez vezet. A jelszavak ezen és a többi számítógépen nem érintettek.">
+<!ENTITY dialog.title.passwordconflict "Jelszó szinkronizálás: Tárolt jelszó ütközés">
+<!ENTITY dialog.passwordconflict.desc "Az Xmarks nem tudja eldönteni, melyik verziónak kellene megmaradnia.">
+<!ENTITY dialog.passwordconflict.desc2 "Kérem válassza ki melyik verziót tartsuk meg:">
+<!ENTITY dialog.passwordconflict.local "Helyi verzió">
+<!ENTITY dialog.passwordconflict.server "Szerver verzió">
+<!ENTITY dialog.passwordconflict.site "Oldal:">
+<!ENTITY dialog.passwordconflict.username "Felhasználónév:">
+<!ENTITY dialog.passwordconflict.password "Jelszó:">
+<!ENTITY dialog.passwordconflict.showpasswords "Jelszavak megjelenítése">
+<!ENTITY dialog.passwordconflict.keeplocal "Helyi verzió megtartása">
+<!ENTITY dialog.passwordconflict.keepserver "Szerver verzió megtartása">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Felfedezés">
+<!ENTITY label.tagsuggest "Javasolt címkék">
+<!ENTITY label.enabletagsuggestions "Javasolt címkék engedélyezése">
+<!ENTITY desc.tagsuggest "Ha hozzáad egy könyvjelzőt, az Xmarks képes rá, hogy megfelelő címkéket javasoljon, az alapján, hogy más felhasználók ugyanehhez a könyvjelzőhöz mit kapcsoltak.">
+<!ENTITY ownserver.title "Saját szerver beállítása">
+<!ENTITY ownserver.desc "Saját szerver használatához két különböző URL-t adjon meg a könyvjelzőknek és a tárolt jelszavaknak.">
+<!ENTITY similarsite.popular "Könyvjelzők">
+<!ENTITY similarsite.noreviews "Nincs értékelés">
+<!ENTITY similarsite.writereview "Írjon egy értékelést">
+<!ENTITY similarsite.relatedsite "Első 5 hasonló oldal">
+<!ENTITY similarsite.getsiteinfo "OLDAL INFORMÁCIÓ LEKÉRÉSE">
+<!ENTITY similarsite.getsiteinfo.normalcase "Oldal információ lekérése">
+<!ENTITY desc.discover "Könyvjelző alapú web felfedezés">
+<!ENTITY label.searchboost "Kisebb keresés bekapcsolása">
+<!ENTITY desc.searchboost "Az Xmarks segít, hogy megtaláljon népszerű oldalakat a Google oldalán.">
+<!ENTITY label.siteboost "Oldal információ bekapcsolása">
+<!ENTITY desc.siteboost "Az Xmarks oldal információkat mutat és hasonló oldalakat, ha rákattint az Xmarks ikonra a címsorban.">
+<!ENTITY label.tagboost "Címke ajánlás bekapcsolása">
+<!ENTITY desc.tagboost "Az Xmarks automatikusan tud címkét ajánlani, amikor könyvjelzőt ad hozzá.">
+<!ENTITY label.serp.top3 "A 3 legnépszerűbb">
+<!ENTITY label.serp.all "Minden eredmény">
+<!ENTITY label.newuser.title "Az Xmarks telepítve.">
+<!ENTITY label.newuser.title2 "Majdnem kész!">
+<!ENTITY label.newuser.msg "Kattintson ide az Xmarks könyvjelző mentő és szinkronizáló telepítéséhez.">
+<!ENTITY label.newuser.msg2 "Kattintson ide az Xmarks telepítés befejezéséhez.">
+<!ENTITY label.syncdisabled "A könyvjelzői nem kerültek mentésre és szinkronizálásra. Az automatikus mentéshez és szinkronizáláshoz indítsa el a telepítési varázslót.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

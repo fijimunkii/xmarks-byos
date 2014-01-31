@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks ブックマーク同期設定">
+<!ENTITY dialog.label.username "ユーザ名:">
+<!ENTITY dialog.label.password "パスワード:">
+<!ENTITY dialog.label.rememberPassword "セッション間このパスワードを記憶する">
+<!ENTITY dialog.label.rememberPIN "セッションの間この PIN を記憶する">
+<!ENTITY dialog.label.forgotPassword "ユーザ名またはパスワードを忘れました">
+<!ENTITY dialog.label.synchronization "同期設定">
+<!ENTITY dialog.label.ontimer "自動同期にする">
+<!ENTITY dialog.label.synconshutdown "終了時に同期">
+<!ENTITY dialog.label.synconstartup "起動時に同期">
+<!ENTITY dialog.label.askfirst "最初に尋ねる">
+<!ENTITY dialog.label.lastsync "最後の同期:">
+<!ENTITY dialog.label.runWizard "セットアップウィザードを起動する">
+<!ENTITY dialog.label.syncNow "今すぐ同期する">
+<!ENTITY progress.title "Xmarks: 状態">
+<!ENTITY progress.label.status "状態:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "警告">
+<!ENTITY clobber.desc2 "Xmarks が現在のブックマークが最後の同期より小さいサイズであることを検出しました。">
+<!ENTITY clobber.desc3 "Firefox ブラウザのまれであるが深刻なバグは時々ブックマークリストを一時的に小さいサイズのデフォルトブックマークと入れ替えてしまうことがあります。これが起こった場合は解決されるまで Xmarks にブックマークを同期させないようにするのが重要です。">
+<!ENTITY clobber.prompt "現在のブックマークに本当に同期させてもいいですか？">
+<!ENTITY clobber.moreinfo "さらに私に伝えたい場合は...">
+<!ENTITY clobber.accept "はい、同期してください">
+<!ENTITY clobber.lastset "前回のアイテムの番号">
+<!ENTITY clobber.currset "今回のアイテムの番号">
+<!ENTITY manager.syncNow "今すぐ同期">
+<!ENTITY menu.myFoxmarks "My Xmarks">
+<!ENTITY menu.settings "設定">
+<!ENTITY menu.similarsites "サイト情報を表示...">
+<!ENTITY menu.status "状態">
+<!ENTITY menu.showstatus "ステータスバーアイコンの表示">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "一般">
+<!ENTITY label.status "ステータス">
+<!ENTITY label.current.status "現在のステータス">
+<!ENTITY label.sync "タイプ">
+<!ENTITY label.sync.caption "同期とバックアップ">
+<!ENTITY label.account "アカウント">
+<!ENTITY label.synchronization "同期">
+<!ENTITY label.advanced "詳細">
+<!ENTITY label.security "セキュリティ">
+<!ENTITY label.encrypt "暗号化:">
+<!ENTITY label.noencrypt "暗号化なし">
+<!ENTITY label.passwordonly "パスワードのみ">
+<!ENTITY label.encryptall "すべて暗号化">
+<!ENTITY label.server "サーバ">
+<!ENTITY label.ownserver "自分のサーバを使用">
+<!ENTITY label.useownserver "自分のサーバを使用">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "パスワード URL:">
+<!ENTITY label.manualoverwrite "手動で上書き">
+<!ENTITY label.upload "アップロード">
+<!ENTITY label.download "ダウンロード">
+<!ENTITY label.forceoverwriteserver "サーバ上のブックマークを上書きする">
+<!ENTITY label.forceoverwritelocal "ローカル上のブックマークを上書きする">
+<!ENTITY label.logging "ログ">
+<!ENTITY label.enablelogging "ログを有効にする">
+<!ENTITY label.showlogfile "ログファイルの表示">
+<!ENTITY label.profiles "プロファイル">
+<!ENTITY label.profilechoice "プロファイル:">
+<!ENTITY label.sync.bookmarks "ブックマーク">
+<!ENTITY label.sync.passwords "パスワード">
+<!ENTITY label.sync.resetpin "PIN リセット">
+<!ENTITY label.sync.deletepasswords "サーバからパスワードを消去">
+<!ENTITY label.sync.onlyff3 "* Firefox 3 かそれ以上のみ。">
+<!ENTITY label.sync.morecomingsoon "Learn about what other data types will be available soon.">
+<!ENTITY desc.profile "Use sync profiles to keep sensitive bookmarks where they belong. Create and manage sync profiles at my.xmarks.com. Then choose a profile here to control what Xmarks syncs to and from this computer.">
+<!ENTITY desc.sync "Xmarks can synchronize and backup both bookmarks and passwords.">
+<!ENTITY desc.ownserver "Xmarks supports storing your data on your own server such as an FTP or WebDAV server.">
+<!ENTITY label.ownserver.moreinfo "さらに">
+<!ENTITY label.manageprofiles "同期プロファイルを作成して管理">
+<!ENTITY profile.defaultname "&lt;なし&gt;">
+<!ENTITY label.profile.change "変更">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "同期プロファイルの変更">
+<!ENTITY profile.dialog.desc "To protect the privacy of your profiles, you must enter your Xmarks account password to proceed.">
+<!ENTITY dialog.title.invalidpin "Xmarks: 無効な PIN">
+<!ENTITY dialog.invalidpin.desc "Your current PIN appears to be invalid.  Most likely, you&apos;ve changed your PIN on a different computer and it needs to be updated here.  You can choose to do one of the following:">
+<!ENTITY dialog.invalidpin.newpin "PIN　を入力:">
+<!ENTITY dialog.invalidpin.disable "パスワード同期を無効にして現在のパスワードを残す">
+<!ENTITY dialog.title.resetpin "安全なパスワード同期: PIN リセット">
+<!ENTITY dialog.resetpin.pin "新しい PIN を入力">
+<!ENTITY dialog.resetpin.passwordstrength "パスワード強度:">
+<!ENTITY dialog.resetpin.pinconfirm "Confirm new PIN">
+<!ENTITY dialog.resetpin.desc2 "あなたの PIN を大文字と小文字、数字、記号を混ぜて使い、繰り返しの文字を使わないことでことでより強度なものにしてください。 より強度な PIN によって、あなたのパスワードはもっと安全になります。">
+<!ENTITY dialog.resetpin.desc "Are you sure you want to reset your PIN? This will require us to delete all your passwords currently stored on our server.  Passwords on this computer and on your other computers will not be effected.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: 保存パスワード衝突">
+<!ENTITY dialog.passwordconflict.desc "Xmarks can&apos;t tell which of these versions of the password should be retained.">
+<!ENTITY dialog.passwordconflict.desc2 "残しておくバージョンを選んでください:">
+<!ENTITY dialog.passwordconflict.local "ローカルバージョン">
+<!ENTITY dialog.passwordconflict.server "サーババージョン">
+<!ENTITY dialog.passwordconflict.site "サイト:">
+<!ENTITY dialog.passwordconflict.username "ユーザ名:">
+<!ENTITY dialog.passwordconflict.password "パスワード:">
+<!ENTITY dialog.passwordconflict.showpasswords "パスワード表示">
+<!ENTITY dialog.passwordconflict.keeplocal "ローカルバージョンを残す">
+<!ENTITY dialog.passwordconflict.keepserver "サーババージョンを残す">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "発見">
+<!ENTITY label.tagsuggest "おすすめタグ">
+<!ENTITY label.enabletagsuggestions "おすすめタグを有効に">
+<!ENTITY desc.tagsuggest "ブックマークを追加するとき、 Xmarks は他のユーザが同じブックマークを作成したときにつけたタグを元に適切なタグをおすすめすることができます。">
+<!ENTITY ownserver.title "独自のサーバを設定">
+<!ENTITY ownserver.desc "Xmarks であなた独自のサーバを利用する場合、ブックマークとパスワード保管に対して２つの異なるURLを与えてください。">
+<!ENTITY similarsite.popular "ブックマーク">
+<!ENTITY similarsite.noreviews "レビューはありません">
+<!ENTITY similarsite.writereview "レビューを書く">
+<!ENTITY similarsite.relatedsite "トップ 5 類似サイト">
+<!ENTITY similarsite.getsiteinfo "サイト情報取得">
+<!ENTITY similarsite.getsiteinfo.normalcase "サイト情報取得">
+<!ENTITY desc.discover "ブックマークによるウェブディレクトリ">
+<!ENTITY label.searchboost "スマート検索を有効に">
+<!ENTITY desc.searchboost "Xmarks はGoogleのトップサイトを発見する手助けをします。">
+<!ENTITY label.siteboost "サイト情報を有効に">
+<!ENTITY desc.siteboost "Xmarks はロケーションバーにある Xmarks 情報アイコンをクリックすると、サイト情報と類似サイトを表示します。">
+<!ENTITY label.tagboost "おすすめタグを有効に">
+<!ENTITY desc.tagboost "Xmarks はあなたがブックマークを追加するときに自動的にタグをおすすめします。">
+<!ENTITY label.serp.top3 "トップ 3 結果">
+<!ENTITY label.serp.all "すべての結果">
+<!ENTITY label.newuser.title "Xmarks はインストールされました。">
+<!ENTITY label.newuser.title2 "ほとんど完了しました！">
+<!ENTITY label.newuser.msg "クリックして Xmarks ブックマークバックアップと同期を設定します。">
+<!ENTITY label.newuser.msg2 "Xmarks をインストール完了するためにクリックしてください。">
+<!ENTITY label.syncdisabled "あなたのブックマークはバックアップおよび同期されません。自動的にバックアップと同期するために、設定ウィザードを実行してください。">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

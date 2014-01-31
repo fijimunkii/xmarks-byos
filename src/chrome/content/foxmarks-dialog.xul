@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2005-2008 Foxmarks Inc.
+
+foxmarks-dialog.xul: implements the main Foxmarks options dialog.
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css" ?>
+<?xml-stylesheet href="chrome://xmarksbyos/skin/foxmarks.css" type="text/css" ?>
+
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<prefwindow id="foxmarks-settings"
+    title="&dialog.title;"
+    windowtype="foxmarks:settings"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    buttons="help,accept,cancel"
+    ondialogaccept="return dialogMgr.onOK();"
+    ondialogcancel="return dialogMgr.onCancel();"
+    ondialoghelp="return dialogMgr.onHelp();"
+    onload="dialogMgr.onSetup();"
+    onunload="dialogMgr.onUnload();"
+    persist="screenX screenY" >
+    
+    <prefpane id="foxmarks-mainpane" label="&label.status;" flex="1" 
+        minheight="400"
+            image="chrome://xmarksbyos/skin/images/pane-selector-general.png">
+    
+        <preferences>
+            <preference id="foxmarks-username" name="extensions.xmarksbyos.username" 
+                instantApply="true" 
+                type="string" onchange="XmarksBYOS.gSettings.ClearCredentials()" />
+            <preference id="foxmarks-autosync" name="extensions.xmarksbyos.synchOnTimer"
+                type="bool" />
+            <preference id="foxmarks-rememberpassword"
+                name="extensions.xmarksbyos.rememberPassword" type="bool" 
+                instantApply="true" />
+            <preference id="foxmarks-url" name="extensions.xmarksbyos.url-bookmarks" 
+                instantApply="true" type="string" />
+            <preference id="foxmarks-passwordurl" name="extensions.xmarksbyos.url-passwords" 
+                instantApply="true" type="string" />
+        </preferences>
+        <stack> 
+        <vbox>
+            <hbox>
+                <spacer flex="100"/>
+                <image src="chrome://xmarksbyos/skin/images/byos_stamp.png" 
+                    style="margin-top: -22px; margin-right: -23px;"/>
+            </hbox>
+        </vbox>
+        <vbox>
+            <groupbox style="min-width: 400px;">
+                <caption label="&label.current.status;" />
+                <vbox flex="1" id="statusbox">
+                    <hbox>
+                        <image id="status-image" width="36" height="28" />
+                        <label id="status-text"  
+                            style="font-size: 22px;font-family:arial,sans-serif;"/>
+                    </hbox>
+                </vbox>
+                <hbox align="center">
+                    <label value="&dialog.label.lastsync;" /> 
+                    <label id="lastSynchDate" style="min-width: 150px"/>
+                    <spacer flex="1" />
+                    <button label="&dialog.label.syncNow;" 
+                        class="mainpane-button"
+                        oncommand="dialogMgr.synchronizeNow();"  />
+                </hbox>
+
+            </groupbox>
+            <groupbox>
+                <caption label="&label.account;" />
+                <grid>
+                    <columns> <column /><column /></columns>
+                    <rows>
+                        <row align="center">
+                            <label control="username" 
+                                value="&dialog.label.username;" />
+                            <textbox id="username" size="32"
+                                preference="foxmarks-username" />
+                        </row>
+                        <row align="center">
+                            <label control="password" 
+                                value="&dialog.label.password;" />
+                            <textbox id="password" type="password" size="32"/>
+                        </row>
+                        <row align="center">
+                            <spacer flex="1" />
+                            <checkbox id="rememberpw"
+                                label="&dialog.label.rememberPassword;"
+                                preference="foxmarks-rememberpassword" />
+                        </row>
+                        <row align="center">
+                            <label id="useown-url-label" value="&label.url;" />
+                            <textbox id="url" flex="1" preference="foxmarks-url" />
+                        </row>
+                        <row align="center">
+                            <label id="useown-passwordurl-label" value="&label.passwordurl;" />
+                            <textbox id="passwordurl" flex="1" preference="foxmarks-passwordurl" />
+                        </row>
+                        <row align="center">
+                            <spacer flex="1" />
+                            <label class="text-link" style="padding-left: 16px;"
+                                    onclick='dialogMgr.panes.advanced.moreOwnServer();'
+                                    value="&label.ownserver.moreinfo;" />
+                        </row>
+                    </rows>
+                </grid>
+            </groupbox>
+            <vbox  flex="1" align="end">
+                <label id="version" />
+            </vbox>
+        </vbox>
+    </stack>
+    </prefpane>
+        
+    <prefpane id="foxmarks-syncpane" label="&label.sync;" flex="1"
+        image="chrome://xmarksbyos/skin/images/pane-selector-types.png">
+        <preferences>
+            <preference id="foxmarks-synconshutdown"
+                name="extensions.xmarksbyos.syncOnShutdown" type="int" />
+            <preference id="foxmarks-askfirst" type="bool"
+                name="extensions.xmarksbyos.syncOnShutdownAsk" />
+        </preferences>
+        <stack> 
+        <vbox>
+            <hbox>
+                <spacer flex="100"/>
+                <image src="chrome://xmarksbyos/skin/images/byos_stamp.png" 
+                    style="margin-top: -22px; margin-right: -23px;"/>
+            </hbox>
+        </vbox>
+        <vbox style="padding-bottom: 8em;">
+            <groupbox flex="1">
+                    <caption label="&label.sync.caption;" />
+                    <checkbox id="sync-bookmarks" label="&label.sync.bookmarks;"
+                        oncommand="dialogMgr.panes.sync.handleBookmarkSync();" />
+                    <hbox>
+                    <checkbox id="sync-passwords" label="&label.sync.passwords;"
+                        oncommand="dialogMgr.panes.sync.handlePasswordSync();" />
+                        <button id="sync-resetpin"  
+                            label="&label.sync.resetpin;" 
+                            oncommand="dialogMgr.panes.sync.doResetPIN();" />
+                    </hbox>
+                    <label id="onlyFF3" value="&label.sync.onlyff3;" />
+            </groupbox>
+            <groupbox flex="1">
+                <caption label="&label.synchronization;" />
+                <hbox align="center">
+                    <checkbox id="autosync" label="&dialog.label.ontimer;"
+                            preference="foxmarks-autosync" />
+                    <spacer flex="1" />
+                </hbox>
+                <checkbox id="synconshutdown" 
+                    label="&dialog.label.synconshutdown;"
+                    onsynctopreference="return dialogMgr.panes.general.syncOnShutdownToPreference();"
+                    oncommand="dialogMgr.panes.general.syncOnShutdownChanged()"
+                    preference="foxmarks-synconshutdown" />
+                <hbox align="center">
+                    <spacer style="width: 1.4em" />
+                    <checkbox id="askfirst" label="&dialog.label.askfirst;" 
+                            preference="foxmarks-askfirst" />
+                </hbox>
+            </groupbox>
+        </vbox>
+        </stack>
+    </prefpane>
+
+    <prefpane id="foxmarks-advpane" label="&label.advanced;" flex="1" 
+            image="chrome://xmarksbyos/skin/images/pane-selector-advanced.png">
+        <preferences>
+            <preference id="foxmarks-enablelogging"
+                name="extensions.xmarksbyos.enableLogging" type="bool" />
+        </preferences>
+        <stack> 
+        <vbox>
+            <hbox>
+                <spacer flex="100"/>
+                <image src="chrome://xmarksbyos/skin/images/byos_stamp.png" 
+                    style="margin-top: -22px; margin-right: -23px;"/>
+            </hbox>
+        </vbox>
+        <vbox>
+        <groupbox>
+            <caption label="&label.manualoverwrite;" />
+            <hbox align="center">
+                <label value="&label.forceoverwriteserver;" />
+                <spacer flex="1" />
+                <button label="&label.upload;" class="manual-overwrite-button" 
+                    oncommand="dialogMgr.uploadNow();" flex="0" id="upload" />
+            </hbox>
+            <hbox align="center">
+                <label value="&label.forceoverwritelocal;" />
+                <spacer flex="1" />
+                <button label="&label.download;" class="manual-overwrite-button"
+                    oncommand="dialogMgr.downloadNow();" flex="0" />
+            </hbox>
+        </groupbox>
+        <groupbox flex="1">
+            <caption label="&label.logging;" />
+            <hbox align="center">
+                <checkbox label="&label.enablelogging;"
+                    preference="foxmarks-enablelogging" />
+                <spacer flex="1" />
+                <button label="&label.showlogfile;" 
+                    oncommand="dialogMgr.panes.advanced.displayLogFile()" />
+            </hbox>
+        </groupbox>
+        <label value="" />
+        </vbox>
+        </stack>
+    </prefpane>
+
+    <script src="foxmarks-dialog.js" />
+    <script src="foxmarks-settings.js" />
+    <script src="foxmarks-uitools.js" />
+
+</prefwindow>

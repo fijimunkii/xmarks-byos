@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Local Version">
+<!ENTITY conflict.name "Name">
+<!ENTITY conflict.location "Location">
+<!ENTITY conflict.keyword "Keyword">
+<!ENTITY conflict.description "Description">
+<!ENTITY conflict.sidebar "Load this bookmark in the sidebar">
+<!ENTITY conflict.retainlocal "Retain Local Version">
+<!ENTITY conflict.serverversion "Server Version">
+<!ENTITY conflict.retainserver "Retain Server Version">
+<!ENTITY bookmarkconflict.title "Xmarks: Bookmark Conflict">
+<!ENTITY bookmarkconflict.desc1 "Xmarks can&apos;t tell which of these versions of this bookmark should be retained.">
+<!ENTITY bookmarkconflict.desc2 "Please select the version that should be retained.">
+<!ENTITY folderconflict.title "Xmarks: Folder Conflict">
+<!ENTITY folderconflict.desc1 "Xmarks can&apos;t tell which of these versions of this folder should be retained.">
+<!ENTITY folderconflict.desc2 "Please select the version that should be retained.">
+<!ENTITY parentconflict.title "Xmarks: Parent Conflict">
+<!ENTITY parentconflict.desc1 "Xmarks can&apos;t tell which of these two folders this item belongs in.">
+<!ENTITY parentconflict.desc2 "Please select the folder that should contain this item.">
+<!ENTITY parentconflict.item "Item">

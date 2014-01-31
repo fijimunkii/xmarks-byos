@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2005-2007 Foxmarks Inc.
+
+foxmarks-progress.xul: implements the small window that appears when
+performing a synch, upload, download, or merge operation.
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-progress" title="&progress.title;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    windowtype="foxmarks:progress"
+    buttons="cancel"
+    ondialogcancel="return onProgressCancel();"
+    onload="onProgressLoad()"
+    onunload="onProgressUnload()"
+    persist="screenX screenY" 
+    style="width: &progress.width;em;">
+
+    <script src="foxmarks-progress.js" />
+    <script src="foxmarks-settings.js" />
+    <script src="foxmarks-log.js" />
+
+    <vbox flex="1">
+        <label value="&progress.title;" 
+            style="font-size: 1.0em; font-family:arial,sans-serif; font-weight: bold;" />
+        <progressmeter mode="undetermined" />
+        <hbox id="lineitems">
+            <vbox>
+                <image id="bookmarks-check"
+                    style="width: 34px; height: 22px; margin: 4px 4px;" />
+                <image id="passwords-check"
+                    style="width: 34px; height: 22px; margin: 4px 4px;" />
+            </vbox>
+            <vbox>
+                <label value="&label.sync.bookmarks;"
+                    style="font-size: 12px;font-family:arial,sans-serif; margin: 8px 4px;"/>
+                <label value="&label.sync.passwords;" 
+                    style="font-size: 12px;font-family:arial,sans-serif; margin: 8px 4px;"/>
+            </vbox>
+            <vbox flex="1" align="end">
+                <label id="bookmarks" 
+                    style="font-size: 12px;font-family:arial,sans-serif; padding: 8px 4px;"/>
+                <label id="passwords"
+                    style="font-size: 12px;font-family:arial,sans-serif; padding: 8px 4px;"/>
+            </vbox>
+
+        </hbox>
+    </vbox>
+</dialog>

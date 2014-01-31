@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Lokale ferzje">
+<!ENTITY conflict.name "Namme">
+<!ENTITY conflict.location "Lokaasje">
+<!ENTITY conflict.keyword "Kaaiwurd">
+<!ENTITY conflict.description "Omskriuwing">
+<!ENTITY conflict.sidebar "Laad dizze blêdwizer yn de sidebalke">
+<!ENTITY conflict.retainlocal "Behâld lokale ferzje">
+<!ENTITY conflict.serverversion "Tsjinnerferzje">
+<!ENTITY conflict.retainserver "Behâld tsjinnerferzje">
+<!ENTITY bookmarkconflict.title "Xmarks: Blêdwizerkonflikt">
+<!ENTITY bookmarkconflict.desc1 "Xmarks kin net bepale hokker ferzje fan dizze blêdwizer behâlde wurde moatte soe.">
+<!ENTITY bookmarkconflict.desc2 "Selektearje de ferzje dy&apos;t bewarre wurde moat.">
+<!ENTITY folderconflict.title "Xmarks: Mapkonflikt">
+<!ENTITY folderconflict.desc1 "Xmarks kin net bepale hokker ferzje fan dizze map behâlde wurde moatte soe.">
+<!ENTITY folderconflict.desc2 "Selektearje de ferzje dy&apos;t bewarre wurde moat..">
+<!ENTITY parentconflict.title "Xmarks: Konflikt yn boppelizzend item">
+<!ENTITY parentconflict.desc1 "Xmarks kin net bepale yn hokker fan dizze twa mappen dit ûnderdiel thúsheart.">
+<!ENTITY parentconflict.desc2 "Selektearje de map weryn dit ûnderdiel pleatst wurde moat.">
+<!ENTITY parentconflict.item "Underdiel">

@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "本地版本">
+<!ENTITY conflict.name "名称">
+<!ENTITY conflict.location "位置">
+<!ENTITY conflict.keyword "关键字">
+<!ENTITY conflict.description "描述">
+<!ENTITY conflict.sidebar "在侧栏中加载该书签">
+<!ENTITY conflict.retainlocal "保留本地版本">
+<!ENTITY conflict.serverversion "服务器版本">
+<!ENTITY conflict.retainserver "保留服务器版本">
+<!ENTITY bookmarkconflict.title "Xmarks: 书签冲突">
+<!ENTITY bookmarkconflict.desc1 "Xmarks 未被告知应该保留该书签的哪一个版本">
+<!ENTITY bookmarkconflict.desc2 "请您选择应该保留的版本">
+<!ENTITY folderconflict.title "Xmarks: 文件夹冲突">
+<!ENTITY folderconflict.desc1 "Xmarks 未被告知应该保留该文件夹的哪一个版本">
+<!ENTITY folderconflict.desc2 "请您选择应该保留的版本">
+<!ENTITY parentconflict.title "Xmarks: 父文件夹冲突">
+<!ENTITY parentconflict.desc1 "Xmarks 未被告知该项目属于这两个文件夹的哪一个">
+<!ENTITY parentconflict.desc2 "请选择应该包含该项目的文件夹">
+<!ENTITY parentconflict.item "项目">

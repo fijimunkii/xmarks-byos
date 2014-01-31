@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks - Einstellungen">
+<!ENTITY dialog.label.username "Benutzername:">
+<!ENTITY dialog.label.password "Passwort:">
+<!ENTITY dialog.label.rememberPassword "Dieses Passwort zwischen den Sitzungen merken.">
+<!ENTITY dialog.label.rememberPIN "Diese PIN zwischen den Sitzungen merken.">
+<!ENTITY dialog.label.forgotPassword "Ich habe meinen Benutzernamen oder Passwort vergessen.">
+<!ENTITY dialog.label.synchronization "Synchronisations-Εinstellungen">
+<!ENTITY dialog.label.ontimer "Automatische Synchronisation aktivieren">
+<!ENTITY dialog.label.synconshutdown "Synchronisieren beim Beenden">
+<!ENTITY dialog.label.synconstartup "Synchronisieren beim Starten">
+<!ENTITY dialog.label.askfirst "Vorher fragen">
+<!ENTITY dialog.label.lastsync "Letzter Abgleich:">
+<!ENTITY dialog.label.runWizard "Einrichtungsassistenten starten">
+<!ENTITY dialog.label.syncNow "Jetzt synchronisieren">
+<!ENTITY progress.title "Xmarks: Status">
+<!ENTITY progress.label.status "Status:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Warnung">
+<!ENTITY clobber.desc2 "Xmarks hat festgestellt, dass Ihre jetzigen Lesezeichen einen wesentlich geringeren Umfang haben als die zuletzt synchronisierten.">
+<!ENTITY clobber.desc3 "Ein seltener, aber schwerwiegender Fehler im Firefox Browser kann dazu führen, dass Ihre Lesezeichen vorübergehend durch einen kleinen Satz von voreingestellten Lesezeichen ersetzt werden. Wichtig: Wenn dieser Fall eintritt, darf Xmarks keine Synchronisation durchführen, bis der Zustand behoben ist.">
+<!ENTITY clobber.prompt "Sind Sie sicher, dass Sie ihre Lesezeichen jetzt synchronisieren wollen?">
+<!ENTITY clobber.moreinfo "Bitte mehr Informationen...">
+<!ENTITY clobber.accept "Ja, bitte synchronisieren">
+<!ENTITY clobber.lastset "Anzahl der Einträge LETZTES Mal:">
+<!ENTITY clobber.currset "Anzahl der Einträge DIESES Mal:">
+<!ENTITY manager.syncNow "Jetzt synchronisieren">
+<!ENTITY menu.myFoxmarks "Meine Xmarks">
+<!ENTITY menu.settings "Xmarks-Einstellungen...">
+<!ENTITY menu.similarsites "Site-Info anzeigen...">
+<!ENTITY menu.status "Status...">
+<!ENTITY menu.showstatus "Status-Symbol anzeigen">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "S">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Allgemein">
+<!ENTITY label.status "Status">
+<!ENTITY label.current.status "Aktueller Status">
+<!ENTITY label.sync "Synchronisieren">
+<!ENTITY label.sync.caption "Synchronisations-Arten">
+<!ENTITY label.account "Benutzerkonto">
+<!ENTITY label.synchronization "Synchronisations-Einstellungen">
+<!ENTITY label.advanced "Erweitert">
+<!ENTITY label.security "Verbindungs-Sicherheit">
+<!ENTITY label.encrypt "Verschlüsselung:">
+<!ENTITY label.noencrypt "Keine Verschlüsselung">
+<!ENTITY label.passwordonly "Nur anmelden">
+<!ENTITY label.encryptall "Alles verschlüsseln">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Ihren eigenen Server verwenden">
+<!ENTITY label.useownserver "Eigenen Server verwenden">
+<!ENTITY label.url "Lesezeichen-URL:">
+<!ENTITY label.passwordurl "Passwort-URL:">
+<!ENTITY label.manualoverwrite "Manuell überschreiben">
+<!ENTITY label.upload "Hochladen">
+<!ENTITY label.download "Herunterladen">
+<!ENTITY label.forceoverwriteserver "Überschreiben der Daten auf dem Server erzwingen">
+<!ENTITY label.forceoverwritelocal "Überschreiben der lokalen Daten erzwingen">
+<!ENTITY label.logging "Protokollieren">
+<!ENTITY label.enablelogging "Protokollieren einschalten">
+<!ENTITY label.showlogfile "Protokolldatei anzeigen">
+<!ENTITY label.profiles "Profile">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Lesezeichen">
+<!ENTITY label.sync.passwords "Passwörter">
+<!ENTITY label.sync.resetpin "PIN zurücksetzen">
+<!ENTITY label.sync.deletepasswords "Passwörter auf dem Server löschen">
+<!ENTITY label.sync.onlyff3 "* Nur Firefox 3 oder höher.">
+<!ENTITY label.sync.morecomingsoon "Erfahren Sie, welche andere Daten bald verfügbar sein werden.">
+<!ENTITY desc.profile "Verwenden Sie Synchronisations-Profile, um sensible Lesezeichen dort zu behalten, wo sie hingehören. Erstellen und verwalten Sie Synchronisations-Profile auf my.xmarks.com. Dann wählen Sie hier ein Profil, um festzulegen, was Xmarks mit und von diesem Rechner synchronisiert.">
+<!ENTITY desc.sync "Xmarks kann Lesezeichen und Passwörter synchronisieren und sichern.">
+<!ENTITY desc.ownserver "Xmarks unterstützt das Speichern Ihrer Daten auf einem eigenen FTP- oder WebDAV-Server.">
+<!ENTITY label.ownserver.moreinfo "Erfahren Sie mehr.">
+<!ENTITY label.manageprofiles "Erstellen und verwalten Sie Sync-Profile">
+<!ENTITY profile.defaultname "&lt;keine&gt;">
+<!ENTITY label.profile.change "Ändern">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Sync-Profil ändern">
+<!ENTITY profile.dialog.desc "Um die Privatsphäre Ihrer Profile zu schützen, müssen Sie Ihr Xmarks-Benutzerkonto-Passwort eingeben, um fortzufahren.">
+<!ENTITY dialog.title.invalidpin "Xmarks: Ungültige PIN">
+<!ENTITY dialog.invalidpin.desc "Ihre aktuelle PIN scheint ungültig zu sein. Höchstwahrscheinlich haben Sie Ihre PIN auf einem anderen Rechner geändert und müssen sie jetzt hier aktualisieren. Sie können zwischen Folgendem auswählen:">
+<!ENTITY dialog.invalidpin.newpin "Geben Sie Ihre PIN ein:">
+<!ENTITY dialog.invalidpin.disable "Deaktivieren Sie Passwort-Synchronisation und behalten Sie ihre aktuellen Passwörter">
+<!ENTITY dialog.title.resetpin "Sichere Passwort-Synchronisation: PIN zurücksetzen">
+<!ENTITY dialog.resetpin.pin "Neue PIN eingeben">
+<!ENTITY dialog.resetpin.passwordstrength "PIN-Stärke:">
+<!ENTITY dialog.resetpin.pinconfirm "Neue PIN bestätigen">
+<!ENTITY dialog.resetpin.desc2 "Ihre PIN kann jede Kombination aus Buchstaben, Ziffern und Sonderzeichen sein.">
+<!ENTITY dialog.resetpin.desc "Möchten Sie Ihre PIN wirklich zurücksetzen? Dadurch werden alle auf unserem Server gespeicherten Passwörter gelöscht. Passwörter auf diesem und auf allen Ihren anderen Rechnern sind davon nicht betroffen.">
+<!ENTITY dialog.title.passwordconflict "Sichere Passwort-Synchronisation: Gespeicherte Passwörter widersprechen sich">
+<!ENTITY dialog.passwordconflict.desc "Xmarks kann nicht festlegen, welche dieser Versionen des Passworts behalten werden soll.">
+<!ENTITY dialog.passwordconflict.desc2 "Bitte wählen Sie die Version, die Sie behalten möchten:">
+<!ENTITY dialog.passwordconflict.local "Lokale Version">
+<!ENTITY dialog.passwordconflict.server "Version auf dem Server">
+<!ENTITY dialog.passwordconflict.site "Site:">
+<!ENTITY dialog.passwordconflict.username "Benutzername:">
+<!ENTITY dialog.passwordconflict.password "Passwort:">
+<!ENTITY dialog.passwordconflict.showpasswords "Passwörter anzeigen">
+<!ENTITY dialog.passwordconflict.keeplocal "Lokale Version behalten">
+<!ENTITY dialog.passwordconflict.keepserver "Version auf dem Server behalten">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Entdecken">
+<!ENTITY label.tagsuggest "Vorgeschlagene Tags">
+<!ENTITY label.enabletagsuggestions "Aktiviere vorgeschlagene Tags">
+<!ENTITY desc.tagsuggest "Wenn Sie ein Lesezeichen hinzufügen, kann Xmarks Ihnen Tags für dieses Lesezeichen vorschlagen. Diese werden aus den Tags anderer User für das selbe Lesezeichen ermittelt.">
+<!ENTITY ownserver.title "Eigenen Server einrichten">
+<!ENTITY ownserver.desc "Um Ihren eigenen Server für Xmarks zu nutzen, geben Sie bitte zwei unterschiedliche URLs für den jeweiligen Lesezeichen und Passwort Speicherort an">
+<!ENTITY similarsite.popular "Lesezeichen">
+<!ENTITY similarsite.noreviews "Keine Bewertungen">
+<!ENTITY similarsite.writereview "Eine Bewertung schreiben">
+<!ENTITY similarsite.relatedsite "Top 5 der ähnlichen Sites">
+<!ENTITY similarsite.getsiteinfo "SITE-INFO abrufen">
+<!ENTITY similarsite.getsiteinfo.normalcase "Site-Info abrufen">
+<!ENTITY desc.discover "Lesezeichen-unterstütztes Entecken des Webs">
+<!ENTITY label.searchboost "Intelligente Suche aktivieren">
+<!ENTITY desc.searchboost "Xmarks wird Ihnen mit Google helfen die Top Sites zu entdecken.">
+<!ENTITY label.siteboost "Site-Info aktivieren">
+<!ENTITY desc.siteboost "Xmarks wird Ihnen Site-Informationen und ähnliche Sites anzeigen, wenn Sie auf das Xmarks-Info-Symbol in der Adresszeile klicken.">
+<!ENTITY label.tagboost "Empfohlene Schlagwörter aktivieren">
+<!ENTITY desc.tagboost "Xmarks wird automatisch Schlagwörter vorschlagen, wenn Sie ein Lesezeichen hinzufügen.">
+<!ENTITY label.serp.top3 "Top-3-Ergebnisse">
+<!ENTITY label.serp.all "Alle Ergebnisse">
+<!ENTITY label.newuser.title "Xmarks ist installiert.">
+<!ENTITY label.newuser.title2 "So gut wie fertig!">
+<!ENTITY label.newuser.msg "Hier klicken um Xmarks Lesezeichen Backup und Synchronisation einzurichten.">
+<!ENTITY label.newuser.msg2 "Hier klicken, um die Xmarks Installation zu beenden.">
+<!ENTITY label.syncdisabled "Ihre Lesezeichen werden nicht gesichert und synchronisiert. Um das automatische Backup und Synchronisieren zur aktivieren, starten Sie bitte den Einrichtungsassistent.">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Bertsio lokala">
+<!ENTITY conflict.name "Izena">
+<!ENTITY conflict.location "Kokapena">
+<!ENTITY conflict.keyword "Gako-hitza">
+<!ENTITY conflict.description "Azalpena">
+<!ENTITY conflict.sidebar "Kargatu laster-marka hau alboko-barran">
+<!ENTITY conflict.retainlocal "Mantendu bertsio lokala">
+<!ENTITY conflict.serverversion "Zerbitzariko bertsioa">
+<!ENTITY conflict.retainserver "Mantendu zerbitzariko bertsioa">
+<!ENTITY bookmarkconflict.title "Xmarks: Laster-marka elkar-jotzea">
+<!ENTITY bookmarkconflict.desc1 "Xmarks-ek ezin du erabaki laster-marka honen zein bertsio mantendu behar den.">
+<!ENTITY bookmarkconflict.desc2 "Mesedez hautatu mantendu behar den bertsioa.">
+<!ENTITY folderconflict.title "Xmarks: Karpeta elka-jotzea">
+<!ENTITY folderconflict.desc1 "Xmarks-ek ezin du erabaki karpeta honen zein bertsio mantendu behar den.">
+<!ENTITY folderconflict.desc2 "Mesedez hautatu mantendu behar den bertsioa.">
+<!ENTITY parentconflict.title "Xmarks: Guraso elkar-jotzea">
+<!ENTITY parentconflict.desc1 "Xmarks-ek ezin du erabaki elementu hau zein karpetako partaide den.">
+<!ENTITY parentconflict.desc2 "Mesedez hautatu elementu hau eduki behar duen karpeta.">
+<!ENTITY parentconflict.item "Elementua">

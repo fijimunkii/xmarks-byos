@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks Bookmark Synchronizer">
+<!ENTITY dialog.label.username "Nome utente:">
+<!ENTITY dialog.label.password "Password:">
+<!ENTITY dialog.label.rememberPassword "Ricorda sempre questa password">
+<!ENTITY dialog.label.rememberPIN "Ricorda sempre questo codice PIN">
+<!ENTITY dialog.label.forgotPassword "Fare clic qui se non si ricordano nome utente o password">
+<!ENTITY dialog.label.synchronization "Sincronizzazione">
+<!ENTITY dialog.label.ontimer "Attiva sincronizzazione automatica">
+<!ENTITY dialog.label.synconshutdown "Sincronizza alla chiusura">
+<!ENTITY dialog.label.synconstartup "Sincronizza all&apos;avvio">
+<!ENTITY dialog.label.askfirst "Chiedi prima di sincronizzare">
+<!ENTITY dialog.label.lastsync "Ultima sincronizzazione:">
+<!ENTITY dialog.label.runWizard "Avvia configurazione guidata…">
+<!ENTITY dialog.label.syncNow "Sincronizza ora…">
+<!ENTITY progress.title "Stato di Xmarks">
+<!ENTITY progress.label.status "Stato:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Avviso">
+<!ENTITY clobber.desc2 "Xmarks ha rilevato che il gruppo attuale di segnalibri è sensibilmente più piccolo dell&apos;ultimo gruppo sincronizzato">
+<!ENTITY clobber.desc3 "Un bug raro ma serio di Firefox potrebbe causare la sostituzione temporanea dei propri segnalibri con il gruppo di segnalibri predefiniti del browser (più piccolo). Se dovesse accadere, è importante che Xmarks non sincronizzi i segnalibri fino a che non si sia risolto il problema">
+<!ENTITY clobber.prompt "Sincronizzare i propri segnalibri ora?">
+<!ENTITY clobber.moreinfo "Ulteriori informazioni">
+<!ENTITY clobber.accept "Sì, sincronizza">
+<!ENTITY clobber.lastset "Numero di elementi dell&apos;ultima sincronizzazione: ">
+<!ENTITY clobber.currset "Numero di elementi di questa sincronizzazione: ">
+<!ENTITY manager.syncNow "Sincronizza ora…">
+<!ENTITY menu.myFoxmarks "My Xmarks">
+<!ENTITY menu.settings "Impostazioni…">
+<!ENTITY menu.similarsites "Ottieni le informazioni sul sito">
+<!ENTITY menu.status "Stato…">
+<!ENTITY menu.showstatus "Mostra l&apos;icona nella barra di stato">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "I">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "o">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Generali">
+<!ENTITY label.status "Stato">
+<!ENTITY label.current.status "Stato attuale">
+<!ENTITY label.sync "File da sincronizzare">
+<!ENTITY label.sync.caption "Sincronizzazione e backup">
+<!ENTITY label.account "Account">
+<!ENTITY label.synchronization "Sincronizzazione">
+<!ENTITY label.advanced "Avanzate">
+<!ENTITY label.security "Sicurezza">
+<!ENTITY label.encrypt "Elementi da cifrare:">
+<!ENTITY label.noencrypt "nessuno">
+<!ENTITY label.passwordonly "solo i dati di accesso">
+<!ENTITY label.encryptall "tutti">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Server personalizzato">
+<!ENTITY label.useownserver "Utilizza server personalizzato">
+<!ENTITY label.url "URL dei segnalibri:">
+<!ENTITY label.passwordurl "URL delle password:">
+<!ENTITY label.manualoverwrite "Sovrascrittura manuale">
+<!ENTITY label.upload "Carica…">
+<!ENTITY label.download "Scarica…">
+<!ENTITY label.forceoverwriteserver "Forza la sovrascrittura dei dati remoti">
+<!ENTITY label.forceoverwritelocal "Forza la sovrascrittura dei dati locali">
+<!ENTITY label.logging "Registrazioni">
+<!ENTITY label.enablelogging "Attiva registrazioni">
+<!ENTITY label.showlogfile "Mostra registrazioni">
+<!ENTITY label.profiles "Profili">
+<!ENTITY label.profilechoice "Profilo:">
+<!ENTITY label.sync.bookmarks "Sincronizza i segnalibri">
+<!ENTITY label.sync.passwords "Sincronizza le password">
+<!ENTITY label.sync.resetpin "Azzera codice PIN…">
+<!ENTITY label.sync.deletepasswords "Elimina le password dal server…">
+<!ENTITY label.sync.onlyff3 "* per Firefox 3 o versioni superiori">
+<!ENTITY label.sync.morecomingsoon "Ulteriori informazioni su quali tipi di dati saranno presto disponibili">
+<!ENTITY desc.profile "Utilizzare i profili di sincronizzazione per conservare i relativi segnalibri riservati. Creare e gestire tali profili su my.xmarks.com, poi selezionarne uno qui per scegliere quali dati Xmarks sincronizzerà da e per questo computer">
+<!ENTITY desc.sync "Tramite Xmarks è possibile sincronizzare ed effettuare il backup di segnalibri e password">
+<!ENTITY desc.ownserver "Xmarks supporta la memorizzazione dei propri dati su un server FTP o WebDAV personalizzato">
+<!ENTITY label.ownserver.moreinfo "Ulteriori informazioni">
+<!ENTITY label.manageprofiles "Creazione e gestione profili di sincronizzazione">
+<!ENTITY profile.defaultname "&lt;nessuno&gt;">
+<!ENTITY label.profile.change "Modifica…">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Modifica profilo di sincronizzazione">
+<!ENTITY profile.dialog.desc "Per proteggere la privacy dei propri profili è necessario inserire la password del proprio account di Xmarks per continuare">
+<!ENTITY dialog.title.invalidpin "Codice PIN non valido">
+<!ENTITY dialog.invalidpin.desc "Il codice PIN attuale non sembra essere valido. Molto probabilmente è stato modificato da un altro computer, quindi è necessario aggiornarlo su questo computer. Selezionare l&apos;azione da eseguire">
+<!ENTITY dialog.invalidpin.newpin "Inserisci il codice PIN: ">
+<!ENTITY dialog.invalidpin.disable "Disattiva la sincronizzazione delle password conservando quelle attuali">
+<!ENTITY dialog.title.resetpin "Azzeramento del codice PIN">
+<!ENTITY dialog.resetpin.pin "Inserire il nuovo codice PIN:">
+<!ENTITY dialog.resetpin.passwordstrength "Qualità del codice PIN:">
+<!ENTITY dialog.resetpin.pinconfirm "Reinserire il codice PIN:">
+<!ENTITY dialog.resetpin.desc2 "Per una migliore protezione delle proprie password è consigliato l&apos;inserimento di un codice PIN composto da caratteri non ripetuti quali lettere maiuscole e minuscole, numeri e segni di punteggiatura">
+<!ENTITY dialog.resetpin.desc "Azzerare il proprio codice PIN? Procedendo tutte le password attualmente memorizzate sul server verranno eliminate, mentre le password memorizzate su questo e sugli altri computer non verranno eliminate">
+<!ENTITY dialog.title.passwordconflict "Password differenti rilevate">
+<!ENTITY dialog.passwordconflict.desc "Non è possibile stabilire quali di queste password dovrebbero essere conservate">
+<!ENTITY dialog.passwordconflict.desc2 "Selezionare quale versione conservare:">
+<!ENTITY dialog.passwordconflict.local "Versione locale">
+<!ENTITY dialog.passwordconflict.server "Versione sul server">
+<!ENTITY dialog.passwordconflict.site "Sito web: ">
+<!ENTITY dialog.passwordconflict.username "Nome utente: ">
+<!ENTITY dialog.passwordconflict.password "Password: ">
+<!ENTITY dialog.passwordconflict.showpasswords "Mostra le password">
+<!ENTITY dialog.passwordconflict.keeplocal "Mantieni la versione locale">
+<!ENTITY dialog.passwordconflict.keepserver "Mantieni la versione sul server">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Informazioni sui siti">
+<!ENTITY label.tagsuggest "Suggerimento delle etichette">
+<!ENTITY label.enabletagsuggestions "Attiva la funzione di suggerimento delle etichette">
+<!ENTITY desc.tagsuggest "Aggiungendo un segnalibro verranno suggerite etichette adatte tra quelle create da altri utenti di Xmarks per lo stesso segnalibro">
+<!ENTITY ownserver.title "Configurazione del server personalizzato">
+<!ENTITY ownserver.desc "Per utilizzare un proprio server con Xmarks è necessario inserire due URL differenti per le password e i segnalibri">
+<!ENTITY similarsite.popular "Segnalibri">
+<!ENTITY similarsite.noreviews "Nessuna recensione">
+<!ENTITY similarsite.writereview "Scrivi una recensione">
+<!ENTITY similarsite.relatedsite "I 5 siti maggiormente simili">
+<!ENTITY similarsite.getsiteinfo "INFORMAZIONI SUL SITO">
+<!ENTITY similarsite.getsiteinfo.normalcase "Ottieni informazioni sul sito">
+<!ENTITY desc.discover "Ricerca di informazioni sui siti web">
+<!ENTITY label.searchboost "Attiva ricerca intelligente">
+<!ENTITY desc.searchboost "Selezionando questa opzione verrà effettuata la ricerca dei siti più rilevanti tramite Google">
+<!ENTITY label.siteboost "Attiva visualizzazione informazioni sui siti">
+<!ENTITY desc.siteboost "Selezionando questa opzione verranno visualizzate le informazioni sui siti e i siti simili facendo clic sull&apos;icona nella barra degli indirizzi">
+<!ENTITY label.tagboost "Attiva suggerimento delle etichette">
+<!ENTITY desc.tagboost "Selezionando questa opzione verranno suggerite le etichette all&apos;aggiunta di un segnalibro">
+<!ENTITY label.serp.top3 "Mostra i 3 siti più rilevanti">
+<!ENTITY label.serp.all "Mostra tutti i risultati">
+<!ENTITY label.newuser.title " ">
+<!ENTITY label.newuser.title2 "Installazione quasi completata">
+<!ENTITY label.newuser.msg " ">
+<!ENTITY label.newuser.msg2 "Fare clic qui per completare l&apos;installazione di Xmarks">
+<!ENTITY label.syncdisabled "Il backup e la sincronizzazione dei segnalibri non sono stati effettuati. Per attivare la sincronizzazione automatica avviare la configurazione guidata">
+<!ENTITY byos.title "Benvenuti in Xmarks BYOS Edition">
+<!ENTITY byos.accept "Configura…">
+<!ENTITY byos.cancel "Chiudi">
+<!ENTITY byos.description "Xmarks BYOS Edition è stata creata per l&apos;uso di server personalizzati impostati dall&apos;utente. Per avviare la sincronizzazione è necessario accedere alla finestra delle impostazioni di Xmarks e configurare la connessione a tali server. Procedere con la configurazione ora?">
+<!ENTITY byos.xmarksrunning "Xmarks e Xmarks BYOS Edition sono entrambe installate">
+<!ENTITY byos.xmarksrunning.desc "Xmarks Bookmark Synchronizer e Xmarks BYOS Edition sono in esecuzione contemporaneamente e ciò può causare problemi. Disinstallare una delle due estensioni prima di proseguire">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer è l&apos;estensione normalmente utilizzata dalla maggior parte degli utenti. In caso di dubbi è quindi consigliato disinstallare Xmarks BYOS Edition">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS Edition è progettata per l&apos;uso di server personalizzati impostati dall&apos;utente. Per il suo funzionamento è necessario disporre di un server WebDav">
+<!ENTITY byos.uninstallxmarks "Disinstalla Xmarks">
+<!ENTITY byos.uninstallbyos "Disinstalla Xmarks BYOS Edition">

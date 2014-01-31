@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "34">
+<!ENTITY wizard.title "Xmarks Ynstallaasjehelper">
+<!ENTITY wizard.title.verified "Abbonnemint kontrolearre.">
+<!ENTITY wizard.desc8 "Felisiteard! Xmarks hat mei súkses jo abbonnemint kontrolearre. No sille wy de earste synchronisaasje op dizze kompjûter tarêde.">
+<!ENTITY wizard.title.firstsync "Earste synchronisaasje">
+<!ENTITY wizard.desc9 "Xmarks hat bepaald dat der foar dit abbonnemint al in set blêdwizers bestiet op de tsjinner.">
+<!ENTITY wizard.desc10 "Hoe wolle jo dat Xmarks de earste synchronisaasje útfiert?">
+<!ENTITY wizard.keepremote "Behâld blêdwizers fan de tsjinner, oerskriuw blêdwizers fan dizze kompjûter.">
+<!ENTITY wizard.keeplocal "Behâld blêdwizers fan dizze kompjûter, oerskriuw blêdwizers op de tsjinner.">
+<!ENTITY wizard.merge "Kombinearje blêdwizers op de tsjinner mei die op dizze kompjûter.">
+<!ENTITY wizard.seeserver "Klik hjir om de blêdwizers op de tsjinner te besjen.">
+<!ENTITY wizard.desc11 "Tiidens it kombinearjen fan blêdwizers begjint Xmarks mei de iene set en foecht de ûntbrekkende blêdwizers út de oare set yn.">
+<!ENTITY wizard.desc12 "Hokker set moat Xmarks as start-set brûke?">
+<!ENTITY wizard.startlocal "Begjin mei de blêdwizers fan dizze kompjûter.">
+<!ENTITY wizard.startremote "Begjin mei de blêdwizers op de tsjinner.">
+<!ENTITY wizard.desc13 "Op beide manieren sille alle blêdwizers behâlden wurde. It úteinlike risseltaat sil echter lykje op dat fan de start-set.">
+<!ENTITY wizard.title.ready "Klear om te synchronisearjen">
+<!ENTITY wizard.desc14 "Xmarks is klear om de synchronisaasje út te fieren.">
+<!ENTITY wizard.title.success "Slagge!">
+<!ENTITY wizard.desc15 "Felisiteard! Jo hawwe mei súkses jo blêdwizers synchronisearre. Fan no ôf sil Xmarks de blêdwizers op dizze kompjûter automatysk synchroniseard hâlde.">
+<!ENTITY wizard.desc16 "Jo kinne in hânmjittige synchronisaasje starte mei ctrl-shift-s (cmd-shift-s op in  Macintosh). It oanpassen fan synchronisaasje ynstellings dogge jo yn de Xmarksynstellings op it blêdwizersmenu.">
+<!ENTITY wizard.title.selectprofile "Selektearje profiel">
+<!ENTITY wizard.label.profilechoice "Profyl:">
+<!ENTITY wizard.profile.defaultname "&lt;gjin&gt;">
+<!ENTITY wizard.profile.desc "Wy sjogge dat jo profilen oanmakke hawwe om te kontrolearje hokker blêdwizers Xmarks syncht nei jo kompjûter. Jo kinne in profyl selektearje út de list hjirûnder foar dizze kompjûter, of de standert ynstelling sa litte om alle blêdwizers te synchronisearjen mei dizze kompjûter.">
+<!ENTITY wizard.title.syncpasswords "Wachtwurd synchronisaasje (Opsjoneel)">
+<!ENTITY wizard.syncpassworddesc "Wolle jo de bewarre wachtwurden synchronisearje tusken kompjûters?">
+<!ENTITY wizard.syncpassworddesc2 "As dat sa is, sil Xmarks jo freegje om in private PIN oan te meitsjen om de wachtwurden te befeiligjen. Dizze PIN sil brûkt wurde om jo wachtwurden te fersiferjen, foardat se jo kompjûter ferlitte. Net ien neist jo, ek Xmarks net, kin jo wachwurden besjen.">
+<!ENTITY wizard.syncpassworddesc3 "Jo kinne dizze eigenskip altyd oan of út sette yn it Xmarks ynstellingsdialooch.">
+<!ENTITY wizard.syncpassworddesc4 "Wolle jo graach feilich wachtwurd synchronisaasje ynskeakelje?">
+<!ENTITY wizard.syncpasswordcheck "Ja, sync myn wachtwurden feilich">
+<!ENTITY wizard.yes "Ja">
+<!ENTITY wizard.no "Nee">
+<!ENTITY wizard.title.pinold "Jou PIN">
+<!ENTITY wizard.desc.oldpin "Jou asjebleaft de PIN dy&apos;t jo opjûn hawwe by it ynstellen fan wachtwurdsynchronisaasje.">
+<!ENTITY wizard.whatisthis "Wat is dit?">
+<!ENTITY wizard.label.pin "Jou PIN:">
+<!ENTITY wizard.label.confirmpin "Befestigje PIN:">
+<!ENTITY wizard.forgotpin "Ik bin myn PIN ferjitten">
+<!ENTITY wizard.title.pinnew "Meitsje PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks befeiliget jo wachtwurden troch fersifering mei in private PIN. It is belangrik dat jo de PIN ûnthâlde, omdat wy it net weromhelje kinne.">
+<!ENTITY wizard.desc.pinnew2 "Jo PIN kin elke kombinaasje wêze fan letters, nûmers en symboalen.">
+<!ENTITY wizard.learnmore "Lear mear.">
+<!ENTITY wizard.title.pincreated "PIN oanmakke">
+<!ENTITY wizard.newpinverifieddesc "Jo PIN is súksefol oanmakke. Wy sille dizze PIN brûke om jo wachtwurden te befeiligjen, foardat wy se synchronisearje, sadat allinnich jo se berikje kinne.">
+<!ENTITY wizard.newpinverifieddesc2 "Unthâld dizze PIN. Foar jo feilichheid, Xmarks hat gjin kennis fan dizze PIN en kin jo net helpe it werom te krijen.">
+<!ENTITY wizard.title.pinverified "PIN feriearre">
+<!ENTITY wizard.pinverifieddesc "Jo PIN wie súksesfol ferifiearre.">
+<!ENTITY wizard.pinverifieddesc2 "Jo kinne dizze ynstellings altyd wizigje fia it Xmarks ynstellingsmenu.">
+<!ENTITY wizard.title.forgotpin "PIN ferjitten">
+<!ENTITY wizard.learnhow "Lear hoe&apos;t jo de PIN weromhelje kinne op jo oare kompjûter.">
+<!ENTITY wizard.forgotpindesc "Helaas kinne wy jo PIN net weromhelje. It kin mooglik wêze om jo PIN werom te heljen fan ien fan jo oare kompjûters.">
+<!ENTITY wizard.forgotpindesc2 "Jo kinne kieze om:">
+<!ENTITY wizard.forgotpinoption1 "Jo PIN letter yn te jaan. Wachtwurden net synchronisearje op dizze kompjûter.">
+<!ENTITY wizard.forgotpinoption2 "Jo PIN op &apos;e nij ynstelle.">
+<!ENTITY wizard.title.resetpin "PIN op &apos;e nij ynstelle">
+<!ENTITY wizard.resetpindesc "Wiite jo seker dat jo jo PIN op &apos;e nij ynstelle wolle? Dit makket it nedich dat jo de PIN ek op de oare kompjûters op &apos;e nij ynfiere.">
+<!ENTITY wizard.resetpinoption1 "Ja. Stel myn PIN op &apos;e nij yn.">
+<!ENTITY wizard.resetpinoption2 "Nee. Wachtwurden net synchronisearje op dizze kompjûter.">
+<!ENTITY wizard.title.resetpinverified "Nije PIN oanmakke">
+<!ENTITY wizard.resetpinverifieddesc "Jo PIN is wizige. Jo moatte dizze PIN ynfiere op jo oare kompjûters as jo se de folgjende kear synchronisearje.">
+<!ENTITY wizard.securityinfo.label.1 "Hoe wurket Feilich Wachtwurd synchronisearje?">
+<!ENTITY wizard.securityinfo.desc.1 "Fersifering sit yn de kern fan hoe&apos;t Xmarks seker wit dat jo wachtwurden feilich ferstjoerd wurde oer it ynternet nei jo oare kompjûters.">
+<!ENTITY wizard.securityinfo.desc.2 "As jo kieze om feilich jo wachtwurden te suncen, sil Xmarks freegje om in geheime PIN te kiezen. Dizze PIN sil brûkt wurde om jo wachtwurden te fersiferjen foardat se jo kompjûter ferlitte.">
+<!ENTITY wizard.securityinfo.desc.3 "It fersiferjen fan jo wachtwurden betsjut dat se scrambled wurde nei bits dy&apos;t allinnich ûntsiferd wurde kinne mei de goede PIN. Omdat jo alinne de PIN hawwe, kinne jo allinne (net iens Xmarks) de fersifere gegevens omsette nei in brûkbere list mei wachtwurden.">
+<!ENTITY wizard.securityinfo.label.2 "Hoe sterk is de fersifering?">
+<!ENTITY wizard.securityinfo.desc.4 "Om wis te wêzen dat jo wachtwurden maksimaal fersifere binne, brûkt Xmarks it aktuele steat fan AES 256 bits fersiferingsalgoritme. AES is in Ferienigde Steaten oerheidsstandert en is oanrikkemandearre troch National Security Administration (NSA) foar fersifering fan fertroulike ynformaasje.">
+<!ENTITY wizard.securityinfo.label.3 "Wat kin ik dwaan om de maksimaal mooglike feilichheid tre krijen?">
+<!ENTITY wizard.securityinfo.desc.5 "Sels mei de militaire fersifering dy&apos;t wy brûke, is de sterkte fan de feilige PIN dy&apos;t jo kieze erch belangryk. Xmarks rikkemandearret dat jo in PIN kieze dy&apos;t swier te raden is en ferskate sifers, letters en symboalen (lykas @, $ en *) hat.">
+<!ENTITY wizard.securityinfo.label.4 "Ik wol mear witte">
+<!ENTITY wizard.securityinfo.desc.6 "Besykje asjebleaft xmarks.com om mear te learen.  Jo kinne kieze om no jo wachtwurden te syncen, mar jo kinne dit ek letter maklik oansette yn it Xmarks finster.">

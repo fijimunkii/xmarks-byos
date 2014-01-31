@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "本機版本">
+<!ENTITY conflict.name "名稱">
+<!ENTITY conflict.location "位址">
+<!ENTITY conflict.keyword "關鍵字">
+<!ENTITY conflict.description "描述">
+<!ENTITY conflict.sidebar "於側邊欄載入此書籤">
+<!ENTITY conflict.retainlocal "保留本機版本">
+<!ENTITY conflict.serverversion "伺服器版本">
+<!ENTITY conflict.retainserver "保留伺服器版本">
+<!ENTITY bookmarkconflict.title "Xmarks: 書籤衝突">
+<!ENTITY bookmarkconflict.desc1 "Xmarks 無法判斷此書籤的哪個版本應該保留。">
+<!ENTITY bookmarkconflict.desc2 "請選擇應該要保留的版本。">
+<!ENTITY folderconflict.title "Xmarks: 資料夾衝突">
+<!ENTITY folderconflict.desc1 "Xmarks 無法判斷此資料夾的哪個版本應該保留。">
+<!ENTITY folderconflict.desc2 "請選擇應該要保留的版本。">
+<!ENTITY parentconflict.title "Xmarks: 項目從屬衝突">
+<!ENTITY parentconflict.desc1 "Xmarks 無法判斷此項目應該屬於這兩個資料夾的哪一個。">
+<!ENTITY parentconflict.desc2 "請選擇此項目應該屬於哪個資料夾。">
+<!ENTITY parentconflict.item "項目">

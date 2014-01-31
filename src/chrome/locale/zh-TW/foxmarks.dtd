@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Xmarks 設定">
+<!ENTITY dialog.label.username "使用者名稱:">
+<!ENTITY dialog.label.password "密碼:">
+<!ENTITY dialog.label.rememberPassword "在不同連線階段間記住密碼">
+<!ENTITY dialog.label.rememberPIN "在不同連線階段間記住 PIN">
+<!ENTITY dialog.label.forgotPassword "我忘了我的使用者名稱或密碼">
+<!ENTITY dialog.label.synchronization "同步設定">
+<!ENTITY dialog.label.ontimer "啟用自動同步">
+<!ENTITY dialog.label.synconshutdown "關閉時同步">
+<!ENTITY dialog.label.synconstartup "啟動時同步">
+<!ENTITY dialog.label.askfirst "同步前先詢問">
+<!ENTITY dialog.label.lastsync "最後同步日期:">
+<!ENTITY dialog.label.runWizard "執行安裝精靈">
+<!ENTITY dialog.label.syncNow "立即同步">
+<!ENTITY progress.title "Xmarks: 狀態">
+<!ENTITY progress.label.status "狀態:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "警告">
+<!ENTITY clobber.desc2 "Xmarks 發現您現有的書籤集和上次同步時相比來的小。">
+<!ENTITY clobber.desc3 "Firefox 有個少見但嚴重的錯誤，有時候您的書籤會被檔案很小的預設書籤取代。當錯誤發生且尚未解決前，Xmarks 不應該同步您的書籤。">
+<!ENTITY clobber.prompt "您確定要同步書籤嗎？">
+<!ENTITY clobber.moreinfo "詳細資訊...">
+<!ENTITY clobber.accept "是，請同步書籤">
+<!ENTITY clobber.lastset "「最後」同步的書籤總數:">
+<!ENTITY clobber.currset "「這次」同步的書籤總數:">
+<!ENTITY manager.syncNow "立刻同步">
+<!ENTITY menu.myFoxmarks "我的 Xmarks">
+<!ENTITY menu.settings "設定...">
+<!ENTITY menu.similarsites "顯示網站資訊...">
+<!ENTITY menu.status "狀態...">
+<!ENTITY menu.showstatus "顯示狀態列圖示">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.similarsites "N">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.xmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "一般">
+<!ENTITY label.status "狀態">
+<!ENTITY label.current.status "目前狀態">
+<!ENTITY label.sync "同步">
+<!ENTITY label.sync.caption "同步類型">
+<!ENTITY label.account "帳號">
+<!ENTITY label.synchronization "同步選項">
+<!ENTITY label.advanced "進階">
+<!ENTITY label.security "安全連線">
+<!ENTITY label.encrypt "加密:">
+<!ENTITY label.noencrypt "不加密">
+<!ENTITY label.passwordonly "只限密碼">
+<!ENTITY label.encryptall "全部加密">
+<!ENTITY label.server "伺服器">
+<!ENTITY label.ownserver "使用您自己的伺服器">
+<!ENTITY label.useownserver "使用自己的伺服器">
+<!ENTITY label.url "書籤網址:">
+<!ENTITY label.passwordurl "密碼網址:">
+<!ENTITY label.manualoverwrite "手動複寫">
+<!ENTITY label.upload "上傳">
+<!ENTITY label.download "下載">
+<!ENTITY label.forceoverwriteserver "強制複寫伺服器書籤">
+<!ENTITY label.forceoverwritelocal "強制複寫本機書籤">
+<!ENTITY label.logging "記錄中">
+<!ENTITY label.enablelogging "啟用活動記錄">
+<!ENTITY label.showlogfile "顯示記錄檔">
+<!ENTITY label.profiles "設定檔">
+<!ENTITY label.profilechoice "設定檔:">
+<!ENTITY label.sync.bookmarks "書籤">
+<!ENTITY label.sync.passwords "密碼">
+<!ENTITY label.sync.resetpin "重設 PIN">
+<!ENTITY label.sync.deletepasswords "刪除伺服器上的密碼">
+<!ENTITY label.sync.onlyff3 "* 只限 Firefox 3 以上版本。">
+<!ENTITY label.sync.morecomingsoon "瞭解更多有關未來可以同步其他資料類型的說明。">
+<!ENTITY desc.profile "您可以使用不同的同步設定檔將重要的書籤分開儲存。請先從 my.xmarks.com 建立並管理同步設定檔，然後選擇您已建立的設定檔以便控制 Xmarks 該如何同步您的書籤。">
+<!ENTITY desc.sync "Xmarks 可以一併同步並備份書籤及密碼。">
+<!ENTITY desc.ownserver "Xmarks 支援將您的資料儲存在您自己的伺服器，例如：FTP 或 WebDAV 伺服器。">
+<!ENTITY label.ownserver.moreinfo "更多說明">
+<!ENTITY label.manageprofiles "建立並管理同步設定檔">
+<!ENTITY profile.defaultname "&lt;無&gt;">
+<!ENTITY label.profile.change "變更">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "變更同步設定檔">
+<!ENTITY profile.dialog.desc "要保護設定檔中的隱私資料，您必須輸入 Xmarks 帳號的密碼才能繼續。">
+<!ENTITY dialog.title.invalidpin "加密密碼同步: PIN 無效">
+<!ENTITY dialog.invalidpin.desc "您輸入的 PIN 似乎無效。通常是因為已在其他電腦上變更了您的 PIN，而這台電腦並未更新所致。您可以選擇下列動作之一:">
+<!ENTITY dialog.invalidpin.newpin "輸入您的 PIN:">
+<!ENTITY dialog.invalidpin.disable "停用密碼同步並保留您的密碼">
+<!ENTITY dialog.title.resetpin "Xmarks: 重設 PIN">
+<!ENTITY dialog.resetpin.pin "輸入新的 PIN">
+<!ENTITY dialog.resetpin.passwordstrength "PIN 強度:">
+<!ENTITY dialog.resetpin.pinconfirm "再次確認新 PIN">
+<!ENTITY dialog.resetpin.desc2 "您的 PIN 最好結合字母、數位及符號。">
+<!ENTITY dialog.resetpin.desc "您確定要重設您的 PIN 嗎？這個動作會刪除您之前存在我們伺服器上的所有密碼。但這台電腦及您的其他電腦上的密碼則不受影響。">
+<!ENTITY dialog.title.passwordconflict "加密密碼同步: 已存密碼衝突">
+<!ENTITY dialog.passwordconflict.desc "Xmarks 無法判斷此密碼的哪個版本應該保留。">
+<!ENTITY dialog.passwordconflict.desc2 "請選一個要保留的版本:">
+<!ENTITY dialog.passwordconflict.local "本機版本">
+<!ENTITY dialog.passwordconflict.server "伺服器版本">
+<!ENTITY dialog.passwordconflict.site "網站:">
+<!ENTITY dialog.passwordconflict.username "使用者名稱:">
+<!ENTITY dialog.passwordconflict.password "密碼:">
+<!ENTITY dialog.passwordconflict.showpasswords "顯示密碼">
+<!ENTITY dialog.passwordconflict.keeplocal "保留本機版本">
+<!ENTITY dialog.passwordconflict.keepserver "保留伺服器版本">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "探索">
+<!ENTITY label.tagsuggest "建議標籤">
+<!ENTITY label.enabletagsuggestions "啟用「標籤建議」功能">
+<!ENTITY desc.tagsuggest "當您新增書籤時，若其他使用者已建立過相同的書籤時，則 Xmarks 可以建議您適合的標籤名稱。">
+<!ENTITY ownserver.title "設定自己的伺服器">
+<!ENTITY ownserver.desc "要在 Xmarks 中使用您自己的伺服器，請分別為書籤儲存及密碼儲存提供兩個不同的網址。">
+<!ENTITY similarsite.popular "書籤">
+<!ENTITY similarsite.noreviews "無意見">
+<!ENTITY similarsite.writereview "留下意見">
+<!ENTITY similarsite.relatedsite "前五項相關網站">
+<!ENTITY similarsite.getsiteinfo "取得網站資訊">
+<!ENTITY similarsite.getsiteinfo.normalcase "取得網站資訊">
+<!ENTITY desc.discover "書籤導向的網路搜尋">
+<!ENTITY label.searchboost "啟用「智慧搜尋」功能">
+<!ENTITY desc.searchboost "Xmarks 能幫您搜尋相關網站並顯示於 Google 結果右側。">
+<!ENTITY label.siteboost "啟用「網站資訊」功能">
+<!ENTITY desc.siteboost "當您按下位址列上的 Xmarks 資訊圖示，Xmarks 就會顯示您正瀏覽的網站資訊及與該站相關的其他網站。">
+<!ENTITY label.tagboost "啟用「標籤建議」功能">
+<!ENTITY desc.tagboost "當您新增書籤時，Xmarks 會自動建議您合適的標籤。">
+<!ENTITY label.serp.top3 "前三項結果">
+<!ENTITY label.serp.all "所有結果">
+<!ENTITY label.newuser.title "Xmarks 已安裝。">
+<!ENTITY label.newuser.title2 "就快完成了！">
+<!ENTITY label.newuser.msg "按這裡可以設定 Xmarks 書籤同步及備份功能。">
+<!ENTITY label.newuser.msg2 "按這裡結束 Xmarks 的安裝程序。">
+<!ENTITY label.syncdisabled "您的書籤無法備份及同步。要啟用自動備份及同步功能，請手動執行安裝精靈。">
+<!ENTITY byos.title "Welcome to Xmarks, BYOS Edition">
+<!ENTITY byos.accept "Go To Settings">
+<!ENTITY byos.cancel "Close">
+<!ENTITY byos.description "Xmarks BYOS Edition is designed for use with your own server.  To start syncing, you will need to visit the Xmarks Settings dialog to configure communication with your own server.Would you like to do this now?">
+<!ENTITY byos.xmarksrunning "Conflict: Xmarks and Xmarks BYOS Edition are both installed!">
+<!ENTITY byos.xmarksrunning.desc "You have both Xmark Bookmark Synchronizer and Xmarks BYOS Edition running at the same time which can cause problems.  Please uninstall one of them before continuing.">
+<!ENTITY byos.xmarksrunning.desc2 "Xmarks Bookmark Synchronizer is the standard installation used by millions of people around the world. If you&apos;re unsure which of the two to pick, you should opt to keep this installed.">
+<!ENTITY byos.xmarksrunning.desc3 "Xmarks BYOS is for use with your own server. Only pick to keep this installed if you are an advanced user who runs his own WebDav enabled server on the Internet.">
+<!ENTITY byos.uninstallxmarks "Uninstall Xmarks">
+<!ENTITY byos.uninstallbyos "Uninstall Xmarks BYOS Edition">

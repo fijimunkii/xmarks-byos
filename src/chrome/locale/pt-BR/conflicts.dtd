@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Versão Local">
+<!ENTITY conflict.name "Nome">
+<!ENTITY conflict.location "Localização">
+<!ENTITY conflict.keyword "Palavra-Chave">
+<!ENTITY conflict.description "Descrição">
+<!ENTITY conflict.sidebar "Carregue estes favoritos no painel">
+<!ENTITY conflict.retainlocal "Manter Versão Local">
+<!ENTITY conflict.serverversion "Versão do Servidor">
+<!ENTITY conflict.retainserver "Manter Versão do Servidor">
+<!ENTITY bookmarkconflict.title "Xmarks: Conflito de favoritos">
+<!ENTITY bookmarkconflict.desc1 "Xmarks não sabe qual dessas versões deste favorito deve ser mantida.">
+<!ENTITY bookmarkconflict.desc2 "Por favor escolha a versão a ser mantida.">
+<!ENTITY folderconflict.title "Xmarks: Conflito de Pastas">
+<!ENTITY folderconflict.desc1 "O Xmarks não sabe qual dessas versões desta pasta deve ser mantida.">
+<!ENTITY folderconflict.desc2 "Por favor escolha a versão a ser mantida.">
+<!ENTITY parentconflict.title "Xmarks: Conflito de Ordem">
+<!ENTITY parentconflict.desc1 "O Xmarks não sabe a qual destas duas pastas este item pertence.">
+<!ENTITY parentconflict.desc2 "Por favor selecione a pasta que deve conter este item.">
+<!ENTITY parentconflict.item "Item">

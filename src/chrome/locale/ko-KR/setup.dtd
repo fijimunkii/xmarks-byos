@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Xmarks 설정 마법사">
+<!ENTITY wizard.title.verified "계정이 확인됨">
+<!ENTITY wizard.desc8 "축하합니다! Xmarks가 당신의 계정을 확인하는데 성공했습니다. 이제 이 컴퓨터에 대한 최초 동기화 수행을 준비합니다.">
+<!ENTITY wizard.title.firstsync "최초 동기화">
+<!ENTITY wizard.desc9 "서버에 이미 이 계정에 대한 북마크가 있습니다.">
+<!ENTITY wizard.desc10 "최초 동기화를 어떻게 수행하시겠습니까?">
+<!ENTITY wizard.keepremote "서버의 북마크를 유지: 이 컴퓨터의 북마크를 버림">
+<!ENTITY wizard.keeplocal "이 컴퓨터의 북마크를 유지: 서버의 북마크를 버림">
+<!ENTITY wizard.merge "서버의 북마크와 이 컴퓨터의 북마크를 통합함.">
+<!ENTITY wizard.seeserver "서버에 저장된 북마크 보기.">
+<!ENTITY wizard.desc11 "북마크를 통합할 때, 하나의 북마크를 기준으로 하여 없는 항목은 다른 북마크에서 가져옵니다.">
+<!ENTITY wizard.desc12 "어떤 북마크를 기준으로 통합하시겠습니까?">
+<!ENTITY wizard.startlocal "이 컴퓨터의 북마크를 사용합니다.">
+<!ENTITY wizard.startremote "서버의 북마크를 사용합니다.">
+<!ENTITY wizard.desc13 "어떤 방식을 선택하더라도 모든 항목은 보존됩니다. 하지만 통합 결과는 기준으로 정한 북마크와 비슷해집니다.">
+<!ENTITY wizard.title.ready "동기화 준비">
+<!ENTITY wizard.desc14 "동기화할 준비가 되었습니다.">
+<!ENTITY wizard.title.success "성공!">
+<!ENTITY wizard.desc15 "축하합니다! 성공적으로 북마크를 동기화하였습니다. 지금부터 Xmarks는 자동으로 이 컴퓨터의 북마크를 동기화합니다.">
+<!ENTITY wizard.desc16 "동기화 설정을 변경하시려면, Firefox 도구 메뉴에 있는 Xmarks 메뉴를 이용하시기 바랍니다.">
+<!ENTITY wizard.title.selectprofile "프로필 선택">
+<!ENTITY wizard.label.profilechoice "프로필:">
+<!ENTITY wizard.profile.defaultname "&lt;없음&gt;">
+<!ENTITY wizard.profile.desc "여러 개의 프로필이 존재함을 확인했습니다. 아래의 목록에서 원하는 프로필을 선택하세요.">
+<!ENTITY wizard.title.syncpasswords "암호 동기화 (선택 사항)">
+<!ENTITY wizard.syncpassworddesc "저장된 암호를 동기화하시겠습니까?">
+<!ENTITY wizard.syncpassworddesc2 "그렇다면, 암호를 안전하게 하기 위해 개인 PIN을 생성합니다. 이 PIN은 암호를 암호화하는데 사용됩니다. 당신을 제외하면 아무도, 심지어 Xmarks 조차도 당신의 암호를 볼 수 없습니다.">
+<!ENTITY wizard.syncpassworddesc3 "언제든지 Xmarks 환경 설정 대화상자에서 이 기능을 설정하거나 해제할 수 있습니다.">
+<!ENTITY wizard.syncpassworddesc4 "안전한 암호 동기화를 지금 활성화하시겠습니까?">
+<!ENTITY wizard.syncpasswordcheck "예, 나의 암호를 안전하게 동기화합니다.">
+<!ENTITY wizard.yes "예">
+<!ENTITY wizard.no "아니오">
+<!ENTITY wizard.title.pinold "안전한 암호 동기화:PIN이 필요함">
+<!ENTITY wizard.desc.oldpin "암호 동기화를 설정할 때 사용했던 PIN을 입력하세요.">
+<!ENTITY wizard.whatisthis "이건 뭐죠?">
+<!ENTITY wizard.label.pin "PIN 입력:">
+<!ENTITY wizard.label.confirmpin "PIN 검증:">
+<!ENTITY wizard.forgotpin "PIN을 잊어버렸습니다.">
+<!ENTITY wizard.title.pinnew "안전한 암호 동기화: PIN 생성">
+<!ENTITY wizard.desc.pinnew "Xmarks는 암호를 안전하게 하기위해 당신이 선택한 개인 PIN으로 암호화합니다. 이 PIN을 꼭 기억하세요.">
+<!ENTITY wizard.desc.pinnew2 "PIN은 영문자와 숫자, 특수 문자의 조합입니다.">
+<!ENTITY wizard.learnmore "자세히 보기.">
+<!ENTITY wizard.title.pincreated "PIN이 생성됨">
+<!ENTITY wizard.newpinverifieddesc "PIN이 성공적으로 생성되었습니다. 우리는 암호를 동기화하기 전에 이 PIN을 이용해 암호화하여 당신만 볼 수 있도록 합니다.">
+<!ENTITY wizard.newpinverifieddesc2 "이 PIN을 잃어버리면 안됩니다. 보안 때문에, Xmarks는 이 PIN에 대해서 아는 게 없으며 찾도록 도와줄 수도 없습니다.">
+<!ENTITY wizard.title.pinverified "PIN이 검증됨">
+<!ENTITY wizard.pinverifieddesc "PIN이 성공적으로 검증되었습니다.">
+<!ENTITY wizard.pinverifieddesc2 "언제든지 Xmarks 환경 설정 대화상자에서 이 설정들을 변경할 수 있습니다.">
+<!ENTITY wizard.title.forgotpin "잊어버린 PIN">
+<!ENTITY wizard.learnhow "다른 컴퓨터에서 PIN을 찾는 방법에 대해서 배움.">
+<!ENTITY wizard.forgotpindesc "불행히도, 우리는 당신의 PIN을 복구할 수 없습니다. 그러나, 당신의 다른 컴퓨터에서 PIN을 복구하는 게 가능할 수도 있습니다.">
+<!ENTITY wizard.forgotpindesc2 "다음을 선택할 수 있습니다:">
+<!ENTITY wizard.forgotpinoption1 "나중에 PIN을 입력합니다. 이 컴퓨터의 암호를 동기화하지 않습니다.">
+<!ENTITY wizard.forgotpinoption2 "PIN을 초기화합니다.">
+<!ENTITY wizard.title.resetpin "PIN 초기화">
+<!ENTITY wizard.resetpindesc "정말로 PIN을 초기화하시겠습니까? 다른 컴퓨터에서도 PIN을 입력하셔야합니다.">
+<!ENTITY wizard.resetpinoption1 "예. PIN을 초기화합니다.">
+<!ENTITY wizard.resetpinoption2 "아니오. 이 컴퓨터의 암호를 동기화하지 않습니다.">
+<!ENTITY wizard.title.resetpinverified "새로운 PIN이 생성됨">
+<!ENTITY wizard.resetpinverifieddesc "PIN이 변경되었습니다. 다음에 다른 컴퓨터에서 동기화할 때 이 PIN을 입력하셔야합니다.">
+<!ENTITY wizard.securityinfo.label.1 "안전한 암호 동기화가 어떻게 동작하는 거죠?">
+<!ENTITY wizard.securityinfo.desc.1 "Xmarks는 암호화를 통해 인터넷 상의 다른 컴퓨터로 당신의 암호들이 안전하게 전송되는 것을 보장합니다.">
+<!ENTITY wizard.securityinfo.desc.2 "암호 동기화를 선택하면, 비밀 PIN을 물어보게 됩니다. 이 PIN은 암호를 암호화하는데 사용됩니다.">
+<!ENTITY wizard.securityinfo.desc.3 "암호를 암호화한다는 것은 정확한 PIN을 알아야지만 암호를 해독할 수 있다는 의미입니다. 오직 당신만이 PIN을 알고 있기 때문에, 오직 당신만이 암호화된 데이터를 해독할 수 있습니다.">
+<!ENTITY wizard.securityinfo.label.2 "암호화는 얼마나 강력하죠?">
+<!ENTITY wizard.securityinfo.desc.4 "당신의 암호들이 안전하게 암호화됨을 보장하기 위해, Xmarks는 최신 AES 256-bit 암호화 알고리즘을 사용합니다. AES는 미국 정부 표준이며 NSA가 권장하는 기밀 정보 암호화 방식입니다.">
+<!ENTITY wizard.securityinfo.label.3 "최고 수준의 보안을 얻으려면 어떻게 해야하죠?">
+<!ENTITY wizard.securityinfo.desc.5 "비록 우리가 군사용 수준의 암호화를 사용하고 있다고 하더라도, 가장 중요한 것은 당신이 선택하는 비밀 PIN의 강도입니다. Xmarks는 당신이 추측하기 어렵고 다양한 문자와 숫자, 기호(@, $, * 등)를 포함한 PIN을 선택하길 권장합니다.">
+<!ENTITY wizard.securityinfo.label.4 "더 자세히 알고 싶습니다.">
+<!ENTITY wizard.securityinfo.desc.6 "더 자세히 알고 싶으시면 xmarks.com을 방문해 주세요. 지금 당장은 암호 동기화를 하지 않기로 결정했더라도, 나중에 Xmarks 환경 설정 대화상자에서 이 기능을 쉽게 활성화시킬 수 있습니다.">

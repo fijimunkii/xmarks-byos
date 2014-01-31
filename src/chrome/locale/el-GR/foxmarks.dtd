@@ -1,0 +1,141 @@
+<!ENTITY dialog.title "Ρυθμίσεις Xmarks">
+<!ENTITY dialog.label.username "Όνομα χρήστη:">
+<!ENTITY dialog.label.password "Κωδικός:">
+<!ENTITY dialog.label.rememberPassword "Απομνημόνευση κωδικού μεταξύ συνεδριών.">
+<!ENTITY dialog.label.rememberPIN "Διατήρηση του PIN και στις επόμενες συνεδρίες.">
+<!ENTITY dialog.label.forgotPassword "Ξέχασα το όνομα χρήστη ή τον κωδικό μου">
+<!ENTITY dialog.label.synchronization "Επιλογές συγχρονισμού">
+<!ENTITY dialog.label.ontimer "Ενεργοποίηση αυτόματου συγχρονισμού">
+<!ENTITY dialog.label.synconshutdown "Συγχρονισμός κατά τον τερματισμό">
+<!ENTITY dialog.label.synconstartup "Συγχρονισμός κατά την εκκίνηση">
+<!ENTITY dialog.label.askfirst "Να γίνεται ερώτηση">
+<!ENTITY dialog.label.lastsync "Τελευταίος συγχρονισμός:">
+<!ENTITY dialog.label.runWizard "Εκκίνηση του βοηθού ρυθμίσεων">
+<!ENTITY dialog.label.syncNow "Συγχρονισμός τώρα">
+<!ENTITY progress.title "Κατάσταση Xmarks:">
+<!ENTITY progress.label.status "Κατάσταση:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Προειδοποίηση">
+<!ENTITY clobber.desc2 "Το Xmarks ανίχνευσε ότι το τρέχον σύνολο σελιδοδεικτών είναι αρκετά μικρότερο από το πιο πρόσφατα συγχρονισμένο.">
+<!ENTITY clobber.desc3 "Ένα σπάνιο στην εμφάνιση του αλλά σημαντικό σφάλμα του Firefox προκαλεί την αντικατάσταση της λίστας των σελιδοδεικτών σας από ένα μικρό σύνολο αρχικών σελιδοδεικτών. Αν αντιμετωπίζετε αυτή την περίπτωση είναι προτιμότερο να μην συγχρονίσοτυν οι σελιδοδείκτες σας από το Xmarks μέχρι να λυθεί το πρόβλημα.">
+<!ENTITY clobber.prompt "Θέλετε σίγουρα να συγχρονιστούν οι σελιδοδείκτες σας;">
+<!ENTITY clobber.moreinfo "Περισσότερες πληροφορίες...">
+<!ENTITY clobber.accept "Ναι, να γίνει συγχρονισμός">
+<!ENTITY clobber.lastset "Αριθμός στοιχείων προηγούμενης φοράς:">
+<!ENTITY clobber.currset "Αριθμός στοιχείων αυτής της φοράς:">
+<!ENTITY manager.syncNow "Συγχρονισμός τώρα">
+<!ENTITY menu.myFoxmarks "Το Xmarks μου">
+<!ENTITY menu.settings "Επιλογές Xmarks...">
+<!ENTITY menu.similarsites "Εμφάνιση πληροφοριών ιστότοπου">
+<!ENTITY menu.status "Κατάσταση...">
+<!ENTITY menu.showstatus "Προβολή εικονίδιου κατάστασης">
+<!ENTITY menu.accesskey.foxmarks "X">
+<!ENTITY menu.accesskey.syncnow "Σ">
+<!ENTITY menu.accesskey.myfoxmarks "Μ">
+<!ENTITY menu.accesskey.settings "Ε">
+<!ENTITY menu.accesskey.similarsites "τ">
+<!ENTITY menu.accesskey.status "Κ">
+<!ENTITY menu.accesskey.icon "Π">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Γενικά">
+<!ENTITY label.status "Κατάσταση">
+<!ENTITY label.current.status "Τρέχουσα κατάσταση">
+<!ENTITY label.sync "Συγχρονισμός">
+<!ENTITY label.sync.caption "Τύποι συγχρονισμού">
+<!ENTITY label.account "Λογαριασμός">
+<!ENTITY label.synchronization "Επιλογές συγχρονισμού">
+<!ENTITY label.advanced "Για προχωρημένους">
+<!ENTITY label.security "Ασφάλεια σύνδεσης">
+<!ENTITY label.encrypt "Κρυπτογράφηση">
+<!ENTITY label.noencrypt "Χωρίς κρυπτογράφηση">
+<!ENTITY label.passwordonly "Μόνο για τη σύνδεση">
+<!ENTITY label.encryptall "Κρυπτογράφηση όλων">
+<!ENTITY label.server "Διακομιστής">
+<!ENTITY label.ownserver "Με χρήση ιδίου διακομιστή">
+<!ENTITY label.useownserver "Χρήση ιδίου διακομιστή">
+<!ENTITY label.url "URL σελιδοδείκτη:">
+<!ENTITY label.passwordurl "Κωδικός για το URL:">
+<!ENTITY label.manualoverwrite "Χειρωνακτική αντικατάσταση">
+<!ENTITY label.upload "Αποστολή">
+<!ENTITY label.download "Λήψη">
+<!ENTITY label.forceoverwriteserver "Εξαναγκασμός αντικατάστασης σελιδεικτών του διακομιστή">
+<!ENTITY label.forceoverwritelocal "Εξαναγκασμός αντικατάστασης τοπικών σελιδεικτών">
+<!ENTITY label.logging "Καταγραφή">
+<!ENTITY label.enablelogging "Ενεργοποίηση καταγραφής">
+<!ENTITY label.showlogfile "Προβολή αρχείου καταγραφής">
+<!ENTITY label.profiles "Προφίλ">
+<!ENTITY label.profilechoice "Προφίλ:">
+<!ENTITY label.sync.bookmarks "Σελιδοδείκτες">
+<!ENTITY label.sync.passwords "Κωδικοί">
+<!ENTITY label.sync.resetpin "Επαναφορά PIN">
+<!ENTITY label.sync.deletepasswords "Διαγραφή κωδικών από τον διακομιστή">
+<!ENTITY label.sync.onlyff3 "* Μόνο για την έκδοση 3 του Firefox ή μεταγενέστερες.">
+<!ENTITY label.sync.morecomingsoon "Μάθετε για το ποιοι τύποι δεδομένων θα υποστηρίζονται σύντομα.">
+<!ENTITY desc.profile "Χρησιμοποιείστε προφίλ συγχρονισμού για να έχετε σημαντικούς σελιδοδείκτες πάντα εκεί που θέλετε. Δημιουργήστε και διαχειριστείτε τα προφίλ συγχρονισμού στο my.xmarks.com και έπειτα επιλέξτε από εδώ ένα προφίλ για να ελέγχετε τι θα συγχρονίζει το Xmarks σε σχέση με αυτό τον υπολογιστή.">
+<!ENTITY desc.sync "Το Xmarks μπορεί να κάνει συγχρονισμό και λήψη αντιγράφων ασφαλείας και για τους σελιδοδείκτες και για τους κωδικούς.">
+<!ENTITY desc.ownserver "Το Xmarks υποστηρίζει την αποθήκευση των δεδομένων σας σε δικό σας διακομιστή, όπως πχ. ένα διακομιστή FTP ή WebDAV.">
+<!ENTITY label.ownserver.moreinfo "Μάθετε περισσότερα.">
+<!ENTITY label.manageprofiles "Δημιουργία και διαχείριση προφίλ συγχρονισμού">
+<!ENTITY profile.defaultname "&lt;κανένα&gt;">
+<!ENTITY label.profile.change "Αλλαγή">
+<!ENTITY label.profile.my "My.Xmarks.com">
+<!ENTITY profile.dialog.title "Αλλαγή προφίλ συγχρονισμού">
+<!ENTITY profile.dialog.desc "Για την προστασία του απορρήτου των προφίλ σας, θα πρέπει να εισάγετε τον κωδικό του λογαριασμού σας στο Xmarks για να προχωρήσετε.">
+<!ENTITY dialog.title.invalidpin "Ασφαλής συγχρονισμός κωδικών: Μη έγκυρο PIN">
+<!ENTITY dialog.invalidpin.desc "Το τρέχον PIN σας είναι μάλλον μη έγκυρο.  Πιθανότατα έχετε αλλάξει το PIN σας σε κάποιον άλλο υπολογιστή και θα πρέπει να ενημερωθεί και αυτός.Μπορείτε να επιλέξετε ανάμεσα στις ακόλουθες ενέργειες:">
+<!ENTITY dialog.invalidpin.newpin "Εισαγωγή του PIN:">
+<!ENTITY dialog.invalidpin.disable "Απενεργοποίηση συγχρονισμού κωδικών και διατήρηση τρέχοντων κωδικών.">
+<!ENTITY dialog.title.resetpin "Ασφαλής συγχρονισμός κωδικών: Επαναφορά PIN">
+<!ENTITY dialog.resetpin.pin "Εισαγωγή νέου PIN">
+<!ENTITY dialog.resetpin.passwordstrength "Ισχύς PIN:">
+<!ENTITY dialog.resetpin.pinconfirm "Επιβεβαίωση νέου PIN">
+<!ENTITY dialog.resetpin.desc2 "Το PIN σας μπορεί να είναι οποιοσδήποτε συνδυασμός από γράμματα, αριθμούς και σύμβολα.">
+<!ENTITY dialog.resetpin.desc "Θέλετε σίγουρα να επαναφέρετε το PIN σας; Κάτι τέτοιο θα έχει σαν αποτέλεσμα τη διαγραφή όλων των αποθηκευμένων κωδικών σας στον διακομιστή μας. Οι κωδικοί που έχετε αποθηκεύσει σ&apos; αυτόν και τους άλλους υπολογιστές σας δεν θα επηρεαστούν.">
+<!ENTITY dialog.title.passwordconflict "Xmarks: Διένεξη αποθηκευμένων κωδικών">
+<!ENTITY dialog.passwordconflict.desc "Το Xmarks δεν μπορεί να αποφασίσει ποια από τις εκδοχές του κωδικού θα πρέπει να διατηρηθεί.">
+<!ENTITY dialog.passwordconflict.desc2 "Παρακαλούμε επιλέξτε την εκδοχή που θα διατηρηθεί:">
+<!ENTITY dialog.passwordconflict.local "Τοπική εκδοχή">
+<!ENTITY dialog.passwordconflict.server "Εκδοχή διακομιστή">
+<!ENTITY dialog.passwordconflict.site "Ιστότοπος:">
+<!ENTITY dialog.passwordconflict.username "Όνομα χρήστη:">
+<!ENTITY dialog.passwordconflict.password "Κωδικός:">
+<!ENTITY dialog.passwordconflict.showpasswords "Προβολή κωδικών">
+<!ENTITY dialog.passwordconflict.keeplocal "Διατήρηση της τοπικής εκδοχής">
+<!ENTITY dialog.passwordconflict.keepserver "Διατήρηση της εκδοχής του διακομιστή">
+<!ENTITY dialog.alert.title "Xmarks">
+<!ENTITY label.discovery "Προτάσεις">
+<!ENTITY label.tagsuggest "Προτεινόμενες ετικέτες">
+<!ENTITY label.enabletagsuggestions "Ενεργοποίηση πρότασης ετικετών">
+<!ENTITY desc.tagsuggest "Όταν πρσθέτετε ένα σελιδοδείκτη, το Xmarks μπορεί να σας προτείνει κατάλληλες ετικέτες με βάση τις ετικέτες που άλλοι χρήστες έχουν δημιουργήσει για την ίδια διεύθυνση.">
+<!ENTITY ownserver.title "Ρύθμιση ιδίου διακομιστή">
+<!ENTITY ownserver.desc "Για να χρησιμοποιήσετε το δικό σας διακομιστή με το Xmarks, παρακαλούμε εισάγετε δύο διαφορετικά URL για την αποθήκευση των κωδικών και των σελιδοδεικτών σας.">
+<!ENTITY similarsite.popular "Σελιδοδείκτες">
+<!ENTITY similarsite.noreviews "Χωρίς αξιολογήσεις">
+<!ENTITY similarsite.writereview "Γράψτε μια αξιολόγηση">
+<!ENTITY similarsite.relatedsite "5 κορυφαίοι σχετικοί ιστότοποι">
+<!ENTITY similarsite.getsiteinfo "Λήψη πληροφοριών ιστότοπου">
+<!ENTITY similarsite.getsiteinfo.normalcase "Λήψη πληροφοριών ιστότοπου">
+<!ENTITY desc.discover "Ανακάλυψη ιστότοπων μέσω σελιδοδεικτών">
+<!ENTITY label.searchboost "Ενεργοποίηση εξυπνότερης αναζήτησης">
+<!ENTITY desc.searchboost "Το Xmarks μπορεί να σας βοηθήσει να ανακαλύψετε κορυφαίους ιστότοπους μέσα απ&apos; το Google.">
+<!ENTITY label.siteboost "Ενεργοποίηση πληροφοριών ιστότοπου">
+<!ENTITY desc.siteboost "Το Xmarks θα εμφανίζει πληροφορίες και σχετικούς ιστότοπους όταν κάνετε κλικ στο εικονίδιο πληροφοριών ιστότοπων Xmarks της εργαλειοθήκης διευθύνσεων">
+<!ENTITY label.tagboost "Ενεργοποίηση συνιστώμενων ετικετών">
+<!ENTITY desc.tagboost "Το Xmarks θα σας προτείνει αυτόματα ετικέτες όταν προσθέτετε νέους σελιδοδείκτες">
+<!ENTITY label.serp.top3 "Τα 3 κορυφαία αποτελέσματα">
+<!ENTITY label.serp.all "Όλα τα αποτελέσματα">
+<!ENTITY label.newuser.title "Το Xmarks εγκαταστάθηκε.">
+<!ENTITY label.newuser.title2 "Σχεδόν ολοκληρώθηκε!">
+<!ENTITY label.newuser.msg "Κάντε κλικ εδώ για τις ρυθμίσεις συγχρονισμού και αντιγράφων ασφαλείας του Xmarks.">
+<!ENTITY label.newuser.msg2 "Κάντε κλικ εδώ για να ολοκληρωθεί η εγκατάσταση του Xmarks.">
+<!ENTITY label.syncdisabled "Δεν μπορεί να γίνει αυτόματος συγχρονισμός και λήψη αντιγράφων ασφαλείας για τους σελιδοδείκτες σας. Για να ενεργοποιηθεί, παρακαλούμε τρέξτε τον βοηθό ρυθμίσεων.">
+<!ENTITY byos.title "Καλωσορίσατε στην έκδοση BYOS του Xmarks">
+<!ENTITY byos.accept "Μετάβαση στις επιλογές">
+<!ENTITY byos.cancel "Κλείσιμο">
+<!ENTITY byos.description "Η έκδοση Xmarks BYOS σχεδιάστηκε για να χρησιμοποιεί τον δικό σας διακομιστή. Για να ενεργοποιήσετε το συγχρονισμό, θα πρέπει να ανοίξετε το διάλογο επιλογών του Xmarks και να ρυθμίσετε την επικοινωνία με τον διακομιστή σας. Θέλετε να γίνει αυτό τώρα;">
+<!ENTITY byos.xmarksrunning "Σύγκρουση: Έχουν εγκατασταθεί ταυτόχρονα το Xmarks και το Xmarks BYOS!">
+<!ENTITY byos.xmarksrunning.desc "Εκτελείτε ταυτόχρονα το Xmark Bookmark Synchronizer και το Xmarks BYOS, πράγμα που μπορεί να προκαλέσει προβλήματα. Παρακαλούμε απεγκαταστήστε το ένα από τα δυο πριν συνεχίσετε.">
+<!ENTITY byos.xmarksrunning.desc2 "Το Xmark Bookmark Synchronizer είναι η κανονική έκδοση που χρησιμοποιούν εκατομμύρια χρηστών παγκοσμίως. Αν δεν είστε σίγουροι ποια να διατηρήσετε εγκαταστημένη, επιλέξτε αυτή την έκδοση.">
+<!ENTITY byos.xmarksrunning.desc3 "Το Xmarks BYOS είναι φτιαγμένο για να συνεργάζεται με δικό σας διακομιστή. Επιλέξτε να διατηρήσετε αυτή την έκδοση μόνο αν είστε προχωρημένος χρήστης και διαθέτετε δικό σας διακομιστή WebDav στο διαδίκτυο.">
+<!ENTITY byos.uninstallxmarks "Απεγκατάσταση του Xmarks">
+<!ENTITY byos.uninstallbyos "Απεγκατάσταση του Xmarks BYOS">

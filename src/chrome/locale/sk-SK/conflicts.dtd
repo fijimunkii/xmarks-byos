@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Verzia na počítači">
+<!ENTITY conflict.name "Názov">
+<!ENTITY conflict.location "Umiestnenie">
+<!ENTITY conflict.keyword "Kľúčové slovo">
+<!ENTITY conflict.description "Popis">
+<!ENTITY conflict.sidebar "Nahrať túto záložku na bočnom paneli">
+<!ENTITY conflict.retainlocal "Ponechať verziu na počítači">
+<!ENTITY conflict.serverversion "Verzia na serveri">
+<!ENTITY conflict.retainserver "Ponechať verziu na serveri">
+<!ENTITY bookmarkconflict.title "Xmarks: Konflikt - záložka">
+<!ENTITY bookmarkconflict.desc1 "Xmarks vám nevie povedať, ktorá z týchto verzií záložiek by mala byť ponechaná.">
+<!ENTITY bookmarkconflict.desc2 "Prosím vyberte verziu, ktorá by mala byť ponechaná.">
+<!ENTITY folderconflict.title "Xmarks: Konflikt - zložka">
+<!ENTITY folderconflict.desc1 "Xmarks vám nevie povedať, ktorá z týchto verzií zložiek by mala byť ponechaná.">
+<!ENTITY folderconflict.desc2 "Prosím vyberte verziu, ktorá by mala byť ponechaná.">
+<!ENTITY parentconflict.title "Xmarks: Konflikt - nadradený adresár">
+<!ENTITY parentconflict.desc1 "Xmarks vám nevie povedať, do ktorého z týchto dvoch adresárov táto položka patrí.">
+<!ENTITY parentconflict.desc2 "Prosím vyberte adresár, ktorý by mal byť ponechaný.">
+<!ENTITY parentconflict.item "Položka">

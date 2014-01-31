@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2007 Foxmarks Inc.
+
+ foxmarks-folderconflict.xul: implements Folder Conflict dialog.
+
+-->
+
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xmarksbyos/locale/conflicts.dtd">
+
+<dialog id="foxmarks-folderconflict" title="&folderconflict.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        windowtype="foxmarks:folderconflict"
+        buttons="cancel"
+        ondialogcancel="return ConflictCancel();"
+        onload="OnFolderConflictLoad();"
+        persist="screenX screenY">
+
+    <script src="foxmarks-conflicts.js" />
+        
+    <description>&folderconflict.desc1;</description>
+    <description>&folderconflict.desc2;</description>
+
+    <hbox>
+        <vbox>
+            <groupbox>
+                <caption label="&conflict.localversion;" />
+                <grid>
+                    <columns>
+                        <column />
+                        <column />
+                    </columns>
+                    <rows>
+                        <row>
+                            <label value="&conflict.name;" />
+                            <textbox multiline="true" readonly="true" 
+                                    id="localname" />
+                        </row>
+                        <row>
+                            <label value="&conflict.description;" />
+                            <textbox multiline="true" readonly="true" 
+                                    id="localdesc" />
+                        </row>
+                    </rows>
+                </grid>
+            </groupbox>
+            <button label="&conflict.retainlocal;" 
+                    oncommand="ConflictSelectLocal();" />
+        </vbox>
+        <vbox>
+            <groupbox>
+                <caption label="&conflict.serverversion;" />
+                <grid>
+                    <columns>
+                        <column />
+                        <column />
+                    </columns>
+                    <rows>
+                        <row>
+                            <label value="&conflict.name;" />
+                            <textbox multiline="true" readonly="true" 
+                                    id="servername" />
+                        </row>
+                        <row>
+                            <label value="&conflict.description;" />
+                            <textbox multiline="true" readonly="true" 
+                                    id="serverdesc" />
+                        </row>
+                    </rows>
+                </grid>
+            </groupbox>
+            <button label="&conflict.retainserver;" 
+                    oncommand="ConflictSelectServer();" />
+        </vbox>
+    </hbox>
+</dialog>

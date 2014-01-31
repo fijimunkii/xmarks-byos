@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Τοπική έκδοση">
+<!ENTITY conflict.name "Όνομα">
+<!ENTITY conflict.location "Τοποθεσία">
+<!ENTITY conflict.keyword "Λέξη κλειδί">
+<!ENTITY conflict.description "Περιγραφή">
+<!ENTITY conflict.sidebar "Φόρτωση αυτού του σελιδοδείκτη σε πλευρική στήλη">
+<!ENTITY conflict.retainlocal "Διατήρηση της τοπικής έκδοσης">
+<!ENTITY conflict.serverversion "Έκδοση διακομιστή">
+<!ENTITY conflict.retainserver "Διατήρηση της έκδοσης του διακομιστή">
+<!ENTITY bookmarkconflict.title "Xmarks: Διένεξη σελιδοδείκτη">
+<!ENTITY bookmarkconflict.desc1 "Το Xmarks δεν γνωρίζει ποια από τις εκδόσεις του σελιδοδείκτη θα πρέπει να διατηρήσει.">
+<!ENTITY bookmarkconflict.desc2 "Επιλέξτε την έκδοση που θέλετε να διατηρηθεί.">
+<!ENTITY folderconflict.title "Xmarks: Διένεξη καταλόγου">
+<!ENTITY folderconflict.desc1 "Το Formaks δεν γνωρίζει ποια από τις εκδόσεις αυτού του καταλόγου θα πρέπει να διατηρήσει.">
+<!ENTITY folderconflict.desc2 "Επιλέξτε την έκδοση που θέλετε να διατηρηθεί.">
+<!ENTITY parentconflict.title "Xmarks: Διένεξη γονικού καταλόγου">
+<!ENTITY parentconflict.desc1 "Το Xmarks δεν γνωρίζει σε ποιον από αυτούς τους δύο καταλόγους ανήκει αυτό το στοιχείο.">
+<!ENTITY parentconflict.desc2 "Επιλέξτε τον κατάλογο στον οποίο θα περιέχετε αυτό το στοιχείο.">
+<!ENTITY parentconflict.item "Στοιχείο">

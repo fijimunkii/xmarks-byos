@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Versão local">
+<!ENTITY conflict.name "Nome">
+<!ENTITY conflict.location "Localização">
+<!ENTITY conflict.keyword "Palavra-chave">
+<!ENTITY conflict.description "Descrição">
+<!ENTITY conflict.sidebar "Carregar este marcador na barra lateral">
+<!ENTITY conflict.retainlocal "Manter a versão local">
+<!ENTITY conflict.serverversion "Versão do servidor">
+<!ENTITY conflict.retainserver "Manter a versão do servidor">
+<!ENTITY bookmarkconflict.title "Xmarks: Conflito de marcadores">
+<!ENTITY bookmarkconflict.desc1 "O Xmarks não consegue determinar qual das versões deste marcador deve ser guardada.">
+<!ENTITY bookmarkconflict.desc2 "P.f. seleccione a versão que pretende guardar.">
+<!ENTITY folderconflict.title "Xmarks: Conflito de pastas">
+<!ENTITY folderconflict.desc1 "O Xmarks não consegue determinar qual das versões desta pasta deve ser guardada.">
+<!ENTITY folderconflict.desc2 "P.f. seleccione a versão que pretende guardar.">
+<!ENTITY parentconflict.title "Xmarks: Conflito de localização">
+<!ENTITY parentconflict.desc1 "O Xmarks não consegue determinar a qual destas pastas e este item pertence.">
+<!ENTITY parentconflict.desc2 "P.f. seleccione a pasta que deverá conter este item.">
+<!ENTITY parentconflict.item "Item">

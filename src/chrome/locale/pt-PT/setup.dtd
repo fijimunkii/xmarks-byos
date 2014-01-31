@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "45">
+<!ENTITY wizard.title "Assistente de configuração do Xmarks">
+<!ENTITY wizard.title.verified "Conta verificada.">
+<!ENTITY wizard.desc8 "Parabéns! O Xmarks conseguiu verificar a sua conta. De seguida, será preparada a primeira sincronização neste computador.">
+<!ENTITY wizard.title.firstsync "Primeira sincronização">
+<!ENTITY wizard.desc9 "O Xmarks detectou que esta conta já tem um grupo de marcadores no servidor .">
+<!ENTITY wizard.desc10 "Como deseja que o Xmarks realize a sincronização?">
+<!ENTITY wizard.keepremote "Substituir os marcadores deste computador pelos do servidor.">
+<!ENTITY wizard.keeplocal "Substituir os marcadores do servidor pelos existentes neste computador.">
+<!ENTITY wizard.merge "Combinar os marcadores do servidor com os deste computador.">
+<!ENTITY wizard.seeserver "Clique aqui para visualizar os marcadores actualmente no servidor.">
+<!ENTITY wizard.desc11 "Quando o Xmarks junta os marcadores, começa com um grupo e depois adiciona os marcadores em falta do outro grupo.">
+<!ENTITY wizard.desc12 "Qual destes grupos deve o Xmarks utilizar como o grupo inicial?">
+<!ENTITY wizard.startlocal "Começar com os marcadores deste computador.">
+<!ENTITY wizard.startremote "Começar com os marcadores do servidor.">
+<!ENTITY wizard.desc13 "De qualquer modo, todos os marcadores vão ser retidos. O resultado final, contudo, ir-se-à assemelhar ao grupo inicial.">
+<!ENTITY wizard.title.ready "Pronto para sincronizar">
+<!ENTITY wizard.desc14 "O Xmarks encontra-se preparado para a sincronização.">
+<!ENTITY wizard.title.success "Conseguido!">
+<!ENTITY wizard.desc15 "Parabéns! Conseguiu sincronizar os marcadores com êxito. De agora em diante, o Xmarks irá manter os marcadores deste computador actualizado.">
+<!ENTITY wizard.desc16 "Pode iniciar o processo de sincronização manualmente carregando em ctrl+shift+s (cmd+shift+s em Macintosh). Caso necessite de ajustar as definições de sincronização, aceda à caixa de diálogo de definições do Xmarks no menu Marcadores.">
+<!ENTITY wizard.title.selectprofile "Escolha o seu Perfil">
+<!ENTITY wizard.label.profilechoice "Perfil:">
+<!ENTITY wizard.profile.defaultname "&lt;nenhum&gt;">
+<!ENTITY wizard.profile.desc "Verificámos que criou perfis para controlar que marcadores o Xmarks deve sincronizar com o seu computador. Pode seleccionar um perfil  da lista seguinte para este computador, ou deixar as definições por defeito para sincronizar todos os marcadores com este computador.">
+<!ENTITY wizard.title.syncpasswords "Sincronização da palavra-passe (Opcional)">
+<!ENTITY wizard.syncpassworddesc "Deseja sincronizar as palavras-passe guardadas entre os computadores?">
+<!ENTITY wizard.syncpassworddesc2 "Se sim, o Xmarks vai solicitar-lhe que crie um PIN privado para manter a segurança das suas palavras-passe. Este PIN será utilizado para encriptar as suas palavras-passe antes delas serem enviadas do seu computador. Ninguém, excepto você, nem mesmo o Xmarks, conseguirá ver as suas palavras-passe.">
+<!ENTITY wizard.syncpassworddesc3 "Pode marcar ou desmarcar esta funcionalidade a qualquer altura na caixa de diálogo das propriedades do Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Deseja activar a sincronização de palavra-passe segura?">
+<!ENTITY wizard.syncpasswordcheck "Sim, sincronize as minhas palavras-passe com segurança.">
+<!ENTITY wizard.yes "Sim">
+<!ENTITY wizard.no "Não">
+<!ENTITY wizard.title.pinold "Introduza o PIN">
+<!ENTITY wizard.desc.oldpin "P.f. introduza o PIN que utilizou quando configurou a sincronização de palavras-passe.">
+<!ENTITY wizard.whatisthis "O que é isto?">
+<!ENTITY wizard.label.pin "Introduza o PIN:">
+<!ENTITY wizard.label.confirmpin "Confirme o PIN:">
+<!ENTITY wizard.forgotpin "Esqueci-me do meu PIN">
+<!ENTITY wizard.title.pinnew "Criar PIN">
+<!ENTITY wizard.desc.pinnew "O Xmarks protege as suas palavras-passe através da sua encriptação com um PIN privado à sua escolha. É importante que se recorde deste PIN, já que não é possível recuperá-lo.">
+<!ENTITY wizard.desc.pinnew2 "O seu PIN pode ser uma combinação de números, letras e símbolos.">
+<!ENTITY wizard.learnmore "Diga-me mais.">
+<!ENTITY wizard.title.pincreated "PIN criado">
+<!ENTITY wizard.newpinverifieddesc "O seu PIN foi criado. Este PIN será utilizado para proteger as suas palavras-passe antes de as sincronizar, pelo que será o único a ter acesso às palavras-passe.">
+<!ENTITY wizard.newpinverifieddesc2 "Não perca o PIN, já que por razões de segurança, o Xmarks não conhece e não pode ajudá-lo a recuperá-lo.">
+<!ENTITY wizard.title.pinverified "PIN verificado">
+<!ENTITY wizard.pinverifieddesc "O seu PIN foi verificado.">
+<!ENTITY wizard.pinverifieddesc2 "Pode alterar estas definições a qualquer altura na caixa de diálogo das propriedades do Xmarks.">
+<!ENTITY wizard.title.forgotpin "PIN esquecido">
+<!ENTITY wizard.learnhow "Aprenda como remover o PIN no seu outro computador.">
+<!ENTITY wizard.forgotpindesc "Infelizmente, não é possível recuperar o seu PIN. Pode, no entanto, recuperar o PIN de qualquer outro dos seus computadores.">
+<!ENTITY wizard.forgotpindesc2 "Pode escolher uma das seguintes opções:">
+<!ENTITY wizard.forgotpinoption1 "Introduzir o PIN mais tarde. Não sincronize as palavras-passe neste computador.">
+<!ENTITY wizard.forgotpinoption2 "Limpar o PIN">
+<!ENTITY wizard.title.resetpin "Limpar PIN">
+<!ENTITY wizard.resetpindesc "Tem certeza que deseja limpar o seu PIN? Isto irá implicar que também tenha de introduzir este novo PIN nos seus outros computadores.">
+<!ENTITY wizard.resetpinoption1 "Sim, limpar o meu PIN.">
+<!ENTITY wizard.resetpinoption2 "Não. Não sincronize as palavras-passe neste computador.">
+<!ENTITY wizard.title.resetpinverified "Novo PIN criado">
+<!ENTITY wizard.resetpinverifieddesc "O seu PIN foi alterado. Ser-lhe-à pedido que introduza este novo PIN  nos seus outros computadores na próxima vez que se efectuar a sincronização.">
+<!ENTITY wizard.securityinfo.label.1 "Como funciona a sincronização de palavra-passe segura?">
+<!ENTITY wizard.securityinfo.desc.1 "A encriptação está na base da forma como o Xmarks assegura que as suas palavras-passe podem transitar através da Internet para os seus outros computadores.">
+<!ENTITY wizard.securityinfo.desc.2 "Quando opta por sincronizar as suas palavras-passe, o Xmarks ir-lhe-à pedir um PIN que será usado para encriptar as suas palavras-passe antes destas serem enviadas do seu computador.">
+<!ENTITY wizard.securityinfo.desc.3 "Encriptar as suas palavras-passe significa que elas serão cifradas em bits que só podem ser decifrados caso saiba o respectivo PIN. Dado que é o único que conhece o PIN (nem mesmo o Xmarks o sabe), só você pode converter os dados encriptados da suas palavras-passe novamente para os seus formatos originais.">
+<!ENTITY wizard.securityinfo.label.2 "Quão forte é a encriptação?">
+<!ENTITY wizard.securityinfo.desc.4 "Para assegurar que as suas palavras-passe são encriptadas com a melhor segurança possível, o Xmarks utiliza o algoritmo AES 256-bit. AES é a encriptação regulamentar do governo dos EUA e é o recomendado pelo National Security Adminstration (NSA) para a encriptação de ficheiros confidenciais.">
+<!ENTITY wizard.securityinfo.label.3 "O que posso fazer para obter a máxima segurança possível?">
+<!ENTITY wizard.securityinfo.desc.5 "Mesmo com este nível de encriptação militar implementada, uma componente importante é qualidade do PIN secreto escolhido. O Xmarks sugere que escolha um PIN que seja difícil de adivinhar e que contenha números, letras e símbolos (tais como @, $ e *)">
+<!ENTITY wizard.securityinfo.label.4 "Diga-me mais...">
+<!ENTITY wizard.securityinfo.desc.6 "P.f. visite o site xmarks.com para saber mais. Pode escolher não sincronizar as palavras-passe agora e fazê-lo mais tarde, através das caixas de diálogo das propriedades do Xmarks.">

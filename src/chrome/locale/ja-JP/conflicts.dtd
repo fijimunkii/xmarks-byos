@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "ローカルバージョン">
+<!ENTITY conflict.name "名前">
+<!ENTITY conflict.location "ロケーション">
+<!ENTITY conflict.keyword "キーワード">
+<!ENTITY conflict.description "説明">
+<!ENTITY conflict.sidebar "サイドバーにブックマークをロードする">
+<!ENTITY conflict.retainlocal "ローカルバージョンを保持する">
+<!ENTITY conflict.serverversion "サーババージョン">
+<!ENTITY conflict.retainserver "サーババージョンを保持">
+<!ENTITY bookmarkconflict.title "Xmarks: ブックマークの衝突">
+<!ENTITY bookmarkconflict.desc1 "Xmarks はどのバージョンのブックマークを保持すればいいかわかりません。">
+<!ENTITY bookmarkconflict.desc2 "保持すべきバージョンを選択してください。">
+<!ENTITY folderconflict.title "Xmarks: フォルダの衝突">
+<!ENTITY folderconflict.desc1 "Xmarks はどのバージョンのフォルダを保持すればいいかわかりません。">
+<!ENTITY folderconflict.desc2 "保持すべきバージョンを選択してください。">
+<!ENTITY parentconflict.title "Xmarks: オリジナルの衝突">
+<!ENTITY parentconflict.desc1 "Xmarks は 2 個のフォルダのどちらに該当するのかわかりません。">
+<!ENTITY parentconflict.desc2 "該当すべきフォルダを選択してください。">
+<!ENTITY parentconflict.item "アイテム">

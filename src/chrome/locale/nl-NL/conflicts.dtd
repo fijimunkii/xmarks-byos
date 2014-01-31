@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Lokale versie">
+<!ENTITY conflict.name "Naam">
+<!ENTITY conflict.location "Locatie">
+<!ENTITY conflict.keyword "Sleutelwoord">
+<!ENTITY conflict.description "Omschrijving">
+<!ENTITY conflict.sidebar "Laad deze bladwijzer in de zijbalk">
+<!ENTITY conflict.retainlocal "Behoud lokale versie">
+<!ENTITY conflict.serverversion "Server versie">
+<!ENTITY conflict.retainserver "Behoud server versie">
+<!ENTITY bookmarkconflict.title "Bladwijzerconflict">
+<!ENTITY bookmarkconflict.desc1 "Xmarks kan niet bepalen welke versie van deze bladwijzer behouden zou moeten worden.">
+<!ENTITY bookmarkconflict.desc2 "Selecteer de versie die moet worden behouden.">
+<!ENTITY folderconflict.title "Mapconflict">
+<!ENTITY folderconflict.desc1 "Xmarks kan niet bepalen welke versies van deze map behouden zouden moeten worden.">
+<!ENTITY folderconflict.desc2 "Selecteer de versie die moet worden behouden.">
+<!ENTITY parentconflict.title "Conflict in bovenliggend item">
+<!ENTITY parentconflict.desc1 "Xmarks kan niet bepalen in welke van deze twee mappen dit onderdeel thuishoort.">
+<!ENTITY parentconflict.desc2 "Selecteer de map waarin dit onderdeel moet worden geplaatst.">
+<!ENTITY parentconflict.item "Onderdeel">

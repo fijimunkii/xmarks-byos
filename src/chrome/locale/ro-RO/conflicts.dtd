@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Versiune locală">
+<!ENTITY conflict.name "Denumire">
+<!ENTITY conflict.location "Locaţie">
+<!ENTITY conflict.keyword "Cuvânt cheie">
+<!ENTITY conflict.description "Descriere">
+<!ENTITY conflict.sidebar "Încarcă acest semn de carte în panoul lateral">
+<!ENTITY conflict.retainlocal "Reţine versiunea locală">
+<!ENTITY conflict.serverversion "Versiune de pe server">
+<!ENTITY conflict.retainserver "Reţine versiunea de pe server">
+<!ENTITY bookmarkconflict.title "Xmarks: Conflict între versiunile semnelelor de carte">
+<!ENTITY bookmarkconflict.desc1 "Xmarks nu poate decide care dintre aceste versiuni ar trebui reţinută.">
+<!ENTITY bookmarkconflict.desc2 "Selectaţi versiunea care ar trebui reţinută.">
+<!ENTITY folderconflict.title "Xmarks: Conflict între dosarele se stocare">
+<!ENTITY folderconflict.desc1 "Xmarks nu poate decide care dintre aceste versiuni ar trebui reţinută.">
+<!ENTITY folderconflict.desc2 "Selectaţi versiunea care ar trebui reţinută.">
+<!ENTITY parentconflict.title "Xmarks: Conflict între apartenenţa semenelor de carte">
+<!ENTITY parentconflict.desc1 "Xmarks nu poate decide cărui dosar îi aparţine acest element.">
+<!ENTITY parentconflict.desc2 "Selectaţi dosarul care ar trebui să conţină acest element.">
+<!ENTITY parentconflict.item "Element">

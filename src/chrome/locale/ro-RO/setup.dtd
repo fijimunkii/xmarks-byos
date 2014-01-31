@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "35">
+<!ENTITY wizard.title "Asistent de configurare Xmarks">
+<!ENTITY wizard.title.verified "Cont verificat">
+<!ENTITY wizard.desc8 "Felicitări! Xmarks a verificat cu succes contul Dvs. Ne vom pregăti pentru prima sincronizare pe acest calculator.">
+<!ENTITY wizard.title.firstsync "Prima sincronizare">
+<!ENTITY wizard.desc9 "Xmarks a găsit pe server date aferente acesstui cont.">
+<!ENTITY wizard.desc10 "Cum doriţi ca Xmarks să execute prima sincronizare?">
+<!ENTITY wizard.keepremote "Să păstreze datele de pe server, eliminându-le pe cele de pe calculator">
+<!ENTITY wizard.keeplocal "Să elimine datele de pe server, păstrându-le pe cele de pe calculator">
+<!ENTITY wizard.merge "Să combine datele de pe server cu cele de pe calculator">
+<!ENTITY wizard.seeserver "Vizualizaţi semnele de carte existente pe server">
+<!ENTITY wizard.desc11 "În timpul combinării iniţiale, Xmarks va începe cu o colecţie de semne de carte pe care o va completa apoi cu semnele de carte şi dosarele celeilalte colecţii. Dacă aţi ales să sincronizaţi şi parolele, aceeaşi operaţiune va fi efectuată şi cu ele.">
+<!ENTITY wizard.desc12 "Cu care colecţie ar trebui Xmarks să înceapă?">
+<!ENTITY wizard.startlocal "Începe cu datele de pe acest calculator">
+<!ENTITY wizard.startremote "Începe cu datele de pe server">
+<!ENTITY wizard.desc13 "(În ambele cazuri, toate semnele de carte şi parolele vor fi păstrate. Totuşi, rezultatul final, va fi mai apropiat de colecţia cu care s-a început.)">
+<!ENTITY wizard.title.ready "Gata pentru sincronizare">
+<!ENTITY wizard.desc14 "Xmarks va sincroniza semnele de carte.">
+<!ENTITY wizard.title.success "Succes!">
+<!ENTITY wizard.desc15 "Felicitări! Aţi sincronizat cu succes semnele Dvs. de carte. De acum înainte, Xmarks va sincroniza automat semnele de carte de pe acest calculator.">
+<!ENTITY wizard.desc16 "Pentru a modifica parametrii de sincronizare, accesaţi submeniul &quot;Xmarks&quot; din meniul &quot;Unelte&quot; al Firefox.">
+<!ENTITY wizard.title.selectprofile "Selectează profilul">
+<!ENTITY wizard.label.profilechoice "Profil">
+<!ENTITY wizard.profile.defaultname "&lt;nici un profil&gt;">
+<!ENTITY wizard.profile.desc "Observăm că aţi creat profiluri pentru a controla care semne de carte vor fi sincronizate de Xmarks cu calculatoarele Dvs. Aveţi posibilitatea să selectaţi un profil din lista de mai jos pentru acest calculator, sau să nu alegeţi nimic pentru a sincroniza toate semnele Dvs. cu acest cu acest calculator.">
+<!ENTITY wizard.title.syncpasswords "Opţional: Sincronizarea securizată a parolelor">
+<!ENTITY wizard.syncpassworddesc "De asemenea, Xmarks poate sincroniza în siguranţă parolele. Când salvaţi numele utilizator şi parola pentru un sait, Xmarks poate sincroniza automat aceste informaţii de autentificare cu celelalte calculatoare ale Dvs. Parola Dvs. va fi criptată, folosind un cod PIN pe care numai Dvs. îl veţi şti.">
+<!ENTITY wizard.syncpassworddesc2 "Xmarks nu va putea să vizualizeze parolele Dvs.">
+<!ENTITY wizard.syncpassworddesc3 "Puteţi activa sau dezactiva această facilitate, în orice moment, din caseta de configurare a Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Doriţi să activaţi acum sincronizarea parolelor?">
+<!ENTITY wizard.syncpasswordcheck "Da, sincronizează securizat parolele mele.">
+<!ENTITY wizard.yes "Da">
+<!ENTITY wizard.no "Nu">
+<!ENTITY wizard.title.pinold "Sincronizare securizată a parolelor: Cerere PIN">
+<!ENTITY wizard.desc.oldpin "Pentru a sincroniza parolele salvate pe acest calculator, vă rugăm să furnizaţi codul PIN.">
+<!ENTITY wizard.whatisthis "Ce este aceasta?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "Confirmare PIN:">
+<!ENTITY wizard.forgotpin "Mi-am uitat PIN-ul">
+<!ENTITY wizard.title.pinnew "Sincronizare securizată a parolelor: Creare PIN">
+<!ENTITY wizard.desc.pinnew "Xmarks securizează parolele Dvs. criptându-le cu ajutorul codului PIN pe care l-ţi ales. Este important să vă amintiţi acest cod PIN, pentru că noi nu putem să-l recuperăm pentru Dvs.">
+<!ENTITY wizard.desc.pinnew2 "Codul PIN poate fi orice combinaţie de litere, cifre şi simboluri.">
+<!ENTITY wizard.learnmore "Aflaţi mai mult...">
+<!ENTITY wizard.title.pincreated "Sincronizare securizată a parolelor: PIN creat">
+<!ENTITY wizard.newpinverifieddesc "PIN-ul Dvs. a fost creat cu succes şi va fi folosit pentru a cripta parolele.">
+<!ENTITY wizard.newpinverifieddesc2 "Nu uitaţi, doar Dvs. stiţi acest PIN iar Xmarks nu vă poate ajuta să-l recuperaţi.">
+<!ENTITY wizard.title.pinverified "Sincronizare securizată a parolelor: PIN verificat">
+<!ENTITY wizard.pinverifieddesc "PIN-ul Dvs. a fost verificat cu succes. Parolele salvate, acum se va sincroniza cu acest computer.">
+<!ENTITY wizard.pinverifieddesc2 "Puteţi modifica aceste opţiuni, în orice moment, din caseta de configurare a Xmarks.">
+<!ENTITY wizard.title.forgotpin "PIN uitat">
+<!ENTITY wizard.learnhow "Aflaţi cum să preluaţi codul PIN de pe alt calculator.">
+<!ENTITY wizard.forgotpindesc "Din păcate, noi nu putem recupera codul PIN. Totuşi, poate vă puteţi recupera PIN-ul de pe altul dintre calculatoarele Dvs.">
+<!ENTITY wizard.forgotpindesc2 "Puteţi alege să:">
+<!ENTITY wizard.forgotpinoption1 "Furnizaţi PIN-ul mai târziu. Nu se vor sincroniza parolele pe acest computer">
+<!ENTITY wizard.forgotpinoption2 "Iniţializaţi PIN-ul">
+<!ENTITY wizard.title.resetpin "Iniţializare PIN">
+<!ENTITY wizard.resetpindesc "Sigur că doriţi să iniţializaţi codul PIN? Aceasta vă va solicita refurnizarea PIN-ului de pe toate celelalte calculatoare ale Dvs.">
+<!ENTITY wizard.resetpinoption1 "Da, iniţializează codul PIN.">
+<!ENTITY wizard.resetpinoption2 "Nu. Nu sincroniza parolele pe acest calculator.">
+<!ENTITY wizard.title.resetpinverified "Sincronizare securizată a parolelor: PIN creat">
+<!ENTITY wizard.resetpinverifieddesc "PIN-ul Dvs. a fost schimbat. Vi se va cere să furnizaţi codul PIN şi de pe celelalte calculatoare, data viitoare când le veţi sincroniza.">
+<!ENTITY wizard.securityinfo.label.1 "Cum funcţionează sincronizarea securizată a parolelor?">
+<!ENTITY wizard.securityinfo.desc.1 "Criptarea este fundamentul pe baza căruia Xmarks se asigură că parolele sunt transportate în siguranţă prin Internet pe celelalte calculatoare ale Dvs.">
+<!ENTITY wizard.securityinfo.desc.2 "Când optaţi să vă sincronizaţi în siguranţă parolele, Xmarks vă va solicita să alegeţi un cod PIN secret. Acest cod PIN va fi folosit pentru a cripta parolele înainte de a fi transmise prin Internet.">
+<!ENTITY wizard.securityinfo.desc.3 "Criptarea parolelor înseamnă modificarea şi amestecarea caracterelor lor, astfel încât să nu mai poată fi descifrate decât dacă se cunoaşte codul PIN. Atâta timp cât numai Dvs. aveţi PIN-ul, nimeni (nici chiar Xmarks) nu va putea să transforme datele criptate înapoi într-o lista de parole.">
+<!ENTITY wizard.securityinfo.label.2 "Cât de puternică este de criptarea?">
+<!ENTITY wizard.securityinfo.desc.4 "Pentru a vă asigura că parolele sunt criptate la un nivel de securitate maximă, Xmarks foloseste versiunea curentă a algoritmului de criptare AES 256-bit. AES este un standard al Guvernului Statelor Unite şi este recomandat de către Administraţia Naţională de Securitate a S.U.A. (N.S.A.) pentru criptarea informaţiilor clasificate.">
+<!ENTITY wizard.securityinfo.label.3 "Ce pot face pentru a obţine maximum posibil de securitate?">
+<!ENTITY wizard.securityinfo.desc.5 "Chiar dacă folosim un nivel militar de criptare, o componentă foarte importantă este puterea PIN-ul secret pe care îl alegeţi. Xmarks vă recomandă să alegeţi un cod PIN, care este greu de ghicit şi conţine o mare varietate de litere, cifre şi simboluri (cum ar fi @, $ şi *).">
+<!ENTITY wizard.securityinfo.label.4 "Vreau să aflu mai multe">
+<!ENTITY wizard.securityinfo.desc.6 "Vă rugăm să vizitaţi xmarks.com pentru a afla mai multe. Puteţi alege să nu sincronizaţi parolele chiar acum şi puteţi cu uşurinţă folosi această facilitate mai târziu, din caseta de configurare a Xmarks.">

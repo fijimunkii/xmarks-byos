@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Assistente de configuração do Xmarks">
+<!ENTITY wizard.title.verified "Conta verificada">
+<!ENTITY wizard.desc8 "Parabéns! O Xmarks verificou sua conta com sucesso. A seguir nos prepararemos para a primeira sincronização deste computador.">
+<!ENTITY wizard.title.firstsync "Sincronização Inicial">
+<!ENTITY wizard.desc9 "Xmarks detectou que já existem dados para esta conta no servidor.">
+<!ENTITY wizard.desc10 "Como você deseja que o Xmarks execute a sincronização inicial?">
+<!ENTITY wizard.keepremote "Mantenha os dados do servidor; ignore os deste computador.">
+<!ENTITY wizard.keeplocal "Mantenha os dados deste computador; ignore os do servidor.">
+<!ENTITY wizard.merge "Combine os dados do servidor com os deste computador.">
+<!ENTITY wizard.seeserver "Clique aqui para ver os favoritos do servidor.">
+<!ENTITY wizard.desc11 "Quando unindo favoritos, o Xmarks inicia com um grupo de favoritos e insere os favoritos ausentes do outro grupo. Se você optou por sincronizar senhas, o mesmo se aplica a elas.">
+<!ENTITY wizard.desc12 "Quais favoritos o Xmarks deve usar como o conjunto inicial?">
+<!ENTITY wizard.startlocal "Comece com os dados do computador.">
+<!ENTITY wizard.startremote "Comece com os dados do servidor.">
+<!ENTITY wizard.desc13 "(De qualquer maneira, todos os favoritos e senhas serão mantidos. O resultado final, contudo, será mais similar aos conjuntos iniciais.)">
+<!ENTITY wizard.title.ready "Pronto para sincronizar">
+<!ENTITY wizard.desc14 "O Xmarks irá sincronizar seus favoritos.">
+<!ENTITY wizard.title.success "Sucesso!">
+<!ENTITY wizard.desc15 "Parabéns! Os favoritos foram sincronizados com sucesso. De agora em diante o Xmarks irá manter os favoritos desde computador sincronizados automaticamente.">
+<!ENTITY wizard.desc16 "Para ajustar as opções de sincronização, acesse o menu de configurações do Xmarks.">
+<!ENTITY wizard.title.selectprofile "Selecione o Perfil">
+<!ENTITY wizard.label.profilechoice "Perfil:">
+<!ENTITY wizard.profile.defaultname "&lt;nenhum&gt;">
+<!ENTITY wizard.profile.desc "Notamos que você criou perfis para controlar quais favoritos o Xmarks sincroniza nos seus computadores. Você pode selecionar um perfil da lista abaixo para este computador ou manter a escolha padrão de sincronizar todos os seus favoritos neste computador.">
+<!ENTITY wizard.title.syncpasswords "Opcional: Sincronização segura de senhas">
+<!ENTITY wizard.syncpassworddesc "O Xmarks também pode sincronizar senhas com segurança. Quando você salva um usuário e senha de um website, o Xmarks pode sincronizar esta informação de autenticação com seus outros computadores. Suas senhas serão encriptadas usando um PIN que só você conhece.">
+<!ENTITY wizard.syncpassworddesc2 "O Xmarks não será capaz de ver suas senhas.">
+<!ENTITY wizard.syncpassworddesc3 "Você pode ativar ou desativar esse recurso a qualquer momento na janela de configuração do Xmarks.">
+<!ENTITY wizard.syncpassworddesc4 "Gostaria de habilitar a sincronização segura de senhas agora?">
+<!ENTITY wizard.syncpasswordcheck "Sim, sincronize minhas senhas com segurança.">
+<!ENTITY wizard.yes "Sim">
+<!ENTITY wizard.no "Não">
+<!ENTITY wizard.title.pinold "Sincronização segura de senhas: PIN necessário">
+<!ENTITY wizard.desc.oldpin "Para sincronizar suas senhas salvas com este computador, por favor digite seu PIN.">
+<!ENTITY wizard.whatisthis "O que é isso?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "Confirme o PIN:">
+<!ENTITY wizard.forgotpin "Eu esqueci meu PIN">
+<!ENTITY wizard.title.pinnew "Sincronização segura de senhas: Criar PIN">
+<!ENTITY wizard.desc.pinnew "O Xmarks protege suas senhas encriptando-as com um PIN particular da sua escolha. É importante que você se lembre deste PIN pois não podemos ajudá-lo a recuperá-lo.">
+<!ENTITY wizard.desc.pinnew2 "Seu PIN pode ser qualquer combinação de letras, números e símbolos.">
+<!ENTITY wizard.learnmore "Saiba mais.">
+<!ENTITY wizard.title.pincreated "Sincronização segura de senhas: PIN criado">
+<!ENTITY wizard.newpinverifieddesc "Seu PIN foi criado com sucesso e será usado para encriptar suas senhas.">
+<!ENTITY wizard.newpinverifieddesc2 "Não se esqueça, somente você conhece este PIN e o Xmarks não pode ajudá-lo a recuperá-lo.">
+<!ENTITY wizard.title.pinverified "Sincronização segura de senhas: PIN confirmado">
+<!ENTITY wizard.pinverifieddesc "Seu PIN foi confirmado com sucesso. Suas senhas salvas irão ser sincronizadas com este computador.">
+<!ENTITY wizard.pinverifieddesc2 "Você pode mudar essas configurações a qualquer momento na janela de configuração do Xmarks.">
+<!ENTITY wizard.title.forgotpin "PIN esquecido">
+<!ENTITY wizard.learnhow "Saiba como recuperar seu PIN em seu outro computador.">
+<!ENTITY wizard.forgotpindesc "Infelizmente nós não podemos recuperar seu PIN. Pode ser, entretanto, possível recuperar seu PIN em outro de seus computadores.">
+<!ENTITY wizard.forgotpindesc2 "Você pode escolher:">
+<!ENTITY wizard.forgotpinoption1 "Digitar seu PIN mais tarde: Não sincronizar senhas neste computador.">
+<!ENTITY wizard.forgotpinoption2 "Resetar seu PIN.">
+<!ENTITY wizard.title.resetpin "Resetar PIN">
+<!ENTITY wizard.resetpindesc "Tem certeza que deseja resetar seu PIN? Será necessário que você digite seu PIN nos outros computadores também.">
+<!ENTITY wizard.resetpinoption1 "Sei. Resete meu PIN.">
+<!ENTITY wizard.resetpinoption2 "Não. Não sincronize senhas neste computador.">
+<!ENTITY wizard.title.resetpinverified "Sincronização segura de senhas: PIN criado">
+<!ENTITY wizard.resetpinverifieddesc "Seu PIN foi alterado. Será necessário que você digite este PIN em seus outros computadores na próxima vez que sincronizá-los.">
+<!ENTITY wizard.securityinfo.label.1 "Como funciona a sincronização segura de senhas?">
+<!ENTITY wizard.securityinfo.desc.1 "A encriptação é a ferramenta principal usada pelo Xmarks para fazer suas senhas transitarem seguramente pela internet entre seus computadores.">
+<!ENTITY wizard.securityinfo.desc.2 "Quando você opta por sincronizar seguramente suas senhas, o Xmarks irá lhe pedir para digitar um PIN secreto. Este PIN será usado para encriptar suas senhas antes delas deixarem seu computador.">
+<!ENTITY wizard.securityinfo.desc.3 "Encriptar suas senhas significa que elas serão embaralhadas de uma maneira que só pode ser decifrada se você souber o PIN correto. Como só você tem o PIN, somente você (nem mesmo o Xmarks) será capaz de converter esses dados encriptados em uma lista coerente de senhas.">
+<!ENTITY wizard.securityinfo.label.2 "Quão forte é a encriptação?">
+<!ENTITY wizard.securityinfo.desc.4 "Para ter certeza que suas senhas serão encriptadas com a máxima segurança possível, o Xmarks usa o algoritmo de encriptação &quot;AES 256 bits&quot;, atualmente o estado-da-arte da encriptação. O AES é recomendado pela NSA (Órgão de Segurança do Governo Americano) para encriptar informações secretas.">
+<!ENTITY wizard.securityinfo.label.3 "Como posso conseguir a máxima segurança possível?">
+<!ENTITY wizard.securityinfo.desc.5 "Mesmo com a encriptação de padrão militar que estamos usando, um componente muito importante é a força do PIN secreto que você escolhe. O Xmarks recomenda que você escolha um PIN que é difícil de adivinhar e contenha uma variedade de diferentes letras, números e símbolos (como @, $, # e *).">
+<!ENTITY wizard.securityinfo.label.4 "Desejo saber mais">
+<!ENTITY wizard.securityinfo.desc.6 "Por favor visite xmarks.com para saber mais. Você pode escolher não sincronizar suas senhas agora, mas pode facilmente habilitar este recurso mais tarde através da janela de configuração do Xmarks.">

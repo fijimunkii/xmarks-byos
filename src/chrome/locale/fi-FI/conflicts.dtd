@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Paikallinen versio">
+<!ENTITY conflict.name "Nimi">
+<!ENTITY conflict.location "Sijainti">
+<!ENTITY conflict.keyword "Avainsana">
+<!ENTITY conflict.description "Kuvaus">
+<!ENTITY conflict.sidebar "Lataa tämä kirjanmerkki sivupaneelissa">
+<!ENTITY conflict.retainlocal "Säilytä paikallinen versio">
+<!ENTITY conflict.serverversion "Palvelinversio">
+<!ENTITY conflict.retainserver "Säilytä palvelimen versio">
+<!ENTITY bookmarkconflict.title "Xmarks: Kirjanmerkkiristiriita">
+<!ENTITY bookmarkconflict.desc1 "Xmarks ei pysty päättämään kumpi kirjanmerkkiversio tulisi säilyttää.">
+<!ENTITY bookmarkconflict.desc2 "Ole hyvä ja valitse versio joka pitäisi säilyttää.">
+<!ENTITY folderconflict.title "Xmarks: Ristiriita kansiossa">
+<!ENTITY folderconflict.desc1 "Xmarks ei pysty päättämään mitkä versiot tässä kansiossa tulisi säilyttää.">
+<!ENTITY folderconflict.desc2 "Ole hyvä ja valitse versio joka pitäisi säilyttää.">
+<!ENTITY parentconflict.title "Xmarks: Ristiriita vanhemmissa">
+<!ENTITY parentconflict.desc1 "Xmarks ei pysty päättämään kumpaanko kansioon tämä alkio kuuluu.">
+<!ENTITY parentconflict.desc2 "Ole hyvä ja valitse kansio alkiolle.">
+<!ENTITY parentconflict.item "Alkio">

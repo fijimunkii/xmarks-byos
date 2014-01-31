@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Phiên bản Trong máy">
+<!ENTITY conflict.name "Tên">
+<!ENTITY conflict.location "Địa chỉ">
+<!ENTITY conflict.keyword "Từ khóa">
+<!ENTITY conflict.description "Mô tả">
+<!ENTITY conflict.sidebar "Tải trang đánh dấu này trong thanh lề">
+<!ENTITY conflict.retainlocal "Giữ lại Phiên bản Nội bộ">
+<!ENTITY conflict.serverversion "Phiên bản Máy chủ">
+<!ENTITY conflict.retainserver "Giữ lại Phiên bản Máy chủ">
+<!ENTITY bookmarkconflict.title "Xmarks: Xung đột Trang đánh dấu">
+<!ENTITY bookmarkconflict.desc1 "Xmarks không biết những phiên bản nào của trang đánh dấu này cần được giữ lại.">
+<!ENTITY bookmarkconflict.desc2 "Vui lòng chọn phiên bản cần được giữ lại.">
+<!ENTITY folderconflict.title "Xmarks: Xung đột Thư mục">
+<!ENTITY folderconflict.desc1 "Xmarks không biết những phiên bản nào của thư mục này cần được giữ lại.">
+<!ENTITY folderconflict.desc2 "Vui lòng chọn phiên bản cần được giữ lại.">
+<!ENTITY parentconflict.title "Xmarks: Xung đột Thư mục mẹ">
+<!ENTITY parentconflict.desc1 "Xmarks không biết mục này thuộc về cái nào trong hai thư mục này.">
+<!ENTITY parentconflict.desc2 "Vui lòng chọn thư mục giữ lại mục này.">
+<!ENTITY parentconflict.item "Mục">
